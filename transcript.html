@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GDC-transcript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .full-container {
+            position: relative;
+            /* height: 100vh; */
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .transcript-container {
+            max-width: 680px;
+            margin: 60px auto 0 auto;
+        }
+
+        .transcript-info-container {
+            width: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-container">
+        <div class="transcript-info-container">
+            <div id="transcript-not-exists" style="display:none;">
+                <button
+                    class="middle none center ml-3 mr-3 rounded-lg border border-red-500 py-3 px-6 font-sans text-xs font-bold uppercase text-red-500 transition-all hover:opacity-75 focus:ring focus:ring-red-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                    Transcript not found.
+                </button>
+            </div>
+            <div id="transcript-exists" style="display:none;">
+                <div class = "ml-3 mr-3 mt-3 mb-3">
+                    <a href="/GDC-transcript/?v=" id="video-link" target="_blank">
+                        <button
+                            class="middle none center rounded-lg bg-blue-500 p-3 font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            data-ripple-light="true">
+                            <i class="fas fa-video"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class = "ml-3 mr-3 mt-3 mb-3">
+                    <a href="https://github.com/dklassic/blob/main/gdc-transcript/static/src/transcript"
+                        id="transcript-link" target="_blank">
+
+                        <button
+                            class="middle none center rounded-lg bg-green-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                            Raw Text File
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="transcript-container">
+            <div id="transcript" style="display:none;"></div>
+        </div>
+    </div>
+    <script>
+        const ParamVideoId = 'v';
+        const ParamLanguage = 'l';
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const videoId = urlParams.get(ParamVideoId);
+        const language = urlParams.get(ParamLanguage);
+
+        let elementScript = document.getElementById('transcript');
+
+        function wrapLinesWithParagraphTag(text) {
+            if (typeof text !== 'string') {
+                throw new Error('Input must be a string');
+            }
+
+            const lines = text.split('\n');
+            return lines.map(line => `<p>${line}</p>`).join('');
+        }
+
+        var LoadTranscript = function (url) {
+            const httpRequest = new XMLHttpRequest();
+
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        elementScript.style.display = 'inherit';
+                        document.getElementById("transcript-exists").style.display = 'inherit';
+                        document.getElementById("video-link").href = "/GDC-transcript/?v=" + videoId;
+                        if (language == "en")
+                            document.getElementById("transcript-link").href = "https://github.com/dklassic/gdc-transcript/blob/main/static/src/transcript/" + videoId + ".txt";
+                        else
+                            document.getElementById("transcript-link").href = "https://github.com/dklassic/gdc-transcript/blob/main/static/src/transcript/" + language + "/transcript/" + videoId + ".txt";
+                        elementScript.innerHTML = wrapLinesWithParagraphTag(httpRequest.responseText);
+                    } else {
+                        console.log("Response status: " + httpRequest.status);
+                        document.getElementById("transcript-not-exists").style.display = 'inherit';
+                    }
+                }
+            };
+
+            httpRequest.open('GET', url, true);
+            httpRequest.send(null);
+        };
+
+        if (videoId != null && videoId != "" && language != null && language != "") {
+            let transcriptPath = "";
+            if (language == "en")
+                transcriptPath = "static/src/transcript/" + videoId + ".txt";
+            else
+                transcriptPath = "static/src/translation/" + language + "/transcript/" + videoId + ".txt";
+            LoadTranscript(transcriptPath);
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/popover.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    <script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/tooltip.js"></script>
+</body>
+<footer
+    class="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
+    <p class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
+        © 2023 <a href="https://twitter.com/PeDev_">PeDev</a>, <a href="https://twitter.com/RandomDevDK">DK Liao</a>
+    </p>
+    <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+            <a href="https://github.com/dklassic/gdc-transcript"
+                class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+                GDC-transcript repository
+            </a>
+        </li>
+    </ul>
+    <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+            <a href="https://ko-fi.com/dkliao"
+                class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+                Buy us a coffee
+            </a>
+        </li>
+    </ul>
+</footer>
+
+</html>

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GDC-transcript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .full-container {
+            position: relative;
+            /* height: 100vh; */
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input-container {
+            /* top: 0; */
+            /* left: 0; */
+            width: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .status-container {
+            /* top: 0; */
+            /* left: 0; */
+            width: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control-container {
+            /* top: 0; */
+            /* left: 0; */
+            width: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .language-container {
+            /* top: 0; */
+            /* left: 0; */
+            width: 100%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-container {
+            /* top: 0; */
+            /* left: 0; */
+            width: 100%;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #video {
+            width: fit-content;
+            height: fit-content;
+            min-height: 360px;
+            min-width: 640px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #video-list-dropdown-container {
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-container">
+        <div class="input-container">
+            <!-- <div class="ml-3 mr-3 mt-3 mb-3 relative h-10 w-72 min-w-[200px]">
+                <select id="video-list-dropdown-select"
+                    class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 empty:!bg-red-500 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50">
+                    <option value="">Select...</option>
+                </select>
+                <label
+                    class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-pink-500 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:border-pink-500 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:border-pink-500 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                    Video
+                </label>
+            </div> -->
+            <div class="w-50 mt-10 mb-10">
+                <div class="relative h-10 w-full min-w-[200px]">
+                    <input id="video-id" type="text"
+                        class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                        placeholder="Enter YouTube ID" />
+                    <label
+                        class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-pink-500 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:border-pink-500 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:border-pink-500 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                        Video ID
+                    </label>
+                </div>
+            </div>
+            <button id="button-goto"
+                class="middle none center rounded-lg bg-pink-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                data-ripple-light="true">
+                Go
+            </button>
+        </div>
+        <div class="status-container">
+            <div id="not-exists" style="display:none;">
+                <div class="middle none center ml-3 mr-3 mt-3 mb-3">
+                    Subtitle not found.
+                </div>
+                <div>
+                    <a id="create-new-issue"
+                        href="https://github.com/dklassic/GDC-transcript/issues/new?assignees=&labels=missing+transcript&template=transcript-request.md&title=%5Bfeat%5D+%5BInsert_Video_ID%5D+missing+transcript"
+                        target="_blank">
+                        <button
+                            class="middle none center rounded-lg bg-pink-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            data-ripple-light="true">
+                            Request Transcription
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div id="reviewed" style="display:none;">
+                <a class="review-subtitle-link"
+                    href="https://github.com/dklassic/GDC-transcript/tree/main/static/src/subtitle" target="_blank">
+                    <button data-ripple-light="true" data-tooltip-target="reviewed-tooltip"
+                        class="middle none center ml-3 mr-3 rounded-lg border border-green-500 py-3 px-6 font-sans text-xs font-bold uppercase text-green-500 transition-all hover:opacity-75 focus:ring focus:ring-green-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                        Reviewed
+                    </button>
+                </a>
+                <div id="reviewed-by" data-tooltip="reviewed-tooltip"
+                    class="absolute w-max whitespace-normal break-words rounded-lg border border-blue-gray-50 bg-white p-4 font-sans text-sm font-normal text-blue-gray-500 shadow-lg shadow-blue-gray-500/10 focus:outline-none">
+                    This subtitle was reviewed by "".
+                </div>
+                <a href="/GDC-transcript/transcript.html?v=&l=" id="not-reviewed-transcript-exists"
+                    style="display:none;" target="_blank">
+                    <button
+                        class="middle none center rounded-lg bg-green-500 p-3 font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        data-ripple-light="true">
+                        <i class="fas fa-book"></i>
+                    </button>
+                </a>
+            </div>
+            <div id="not-reviewed-yet" style="display:none;">
+                <a class="review-subtitle-link"
+                    href="https://github.com/dklassic/GDC-transcript/tree/main/static/src/subtitle" target="_blank">
+                    <button data-ripple-light="true" data-tooltip-target="not-reviewed-tooltip"
+                        class="middle none center ml-3 mr-3 rounded-lg border border-amber-500 py-3 px-6 font-sans text-xs font-bold uppercase text-amber-500 transition-all hover:opacity-75 focus:ring focus:ring-amber-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                        Not Reviewed Yet
+                    </button>
+                </a>
+                <div id="not-reviewed" data-tooltip="not-reviewed-tooltip"
+                    class="absolute w-max whitespace-normal break-words rounded-lg border border-blue-gray-50 bg-white p-4 font-sans text-sm font-normal text-blue-gray-500 shadow-lg shadow-blue-gray-500/10 focus:outline-none">
+                    This subtitle has not been reviewed yet, help us improve it if possible!
+                </div>
+                <a href="/GDC-transcript/transcript.html?v=&l=" id="reviewed-transcript-exists" style="display:none;"
+                    target="_blank">
+                    <button
+                        class="middle none center rounded-lg bg-amber-500 p-3 font-sans text-xs font-bold uppercase text-white shadow-md shadow-amber-500/20 transition-all hover:shadow-lg hover:shadow-amber-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        data-ripple-light="true">
+                        <i class="fas fa-book"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="control-container">
+            <div id="video-size" style="display:none;">
+                <div class="ml-3 mr-3 mt-3 mb-3 relative h-10 w-72 min-w-[200px]">
+                    <select id="video-size-select"
+                        class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 empty:!bg-red-500 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50">
+                        <option value="360">360p</option>
+                        <option value="480">480p</option>
+                        <option value="720">720p</option>
+                        <option value="1080">1080p</option>
+                        <option value="1440">1440p</option>
+                        <option value="2160">2160p</option>
+                    </select>
+                    <label
+                        class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-pink-500 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:border-pink-500 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:border-pink-500 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                        Size (Not actual video resolution)
+                    </label>
+                </div>
+            </div>
+            <div id="video-fullscreen" style="display:none;">
+                <button id="fullscreen-btn"
+                    class="ml-3 mr-3 mt-3 mb-3 middle none center rounded-lg bg-blue-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    data-ripple-light="true">
+                    Fullscreen
+                </button>
+            </div>
+        </div>
+        <div class="language-container">
+            <div id="language-choice" style="display:none;">
+                <div class="ml-3 mr-3 mt-3 mb-3 relative h-10 w-72 min-w-[200px]">
+                    <select id="language-choice-select"
+                        class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 empty:!bg-red-500 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50">
+                        <!-- <option value="English">English</option> -->
+                    </select>
+                    <label
+                        class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-pink-500 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:border-pink-500 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:border-pink-500 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                        Select Language
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div id="video" style="display:none;"></div>
+            <!-- <iframe id="video" src="https://www.youtube.com/embed/c2YRVWZupwo" frameborder="0" allowfullscreen></iframe> -->
+        </div>
+    </div>
+
+    <script src="static/vendor/youtube.external.subtitle/youtube.external.subtitle.js"></script>
+    <script src="static/vendor/subtitles-parser/subtitles.parser.min.js"></script>
+    <script>
+        const ParamVideoId = 'v';
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const videoId = urlParams.get(ParamVideoId);
+
+        var RedirectByVideoId = function (videoId) {
+            const parser = new URL(window.location);
+            parser.searchParams.set(ParamVideoId, videoId);
+            window.location = parser.href;
+        }
+
+        let inputVideoId = document.getElementById('video-id');
+        let buttonGoto = document.getElementById('button-goto');
+        inputVideoId.value = videoId;
+        buttonGoto.addEventListener('click', function () {
+            RedirectByVideoId(inputVideoId.value);
+        });
+
+        let elementVideo = document.getElementById('video');
+        let youtubeEmbed = document.createElement('iframe');
+        elementVideo.appendChild(youtubeEmbed);
+        youtubeEmbed.id = 'embedded_video';
+        youtubeEmbed.src = `https://www.youtube.com/embed/${videoId}`;
+        youtubeEmbed.frameBorder = 0;
+        youtubeEmbed.allowFullscreen = true;
+        youtubeEmbed.style.height = "100%";
+        youtubeEmbed.style.width = "100%";
+        youtubeEmbed.style.minHeight = "360px";
+        youtubeEmbed.style.minWidth = "640px";
+
+        var LoadSRT = function (url, callback) {
+            const httpRequest = new XMLHttpRequest();
+
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        let subtitles = parser.fromSrt(httpRequest.responseText, true);
+
+                        for (let i in subtitles) {
+                            subtitles[i] = {
+                                start: subtitles[i].startTime / 1000,
+                                end: subtitles[i].endTime / 1000,
+                                text: subtitles[i].text
+                            };
+                        }
+                        elementVideo.style.display = 'inherit';
+                        document.getElementById('video-fullscreen').style.display = 'inherit';
+                        document.getElementById('video-size').style.display = 'inherit';
+                        callback(subtitles);
+                    } else {
+                        console.log("Response status: " + httpRequest.status);
+                    }
+                }
+            };
+
+            httpRequest.open('GET', url, true);
+            httpRequest.send(null);
+        };
+
+        var LanguageName = {}
+        fetch(`./static/src/translation/language.json`)
+            .then(response => response.json())
+            .then(data => {
+                console.log("Loaded language.json");
+                LanguageName = data;
+            })
+
+        var GetLanguageName = function (langcode) {
+            if (LanguageName[langcode]) {
+                return LanguageName[langcode];
+            }
+            return langcode;
+        }
+
+        var TitleDict = {};
+        var CreateVideoDropdown = function () {
+            // Get a reference to the parent element where the dropdown will be inserted
+            const selectElement = document.getElementById('video-list-dropdown-select');
+
+            selectElement.addEventListener('change', () => {
+                const selectedOption = selectElement.value;
+                if (selectedOption !== "Select...") {
+                    inputVideoId.value = selectedOption
+                }
+                console.log(selectedOption)
+            });
+            // Loop through the options array and create an option element for each one
+            for (const [key, value] of Object.entries(TitleDict)) {
+                console.log(`${key}: ${value}`);
+                const optionElement = document.createElement('option');
+                optionElement.value = key;
+                optionElement.text = value;
+                selectElement.appendChild(optionElement);
+            }
+        }
+
+        var SetReviewSubtitleLink = function (url) {
+            for (element of document.getElementsByClassName('review-subtitle-link')) {
+                element.href = url;
+            }
+        }
+
+        var LanguageOptions = {};
+        var CreateLanguageDropdown = function () {
+            const selectContainerElement = document.getElementById('language-choice');
+            selectContainerElement.style.display = 'inherit';
+
+            const selectElement = document.getElementById('language-choice-select');
+            selectElement.addEventListener('change', () => {
+                const selectedOption = selectElement.value;
+                console.log(selectedOption)
+                CheckTranscript(videoId, selectedOption);
+                if (selectedOption == "en")
+                    SetReviewSubtitleLink("https://github.com/dklassic/GDC-transcript/tree/main/static/src/subtitle/" + videoId + ".srt");
+                else
+                    SetReviewSubtitleLink("https://github.com/dklassic/GDC-transcript/tree/main/static/src/translation/" + selectedOption + "/subtitle/" + videoId + ".srt");
+            });
+
+
+
+            for (const [key, value] of Object.entries(LanguageOptions)) {
+                console.log(`${key}: ${value}`);
+                const optionElement = document.createElement('option');
+                optionElement.value = key;
+                optionElement.text = GetLanguageName(key);
+                selectElement.appendChild(optionElement);
+            }
+        }
+
+        var LoadVideoTitleDict = function (callback) {
+            fetch(`./json/titles.json`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    callback(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching title dictionary:', error);
+                });
+        }
+
+        var LoadSubtitleList = function (callback) {
+            fetch(`./json/subtitles.json`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    callback(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching subtitle list:', error);
+                });
+        }
+
+        var LoadVideoMetadata = function (videoId, callback) {
+            fetch(`./json/${videoId}.json`)
+                .then(response => response.json())
+                .then(data => {
+                    // Do something with the JSON data
+                    console.log(data);
+                    callback(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching video metadata:', error);
+                    document.getElementById('not-exists').style.display = 'inherit';
+                    document.getElementById('create-new-issue').href = "https://github.com/dklassic/GDC-transcript/issues/new?assignees=&labels=missing+transcript&template=transcript-request.md&title=%5Bfeat%5D+" + videoId + "+missing+transcript"
+                });
+        }
+        var CheckTranscript = function (videoId, languageId) {
+            const httpRequest = new XMLHttpRequest();
+            let transcriptPath = "";
+            if (languageId == "en")
+                transcriptPath = "static/src/transcript/" + videoId + ".txt";
+            else
+                transcriptPath = "static/src/translation/" + languageId + "/transcript/" + videoId + ".txt";
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        document.getElementById("not-reviewed-transcript-exists").style.display = 'inherit';
+                        document.getElementById("not-reviewed-transcript-exists").href = "/GDC-transcript/transcript.html?v=" + videoId + "&l=" + languageId;
+                        document.getElementById("reviewed-transcript-exists").style.display = 'inherit';
+                        document.getElementById("reviewed-transcript-exists").href = "/GDC-transcript/transcript.html?v=" + videoId + "&l=" + languageId;
+                    } else {
+                        document.getElementById("not-reviewed-transcript-exists").style.display = 'none';
+                        document.getElementById("reviewed-transcript-exists").style.display = 'none';
+                    }
+                }
+            };
+
+            httpRequest.open('GET', transcriptPath, true);
+            httpRequest.send(null);
+        }
+
+        // LoadVideoTitleDict(
+        //     (data) => {
+        //         TitleDict = data;
+        //         CreateVideoDropdown();
+        //     }
+        // )
+
+        if (videoId != null && videoId != "") {
+            LoadVideoMetadata(videoId, data => {
+                const reviewed = data["reviewed"]
+                if (!reviewed) {
+                    document.getElementById('not-reviewed-yet').style.display = 'inherit';
+                }
+                else {
+                    document.getElementById('reviewed').style.display = 'inherit';
+                    const reviewer = data["reviewer"]
+                    document.getElementById('reviewed-by').textContent = `This subtitle was reviewed by \"${reviewer}\".`
+                }
+
+                const translation = data["translation"]
+                LanguageOptions = { "en": data["subtitle"] }
+                for (const [key, value] of Object.entries(translation)) {
+                    LanguageOptions[key] = value;
+                }
+                SetReviewSubtitleLink("https://github.com/dklassic/GDC-transcript/tree/main/static/src/subtitle/" + videoId + ".srt");
+                if (LanguageOptions.length > 1)
+                    CreateLanguageDropdown();
+
+                let video_subtitles = {};
+                var youtubeExternalSubtitle;
+                for (const [langcode, srtFilePath] of Object.entries(LanguageOptions)) {
+                    LoadSRT(srtFilePath, function (subtitles) {
+                        video_subtitles[langcode] = subtitles;
+                        CheckTranscript(videoId, langcode);
+
+                        // Only at the first time you load a subtitle.
+                        if (!youtubeExternalSubtitle) {
+                            youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('embedded_video'), subtitles);
+                            document.getElementById('language-choice-select').addEventListener('change', function (e) {
+                                if (video_subtitles[this.value]) {
+                                    youtubeExternalSubtitle.load(video_subtitles[this.value]);
+                                }
+                            });
+
+                            document.getElementById('fullscreen-btn').addEventListener('click', function (e) {
+                                var elem = document.getElementById('video');
+
+                                var openFullscreen = function () {
+                                    if (elem.requestFullscreen) {
+                                        elem.requestFullscreen();
+                                    } else if (elem.mozRequestFullScreen) { /* Firefox */
+                                        elem.mozRequestFullScreen();
+                                    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+                                        elem.webkitRequestFullscreen();
+                                    } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                                        elem.msRequestFullscreen();
+                                    }
+                                };
+
+                                openFullscreen();
+
+                            });
+
+                            document.getElementById('video-size-select').addEventListener('change', function (e) {
+                                var size = this.value;
+                                youtubeEmbed.style.minHeight = size + "px";
+                                youtubeEmbed.style.minWidth = (size * 16 / 9) + "px";
+                            });
+                        }
+                    });
+                }
+
+            });
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/popover.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    <script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/tooltip.js"></script>
+</body>
+<footer
+    class="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
+    <p class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
+        © 2023 <a href="https://twitter.com/PeDev_">PeDev</a>, <a href="https://twitter.com/RandomDevDK">DK Liao</a>
+    </p>
+    <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+            <a href="https://github.com/dklassic/gdc-transcript"
+                class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+                GDC-transcript repository
+            </a>
+        </li>
+    </ul>
+    <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+            <a href="https://ko-fi.com/dkliao"
+                class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+                Buy us a coffee
+            </a>
+        </li>
+    </ul>
+</footer>
+
+</html>
