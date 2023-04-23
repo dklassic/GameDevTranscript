@@ -1,0 +1,1748 @@
+1
+00:00:01,583 --> 00:00:01,743
+Okay.
+
+2
+00:00:03,064 --> 00:00:05,927
+Is that good?
+
+3
+00:00:05,987 --> 00:00:06,487
+I think so.
+
+4
+00:00:09,309 --> 00:00:10,370
+That is good.
+
+5
+00:00:10,390 --> 00:00:12,512
+I still have to start my community project.
+
+6
+00:00:16,488 --> 00:00:16,988
+可能要順便再補充一下就是我們之前為了就是準備相關的內容其實是有先開一個Google Form來詢問大家意見就是看你想要聽哪一個部分
+
+7
+00:00:16,988 --> 00:00:17,609
+那這部分其實是就是就是Jonas他有看之前他的feedback然後先整理了一些方向那如果你現在對相關的議題
+
+8
+00:00:17,609 --> 00:00:17,829
+有想要繼續深入了解或是說你想要了解其他相關的Coding相關的議題
+
+9
+00:00:45,582 --> 00:00:49,144
+or software related issues, you can continue to use the old Google Home
+
+10
+00:00:49,665 --> 00:00:54,047
+to transfer some current traffic.
+
+11
+00:00:54,347 --> 00:00:57,229
+Then, the issues we prepare later can be adjusted accordingly.
+
+12
+00:00:57,269 --> 00:01:00,751
+I think we are good to go.
+
+13
+00:01:03,313 --> 00:01:05,154
+Cool. Wait for this to start up.
+
+14
+00:01:07,955 --> 00:01:08,195
+Okay.
+
+15
+00:01:09,596 --> 00:01:09,997
+So I guess...
+
+16
+00:01:11,749 --> 00:01:19,053
+The main topic I would like to talk about today is what to do about spaghetti code.
+
+17
+00:01:20,033 --> 00:01:32,739
+And the most common are how you can use state machines in certain situations to get rid of your spaghetti code and make it a little bit more structured.
+
+18
+00:01:33,400 --> 00:01:34,260
+今天要講的主要的概念是要如何避免就是你的程式碼就整個亂掉變成像義大利麵這樣子那這個在英文裡面常常講的用詞就是spread code那通常在很多場合你都可以使用類似狀態記憶體這樣的手法
+
+19
+00:01:34,260 --> 00:01:34,540
+把這些很複雜的就是那種其實沒有結構的if-else的那種
+
+20
+00:02:00,914 --> 00:02:11,962
+用條件式改成動態記憶的方式去描述 And what I mean by spaghetti code is something like this, where you have tons of ifs and nested ifs and else ifs
+
+21
+00:02:12,763 --> 00:02:22,991
+And these kind of codes tend to come up in player controllers, character controllers, when you write AI
+
+22
+00:02:24,211 --> 00:02:33,115
+or when we deal with any kind of input system, very typically it becomes a mess very quickly在畫面上看到這樣的程式碼
+
+23
+00:02:33,115 --> 00:02:33,876
+就是所謂的義大利面化的程式碼就長這樣通常它的結果很明顯就會是e2e fails
+
+24
+00:02:46,017 --> 00:02:46,257
+特別是那種兩三層以上的超重力Fields去混合去疊窗加物疊起來的狀態那通常它很容易出現
+
+25
+00:02:46,257 --> 00:02:46,337
+譬如說你是要處理使用者輸入然後你要處理各種不同相關的遊戲內的條件操作或者是一些跟AI有關的程式碼的時候
+
+26
+00:02:46,337 --> 00:02:46,557
+很多時候它的Fields的結構都會非常多層而且你很難一眼看出到底程式實際上會怎麼執行
+
+27
+00:03:47,002 --> 00:03:47,102
+上面那些角色來自動出拳出腳的那種情況那呃特別是他的出拳出腳那些狀態又非常多種比如說分架戰棋什麼的前進後退之類的你都要到不同的狀態去回應不同的這個呃玩家的出路那這種情況下就很容易變成你的神聖馬就會有非常多的邏輯就是困在自己的Fails裡面主要的主意就是就是
+
+28
+00:04:14,803 --> 00:04:18,564
+replace each of these if statements
+
+29
+00:04:18,564 --> 00:04:20,585
+check for a certain condition
+
+30
+00:04:20,585 --> 00:04:22,986
+by a state in a state machine
+
+31
+00:04:22,986 --> 00:04:26,947
+and then we can find out in which state we are
+
+32
+00:04:26,947 --> 00:04:30,249
+and when the player presses the punch button
+
+33
+00:04:30,249 --> 00:04:33,330
+to do the right thing depending on which state it is剛剛講到就是說他們現在的情況就是比如說你要按下一個什麼樣的出拳鍵或出腳鍵
+
+34
+00:04:42,538 --> 00:04:43,138
+依照那樣子的狀況,你要寫對E-Files去呃,找那些很散亂的狀態去決定說你要實行什麼動作或是怎樣的遊戲邏輯
+
+35
+00:04:54,543 --> 00:04:59,666
+So in your typical street fighting game, maybe the punch button does something else,
+
+36
+00:04:59,687 --> 00:05:04,489
+depending on whether you're currently in the air or sitting on the ground or ducking or
+
+37
+00:05:04,890 --> 00:05:09,332
+moving forward, moving backward, those kind of things, right? Those are the states that
+
+38
+00:05:09,392 --> 00:05:15,276
+your character would be in. And depending on the state, your punch button does a different thing.
+
+39
+00:05:18,008 --> 00:05:18,629
+把剛剛的Counter-Fail實際上整理成比較抽象的概念的話你就會發現你的遊戲就是會有這些狀態
+
+40
+00:05:18,629 --> 00:05:21,071
+那你的按鍵就必須要依照各個狀態去做出不同的動作To make this very concrete, give you a concrete example
+
+41
+00:05:21,071 --> 00:05:23,353
+We're gonna walk through a case where we tried to build a
+
+42
+00:05:46,367 --> 00:05:56,694
+character controller for a platformer, and we want to support a few things beyond just
+
+43
+00:05:56,734 --> 00:05:58,975
+you know the press jump and the plank jump.
+
+44
+00:05:59,015 --> 00:06:08,042
+So we want to be able to cancel the jump, we want to be able to have coyote time and
+
+45
+00:06:08,102 --> 00:06:08,582
+double jump.
+
+46
+00:06:22,499 --> 00:06:23,339
+用一個像platformer這種類型的平台遊戲來就是你要用一個狀態系統去描述他的跳躍動作那我們會希望他的跳躍動作裡面至少有幾個基本要素
+
+47
+00:06:23,339 --> 00:06:23,960
+第一個是他要可以依照你按鍵就是按跳躍鍵的時長來決定說你跳躍的高度多少所以你可以提早把它cancel掉然後第二個是你可以有那種雙重跳的能力那除了
+
+48
+00:06:50,425 --> 00:06:51,166
+應該講兩段跳的能力那兩段跳之外還有一個能力是就是有一些遊戲它會設計得比較好就是說讓玩家的腳玩家的腳在離開離開那個平台的一瞬間它還是可以從空中起跳這樣就是增加那種讓玩家好像比較容錯那種感覺的設計那我們希望主要做出這三個基本功能的跳系統對有explain a little bit
+
+49
+00:07:17,884 --> 00:07:22,567
+What it's going to look like in the end is we have this character, right?
+
+50
+00:07:22,647 --> 00:07:26,510
+And we can do a very short, very small jump, or a very long jump,
+
+51
+00:07:26,550 --> 00:07:29,732
+depending on how we press the jump button.
+
+52
+00:07:30,533 --> 00:07:31,954
+And we also have a double jump.
+
+53
+00:07:32,895 --> 00:07:33,575
+There's a double jump.
+
+54
+00:07:34,035 --> 00:07:35,917
+One, two, right?
+
+55
+00:07:35,957 --> 00:07:36,797
+Not three.
+
+56
+00:07:36,978 --> 00:07:37,638
+Just like two.
+
+57
+00:07:38,819 --> 00:07:39,780
+And the...
+
+58
+00:07:40,870 --> 00:07:44,193
+The quick time is when we step off the platform,
+
+59
+00:07:44,573 --> 00:07:45,153
+we fall down.
+
+60
+00:07:45,173 --> 00:07:49,997
+But if we want to jump at the very edge of the platform,
+
+61
+00:07:50,058 --> 00:07:52,239
+and we didn't hit the jump button just right,
+
+62
+00:07:52,800 --> 00:07:53,921
+we still allow the jump.
+
+63
+00:07:53,961 --> 00:07:58,565
+So if you look very closely, you can see that I'm already
+
+64
+00:07:58,605 --> 00:07:59,145
+falling down.
+
+65
+00:07:59,185 --> 00:08:03,889
+I'm a little bit behind, and I can still pass the jump.
+
+66
+00:08:03,929 --> 00:08:05,490
+And that's not the double jump, right?
+
+67
+00:08:05,531 --> 00:08:08,153
+This is the first, and here's the second.
+
+68
+00:08:10,233 --> 00:08:11,535
+剛剛就是展示其實就是我剛剛大概用中文已經描述完內容就是你可以看到實際上我們要的三個功能大概各長什麼樣子就是兩段跳然後離開平台的重挫時間那這個英文叫quotate time
+
+69
+00:08:11,535 --> 00:08:12,295
+但是quotate time就是中文其實蠻難翻譯的
+
+70
+00:08:12,295 --> 00:08:12,495
+所以我們就不用那個quotate這個中文名字就是它就是一個重挫時間就對了然後再來是它有基本的跳跳高度控制能力這樣
+
+71
+00:08:42,623 --> 00:08:46,626
+Who started using this term, hoated time?
+
+72
+00:08:46,686 --> 00:08:48,147
+I have no idea.
+
+73
+00:08:48,167 --> 00:08:55,814
+We have no way to translate it directly, because it would be like a very strange animal that we don't see in Taiwan.
+
+74
+00:08:56,354 --> 00:08:57,835
+Oh, I see, I see.
+
+75
+00:08:58,476 --> 00:09:01,799
+But it comes from this comic, right, where
+
+76
+00:09:03,840 --> 00:09:08,624
+Wily Coyote goes off the cliff and doesn't fall down because...
+
+77
+00:09:09,950 --> 00:09:17,512
+Oh, it's like the animator, they will do like running and then like, oh, and fall down there.
+
+78
+00:09:17,572 --> 00:09:18,252
+Yeah.
+
+79
+00:09:18,432 --> 00:09:18,852
+All the time?
+
+80
+00:09:20,553 --> 00:09:26,835
+That too, but sometimes he can just like turn around and go on the air back onto the cliff.
+
+81
+00:09:26,855 --> 00:09:27,155
+Okay.
+
+82
+00:09:27,175 --> 00:09:30,816
+Because he hasn't noticed that he's off the cliff, so it doesn't count.
+
+83
+00:09:31,156 --> 00:09:31,436
+All right.
+
+84
+00:09:32,416 --> 00:09:34,697
+Physics only counts when you notice that.
+
+85
+00:09:34,897 --> 00:09:35,137
+Okay.
+
+86
+00:09:36,297 --> 00:09:37,978
+So, this is the logic of animation.
+
+87
+00:09:41,028 --> 00:09:49,818
+It's a very popular comic in the US.
+
+88
+00:09:51,120 --> 00:09:52,241
+So, this is the end result.
+
+89
+00:09:52,602 --> 00:09:56,407
+What do we do if we want to do this in code?
+
+90
+00:09:56,427 --> 00:09:58,389
+That would be messy, I guess.
+
+91
+00:10:01,227 --> 00:10:03,969
+假如你要把剛剛那樣子的跳躍的系統算很簡單的三種常見能力你如果要完全用這字馬去寫的話其實就已經會非常混亂So the idea we're going to do here is
+
+92
+00:10:03,969 --> 00:10:07,231
+we're going to use a state machine like this one, right?
+
+93
+00:10:07,231 --> 00:10:09,733
+And in order to use a state machine in Unity
+
+94
+00:10:09,733 --> 00:10:14,056
+we're just going to use the animation controller in Unity
+
+95
+00:10:14,056 --> 00:10:15,517
+because that is a state machine
+
+96
+00:10:30,883 --> 00:10:36,789
+If we want to describe the state in the concept chart as a real operating state machine,
+
+97
+00:10:36,809 --> 00:10:40,914
+the most convenient tool in the UI is the control system in the UI.
+
+98
+00:10:40,974 --> 00:10:45,778
+Because basically it is controlling the state machine.
+
+99
+00:10:45,819 --> 00:10:54,267
+You could totally use like Visual Script or like Bolt or some sort of assets or plug-in for state machines, but...
+
+100
+00:10:55,790 --> 00:11:02,831
+It's alright, you can just use the animation controller, you know how the animation controller works and it's built in
+
+101
+00:11:02,831 --> 00:11:04,671
+那如果你要用其他的Unity plugin或是其他的視覺化程式描述系統的話其實是可以的
+
+102
+00:11:04,671 --> 00:11:05,132
+而且我好像最近才剛說那個被Unity買下來的Polt就那個大概都是在做場景的東西
+
+103
+00:11:05,132 --> 00:11:05,972
+不過大家最熟悉的應該還是就是Unity的Animator這樣
+
+104
+00:11:22,357 --> 00:11:25,280
+So the state machine always has inputs, states, and outputs.
+
+105
+00:11:25,460 --> 00:11:32,067
+In our case, the inputs, what do we have to know in order to transition from one state to another?
+
+106
+00:11:32,087 --> 00:11:35,790
+We have to know whether the player is on the ground currently, that's a Boolean,
+
+107
+00:11:36,892 --> 00:11:42,998
+and whether the player holds the jump button or doesn't hold the jump button.
+
+108
+00:11:43,934 --> 00:11:44,374
+然後一個狀態記它主要還是會有一個input一個output的概念就是你吃什麼狀態進來然後你吃什麼條件進來然後這些參數經過你的這個狀態記的運作之後它會產生一個結果出去那在這邊的話我們還是要最基本的用兩個就是固定詞來描述說到底現在你人有沒有在地板上然後還有你現在那個跳躍鍵有沒有按下去
+
+109
+00:12:12,655 --> 00:12:17,919
+And so the state becomes more clear when we put annotations on the transition.
+
+110
+00:12:17,979 --> 00:12:22,963
+So of course we need to have a state for, okay, the player is on the ground.
+
+111
+00:12:23,083 --> 00:12:24,665
+We can do a jump now, right?
+
+112
+00:12:25,285 --> 00:12:33,932
+And we also definitely have a state where the player is in the air and gravity is working, right?
+
+113
+00:12:34,672 --> 00:12:36,434
+And then we have a few more states.
+
+114
+00:12:36,494 --> 00:12:37,995
+So let's say, okay, we're on the ground.
+
+115
+00:12:38,335 --> 00:12:39,536
+You press the jump button.
+
+116
+00:12:40,357 --> 00:12:41,457
+That means you start the jump.
+
+117
+00:12:42,848 --> 00:12:47,514
+you release the jump button, that means we want to cancel the jump wherever we are.
+
+118
+00:12:48,496 --> 00:12:55,305
+And then once the jump is cancelled we just transition over to now we're falling down
+
+119
+00:12:55,905 --> 00:12:59,510
+and then as soon as we detect that we're on the ground again
+
+120
+00:13:44,991 --> 00:13:45,031
+狀態去描述說如果玩家已經回到地板上但是他還按住條件的時候你不能讓他再重新試線洗掉一次等一下這五個不同的狀態切換的那個詮釋學就是我們講狀態轉換的過程就是要依照這個外面的兩個外部參數來決定他要怎麼樣去從A狀態轉變到B狀態
+
+121
+00:14:07,086 --> 00:14:08,927
+I'll talk about these two in the middle in a second.
+
+122
+00:14:08,987 --> 00:14:10,828
+I just wanted to show you what happens
+
+123
+00:14:11,728 --> 00:14:12,788
+if we don't have this one.
+
+124
+00:14:13,209 --> 00:14:18,431
+So, his jump controller character,
+
+125
+00:14:19,351 --> 00:14:19,732
+lagging,
+
+126
+00:14:19,752 --> 00:14:23,933
+I have to do it from first, two, three.
+
+127
+00:14:23,953 --> 00:14:24,094
+Okay.
+
+128
+00:14:25,154 --> 00:14:27,015
+I can copy this one.
+
+129
+00:14:34,318 --> 00:14:35,038
+Oh, that's my copy.
+
+130
+00:14:39,602 --> 00:14:40,962
+所以現在是單純展示說如果剛把那第五個模塊狀態去除掉的話那玩家在一直按住跳躍鍵的狀態下他就會產生其實是不合理的跳躍狀態OK, so I'll make like this
+
+131
+00:14:40,962 --> 00:14:42,563
+Hopefully this is not way too small
+
+132
+00:14:42,563 --> 00:14:43,604
+OK, I'll see you
+
+133
+00:15:09,799 --> 00:15:13,982
+Once I'm on the ground, I can do a jump.
+
+134
+00:15:15,423 --> 00:15:15,784
+I can, uh...
+
+135
+00:15:18,486 --> 00:15:19,246
+Let's click here.
+
+136
+00:15:19,526 --> 00:15:20,967
+I can fall down, right?
+
+137
+00:15:22,008 --> 00:15:22,188
+And...
+
+138
+00:15:27,548 --> 00:15:31,051
+And you don't really see when I release the jump in here,
+
+139
+00:15:31,071 --> 00:15:34,094
+but if I do a very short jump, it
+
+140
+00:15:34,134 --> 00:15:36,636
+goes into the stop jump for just one frame,
+
+141
+00:15:36,656 --> 00:15:39,499
+because it immediately goes out to falling again.
+
+142
+00:15:41,340 --> 00:15:43,322
+Anyway, what I wanted to show is what
+
+143
+00:15:43,362 --> 00:15:46,465
+happens if I remove this data and we go directly here.
+
+144
+00:15:46,565 --> 00:15:47,426
+So let's do that.
+
+145
+00:15:47,446 --> 00:15:49,168
+Get rid of that.
+
+146
+00:15:52,691 --> 00:15:53,551
+Go directly here.
+
+147
+00:15:57,140 --> 00:16:08,623
+No exit time, no transition duration, and a condition on run true.
+
+148
+00:16:10,044 --> 00:16:10,744
+That should work.
+
+149
+00:16:21,367 --> 00:16:23,327
+That works fine, right? Everything looks good.
+
+150
+00:16:23,867 --> 00:16:26,168
+But here's what happens if I keep holding the jump button.
+
+151
+00:16:28,187 --> 00:16:31,270
+I'm not releasing the jump button, I just keep holding it, right?
+
+152
+00:16:31,891 --> 00:16:37,397
+And because as soon as we hit the ground, the jump button is still pressed,
+
+153
+00:16:37,457 --> 00:16:40,920
+which means that this condition here, where it says,
+
+154
+00:16:40,940 --> 00:16:43,743
+if the jump button is pressed and jump, that triggers.
+
+155
+00:16:43,803 --> 00:16:46,185
+And that is usually not what you want in a platformer game.
+
+156
+00:16:46,205 --> 00:16:48,968
+This is not what you would expect in like Super Mario or something.
+
+157
+00:17:20,949 --> 00:17:22,890
+Does anyone know why this is not full screen yet?
+
+158
+00:17:22,950 --> 00:17:24,571
+Like, why is this not playing?
+
+159
+00:17:25,051 --> 00:17:25,652
+I don't understand.
+
+160
+00:17:27,313 --> 00:17:28,333
+Oh, this way.
+
+161
+00:17:29,414 --> 00:17:29,634
+Yes.
+
+162
+00:17:31,695 --> 00:17:32,276
+I'm so smart.
+
+163
+00:17:32,796 --> 00:17:33,016
+Okay.
+
+164
+00:17:34,257 --> 00:17:37,319
+So that's why we have this extra state, right?
+
+165
+00:17:38,019 --> 00:17:39,200
+To make sure that when we're...
+
+166
+00:17:40,078 --> 00:17:42,859
+On the ground, come down from a fall
+
+167
+00:17:42,859 --> 00:17:44,400
+And we're still holding the jump button
+
+168
+00:17:44,400 --> 00:17:46,480
+We don't start any jump
+
+169
+00:17:46,480 --> 00:17:48,561
+There's no connection between here and here
+
+170
+00:17:48,561 --> 00:17:50,662
+You have to release the jump button first
+
+171
+00:17:50,662 --> 00:17:52,843
+And then you have to press it again
+
+172
+00:17:52,843 --> 00:17:55,884
+That's the entire purpose所以就是把那個
+
+173
+00:17:55,884 --> 00:17:57,765
+On the ground, still holding jump這個狀態加進去之後你會有一個狀態就是如果你落下之後你的那個跳躍鍵還按住的話它會停在
+
+174
+00:18:06,541 --> 00:18:06,921
+它會停在那個第五個狀態就崩所以你就無法重新起跳你一定要離開這個跳的狀態你的按鍵一定要放開那個按下的狀態那它才會回到正常的on ground的這個狀態然後你才可以再重新按一次按鍵
+
+175
+00:18:47,415 --> 00:18:47,575
+就是說很常見的狀態記憶bug的方式
+
+176
+00:18:47,575 --> 00:18:48,196
+就是你只要在Unity Animate裡面去看它整個狀態執行的過程然後你會發現到它執行的方式就是它會很明確讓你知道你現在在哪個狀態裡
+
+177
+00:18:48,196 --> 00:18:48,716
+那你就會很快知道說我不希望狀態這樣跑我要多加一個狀態去阻斷它OK
+
+178
+00:18:48,716 --> 00:18:49,476
+So everything is good
+
+179
+00:18:49,476 --> 00:18:50,556
+This is our basic jump controller
+
+180
+00:18:50,556 --> 00:18:50,876
+That's all
+
+181
+00:19:14,616 --> 00:19:16,517
+There's no double jump, there's no periodic time
+
+182
+00:19:16,517 --> 00:19:18,258
+The only thing we can do is
+
+183
+00:19:18,258 --> 00:19:20,819
+a small jump or a tall jump
+
+184
+00:19:20,819 --> 00:19:21,980
+Right? That already works原來在這個模式底下就是剛講到的兩段跳跟那個起跳動作時間這兩個功能還沒加進去所以目前是先把最基礎的最基本的跳動作先做好這樣最基本的跳動作先做好
+
+185
+00:19:40,661 --> 00:19:42,983
+I should have shown you the parameters here.
+
+186
+00:19:43,103 --> 00:19:45,666
+You see onRound is true, onRound is false.
+
+187
+00:19:46,446 --> 00:19:48,388
+Jump button is true when I hold it.
+
+188
+00:19:49,289 --> 00:19:51,231
+Or like here when I fall off the platform.
+
+189
+00:19:53,854 --> 00:19:55,295
+Or let me just fall off the world.
+
+190
+00:19:55,315 --> 00:19:58,438
+Okay, no jump, no onRound.
+
+191
+00:19:59,099 --> 00:20:00,420
+That's the parameter that's not going.
+
+192
+00:20:30,239 --> 00:20:31,440
+This is how we feed it
+
+193
+00:20:31,440 --> 00:20:33,842
+That's the code behavior
+
+194
+00:20:33,842 --> 00:20:35,844
+One second
+
+195
+00:20:35,844 --> 00:20:37,125
+Let's scroll to the back
+
+196
+00:20:37,125 --> 00:20:37,185
+OK好 那這個就是我們實際上如何把參數
+
+197
+00:20:38,606 --> 00:20:40,668
+送到軟體裡面的Mode behavior
+
+198
+00:20:40,668 --> 00:20:41,388
+That's the entire code here
+
+199
+00:20:41,388 --> 00:20:41,589
+If you
+
+200
+00:20:53,210 --> 00:20:55,531
+In the update loop, you set the bool for the jump button
+
+201
+00:20:55,571 --> 00:20:57,471
+depending on the input, the jump, right?
+
+202
+00:20:58,091 --> 00:20:59,092
+It's super simple stuff.
+
+203
+00:20:59,932 --> 00:21:05,134
+And then on ground, you have a detection for using physics.
+
+204
+00:21:05,154 --> 00:21:08,075
+And because it's physics, you have to do it in fixed update.
+
+205
+00:21:08,095 --> 00:21:12,396
+You do it like a CAS, array CAS or sphere CAS,
+
+206
+00:21:12,797 --> 00:21:16,178
+to the ground, and you set the bool,
+
+207
+00:21:16,198 --> 00:21:18,599
+and then in update, you feed it into the animator.
+
+208
+00:21:18,779 --> 00:21:19,719
+And that's it, that's all.
+
+209
+00:21:20,642 --> 00:21:21,742
+那這部分的話就是在這個Modal Behavior裡面就是一方面是你要從輸入裝置這邊
+
+210
+00:21:21,742 --> 00:21:22,543
+就是input的class裡面抓到說你現在到底有沒有在按下跳躍鍵這個狀態
+
+211
+00:21:22,543 --> 00:21:22,783
+就是等於是直接從使用者輸入那邊得到這個參數那把它設定到emet這個狀態機裡面那另外一個東西就是
+
+212
+00:21:22,783 --> 00:21:23,003
+你要組合整個座整站在地板上那這個就是用Unity也算是蠻基礎的那個
+
+213
+00:21:50,331 --> 00:21:50,891
+物理模組,那他可以去做最基本的一些SphereCast跟RayCast的判斷然後得到說到底你現在有沒有裝就是你的那個本體圓球有沒有貼在地上
+
+214
+00:21:50,891 --> 00:21:51,351
+那如果有的話他就是你要在FixedArray裡面去更新物理參數
+
+215
+00:21:51,351 --> 00:21:51,591
+然後在Array的時候把它裝到
+
+216
+00:21:51,591 --> 00:21:51,831
+就是Animate這個裝在機裡面
+
+217
+00:22:15,579 --> 00:22:21,261
+And you can totally see how if you have something more complicated, like you can also dash or something,
+
+218
+00:22:21,261 --> 00:22:26,663
+how you would also be able to feed that into the same machine, right?那就是從這邊也可以直接延伸到說如果你有其他的遊戲參數你要怎樣子把那些額外的參數也放到狀態器裡面譬如說假設你現在是有加速或是你有衝刺的這些其他的參數狀態的話
+
+219
+00:22:42,676 --> 00:22:47,197
+And so I said the same machine has inputs, has states, and outputs.
+
+220
+00:22:47,197 --> 00:22:51,498
+So these are the inputs, we handle those. These are the states, we handle those.
+
+221
+00:22:51,498 --> 00:22:53,118
+So how about the outputs?剛剛講到狀態機它本身是要有輸入、有中間的狀態處理,然後有輸出那剛剛已經講到了輸入的部分然後最一開始我們展示的也是怎麼樣去處理狀態這部分那現在要怎麼樣把這些狀態
+
+222
+00:23:16,347 --> 00:23:21,168
+So for the output, what we do is we also have a script.
+
+223
+00:23:22,409 --> 00:23:24,809
+Okay, this is a little bit, this might be new.
+
+224
+00:23:25,650 --> 00:23:28,870
+We derive not from model behavior, but from state machine behavior.
+
+225
+00:23:28,890 --> 00:23:30,471
+And when you do that,
+
+226
+00:23:31,792 --> 00:23:36,995
+You can attach your script to a state in the state machine.
+
+227
+00:23:37,015 --> 00:23:42,438
+You can say here, add behavior, and it will show you all the scripts that derive from
+
+228
+00:23:42,458 --> 00:23:45,379
+the state machine behavior as opposed to monobehavior.
+
+229
+00:23:45,399 --> 00:23:48,761
+So that way we can put scripts on the states.
+
+230
+00:23:48,821 --> 00:23:51,122
+Here's one, and here's one.
+
+231
+00:23:51,402 --> 00:23:51,762
+That's all.
+
+232
+00:23:54,825 --> 00:23:56,266
+就是State Machine Behavior這個應該是稍微比較新的內容
+
+233
+00:23:56,266 --> 00:23:56,726
+那之前應該也是可以用Model Behavior
+
+234
+00:23:56,726 --> 00:23:57,226
+就是你就直接把這個Send Message的東西
+
+235
+00:23:57,226 --> 00:23:58,266
+就是繼承自Model Behavior應該之前也是可以這樣寫但是現在比較新的做法就是
+
+236
+00:23:58,266 --> 00:24:00,187
+你可以繼承自State Machine Behavior這個類別
+
+237
+00:24:00,187 --> 00:24:00,347
+然後把你的傳送訊息的功能就寫在這個class裡面那它可以透過相關
+
+238
+00:24:00,347 --> 00:24:00,607
+就是像剛剛在inspector裡面看到的就是
+
+239
+00:24:24,702 --> 00:24:33,465
+你可以直接在這邊看到說我可以把我剛寫好的那個Send Machine Behavior加到某一個狀態上面
+
+240
+00:24:33,465 --> 00:24:35,987
+And so this is a super generic script
+
+241
+00:24:35,987 --> 00:24:38,428
+that you can just download from the repository
+
+242
+00:24:38,428 --> 00:24:39,208
+All it does is
+
+243
+00:24:39,208 --> 00:24:42,949
+it allows you to specify messages
+
+244
+00:24:42,949 --> 00:24:46,251
+that you wanna send to your MonoBehaviors
+
+245
+00:24:46,251 --> 00:24:50,693
+I hope you are familiar with send message
+
+246
+00:24:51,982 --> 00:24:57,566
+And in the unwanted behavior, you have to have it.
+
+247
+00:24:58,187 --> 00:24:58,627
+Yes, yeah.
+
+248
+00:25:00,108 --> 00:25:01,249
+No, not the one.
+
+249
+00:25:04,471 --> 00:25:04,692
+Sorry.
+
+250
+00:25:04,872 --> 00:25:08,494
+So OK, in this case, on the enter of this state,
+
+251
+00:25:08,575 --> 00:25:10,536
+I sent the message start jump, and then I
+
+252
+00:25:10,576 --> 00:25:13,118
+have some other script somewhere else.
+
+253
+00:25:13,779 --> 00:25:17,622
+I think I hit jump control message handler.
+
+254
+00:25:19,658 --> 00:25:22,939
+And that one has a function that is called startJump.
+
+255
+00:25:23,799 --> 00:25:26,760
+And so when you send that message with the Unity send
+
+256
+00:25:26,800 --> 00:25:29,360
+message, then Unity just magically
+
+257
+00:25:29,440 --> 00:25:32,561
+calls this other function on the monoplay here.
+
+258
+00:25:35,622 --> 00:25:38,303
+So you just saw that when you were sending messages,
+
+259
+00:25:38,323 --> 00:25:43,104
+if you send it like this, it should say,
+
+260
+00:25:43,124 --> 00:25:48,125
+can you show where the receiver and this code get here?
+
+261
+00:25:49,686 --> 00:25:53,427
+This is the receiver and he has a function called startJump.
+
+262
+00:25:53,968 --> 00:25:55,288
+This is a function called stopJump.
+
+263
+00:25:56,068 --> 00:26:03,011
+And these functions are being called by the sendMessage state
+
+264
+00:26:03,771 --> 00:26:05,792
+by just sending a message.
+
+265
+00:26:06,812 --> 00:26:12,614
+Imagine this calls startJump here, right?
+
+266
+00:26:14,995 --> 00:26:18,277
+That would then call this message here, this function.
+
+267
+00:26:39,940 --> 00:26:43,702
+Okay, so now we have our inputs, our states, our outputs,
+
+268
+00:26:44,863 --> 00:26:47,585
+um, through the send message state.
+
+269
+00:26:48,065 --> 00:26:50,907
+And then now we have to do something with the output strength,
+
+270
+00:26:50,947 --> 00:26:51,828
+and now we have to, um...
+
+271
+00:26:55,417 --> 00:26:59,200
+receive them and do some logic based on it.
+
+272
+00:26:59,260 --> 00:27:02,662
+Like I haven't shown you the actual implementation
+
+273
+00:27:02,802 --> 00:27:05,224
+of what happens when you press the jump,
+
+274
+00:27:05,264 --> 00:27:06,865
+how does it end up jumping?
+
+275
+00:27:07,546 --> 00:27:09,287
+So that's this part, part two.
+
+276
+00:27:10,908 --> 00:27:17,452
+two functions that we call from the state machine, startJump and stopJump, and all they do is set a pool.
+
+277
+00:27:18,233 --> 00:27:27,818
+And because it's physics, I have to do something in physics update, which is, if you have startJump, I do some stuff and then set it to false.
+
+278
+00:27:28,379 --> 00:27:30,760
+If stopJump is do some stuff, set it to false.
+
+279
+00:27:32,188 --> 00:27:33,729
+剛剛那個從StateMachine用StateMachine去送出來的這些訊息
+
+280
+00:27:33,729 --> 00:27:33,889
+其實它call了那兩個方程式就很簡單它只有設
+
+281
+00:27:33,889 --> 00:27:34,209
+就是在遊戲的這個邏輯那邊的class
+
+282
+00:27:34,209 --> 00:27:34,349
+它就只設兩個就是words
+
+283
+00:27:34,349 --> 00:27:34,730
+就是當那個狀態機把StarJump這個訊息送出來之後
+
+284
+00:27:34,730 --> 00:27:35,030
+然後呼叫上面那個只有一行內容的StarJump那裡面它做事情很簡單
+
+285
+00:27:35,030 --> 00:27:35,690
+就是只發一個word StarJump設成true那
+
+286
+00:27:59,653 --> 00:27:59,913
+stop掉門這邊是一樣的情況就是停止跟開始掉的兩個兩個就是訊息釋出的點那它釋出來之後
+
+287
+00:27:59,913 --> 00:28:00,233
+就它可以再利用就是你就可以再利用這兩個你剛剛設好的呃boolean值可以再去
+
+288
+00:28:00,233 --> 00:28:00,633
+txt update專門判斷
+
+289
+00:28:00,633 --> 00:28:02,054
+boolean的這個update function裡面就可以看得出如果現在是有跳鐘呃應該說你現在是要起跳那要起跳的時候你就
+
+290
+00:28:29,508 --> 00:28:32,050
+to give a physical parameter
+
+291
+00:28:32,070 --> 00:28:33,612
+and when you want to stop jumping
+
+292
+00:28:33,632 --> 00:28:37,175
+you give another physical parameter to manipulate it
+
+293
+00:28:37,235 --> 00:28:38,576
+so this is the real
+
+294
+00:28:38,597 --> 00:28:39,718
+why the player can jump together
+
+295
+00:28:40,799 --> 00:28:40,979
+part
+
+296
+00:28:41,079 --> 00:28:42,921
+this is the current tutorial
+
+297
+00:28:56,521 --> 00:28:59,182
+Kicking from the bottom right to...
+
+298
+00:28:59,182 --> 00:29:01,543
+In one frame to push it up
+
+299
+00:29:01,543 --> 00:29:03,444
+And then the rest of the jump is just gravity起跳那邊很簡單
+
+300
+00:29:03,444 --> 00:29:04,624
+就是用...針對鋼...就是UV裡面鋼體的相關函數就是讓它從下往上有一個向上的力道
+
+301
+00:29:04,624 --> 00:29:06,205
+它就會跳起來So in this case, to stop the jump
+
+302
+00:29:06,205 --> 00:29:08,626
+When we release the button
+
+303
+00:29:08,626 --> 00:29:09,366
+What we do is...
+
+304
+00:30:19,956 --> 00:30:21,037
+We call it Rockman here.
+
+305
+00:30:21,037 --> 00:30:22,298
+Rockman, yeah.
+
+306
+00:30:22,298 --> 00:30:24,440
+Megaman is like the US name.當然真的遊戲裡面很多起跳跟停止跳躍的邏輯
+
+307
+00:30:24,440 --> 00:30:29,025
+其實每一個不同的platform它的設計方式都不一樣不是直接在也不是那麼簡單就是單純往上一個力道而已但是很多的這不是額外補充就是很多的
+
+308
+00:30:51,597 --> 00:30:54,157
+to do this kind of computer-aided computing
+
+309
+00:30:54,717 --> 00:30:58,539
+and also some magical content
+
+310
+00:30:58,559 --> 00:31:03,560
+I was explaining that some of the games, like platformers, especially those good ones
+
+311
+00:31:04,320 --> 00:31:06,701
+are not actually using Unity physics
+
+312
+00:31:06,881 --> 00:31:10,222
+Right, right, most don't
+
+313
+00:31:11,382 --> 00:31:12,402
+Like Celeste and...
+
+314
+00:31:12,623 --> 00:31:17,184
+No no, most platformers implement their own physics because uh...
+
+315
+00:31:19,578 --> 00:31:25,961
+Physics often get into the way of game feel and very tight controls also
+
+316
+00:31:25,961 --> 00:31:27,142
+It's often not a very good fit這邊就是想給大家解釋一下就是說這邊完全是為了讓大家先用很簡單的方式可以看出到底你要怎麼執行一個動作所以用比較基礎的方式去描述那其實你需要比較好的操作感的話其實通常物理是要自己寫的
+
+317
+00:31:44,490 --> 00:31:49,475
+And one thing you might have noticed is, even in this game, which uses physics, I still have,
+
+318
+00:31:50,036 --> 00:31:55,541
+that's difficult to say, but I have full control over going left and right in the air, just like
+
+319
+00:31:56,062 --> 00:32:01,968
+I have when I'm on the ground. I just, I pretend I'm always on the ground.
+
+320
+00:32:05,167 --> 00:32:08,550
+就算是在這麼簡單的遊戲的範疇裡面他還是要做基本的就是在空中可以轉向的操作那理論上如果你是完全到無理的概念的話就是你起跳之後你是不能改方向的Let's not get too much details of platforms
+
+321
+00:32:08,550 --> 00:32:09,811
+because that's all that we're doing對,這另外一件事情
+
+322
+00:32:09,811 --> 00:32:12,513
+Yeah, so, I said creating time is a double job, right?
+
+323
+00:32:12,513 --> 00:32:13,354
+Let's do security time
+
+324
+00:33:18,226 --> 00:33:18,666
+unground等於false的這個狀態轉換他其實就是去對應說譬如說假設你今天因為任何理由這個平台消失還是說你就是自己離開那個平台那你就不在地板上所以這個轉換狀態需要存在因為他跟跳躍無關但是他還是要在要不然你人就是不會其實不會往下跳
+
+325
+00:33:54,660 --> 00:33:57,141
+And the other transition here is just a timer.
+
+326
+00:33:57,221 --> 00:33:59,822
+So when you start to jump, after one second,
+
+327
+00:33:59,842 --> 00:34:01,703
+you're already going down again.
+
+328
+00:34:01,723 --> 00:34:03,384
+So we transition to falling as well.
+
+329
+00:34:04,185 --> 00:34:07,006
+So the other thing is that you can't just keep jumping.
+
+330
+00:34:07,026 --> 00:34:08,087
+You have to keep flying.
+
+331
+00:34:08,107 --> 00:34:10,748
+So you need a time after you stop jumping.
+
+332
+00:34:10,768 --> 00:34:13,369
+For example, you can jump for one second at most.
+
+333
+00:34:13,409 --> 00:34:15,530
+But you still have to start falling.
+
+334
+00:34:16,211 --> 00:34:17,491
+OK, let's talk about creativity time.
+
+335
+00:34:18,052 --> 00:34:19,993
+So creativity time is nothing else but
+
+336
+00:34:42,689 --> 00:34:44,371
+你離開地板之後他會停在Coyote Time這個狀態裡面
+
+337
+00:34:44,371 --> 00:34:44,451
+就是再多停50ms
+
+338
+00:34:44,451 --> 00:34:44,612
+那你在那50ms之內
+
+339
+00:34:44,612 --> 00:34:45,092
+就是你在那個50ms的Timeout狀態轉換之前你還是可以再按下跳躍鍵那他還是可以起跳
+
+340
+00:35:02,227 --> 00:35:06,369
+And so in a regular game, this would be like three frames or something.
+
+341
+00:35:06,409 --> 00:35:10,711
+But in order to show it to you, I actually set it to 500 milliseconds
+
+342
+00:35:10,751 --> 00:35:13,953
+so we can really see, yeah, OK, I definitely walked off.
+
+343
+00:35:14,033 --> 00:35:15,754
+I'm already seeing that I fall down.
+
+344
+00:35:16,194 --> 00:35:17,094
+I can still jump, right?
+
+345
+00:35:17,714 --> 00:35:20,896
+In a real platformer game, you wouldn't have 500 milliseconds.
+
+346
+00:35:20,956 --> 00:35:23,897
+It would be very short, but just enough to make
+
+347
+00:35:23,937 --> 00:35:27,579
+it feel good that the player thinks, oh, yeah, I totally timed that jump
+
+348
+00:35:27,839 --> 00:35:28,319
+perfectly.
+
+349
+00:35:29,970 --> 00:35:30,490
+剛剛的算式中其實那個那個Codec Time的限制其實是縮小成500毫秒就其實是比
+
+350
+00:35:30,490 --> 00:35:32,794
+正常的狀態應該要高很多Yeah, let's see the actual...
+
+351
+00:35:32,794 --> 00:35:33,435
+I think it's this one.
+
+352
+00:35:33,435 --> 00:35:33,555
+Yeah.
+
+353
+00:35:52,617 --> 00:35:53,477
+OK, we're on the ground.
+
+354
+00:35:54,558 --> 00:35:55,258
+Clearing time.
+
+355
+00:35:55,478 --> 00:35:57,198
+We can still do the jump.
+
+356
+00:35:57,218 --> 00:35:57,678
+Can you see it?
+
+357
+00:35:58,459 --> 00:35:59,879
+So now it's like 500 milliseconds, right?
+
+358
+00:36:00,079 --> 00:36:01,519
+Yeah, that's 500 milliseconds.
+
+359
+00:36:01,819 --> 00:36:05,420
+So this is a pure quantum, so the chances
+
+360
+00:36:05,500 --> 00:36:06,701
+of it being more than half a second.
+
+361
+00:36:08,761 --> 00:36:12,482
+So this would be way too much for an actual jump and run
+
+362
+00:36:12,502 --> 00:36:14,362
+game for demonstration purposes.
+
+363
+00:36:14,763 --> 00:36:17,363
+And so if I fall off for more than half a second,
+
+364
+00:36:19,244 --> 00:36:20,884
+did you see how it went into falling?
+
+365
+00:36:22,562 --> 00:36:24,123
+I'm very...
+
+366
+00:36:24,443 --> 00:36:24,824
+I'm...
+
+367
+00:36:25,024 --> 00:36:27,446
+50 milliseconds.
+
+368
+00:36:29,969 --> 00:36:30,549
+I cannot jump.
+
+369
+00:36:31,050 --> 00:36:31,650
+I tried to...
+
+370
+00:36:31,670 --> 00:36:34,513
+I tried jumping here.
+
+371
+00:36:34,573 --> 00:36:36,234
+It doesn't work right because it's already...
+
+372
+00:36:37,095 --> 00:36:37,375
+I don't...
+
+373
+00:36:38,196 --> 00:36:39,077
+I don't want it to shake.
+
+374
+00:36:41,439 --> 00:36:41,960
+Oh, this is better.
+
+375
+00:36:43,423 --> 00:36:47,245
+So now when I'm like right at the edge, I can still jump.
+
+376
+00:36:47,605 --> 00:36:49,405
+Sometimes, oh, that was pretty good timing.
+
+377
+00:36:49,425 --> 00:36:50,606
+Yeah, I'm going to fill in the frame there.
+
+378
+00:36:51,546 --> 00:36:54,087
+Yeah, that's exactly it.
+
+379
+00:36:54,487 --> 00:37:00,008
+And the key thing to notice here is I didn't add any code.
+
+380
+00:37:01,429 --> 00:37:03,049
+There's no new behaviors, nothing.
+
+381
+00:37:03,069 --> 00:37:04,710
+There's nothing happening here.
+
+382
+00:37:05,270 --> 00:37:06,590
+I only modified the same machine.
+
+383
+00:37:07,985 --> 00:37:08,725
+這邊這段展示最重要要注意到的一點是剛剛做這些增加容擴程式的操作完全沒有改到任何程式碼然後你還可以一邊在玩的時候也可以一邊改這個StateMachine的內容
+
+384
+00:37:38,939 --> 00:37:39,359
+Double jump.
+
+385
+00:37:40,760 --> 00:37:45,761
+Now we are going to discuss how to add double jump to double jump.
+
+386
+00:37:45,781 --> 00:37:49,363
+Double jump is...
+
+387
+00:37:49,403 --> 00:37:53,284
+I want to do something when I jump while falling.
+
+388
+00:37:53,704 --> 00:38:01,187
+So all we have to do is we essentially just copy this entire part here with start jump, stop jump, falling.
+
+389
+00:38:02,047 --> 00:38:02,827
+Put all that here.
+
+390
+00:38:04,368 --> 00:38:06,188
+And add a transition.
+
+391
+00:38:10,048 --> 00:38:13,653
+And the extra states that you see here are
+
+392
+00:38:13,653 --> 00:38:16,237
+again just to make sure that you release the jump button
+
+393
+00:38:16,237 --> 00:38:18,801
+before you press the jump button again那兩段跳這邊要著加其實也是非常簡單的事情就是你只要把原本的四個狀態我們有的四個狀態還包括
+
+394
+00:38:26,286 --> 00:38:27,187
+當然那個濃縮時間就不需要再考慮因為濃縮時間已經在空中了像兩段跳的重點已經在空中了所以濃縮時間不理它的話你現在就只有四個基本狀態你把它複製起來然後加到原本的那個Following的右邊然後把相關的這個狀態轉換再連上去就可以就是增加兩段跳的功能那唯一這邊要調整的地方也是一樣就是你不希望玩家一直按住就是跳躍鍵的那個情況
+
+395
+00:38:54,863 --> 00:38:58,144
+So you're falling, that is the holding jump of the jump height.
+
+396
+00:38:59,565 --> 00:39:01,326
+Right.
+
+397
+00:39:01,366 --> 00:39:06,388
+So in theory, we could add one more connection from falling hierarchically to on ground.
+
+398
+00:39:06,949 --> 00:39:10,250
+Because we know that you're not holding the jump button.
+
+399
+00:39:10,310 --> 00:39:11,951
+Otherwise it would go down here, right?
+
+400
+00:39:11,991 --> 00:39:18,094
+So, you could make this transition, I removed it because it just crosses over and looks ugly.
+
+401
+00:39:18,714 --> 00:39:20,175
+And it's also unnecessary because...
+
+402
+00:39:21,636 --> 00:39:33,803
+As soon as you go on ground, you will go to here, because you're not holding the jump button, it will immediately transition to here, so you can get away with not having all the transitions in your state machine剛剛有提到說,其實你也可以把二段跳的那個
+
+403
+00:39:42,179 --> 00:39:42,619
+落下狀態直接連回On Ground那但是你其實也可以不需要這麼做
+
+404
+00:39:42,619 --> 00:39:43,139
+因為你在這個狀態機裡面已經有相關的其他類似的狀態去Handle那些那些情況譬如說你
+
+405
+00:39:43,139 --> 00:39:43,620
+假設你呃就是你經過了Folding
+
+406
+00:39:43,620 --> 00:39:44,460
+然後是個Holding Jump你要從這個狀態轉換出來你一定要先把
+
+407
+00:40:08,835 --> 00:40:09,156
+跳前放開,你才能到正常的falling狀態所以其實在這邊你就算
+
+408
+00:40:09,156 --> 00:40:10,317
+然後這邊如果你著地的時候就是你在已經通過falling steelhook jump的狀態之後你才著地的話
+
+409
+00:40:10,317 --> 00:40:11,078
+那個on ground的steelhook jump就會瞬間就通過因為你其實已經你的跳在那個時候是保證已經放開了
+
+410
+00:40:33,304 --> 00:40:33,424
+所以其實你不需要把你的狀態整理到絕對簡潔所有的狀態都必須要有光源都要把所有可能的狀態轉換全部都列出來還是可以正常work
+
+411
+00:41:00,970 --> 00:41:04,535
+This will probably be very small on the bottom, so I apologize.
+
+412
+00:41:04,555 --> 00:41:06,497
+Let me get back.
+
+413
+00:41:09,521 --> 00:41:12,846
+Okay, you cannot read it.
+
+414
+00:41:14,188 --> 00:41:14,468
+Maybe not.
+
+415
+00:41:15,076 --> 00:41:17,117
+Probably not really, but you know the shape, right?
+
+416
+00:41:17,538 --> 00:41:19,859
+The left side here, that's the first jump.
+
+417
+00:41:20,279 --> 00:41:21,740
+The right side is the second jump.
+
+418
+00:41:22,581 --> 00:41:23,942
+Up here is being on the ground.
+
+419
+00:41:24,082 --> 00:41:25,242
+So I have one jump.
+
+420
+00:41:25,262 --> 00:41:27,504
+I have two jumps.
+
+421
+00:41:27,604 --> 00:41:31,766
+That's, see, I'm on the right side there, right?
+
+422
+00:41:32,847 --> 00:41:34,468
+I can fall off the platform.
+
+423
+00:41:35,869 --> 00:41:38,390
+And, ah, oh, that was a little bit too late.
+
+424
+00:41:40,292 --> 00:41:43,093
+I wanted to re-fall off the platform and not use Kuyuri time.
+
+425
+00:41:45,566 --> 00:41:49,109
+I'm really short so I don't accidentally do that.
+
+426
+00:41:49,129 --> 00:41:52,552
+Okay, so here this is already my second jump,
+
+427
+00:41:52,613 --> 00:41:53,633
+it's my double jump.
+
+428
+00:41:53,754 --> 00:41:55,535
+I fell off, I missed the first jump,
+
+429
+00:41:55,655 --> 00:41:59,699
+I can use the second jump to rescue myself,
+
+430
+00:42:00,720 --> 00:42:01,441
+but I don't have...
+
+431
+00:42:02,682 --> 00:42:05,865
+I don't have more.
+
+432
+00:42:08,167 --> 00:42:09,668
+Or if I'm on the ground and start here,
+
+433
+00:42:09,688 --> 00:42:10,709
+I'm on the ground and do the jump.
+
+434
+00:42:15,476 --> 00:42:17,637
+那我選擇WOW2
+
+435
+00:42:17,637 --> 00:42:19,897
+That's all. This is the whole new code.那重點是就是剛做這些展示一樣
+
+436
+00:42:19,897 --> 00:42:20,478
+你不需要加任何程式嗎?That's the talk.那基本上這個就是
+
+437
+00:42:20,478 --> 00:42:21,038
+我今天要做的就是最基本的裝機的展示Thank you.好,感謝大家
+

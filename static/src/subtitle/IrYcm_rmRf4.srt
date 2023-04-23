@@ -1,0 +1,3940 @@
+1
+00:00:09,704 --> 00:00:12,408
+那等一下的演講因為全部都是用英文進行
+
+2
+00:00:12,408 --> 00:00:18,496
+所以如果有特定需求的時候我會就是看狀況會做一點翻譯這樣
+
+3
+00:00:18,496 --> 00:00:21,680
+然後或者是說等一下大家有什麼問題想要提問的話呢
+
+4
+00:00:21,680 --> 00:00:22,361
+就是可以直接
+
+5
+00:00:35,497 --> 00:00:45,291
+I just want to apologize because I'm very very very tired. We just launched a game this week
+
+6
+00:00:45,291 --> 00:00:48,456
+So yes, if I seem a little bit dead, it's because I am
+
+7
+00:00:48,456 --> 00:00:48,756
+But
+
+8
+00:00:49,539 --> 00:00:51,440
+Let's commence.
+
+9
+00:00:51,440 --> 00:00:53,261
+So, who am I?
+
+10
+00:00:53,261 --> 00:00:54,482
+I'm Ian.
+
+11
+00:00:54,482 --> 00:00:56,183
+Many of you look familiar.
+
+12
+00:00:56,183 --> 00:00:58,544
+I think I saw you last time.
+
+13
+00:00:58,544 --> 00:00:59,425
+So you may know me.
+
+14
+00:00:59,425 --> 00:01:01,766
+I'm the co-founder of Another Indie,
+
+15
+00:01:01,766 --> 00:01:07,290
+and I'm the person who does all the project management of our titles.
+
+16
+00:01:07,290 --> 00:01:07,910
+I'm okay at it.
+
+17
+00:01:07,910 --> 00:01:09,031
+I'm okay at it.
+
+18
+00:01:09,031 --> 00:01:13,233
+I wouldn't go so far as to say I'm good at it.
+
+19
+00:01:13,233 --> 00:01:17,536
+And what I want to talk about today is time management.
+
+20
+00:01:17,536 --> 00:01:17,596
+Woo!
+
+21
+00:01:19,793 --> 00:01:25,243
+Super exciting stuff.
+
+22
+00:01:25,243 --> 00:01:28,429
+And why do I want to talk about time management?
+
+23
+00:01:28,429 --> 00:01:33,037
+Well, the reason why I want to talk about time management is very, very simple.
+
+24
+00:01:33,361 --> 00:01:36,562
+because people keep fucking it up.
+
+25
+00:01:36,562 --> 00:01:44,725
+It's becoming very, very obvious to me that a lot of indie developers,
+
+26
+00:01:44,725 --> 00:01:50,246
+smaller, first-time developers, are struggling to understand
+
+27
+00:01:50,246 --> 00:01:55,728
+the needs and necessities that come about not just making a game,
+
+28
+00:01:55,728 --> 00:01:57,869
+but making a successful game.
+
+29
+00:01:58,632 --> 00:02:01,154
+And those are two very, very, very different things.
+
+30
+00:02:01,154 --> 00:02:06,817
+You can make a very, very good game and still fail.
+
+31
+00:02:06,817 --> 00:02:11,159
+In fact, you probably will make a very good game
+
+32
+00:02:11,159 --> 00:02:12,120
+and still fail.
+
+33
+00:02:12,120 --> 00:02:14,701
+That's the situation in 2018.
+
+34
+00:02:14,701 --> 00:02:17,603
+So what you need to be doing is figuring out
+
+35
+00:02:17,603 --> 00:02:21,745
+how you can maximise your chances of success.
+
+36
+00:02:21,745 --> 00:02:24,687
+And time management is incredibly important
+
+37
+00:02:24,687 --> 00:02:27,368
+because every week wasted.
+
+38
+00:02:27,734 --> 00:02:35,961
+is money that you are spending. It's time that you cannot get back. So that is what
+
+39
+00:02:35,961 --> 00:02:40,585
+I want to do. I want to talk to you about that today and tell you a little bit about
+
+40
+00:02:40,585 --> 00:02:46,509
+how we do it and point out some of the things that I see developers doing that they should
+
+41
+00:02:46,509 --> 00:02:54,336
+not be doing. And just for a clarification, nobody knows what they're doing.
+
+42
+00:02:55,289 --> 00:03:00,031
+I don't really know what I'm doing, I'm just doing my best, but I've been doing it for
+
+43
+00:03:00,031 --> 00:03:06,132
+a long time now, so I have some understanding of it that might be different from yours.
+
+44
+00:03:06,132 --> 00:03:11,814
+So if what I say does not apply to you, that's fine.
+
+45
+00:03:11,814 --> 00:03:18,256
+And if you have any questions or any disagreements with me, please let me know, because I want
+
+46
+00:03:18,256 --> 00:03:22,377
+to hear from people who tell me I'm a lying bullshitter.
+
+47
+00:03:22,377 --> 00:03:23,898
+That's totally fine.
+
+48
+00:03:25,207 --> 00:03:33,753
+So, I've broken it down into three categories. Three things that I think that you guys need
+
+49
+00:03:33,753 --> 00:03:40,937
+to be focusing on. Do any of you have any idea what my three categories are? Come on,
+
+50
+00:03:40,937 --> 00:03:46,161
+it's a test. If you fail, terrible. Come on, give me a category.
+
+51
+00:03:46,161 --> 00:03:49,363
+Launching time.
+
+52
+00:03:49,363 --> 00:03:55,007
+Launching time. Partially. So, three categories. The first one is...
+
+53
+00:03:55,306 --> 00:04:02,088
+kind of like what you were saying, developing your game, right?
+
+54
+00:04:02,088 --> 00:04:03,429
+So the first thing that you're actually...
+
+55
+00:04:03,429 --> 00:04:04,749
+Most of you are developers, right?
+
+56
+00:04:04,749 --> 00:04:05,550
+Yes? No?
+
+57
+00:04:05,550 --> 00:04:08,691
+I mean, if you're not, you're in the wrong room.
+
+58
+00:04:08,691 --> 00:04:11,052
+Somebody say, I'm here for Pokémon Go!
+
+59
+00:04:11,052 --> 00:04:15,273
+But yeah, the first thing that you guys are probably focusing on
+
+60
+00:04:15,273 --> 00:04:17,514
+is developing your game,
+
+61
+00:04:17,514 --> 00:04:19,995
+which is very understandable.
+
+62
+00:04:19,995 --> 00:04:23,817
+It's a very, very, very important part of the process.
+
+63
+00:04:24,259 --> 00:04:31,567
+But, there are two other things that I think are equally important, and I want to emphasize
+
+64
+00:04:31,567 --> 00:04:41,118
+this, equally important as to actually developing the game in terms of making a successful game.
+
+65
+00:04:41,118 --> 00:04:44,622
+First one is building your community.
+
+66
+00:04:45,793 --> 00:04:47,893
+This is really, really hard.
+
+67
+00:04:47,893 --> 00:04:51,795
+And we'll talk about how to do this later on,
+
+68
+00:04:51,795 --> 00:04:55,756
+but a lot of developers are not doing this.
+
+69
+00:04:55,756 --> 00:04:59,177
+And by building your community, I do not mean
+
+70
+00:04:59,177 --> 00:05:02,377
+having a Facebook account and uploading a picture
+
+71
+00:05:02,377 --> 00:05:03,878
+once a week.
+
+72
+00:05:03,878 --> 00:05:05,658
+That is not building a community,
+
+73
+00:05:05,658 --> 00:05:07,959
+that is having a Facebook account.
+
+74
+00:05:07,959 --> 00:05:10,300
+And I don't know how many of you check your Facebooks.
+
+75
+00:05:10,525 --> 00:05:15,189
+I guess it's not many because Facebook does not seem to be doing a good job in terms of
+
+76
+00:05:15,189 --> 00:05:18,973
+retention and in terms of engagement and things like that.
+
+77
+00:05:18,973 --> 00:05:23,817
+So if your community is based around exclusively something like Facebook, you're probably going
+
+78
+00:05:23,817 --> 00:05:25,659
+to run into problems.
+
+79
+00:05:25,659 --> 00:05:27,080
+We use Discord.
+
+80
+00:05:27,080 --> 00:05:28,221
+Do any of you use Discord?
+
+81
+00:05:29,392 --> 00:05:31,072
+It's fucking amazing, right?
+
+82
+00:05:31,072 --> 00:05:34,153
+Like, with Discord, you can do pretty much anything
+
+83
+00:05:34,153 --> 00:05:35,414
+that you can imagine doing.
+
+84
+00:05:35,414 --> 00:05:39,875
+You can set up bots to do all sorts of the work for you,
+
+85
+00:05:39,875 --> 00:05:43,156
+and you can have a really, really, really solid community
+
+86
+00:05:43,156 --> 00:05:45,217
+right from the word go.
+
+87
+00:05:45,217 --> 00:05:48,038
+You can customize it to do what you want.
+
+88
+00:05:48,038 --> 00:05:51,199
+We started our Discord about a year and a half ago.
+
+89
+00:05:51,199 --> 00:05:54,120
+We now have 3,000 people in our Discord,
+
+90
+00:05:54,120 --> 00:05:56,280
+and that's 3,000 active members
+
+91
+00:05:56,280 --> 00:05:58,421
+because we prune inactive members.
+
+92
+00:05:58,997 --> 00:06:07,122
+So even for a really small, tiny publisher like us, to have 3,000 people signal boosting
+
+93
+00:06:07,122 --> 00:06:10,604
+your projects, it's absolutely incredible.
+
+94
+00:06:10,604 --> 00:06:17,148
+We get more out of our Discord than we do out of anything else we do.
+
+95
+00:06:17,148 --> 00:06:18,829
+So really look into that.
+
+96
+00:06:18,829 --> 00:06:20,930
+And the other one is, of course, marketing.
+
+97
+00:06:20,930 --> 00:06:25,053
+Both traditional marketing and modern marketing.
+
+98
+00:06:25,053 --> 00:06:25,933
+Getting in touch with press.
+
+99
+00:06:27,470 --> 00:06:33,413
+out there, getting eyeballs on your game, and also getting influencers, you know, the
+
+100
+00:06:33,413 --> 00:06:42,298
+streamers, the Twitter people, the Billy Billy, PandaTV, WaveWall, all of these lovely, lovely
+
+101
+00:06:42,298 --> 00:06:47,301
+people that we have to work with these days, and getting them interested and getting them
+
+102
+00:06:47,301 --> 00:06:50,302
+kind of connected to your game and your project.
+
+103
+00:06:50,302 --> 00:06:54,405
+So those are the three things that I think you guys all need to be
+
+104
+00:06:54,775 --> 00:07:00,440
+focusing on and that you all need to have a plan for, you all need to be scheduling
+
+105
+00:07:00,440 --> 00:07:00,620
+for.
+
+106
+00:07:00,620 --> 00:07:06,305
+You can't have it that, oh, I will finish my game and then I will start this.
+
+107
+00:07:06,305 --> 00:07:12,990
+It's almost impossible unless you want to spend one year sitting on top of a game, okay?
+
+108
+00:07:12,990 --> 00:07:17,194
+So you need to be linking all of these things up together.
+
+109
+00:07:17,194 --> 00:07:20,557
+Which means this all needs to be happening simultaneously.
+
+110
+00:07:21,269 --> 00:07:29,841
+So while you are developing your game, you need to be managing all of these different things.
+
+111
+00:07:29,841 --> 00:07:31,884
+Howarma?
+
+112
+00:07:31,884 --> 00:07:33,366
+So easy. So easy.
+
+113
+00:07:34,823 --> 00:07:39,148
+Here's a little bit of what I think you need to have on your launch.
+
+114
+00:07:39,148 --> 00:07:43,832
+And bear in mind, all of the advice I'm giving you right now is very, very, very generic.
+
+115
+00:07:43,832 --> 00:07:46,875
+Every game is completely different and will have different ideas.
+
+116
+00:07:46,875 --> 00:07:49,758
+But this is kind of a rough guide of what you need to have.
+
+117
+00:07:49,758 --> 00:07:51,980
+So you need a strong community.
+
+118
+00:07:52,518 --> 00:07:55,480
+Facebook, Twitter, Instagram and Discord, all helpful.
+
+119
+00:07:55,480 --> 00:07:59,343
+A press kit sent out in advance, in advance.
+
+120
+00:07:59,343 --> 00:08:04,747
+You cannot send your game to media and give them one week to play your game and expect
+
+121
+00:08:04,747 --> 00:08:07,109
+them to write about your game.
+
+122
+00:08:07,109 --> 00:08:07,889
+It's not enough time.
+
+123
+00:08:07,889 --> 00:08:10,751
+And I see this all the time.
+
+124
+00:08:10,751 --> 00:08:13,373
+People saying, oh I'm launching my game next week.
+
+125
+00:08:19,964 --> 00:08:22,426
+Because in 2018, everybody's inbox is full.
+
+126
+00:08:22,426 --> 00:08:26,389
+So you need to give them as much time as possible.
+
+127
+00:08:26,389 --> 00:08:29,731
+I try to give a minimum of six weeks,
+
+128
+00:08:29,731 --> 00:08:34,334
+which means that the game has to be finished,
+
+129
+00:08:34,334 --> 00:08:38,037
+the game has to be uploaded, the game has to be playable,
+
+130
+00:08:38,037 --> 00:08:41,240
+and it needs to be distributable six weeks
+
+131
+00:08:41,240 --> 00:08:43,161
+before I actually launch it.
+
+132
+00:08:43,784 --> 00:08:47,688
+which is a month and a half early.
+
+133
+00:08:47,688 --> 00:08:51,052
+So when you put that in the grand scheme of things,
+
+134
+00:08:51,052 --> 00:08:52,914
+it becomes a big difference, a big change.
+
+135
+00:08:52,914 --> 00:08:56,458
+And as well as just the game in your press kit,
+
+136
+00:08:56,458 --> 00:09:00,222
+you're gonna wanna have a trailer, and those are fun.
+
+137
+00:09:00,222 --> 00:09:03,165
+Have you guys made trailers yet?
+
+138
+00:09:03,165 --> 00:09:03,946
+Yeah, that's gonna be fun.
+
+139
+00:09:03,946 --> 00:09:04,747
+Trailers are great.
+
+140
+00:09:05,290 --> 00:09:09,692
+uh... screenshots gifts and of course you don't want to have an actual press
+
+141
+00:09:09,692 --> 00:09:10,373
+release
+
+142
+00:09:10,373 --> 00:09:15,435
+which needs to be in very good english or very good chinese or japanese or
+
+143
+00:09:15,435 --> 00:09:18,977
+russian or whichever language you're pitching it in
+
+144
+00:09:18,977 --> 00:09:20,538
+it's a lot of work
+
+145
+00:09:20,538 --> 00:09:23,839
+it's not just a case of finishing the game and then shipping it anymore
+
+146
+00:09:23,839 --> 00:09:26,421
+once upon a time you could put your game on steam and it would sell
+
+147
+00:09:26,421 --> 00:09:31,963
+we don't live in that world anymore and if you're a mobile developer as i think
+
+148
+00:09:31,963 --> 00:09:34,685
+most of you are
+
+149
+00:09:35,418 --> 00:09:40,280
+You know, I come from a PC and console space, which is difficult.
+
+150
+00:09:40,280 --> 00:09:45,703
+For those of you who are working in mobile, God bless you.
+
+151
+00:09:45,703 --> 00:09:47,564
+God bless you.
+
+152
+00:09:47,564 --> 00:09:53,906
+You also need to have a media presence before you launch your game.
+
+153
+00:09:53,906 --> 00:10:01,970
+Launching your game without any kind of previews or any kind of news is really, really dangerous.
+
+154
+00:10:01,970 --> 00:10:03,570
+People aren't aware of your brand.
+
+155
+00:10:04,197 --> 00:10:09,041
+So before you launch your game, figure out, like, okay, when can I give people a demo?
+
+156
+00:10:09,041 --> 00:10:10,602
+When can I give people a preview?
+
+157
+00:10:10,602 --> 00:10:12,644
+When do I want to schedule this in?
+
+158
+00:10:12,644 --> 00:10:14,546
+Is it even possible?
+
+159
+00:10:14,546 --> 00:10:21,012
+And you want to make sure that you are doing a good job on influencer outreach and connections.
+
+160
+00:10:21,012 --> 00:10:24,195
+Influencers are so, so, so important these days.
+
+161
+00:10:24,528 --> 00:10:36,091
+You want to make sure that the Twitch people, the YouTube people, the Bilibili people, PandaTV people, all of these people from all over the world have access to your game.
+
+162
+00:10:36,091 --> 00:10:41,352
+If they don't, they aren't going to come knocking on your door.
+
+163
+00:10:41,352 --> 00:10:45,233
+Unless you've done an amazing job showcasing and things like that.
+
+164
+00:10:45,233 --> 00:10:54,135
+But showcasing is hard because we live in Taiwan and in order to showcase effectively you need to go to America.
+
+165
+00:10:56,959 --> 00:11:00,052
+So, it's tough. It's tough.
+
+166
+00:11:02,432 --> 00:11:04,213
+So how do I do this?
+
+167
+00:11:04,213 --> 00:11:07,414
+So when I get a game, the first thing that I do
+
+168
+00:11:07,414 --> 00:11:09,414
+is I break it down into milestones.
+
+169
+00:11:09,414 --> 00:11:10,955
+Do you know what a milestone is?
+
+170
+00:11:10,955 --> 00:11:11,915
+Is that a common term?
+
+171
+00:11:11,915 --> 00:11:12,915
+Cool.
+
+172
+00:11:12,915 --> 00:11:15,716
+So I break it down into milestones.
+
+173
+00:11:15,716 --> 00:11:18,257
+So I sit down with the three pillars
+
+174
+00:11:18,257 --> 00:11:21,078
+and I figure out the milestones for each game.
+
+175
+00:11:21,078 --> 00:11:23,839
+What do I need to do and when do I need to do it?
+
+176
+00:11:23,839 --> 00:11:24,239
+Okay?
+
+177
+00:11:24,239 --> 00:11:27,760
+And then once I have all the milestones,
+
+178
+00:11:27,760 --> 00:11:28,580
+I put them together, okay?
+
+179
+00:11:29,368 --> 00:11:33,491
+So let's have a look at some of these milestones.
+
+180
+00:11:33,491 --> 00:11:37,435
+I am not a developer, so my development milestones
+
+181
+00:11:37,435 --> 00:11:39,477
+are purely from the outside.
+
+182
+00:11:39,477 --> 00:11:41,739
+So developers among you are probably looking
+
+183
+00:11:41,739 --> 00:11:44,141
+at my milestones going, ah!
+
+184
+00:11:44,141 --> 00:11:48,404
+But from the outside, these are the ones that matter to me
+
+185
+00:11:48,404 --> 00:11:50,106
+when it comes to selling your game, okay?
+
+186
+00:11:50,106 --> 00:11:52,448
+So the first thing you're gonna wanna get
+
+187
+00:11:52,448 --> 00:11:54,350
+is the cross-slice, you know what a cross-slice is?
+
+188
+00:11:55,153 --> 00:12:01,997
+It's a version of your game that allows people to understand what your game is.
+
+189
+00:12:01,997 --> 00:12:07,881
+It does not necessarily need to be a full demo. It can be five minutes long.
+
+190
+00:12:07,881 --> 00:12:16,187
+It's designed to give people like me and other industry people a good idea of what your game is.
+
+191
+00:12:16,187 --> 00:12:16,627
+Okay?
+
+192
+00:12:16,627 --> 00:12:21,991
+Do you remember PT?
+
+193
+00:12:21,991 --> 00:12:22,731
+Silent Hill PT?
+
+194
+00:12:24,472 --> 00:12:30,575
+Excellent example of a cross slide. You know the game was not going to be like that, but
+
+195
+00:12:30,575 --> 00:12:33,336
+you play that and you know exactly what they are aiming for.
+
+196
+00:12:33,336 --> 00:12:39,859
+A playable demo. This is usually number two. And this can be useful for a number of things.
+
+197
+00:12:39,859 --> 00:12:45,502
+It can be useful for building a community, it can be useful for getting press involved,
+
+198
+00:12:45,502 --> 00:12:50,944
+anything. Number three, your first pass. You have a finished version of the game, it's
+
+199
+00:12:50,944 --> 00:12:51,345
+probably
+
+200
+00:12:55,280 --> 00:13:00,224
+It's probably got missing pieces, but I can play it beginning to end.
+
+201
+00:13:00,224 --> 00:13:04,428
+Polished version for testing, this is my favourite one because it means we're nearly there.
+
+202
+00:13:04,428 --> 00:13:08,232
+And then the final version, the one that we launch.
+
+203
+00:13:08,232 --> 00:13:17,481
+But of course in development these days there's also 6, 7, 8, 9 and 10 with patches and updates and content and DLC and all this other stuff.
+
+204
+00:13:18,037 --> 00:13:22,719
+But these are the ones that you kind of need to be scheduling for right now.
+
+205
+00:13:22,719 --> 00:13:30,344
+So if you have a game under development and you have no idea when these things are coming,
+
+206
+00:13:30,344 --> 00:13:32,925
+you need to sit down, look at your process and figure it out.
+
+207
+00:13:32,925 --> 00:13:39,569
+Because without these dates, it's impossible to do anything else.
+
+208
+00:13:39,569 --> 00:13:42,270
+Until you have a rough idea of when this will happen.
+
+209
+00:13:44,422 --> 00:13:49,183
+nothing else will work because the development thing is the thing in the middle.
+
+210
+00:13:49,183 --> 00:13:54,565
+Everything else is connected to it. So if this thing is...
+
+211
+00:13:54,565 --> 00:13:57,606
+it's a big problem. So,
+
+212
+00:13:57,606 --> 00:14:01,268
+marketing milestones. Now this is where I know what I'm talking about.
+
+213
+00:14:01,268 --> 00:14:05,249
+Okay, so this is how we break it down
+
+214
+00:14:05,249 --> 00:14:09,410
+basically. We do a launch announcement which is basically saying
+
+215
+00:14:09,410 --> 00:14:12,612
+Hey! Look! This game exists! Woo!
+
+216
+00:14:12,900 --> 00:14:18,224
+It has a trailer, a press release, and sometimes, but not always, a demo.
+
+217
+00:14:18,224 --> 00:14:21,026
+Sometimes it just has the trailer and the press release.
+
+218
+00:14:21,026 --> 00:14:27,551
+So for Cine, when we first announced Cine, we did not release a demo at that time.
+
+219
+00:14:27,551 --> 00:14:32,114
+So number two you can skip if you don't have a demo at this time.
+
+220
+00:14:32,114 --> 00:14:38,459
+So you release this to press and you hope, you hope, that you get some interest.
+
+221
+00:14:38,459 --> 00:14:41,741
+If you do not get interest, you need to kind of...
+
+222
+00:14:42,137 --> 00:14:47,139
+Look at why. Is your game too similar to things on the market?
+
+223
+00:14:47,139 --> 00:14:51,120
+Is your pitching not correct? How can you make it more interesting?
+
+224
+00:14:51,120 --> 00:14:54,561
+This is actually a great time to
+
+225
+00:14:54,561 --> 00:14:58,403
+really re-evaluate if you have done something wrong.
+
+226
+00:14:58,403 --> 00:15:03,004
+So for example with Cynna, did any of you guys see Cynna?
+
+227
+00:15:03,004 --> 00:15:04,585
+We launched it this week, so just say yes.
+
+228
+00:15:04,795 --> 00:15:11,320
+So, we launched Cinna this week and our launch announcement was really, really successful
+
+229
+00:15:11,320 --> 00:15:15,904
+because loads of people wrote about it and loads of people saw it.
+
+230
+00:15:15,904 --> 00:15:20,027
+But it was really unsuccessful for a different reason.
+
+231
+00:15:20,027 --> 00:15:22,249
+We did not do our messaging well enough.
+
+232
+00:15:22,249 --> 00:15:30,155
+So people saw the game, they said, that looks fucking cool, but they did not realise what
+
+233
+00:15:30,155 --> 00:15:31,837
+the game was.
+
+234
+00:15:31,837 --> 00:15:33,918
+They got their own idea.
+
+235
+00:15:36,301 --> 00:15:41,486
+Action RPG, and it wasn't. It was a small boss battler.
+
+236
+00:15:41,486 --> 00:15:50,416
+So suddenly, we were in a situation where we had to fight against the expectations of the people who had seen the trailer.
+
+237
+00:15:50,416 --> 00:15:53,439
+And that's a dangerous position to put yourself in.
+
+238
+00:15:53,439 --> 00:15:56,222
+So make sure that you get your messaging on point as well.
+
+239
+00:15:56,222 --> 00:15:57,884
+So we're all learning.
+
+240
+00:16:00,280 --> 00:16:05,704
+Follow up, if you send out a press release and people don't cover your game, give it
+
+241
+00:16:05,704 --> 00:16:11,648
+a couple of weeks and then ask, hey I sent you a press release, I know you didn't cover
+
+242
+00:16:11,648 --> 00:16:13,789
+it, can you tell me why?
+
+243
+00:16:13,789 --> 00:16:18,832
+You will probably only get one, two, three responses, but you will get some, and those
+
+244
+00:16:18,832 --> 00:16:22,495
+responses will be incredibly useful.
+
+245
+00:16:22,495 --> 00:16:28,799
+If they did cover your game, you want to message them and say...
+
+246
+00:16:29,109 --> 00:16:34,753
+Hey, thanks for covering my game and give them more meat.
+
+247
+00:16:34,753 --> 00:16:42,759
+So for example, what we did when Cine got picked up by a lot of press is we then started pitching to them with other ideas.
+
+248
+00:16:42,759 --> 00:16:53,026
+Hey, by the way, did you know that Cine was developed in China by AAA indie devs who have decided, AAA developers who've gone indie? How cool is that?
+
+249
+00:16:53,026 --> 00:16:54,847
+They're like, yeah, that is cool.
+
+250
+00:16:55,451 --> 00:17:01,537
+And suddenly, we had a few articles being written about this kind of story of these
+
+251
+00:17:01,537 --> 00:17:07,662
+developers from Shanghai got together and, you know, a real kind of Robin Hood story.
+
+252
+00:17:07,662 --> 00:17:08,243
+Great.
+
+253
+00:17:08,243 --> 00:17:09,364
+Excellent branding.
+
+254
+00:17:09,364 --> 00:17:16,450
+So what is interesting or exciting, not just about your game, but about you?
+
+255
+00:17:17,054 --> 00:17:20,275
+What story are you trying to tell for your companies?
+
+256
+00:17:20,275 --> 00:17:22,096
+Because remember, if you're making a game,
+
+257
+00:17:22,096 --> 00:17:23,477
+it's not just about that game,
+
+258
+00:17:23,477 --> 00:17:24,817
+it's also about your next game,
+
+259
+00:17:24,817 --> 00:17:26,858
+and the game after that, and the game after that.
+
+260
+00:17:26,858 --> 00:17:28,859
+So you wanna be building up this narrative
+
+261
+00:17:28,859 --> 00:17:30,019
+about who you are.
+
+262
+00:17:30,019 --> 00:17:32,720
+If you want the perfect example of this,
+
+263
+00:17:32,720 --> 00:17:34,001
+look at Devolver Digital.
+
+264
+00:17:34,001 --> 00:17:38,082
+They did an amazing job of creating a brand for themselves
+
+265
+00:17:38,082 --> 00:17:44,264
+as these cheeky, rude, naughty games publishers.
+
+266
+00:17:44,264 --> 00:17:46,465
+And they've maintained that brand for,
+
+267
+00:17:47,034 --> 00:17:51,136
+nearly ten years now, and it's done very well for them.
+
+268
+00:17:51,136 --> 00:17:52,517
+So think about that.
+
+269
+00:17:52,517 --> 00:17:57,580
+How are you positioning yourself and how are you making yourself stand out, not just your
+
+270
+00:17:57,580 --> 00:17:57,840
+game?
+
+271
+00:17:57,840 --> 00:18:03,463
+And the next step is the launch date announcement.
+
+272
+00:18:03,463 --> 00:18:08,586
+So the first thing you want to do is say, hey, we have a game.
+
+273
+00:18:08,586 --> 00:18:14,509
+Don't give a launch date unless you are certain you know that launch date, okay?
+
+274
+00:18:14,509 --> 00:18:16,070
+This is another mistake I have made.
+
+275
+00:18:16,572 --> 00:18:21,595
+we announced the launch date and then we decided to postpone.
+
+276
+00:18:21,595 --> 00:18:26,018
+Very dangerous people do not like this.
+
+277
+00:18:26,018 --> 00:18:31,260
+We actually made the right decision because we announced the launch date before the Nintendo
+
+278
+00:18:31,260 --> 00:18:34,442
+Switch came out, and then the Nintendo Switch came out and we went,
+
+279
+00:18:34,442 --> 00:18:37,424
+yeah, we want some of that Nintendo love.
+
+280
+00:18:37,424 --> 00:18:39,445
+And it worked out very well for us.
+
+281
+00:18:39,445 --> 00:18:39,925
+But...
+
+282
+00:18:40,812 --> 00:18:43,573
+Be very careful with that because this can backfire a lot.
+
+283
+00:18:43,573 --> 00:18:45,634
+So do not announce a launch date until you know
+
+284
+00:18:45,634 --> 00:18:47,794
+that you've got that launch date.
+
+285
+00:18:47,794 --> 00:18:51,075
+You need another trailer, you need another press release.
+
+286
+00:18:51,075 --> 00:18:53,556
+So your press release needs to give obviously
+
+287
+00:18:53,556 --> 00:18:58,657
+the date, the time, but also needs to give more details.
+
+288
+00:18:58,657 --> 00:18:59,778
+So remember this, don't give away everything
+
+289
+00:18:59,778 --> 00:19:00,718
+in the first point.
+
+290
+00:19:00,718 --> 00:19:03,799
+Don't lay out your life story in the first press release.
+
+291
+00:19:03,799 --> 00:19:05,960
+You have to keep information back.
+
+292
+00:19:05,960 --> 00:19:08,220
+You have to hold back and you have to give it out
+
+293
+00:19:08,220 --> 00:19:08,700
+at certain times.
+
+294
+00:19:09,222 --> 00:19:12,185
+At this point, you need to start doing your influencer outreach as well.
+
+295
+00:19:12,185 --> 00:19:18,009
+If you haven't already started it, at this point, you need to be doing influencer outreach.
+
+296
+00:19:18,009 --> 00:19:24,034
+Six weeks before launch, you need to launch the press release, Embargoed, and then on
+
+297
+00:19:24,034 --> 00:19:29,999
+the actual launch day, you need to have, again, another trailer and more information.
+
+298
+00:19:29,999 --> 00:19:30,459
+Okay?
+
+299
+00:19:30,459 --> 00:19:33,101
+Can you explain a bit more about Embargoed?
+
+300
+00:19:33,101 --> 00:19:34,482
+Because this is a term that we...
+
+301
+00:19:35,572 --> 00:19:43,998
+Okay, so embargo is basically you send an email to a press organization saying,
+
+302
+00:19:43,998 --> 00:19:49,983
+here is a copy of my game for review, do not release the review until X date.
+
+303
+00:19:49,983 --> 00:19:59,190
+Because you don't want, if you launch your game, so if you give press your game six weeks in advance,
+
+304
+00:19:59,190 --> 00:20:01,452
+you don't want review.
+
+305
+00:20:02,572 --> 00:20:06,535
+three days, review, two days, review, three days, review, four days, review, because it
+
+306
+00:20:06,535 --> 00:20:11,559
+just spreads it out too much. Because what you need is one big punch. So you want to
+
+307
+00:20:11,559 --> 00:20:17,984
+make sure that all of those reviews are coming out at the same time. So that's what embargoes
+
+308
+00:20:17,984 --> 00:20:24,068
+allow you to do. And by and large, press quite like embargoes that I've given ahead, because
+
+309
+00:20:24,068 --> 00:20:28,892
+it gives them time. Because right now, that's the big problem for games journalists, is
+
+310
+00:20:28,892 --> 00:20:29,653
+just that...
+
+311
+00:20:29,993 --> 00:20:31,254
+There are so many games.
+
+312
+00:20:31,254 --> 00:20:35,154
+So the more time you give them, the more likely you are
+
+313
+00:20:35,154 --> 00:20:36,935
+to actually get coverage.
+
+314
+00:20:36,935 --> 00:20:43,356
+One note, influencers are really bad with embargoes.
+
+315
+00:20:43,356 --> 00:20:45,036
+Really bad with embargoes.
+
+316
+00:20:45,036 --> 00:20:48,057
+So it's a good idea to maybe do the press
+
+317
+00:20:48,057 --> 00:20:51,597
+and then two weeks before launch, release to influencers.
+
+318
+00:20:51,597 --> 00:20:56,078
+Because influencers get far too excited.
+
+319
+00:20:56,078 --> 00:20:57,498
+And usually don't have the same kind of
+
+320
+00:20:57,498 --> 00:20:58,878
+professional training.
+
+321
+00:20:59,255 --> 00:21:00,836
+that a games journalist will have.
+
+322
+00:21:00,836 --> 00:21:07,121
+Okay, what about community? Before you do anything you need to get your community
+
+323
+00:21:07,121 --> 00:21:08,201
+stuff prepared. Like,
+
+324
+00:21:08,201 --> 00:21:11,804
+I have genuinely seen on multiple occasions
+
+325
+00:21:11,804 --> 00:21:16,668
+people doing all of this
+
+326
+00:21:16,668 --> 00:21:19,750
+all of their marketing stuff and then
+
+327
+00:21:19,750 --> 00:21:23,993
+launching Facebook, Twitter, and things two weeks before their games come out.
+
+328
+00:21:23,993 --> 00:21:28,676
+This is craziness. Do you guys know what a market funnel is?
+
+329
+00:21:31,661 --> 00:21:34,882
+So a funnel is, I don't have anywhere to draw, do I?
+
+330
+00:21:34,882 --> 00:21:38,963
+So imagine that you are trying to get water
+
+331
+00:21:38,963 --> 00:21:41,023
+from a big thing into a little thing,
+
+332
+00:21:41,023 --> 00:21:43,644
+and you are pouring it, okay?
+
+333
+00:21:43,644 --> 00:21:44,644
+So you use a funnel, right?
+
+334
+00:21:44,644 --> 00:21:47,885
+So what you want to do is you want to structure
+
+335
+00:21:47,885 --> 00:21:51,826
+your marketing and community plan like a funnel.
+
+336
+00:21:51,826 --> 00:21:57,307
+Every time you do an announcement or do a release,
+
+337
+00:21:57,307 --> 00:22:00,928
+you need to pick one place.
+
+338
+00:22:01,573 --> 00:22:07,355
+where you want all of those interested people to end up.
+
+339
+00:22:07,355 --> 00:22:12,757
+So for example, it used to be Facebook, like I said, that used to be when I first got into
+
+340
+00:22:12,757 --> 00:22:15,238
+the business, that's where everybody wanted everyone to be.
+
+341
+00:22:15,238 --> 00:22:20,980
+You put them to Facebook, but then Facebook changed its monetisation structure and even
+
+342
+00:22:20,980 --> 00:22:25,662
+if people like your page, there's no guarantee they will see your post.
+
+343
+00:22:25,662 --> 00:22:28,683
+So suddenly Facebook became not very useful.
+
+344
+00:22:29,167 --> 00:22:35,010
+So what we have now is we have Twitter, Facebook, Instagram, all of these things, but all of
+
+345
+00:22:35,010 --> 00:22:40,373
+those things are designed to push people towards the Discord.
+
+346
+00:22:40,373 --> 00:22:46,857
+So when we pour out the news, people get caught in our social media.
+
+347
+00:22:46,857 --> 00:22:51,159
+So we get X number of people, X number of people, X number of people in our social media.
+
+348
+00:22:51,159 --> 00:22:55,602
+And then the really committed people, the ones who really like the game...
+
+349
+00:22:56,224 --> 00:23:02,766
+go into our Discord, because that's how we've got it set up. We have links to the Discord and all those things, okay?
+
+350
+00:23:02,766 --> 00:23:10,910
+And then you end up with, for every announcement, a few hundred people who really fucking like your game.
+
+351
+00:23:10,910 --> 00:23:18,393
+Who have gone through a couple of stages to get there, they're excited to talk to the developers, they're committed to the idea,
+
+352
+00:23:18,393 --> 00:23:20,374
+and those people are so important.
+
+353
+00:23:21,807 --> 00:23:26,870
+So yeah, like I said, you need to have your social media prepared before you do any announcements,
+
+354
+00:23:26,870 --> 00:23:29,811
+before you release a screenshot, before you send a message to anyone.
+
+355
+00:23:29,811 --> 00:23:33,233
+You need to have social media, community stuff set up.
+
+356
+00:23:33,233 --> 00:23:36,535
+Pick a home for your community, okay?
+
+357
+00:23:36,535 --> 00:23:41,477
+If you're not going to use Discord, find something else but commit to it, okay?
+
+358
+00:23:41,477 --> 00:23:48,181
+Some people still use forums, you know, it's not a bad idea, it's just a pain in the ass.
+
+359
+00:23:48,892 --> 00:23:55,214
+and get some moderators and do not forget about time zones.
+
+360
+00:23:55,214 --> 00:24:01,816
+I remember when me and Vlad, we first opened our Discord and we were like,
+
+361
+00:24:01,816 --> 00:24:08,099
+oh this is great, this is great. Me and Vlad, we'll monitor it all day, it's gonna be perfect.
+
+362
+00:24:08,099 --> 00:24:08,479
+We live in Asia.
+
+363
+00:24:08,479 --> 00:24:14,421
+So when all the Americans wake up and you get some horrible, horrible American boy
+
+364
+00:24:14,421 --> 00:24:17,482
+who wants to post Nazi memes and pornography,
+
+365
+00:24:20,222 --> 00:24:27,565
+So make sure that you're thinking like, okay, have somebody in that community promoted.
+
+366
+00:24:27,565 --> 00:24:35,108
+If you manage to get 100 people in your Discord, you have 3 or 4 people who are desperate to be moderators.
+
+367
+00:24:35,108 --> 00:24:36,809
+Who are desperate to get involved.
+
+368
+00:24:36,809 --> 00:24:42,311
+Say, I will give you free copies of all of our games for as long as you are a moderator.
+
+369
+00:24:42,311 --> 00:24:45,453
+Happy. Happy. Happy, happy people.
+
+370
+00:24:46,952 --> 00:24:50,174
+Make sure you include your community in all press releases.
+
+371
+00:24:50,174 --> 00:24:53,876
+Most press will not say, go to the Discord,
+
+372
+00:24:53,876 --> 00:24:55,757
+or go to this, or go to that.
+
+373
+00:24:55,757 --> 00:24:57,237
+But some will.
+
+374
+00:24:57,237 --> 00:24:59,298
+And it has a massive impact.
+
+375
+00:24:59,298 --> 00:25:02,740
+I think we had a Rock Paper Shotgun article once
+
+376
+00:25:02,740 --> 00:25:05,622
+that included a link to our Discord,
+
+377
+00:25:05,622 --> 00:25:09,183
+and suddenly our Discord grew by like 400 people.
+
+378
+00:25:09,183 --> 00:25:09,484
+Just boom.
+
+379
+00:25:09,484 --> 00:25:12,805
+Exciting.
+
+380
+00:25:12,805 --> 00:25:14,586
+Run competitions.
+
+381
+00:25:15,632 --> 00:25:17,974
+do things to interact with your community.
+
+382
+00:25:17,974 --> 00:25:22,257
+So in the Another Indie server right now, we do
+
+383
+00:25:22,257 --> 00:25:25,259
+Netflix Movie Night, where we just say
+
+384
+00:25:25,259 --> 00:25:29,522
+at this time we will be watching this movie. Join us.
+
+385
+00:25:29,522 --> 00:25:33,105
+And so people who are bored, because they must be very bored,
+
+386
+00:25:33,105 --> 00:25:35,907
+will say cool. And so last weekend
+
+387
+00:25:35,907 --> 00:25:39,650
+me, Vlad, and about 30 people from our Discord
+
+388
+00:25:39,650 --> 00:25:41,931
+we watched Hellraiser.
+
+389
+00:25:42,842 --> 00:25:45,304
+and just chatted like, oh, he's gonna kill her,
+
+390
+00:25:45,304 --> 00:25:45,964
+oh, she's dead.
+
+391
+00:25:45,964 --> 00:25:48,765
+And people love it, you know?
+
+392
+00:25:48,765 --> 00:25:51,507
+Everyone's sharing Hellraiser memes,
+
+393
+00:25:51,507 --> 00:25:54,549
+everybody's chatting, and it just gives that community
+
+394
+00:25:54,549 --> 00:25:57,370
+that little bit more of, we're not just here
+
+395
+00:25:57,370 --> 00:25:57,970
+to sell you shit.
+
+396
+00:25:57,970 --> 00:26:01,612
+Obviously, in the end, you want your community
+
+397
+00:26:01,612 --> 00:26:04,774
+to be a part of your sales strategy,
+
+398
+00:26:04,774 --> 00:26:07,836
+but you also want it to be an actual community.
+
+399
+00:26:07,836 --> 00:26:10,457
+Otherwise, people get bored very, very quickly.
+
+400
+00:26:11,421 --> 00:26:14,684
+So yeah, we do that, and we also do competitions.
+
+401
+00:26:14,684 --> 00:26:16,345
+We do loads of competitions.
+
+402
+00:26:16,345 --> 00:26:19,007
+You know the Humble subscription?
+
+403
+00:26:19,007 --> 00:26:21,709
+You pay like, what is it, $15 a month,
+
+404
+00:26:21,709 --> 00:26:25,672
+and you get access to games every month, like Steam Keys?
+
+405
+00:26:25,672 --> 00:26:29,796
+Humble's monthly fee is the payment method.
+
+406
+00:26:29,796 --> 00:26:30,636
+Yeah, well, he said.
+
+407
+00:26:30,636 --> 00:26:34,479
+We do that, and we have one just for our Discord.
+
+408
+00:26:34,479 --> 00:26:37,442
+So what we do is we get all of those keys every month,
+
+409
+00:26:37,442 --> 00:26:38,843
+and we run competitions for them.
+
+410
+00:26:38,843 --> 00:26:40,344
+It's super cheap.
+
+411
+00:26:41,294 --> 00:26:47,717
+But you then have two or three competitions a week, no problem, less than $20 a month.
+
+412
+00:26:47,717 --> 00:26:49,378
+Bargain.
+
+413
+00:26:49,378 --> 00:26:54,600
+And it's a good way to just get people interacting, and you do it so.
+
+414
+00:26:54,600 --> 00:26:59,662
+So the way that we do it is, we have a level up system in our Discord.
+
+415
+00:26:59,662 --> 00:27:06,405
+So the more that you chat, the more that you post, the more that you interact, the higher your level goes.
+
+416
+00:27:06,405 --> 00:27:10,587
+And the higher your level is, the more likely you are to win prizes.
+
+417
+00:27:11,317 --> 00:27:14,697
+So people talk and interact because there's extra motivation.
+
+418
+00:27:14,697 --> 00:27:17,218
+So do things like that.
+
+419
+00:27:17,218 --> 00:27:26,720
+So what I'm going to do now is I'm going to kind of give you an overview of a game launch.
+
+420
+00:27:26,720 --> 00:27:31,481
+Which is a little bit boring. I apologize in advance.
+
+421
+00:27:31,481 --> 00:27:39,422
+So let's say the launch date for Ian's Ultimate Indie is on July 1st.
+
+422
+00:27:40,444 --> 00:27:42,165
+Oh no, we cut off a little bit.
+
+423
+00:27:42,165 --> 00:27:42,585
+Oh, it's OK.
+
+424
+00:27:42,585 --> 00:27:43,586
+I can read it to you.
+
+425
+00:27:43,586 --> 00:27:44,066
+You'll be fine.
+
+426
+00:27:44,066 --> 00:27:48,108
+This is like a breakdown of what you
+
+427
+00:27:48,108 --> 00:27:53,951
+need to do in those months before you launch your game.
+
+428
+00:27:53,951 --> 00:27:56,593
+So this is six months, OK?
+
+429
+00:27:56,593 --> 00:28:00,835
+And six months sounds like a long time, right?
+
+430
+00:28:00,835 --> 00:28:06,718
+When you think like, oh, six months is nothing in game dev.
+
+431
+00:28:06,718 --> 00:28:09,200
+Six months is absolutely nothing.
+
+432
+00:28:09,200 --> 00:28:09,500
+It's OK.
+
+433
+00:28:12,200 --> 00:28:19,447
+If you're thinking like, oh I'm going to launch my game in quarter three in 2019.
+
+434
+00:28:19,447 --> 00:28:21,769
+May-wenty.
+
+435
+00:28:21,769 --> 00:28:29,176
+You've got three months to get all of this prepared.
+
+436
+00:28:29,176 --> 00:28:31,478
+And that's quite scary.
+
+437
+00:28:32,642 --> 00:28:38,526
+In January, you're launching in July, in January you need to have prepared community and social
+
+438
+00:28:38,526 --> 00:28:43,649
+media, minimal posting, prepare the assets you will need for the launch announcement,
+
+439
+00:28:43,649 --> 00:28:45,190
+prepare the store page assets.
+
+440
+00:28:45,190 --> 00:28:49,573
+If you're launching on Steam, you want to make sure that your store page is ready the
+
+441
+00:28:49,573 --> 00:28:53,476
+minute that you do your launch announcement because you want to get those wish lists because
+
+442
+00:28:53,476 --> 00:28:55,297
+that's how you get the algorithm to love you.
+
+443
+00:28:55,297 --> 00:29:01,041
+And you need assets and announcement trailer, okay?
+
+444
+00:29:01,041 --> 00:29:02,081
+That's month one.
+
+445
+00:29:03,135 --> 00:29:08,220
+Month two, you need to announce the game, kick off social media, begin funneling people
+
+446
+00:29:08,220 --> 00:29:13,025
+towards your hood, have the store page go live for wishlisting, release the demo for
+
+447
+00:29:13,025 --> 00:29:14,746
+press and influencers.
+
+448
+00:29:14,746 --> 00:29:21,213
+Third month, follow up with those press and influencers, continue developing your community,
+
+449
+00:29:21,213 --> 00:29:25,377
+pitch new stories, explain why your game is special to people who are interested.
+
+450
+00:29:26,122 --> 00:29:31,646
+Do a giveaway, give restricted access of the game to your community to get that feedback.
+
+451
+00:29:31,646 --> 00:29:34,648
+Use your community as beta testers.
+
+452
+00:29:34,648 --> 00:29:37,891
+Prepare press releases and launch day's announcement.
+
+453
+00:29:37,891 --> 00:29:38,931
+May.
+
+454
+00:29:38,931 --> 00:29:43,035
+In May, your game needs to be finished.
+
+455
+00:29:43,035 --> 00:29:50,240
+So if you are launching in July, your game needs to be finished by the second week of
+
+456
+00:29:50,240 --> 00:29:53,463
+May in order to give press that six weeks.
+
+457
+00:29:54,085 --> 00:29:56,187
+of a glorious, glorious...
+
+458
+00:29:56,187 --> 00:30:02,350
+So you see how quickly that time disappears, right?
+
+459
+00:30:02,350 --> 00:30:04,391
+Yeah.
+
+460
+00:30:04,391 --> 00:30:08,393
+So, in May, the first two weeks, you're focusing on finalising the game,
+
+461
+00:30:08,393 --> 00:30:11,695
+whilst also maintaining community and building up all of that stuff.
+
+462
+00:30:11,695 --> 00:30:15,497
+Also, and then on the July 1st, sorry, not July 1st,
+
+463
+00:30:15,497 --> 00:30:19,879
+mid-May, you want to announce the launch date.
+
+464
+00:30:19,879 --> 00:30:20,620
+So you say...
+
+465
+00:30:20,915 --> 00:30:27,079
+Woo! The game will be coming out July 1st. Send that press release to the press.
+
+466
+00:30:27,079 --> 00:30:31,202
+At the same time, send your embargoed press release.
+
+467
+00:30:31,202 --> 00:30:34,124
+So you basically send two press kits at one time.
+
+468
+00:30:34,124 --> 00:30:38,487
+One with the saying, saying, hey the game's coming out on July 1st.
+
+469
+00:30:38,487 --> 00:30:49,075
+Another one with a key to the game, with all the information about the launch, and with the embargo information as well.
+
+470
+00:30:49,075 --> 00:30:49,235
+In June...
+
+471
+00:30:49,582 --> 00:30:56,284
+you're still preparing all of your social media, you're preparing the launch date stuff,
+
+472
+00:30:56,284 --> 00:31:02,985
+and you're updating all of the bugs that you will still be finding, because you will still
+
+473
+00:31:02,985 --> 00:31:07,687
+be finding bugs at this point. And you pray. You pray that everything will go well, and
+
+474
+00:31:07,687 --> 00:31:14,788
+then in July, boom, your game's out. So that's what six months looks like. It goes very,
+
+475
+00:31:14,788 --> 00:31:18,429
+very, very, very, very, very quickly.
+
+476
+00:31:19,040 --> 00:31:21,242
+trying to put something into this.
+
+477
+00:31:21,242 --> 00:31:23,704
+Go for it.
+
+478
+00:31:23,704 --> 00:31:30,491
+So in this six-month schedule, I didn't see anything
+
+479
+00:31:30,491 --> 00:31:31,813
+about play testing.
+
+480
+00:31:31,813 --> 00:31:35,256
+Yeah, how do you combine those?
+
+481
+00:31:35,256 --> 00:31:39,040
+So what we do is we do QA in-house,
+
+482
+00:31:39,040 --> 00:31:41,282
+but we now use our community.
+
+483
+00:31:41,282 --> 00:31:42,203
+So we have.
+
+484
+00:31:47,103 --> 00:31:52,464
+3,000 people we have 100 elite members you know they are called the a we are
+
+485
+00:31:52,464 --> 00:31:59,046
+another in the so we call it the AI Alliance and those members of the AI
+
+486
+00:31:59,046 --> 00:32:06,047
+Alliance they are the people that we bring in to test our games and to give
+
+487
+00:32:06,047 --> 00:32:10,468
+us feedback so we have 100 people just players
+
+488
+00:32:11,078 --> 00:32:16,722
+We do QA with external groups as well, to make sure that we do that.
+
+489
+00:32:16,722 --> 00:32:25,869
+But yeah, playtesting is hugely important. I just left it off this one because you all know about QA.
+
+490
+00:32:25,869 --> 00:32:28,611
+Did you have any other questions?
+
+491
+00:32:28,611 --> 00:32:30,552
+Yeah, just that one.
+
+492
+00:32:30,552 --> 00:32:37,637
+Just that one. Cool, cool, cool. So yeah, do test your game. Don't forget that.
+
+493
+00:32:37,637 --> 00:32:39,358
+And bearing in mind that...
+
+494
+00:32:40,190 --> 00:32:40,831
+No, the chair.
+
+495
+00:32:40,831 --> 00:32:42,232
+Oh, it's just a chair.
+
+496
+00:32:42,232 --> 00:32:46,076
+I was like, who brought a fucking cat?
+
+497
+00:32:46,076 --> 00:32:53,242
+And, and bearing in mind that all of this information that I've just given you here
+
+498
+00:32:53,242 --> 00:32:57,846
+is for launching on PC only.
+
+499
+00:32:57,846 --> 00:33:00,708
+If you want to launch on console,
+
+500
+00:33:00,708 --> 00:33:01,949
+Ha ha ha ha!
+
+501
+00:33:01,949 --> 00:33:07,114
+Everything needs to be done. The game needs to be done.
+
+502
+00:33:07,896 --> 00:33:13,539
+two or three months earlier than this, because you have to get through lockcheck and things
+
+503
+00:33:13,539 --> 00:33:14,539
+like that.
+
+504
+00:33:14,539 --> 00:33:20,142
+So you need to be factoring all of this in and putting this all together.
+
+505
+00:33:20,142 --> 00:33:25,265
+So if you want to make it even more complicated, add a console.
+
+506
+00:33:25,265 --> 00:33:27,926
+That's what we did with Synapse.
+
+507
+00:33:27,926 --> 00:33:31,788
+We were like, ah, we'll do Xbox and Switch and PlayStation, it'll be easy!
+
+508
+00:33:31,788 --> 00:33:33,669
+And then, poor Frank nearly died.
+
+509
+00:33:36,487 --> 00:33:38,747
+I look tired, look at Frank.
+
+510
+00:33:38,747 --> 00:33:42,189
+So, hot tips.
+
+511
+00:33:42,189 --> 00:33:42,789
+Hot tips.
+
+512
+00:33:42,789 --> 00:33:47,310
+Be quiet about your game
+
+513
+00:33:47,310 --> 00:33:51,372
+until you are ready to go.
+
+514
+00:33:51,372 --> 00:33:53,773
+Not go as in sell your game,
+
+515
+00:33:53,773 --> 00:33:55,573
+but be quiet until you are,
+
+516
+00:33:55,573 --> 00:33:58,715
+you know, you have this six month cycle, okay?
+
+517
+00:33:58,715 --> 00:34:02,016
+If you are talking about your game
+
+518
+00:34:02,016 --> 00:34:04,197
+years before your game will come out,
+
+519
+00:34:11,787 --> 00:34:18,469
+many good games. So if you're talking about your game years before it comes out, this
+
+520
+00:34:18,469 --> 00:34:23,451
+is probably going to bite you in the ass, because people will lose their excitement.
+
+521
+00:34:23,451 --> 00:34:32,215
+You need to keep that excitement going. In my experience, the thing that always goes
+
+522
+00:34:32,215 --> 00:34:39,898
+wrong is the development stuff. Because developers are very optimistic.
+
+523
+00:34:40,958 --> 00:34:51,147
+developers go, I will definitely, definitely have this finished in two weeks.
+
+524
+00:34:51,147 --> 00:34:57,212
+No problem. And then two weeks later, big problem.
+
+525
+00:34:57,212 --> 00:35:03,117
+So make sure that you're factoring in time for everything to go wrong.
+
+526
+00:35:04,574 --> 00:35:08,976
+Just speaking to Ed a moment ago, and he was like saying,
+
+527
+00:35:08,976 --> 00:35:11,858
+every time you do it, factor in 50% extra time.
+
+528
+00:35:11,858 --> 00:35:14,499
+And I would say, that is conservative.
+
+529
+00:35:14,499 --> 00:35:16,020
+Usually it's like twice.
+
+530
+00:35:16,020 --> 00:35:17,861
+That's what I would always say.
+
+531
+00:35:17,861 --> 00:35:19,842
+If you've got a budget, though.
+
+532
+00:35:19,842 --> 00:35:20,622
+Yeah, yeah, yeah.
+
+533
+00:35:20,622 --> 00:35:21,262
+If you've got a budget.
+
+534
+00:35:21,262 --> 00:35:23,403
+No one ever has budget for that.
+
+535
+00:35:23,403 --> 00:35:24,424
+No one ever has budget.
+
+536
+00:35:24,424 --> 00:35:24,964
+I know.
+
+537
+00:35:24,964 --> 00:35:27,766
+But make sure that you're factoring in the fact
+
+538
+00:35:27,766 --> 00:35:29,987
+that something will go wrong.
+
+539
+00:35:29,987 --> 00:35:31,748
+Because it will. 100%.
+
+540
+00:35:31,748 --> 00:35:33,488
+I have never seen a game.
+
+541
+00:35:34,190 --> 00:35:40,151
+where something hasn't gone wrong at some point.
+
+542
+00:35:40,151 --> 00:35:42,211
+So yeah, nothing ever goes exactly according to plan,
+
+543
+00:35:42,211 --> 00:35:43,991
+so schedule some flexibility.
+
+544
+00:35:43,991 --> 00:35:47,392
+Do not screw up your launch date.
+
+545
+00:35:47,392 --> 00:35:52,033
+Your launch date, once you announce it to the public,
+
+546
+00:35:52,033 --> 00:35:55,013
+if you mess it up, people do not forgive
+
+547
+00:35:55,013 --> 00:35:59,854
+and they do not forget, especially on Steam.
+
+548
+00:35:59,854 --> 00:36:02,655
+Like, Steam community is,
+
+549
+00:36:06,208 --> 00:36:08,888
+There's a video camera, so I'm not going to say that.
+
+550
+00:36:08,888 --> 00:36:12,469
+But the Steam community is definitely a tricky, tricky
+
+551
+00:36:12,469 --> 00:36:13,669
+place to navigate.
+
+552
+00:36:13,669 --> 00:36:18,130
+And consumers on the Steam platform have a very high
+
+553
+00:36:18,130 --> 00:36:20,250
+opinion of what they deserve.
+
+554
+00:36:20,250 --> 00:36:23,551
+And you have to be very, very careful with that.
+
+555
+00:36:23,551 --> 00:36:26,891
+Because the last thing you want to do is to launch with
+
+556
+00:36:26,891 --> 00:36:27,851
+controversy already.
+
+557
+00:36:27,851 --> 00:36:31,012
+I know developers who postponed their launch date by
+
+558
+00:36:31,012 --> 00:36:35,133
+a week or two weeks and got review bombed on launch.
+
+559
+00:36:35,133 --> 00:36:35,713
+You know?
+
+560
+00:36:36,718 --> 00:36:42,119
+It's a sad and ugly situation, but it happens and you need to be prepared for it.
+
+561
+00:36:42,119 --> 00:36:44,280
+Be realistic.
+
+562
+00:36:44,280 --> 00:36:54,562
+What I will say is, if you have a two year development schedule, don't copy what's popular now.
+
+563
+00:36:54,562 --> 00:37:01,044
+Because what's popular right now will not be popular in two years.
+
+564
+00:37:01,044 --> 00:37:03,905
+You try selling a battle royale game in two years.
+
+565
+00:37:04,669 --> 00:37:09,772
+Like, the market is going to be absolutely flooded with them by people who can put them
+
+566
+00:37:09,772 --> 00:37:11,593
+out way faster than you can.
+
+567
+00:37:11,593 --> 00:37:17,036
+So if your goal is to do an indie battle royale, you need to have a six month turnaround time,
+
+568
+00:37:17,036 --> 00:37:19,237
+or you need to look for a different idea.
+
+569
+00:37:19,237 --> 00:37:24,480
+Otherwise you're just going to run out of space in the market.
+
+570
+00:37:24,480 --> 00:37:25,721
+And watch the market.
+
+571
+00:37:25,721 --> 00:37:32,564
+If you see things going in a particular direction, do not be afraid to update your game.
+
+572
+00:37:33,643 --> 00:37:36,764
+Have any of you seen a video game called Not Tonight?
+
+573
+00:37:36,764 --> 00:37:40,366
+You obviously know it because you're British.
+
+574
+00:37:40,366 --> 00:37:47,308
+So Not Tonight was originally a bouncer simulator, so it was about nightclubs.
+
+575
+00:37:47,308 --> 00:37:53,269
+And it was about a bouncer who would let you into nightclubs or not let you into nightclubs.
+
+576
+00:37:53,269 --> 00:37:55,850
+Then in the UK, Brexit happened.
+
+577
+00:37:57,012 --> 00:38:01,856
+and they changed the whole game to be about Brexit.
+
+578
+00:38:01,856 --> 00:38:05,339
+After Brexit, it'll be the end of the world
+
+579
+00:38:05,339 --> 00:38:08,341
+and this is a bartender, sorry, this is a bouncer
+
+580
+00:38:08,341 --> 00:38:13,405
+who is kind of guarding these bars at the end of the world.
+
+581
+00:38:13,405 --> 00:38:15,787
+And everybody fucking loved it.
+
+582
+00:38:15,787 --> 00:38:19,670
+Like, people bought so many copies of it.
+
+583
+00:38:19,670 --> 00:38:22,131
+Like, that game is making bank
+
+584
+00:38:22,131 --> 00:38:25,474
+because they noticed that there was this place
+
+585
+00:38:25,474 --> 00:38:26,295
+in the market.
+
+586
+00:38:26,709 --> 00:38:31,210
+and they knew, they said, hey, in order to do this, all we need to do is just redo our
+
+587
+00:38:31,210 --> 00:38:31,930
+art assets.
+
+588
+00:38:31,930 --> 00:38:38,772
+It's a pain in the arse, but we can redo our art assets and we can capture this moment.
+
+589
+00:38:38,772 --> 00:38:39,992
+You know what I mean?
+
+590
+00:38:39,992 --> 00:38:41,272
+We can be relevant.
+
+591
+00:38:41,272 --> 00:38:44,713
+And being relevant and on time is so hard.
+
+592
+00:38:44,713 --> 00:38:49,694
+So be aware, watch the market, figure out what's going on.
+
+593
+00:38:49,694 --> 00:38:54,255
+If you are releasing a game about saving a princess, you are fucking mad.
+
+594
+00:38:54,985 --> 00:39:00,568
+Because that ship has sailed. Everyone is sick of this dynamic.
+
+595
+00:39:00,568 --> 00:39:05,290
+If you are releasing a game about a heroic, strong man doing something for a girl,
+
+596
+00:39:05,290 --> 00:39:07,511
+fucking watch the news.
+
+597
+00:39:07,511 --> 00:39:08,892
+Read some games journalism.
+
+598
+00:39:08,892 --> 00:39:13,894
+See what people are actually writing about, what people are getting excited about.
+
+599
+00:39:13,894 --> 00:39:15,154
+It's not that.
+
+600
+00:39:15,154 --> 00:39:21,537
+And the amount of time that I spend with developers who have got good games...
+
+601
+00:39:22,694 --> 00:39:26,998
+with just a terrible concept behind it
+
+602
+00:39:26,998 --> 00:39:31,923
+is unbelievably, unbelievably common.
+
+603
+00:39:31,923 --> 00:39:38,108
+Find a niche or find something that is in the zeitgeist,
+
+604
+00:39:38,108 --> 00:39:39,910
+in now, and go for it.
+
+605
+00:39:39,910 --> 00:39:45,435
+And I just added the Mandarin comment.
+
+606
+00:39:51,860 --> 00:39:56,203
+And actually, that's it. I'm done.
+
+607
+00:39:56,203 --> 00:40:01,605
+So, does anybody have any questions? I like questions.
+
+608
+00:40:01,605 --> 00:40:14,592
+About getting informed and all the sites or Indies should follow other than Otaku and the Tama Sutra and...
+
+609
+00:40:14,592 --> 00:40:19,975
+What other sites do you recommend?
+
+610
+00:40:19,975 --> 00:40:21,216
+Stay in touch with what...
+
+611
+00:40:23,238 --> 00:40:30,863
+Yeah, so I mean for staying in touch, you know the best place to stay in touch with what's going on in the world?
+
+612
+00:40:30,863 --> 00:40:31,944
+Is Twitter.
+
+613
+00:40:31,944 --> 00:40:34,846
+And I know that Twitter is an absolute nightmare.
+
+614
+00:40:34,846 --> 00:40:35,987
+It is a hell site.
+
+615
+00:40:35,987 --> 00:40:38,088
+But, people
+
+616
+00:40:40,153 --> 00:40:45,617
+are following all of the game developers on Twitter, that's what I did. So I started up
+
+617
+00:40:45,617 --> 00:40:54,224
+a Twitter like four years ago and I just followed every game developer I could think of and
+
+618
+00:40:54,224 --> 00:40:58,727
+every games journalist I could think of. I just went through a list, I went through every
+
+619
+00:40:58,727 --> 00:41:04,271
+website and I followed them all. And now, if you scroll through it, you get a really
+
+620
+00:41:04,271 --> 00:41:07,934
+good idea of what people are writing about.
+
+621
+00:41:08,257 --> 00:41:12,920
+right now people are really interested in games that have social commentary.
+
+622
+00:41:12,920 --> 00:41:19,385
+People are really interested in games that have, you know, that are sort of doing something new
+
+623
+00:41:19,385 --> 00:41:26,411
+with the genre. Not necessarily completely different styles of game, but games that have
+
+624
+00:41:26,411 --> 00:41:30,574
+some different content, if you get what I mean. So what we are doing, so one of the games that
+
+625
+00:41:30,574 --> 00:41:36,318
+we just signed in the last couple of weeks, is a 2D platforming game.
+
+626
+00:41:37,180 --> 00:41:44,646
+about a young girl going on an adventure in the local culture that she's from. So the
+
+627
+00:41:44,646 --> 00:41:50,110
+game developer is Southeast Asian, so it's all about Southeast Asian culture and mythology.
+
+628
+00:41:50,110 --> 00:41:55,294
+And we're pretty confident that's going to hit some nerves. We're pretty confident that
+
+629
+00:41:55,294 --> 00:42:02,058
+we're going to get some resonance, just because it's not a crazy new type of game, but we
+
+630
+00:42:05,318 --> 00:42:08,620
+Or that people will find interesting
+
+631
+00:42:08,620 --> 00:42:17,043
+Because a lot of Americans don't know anything about Southeast Asian mythology
+
+632
+00:42:17,043 --> 00:42:25,767
+So that type of stuff is cool
+
+633
+00:42:25,767 --> 00:42:26,387
+Does that help answer?
+
+634
+00:42:26,387 --> 00:42:26,507
+Yeah
+
+635
+00:42:26,507 --> 00:42:27,507
+Cool, any other questions?
+
+636
+00:42:27,507 --> 00:42:27,887
+Come on
+
+637
+00:42:27,887 --> 00:42:27,947
+有問題嗎?
+
+638
+00:42:27,947 --> 00:42:28,848
+我跟他加碼一下好了
+
+639
+00:42:29,712 --> 00:42:33,555
+那個...等一下如果有提問的人可以來找我這邊登記
+
+640
+00:42:33,555 --> 00:42:37,879
+我這邊有三組前幾天才發售的
+
+641
+00:42:37,879 --> 00:42:41,021
+就是 Paper Sprees 那個作者他後來發的新遊戲的Pee
+
+642
+00:42:41,021 --> 00:42:42,602
+我有三組Pee
+
+643
+00:42:42,602 --> 00:42:43,963
+所以就是...
+
+644
+00:42:43,963 --> 00:42:48,247
+有提問的人等一下可以來找我拿Pee
+
+645
+00:42:56,787 --> 00:43:03,410
+But I was wondering, don't you feel it's like nowadays, press is less and less important
+
+646
+00:43:03,410 --> 00:43:09,912
+and community is taking over because nobody really pays any attention to what those journalists
+
+647
+00:43:09,912 --> 00:43:14,574
+are saying and maybe in 3, 4, 5 years, community will be all like Discord and other means.
+
+648
+00:43:14,574 --> 00:43:15,374
+You are 100% correct.
+
+649
+00:43:15,374 --> 00:43:22,957
+So with our most recent game that launched, SINNER, if you actually look at the reviews,
+
+650
+00:43:22,957 --> 00:43:23,778
+they're not that good.
+
+651
+00:43:24,468 --> 00:43:30,791
+We got about 6 out of 10 is our average score for Sinner, which is not terrible, but it's not great either.
+
+652
+00:43:30,791 --> 00:43:32,672
+But our sales are pretty good.
+
+653
+00:43:32,672 --> 00:43:37,595
+And our sales are pretty good because we have a really really passionate community that's gone out there
+
+654
+00:43:37,595 --> 00:43:45,439
+and they've told their friends and they've pushed their favorite streamers and their favorite streamers played it and the streamers like it because they're
+
+655
+00:43:45,439 --> 00:43:47,980
+in that type of community and
+
+656
+00:43:47,980 --> 00:43:53,503
+Yeah, so you are 100% correct. I suspect that within the next kind of few years we're going to see
+
+657
+00:43:54,269 --> 00:43:57,010
+games, journalism, become more and more niche.
+
+658
+00:43:57,010 --> 00:44:01,332
+So it'll still have a place, it'll always have a place in the same way that, like,
+
+659
+00:44:01,332 --> 00:44:04,173
+book critics have a place, you know what I mean?
+
+660
+00:44:04,173 --> 00:44:06,795
+I read book critics because I'm a f***ing nerd, but
+
+661
+00:44:06,795 --> 00:44:13,158
+it's certainly not the most common way to learn about books.
+
+662
+00:44:13,158 --> 00:44:17,460
+What do you think about the multi-tiered thing?
+
+663
+00:44:17,460 --> 00:44:20,401
+The first layer is always about getting
+
+664
+00:44:20,401 --> 00:44:22,742
+the words out first.
+
+665
+00:44:23,318 --> 00:44:28,201
+people may not like your game or they may not buy your game on site.
+
+666
+00:44:28,201 --> 00:44:37,286
+Maybe they read about it from some Facebook pages or some bloggers or other journalists,
+
+667
+00:44:37,286 --> 00:44:43,990
+but then you try to get their awareness out, and then some people who are interested
+
+668
+00:44:43,990 --> 00:44:47,292
+will try to dig into more information afterwards.
+
+669
+00:44:47,292 --> 00:44:50,354
+Yeah, that's basically the funnel, right?
+
+670
+00:44:50,354 --> 00:44:51,135
+So for me...
+
+671
+00:44:51,941 --> 00:44:59,797
+Every single thing that we do now, the end result is to get them in my Discord.
+
+672
+00:44:59,797 --> 00:45:02,162
+Like, everything I do is to get them in one place.
+
+673
+00:45:17,308 --> 00:45:25,994
+But it's like, you know, you've got to check with the moderators to make sure it's okay to promote your thing and whatever.
+
+674
+00:45:25,994 --> 00:45:28,396
+Yeah, I'll be sneaky, I'll be sneaky. Sneaky's fine.
+
+675
+00:45:28,396 --> 00:45:29,277
+Just polite about it.
+
+676
+00:45:29,277 --> 00:45:29,937
+Yeah, politely sneaky.
+
+677
+00:45:29,937 --> 00:45:34,760
+But like, have you got any other advice for, like, getting those people in the funnel?
+
+678
+00:45:34,760 --> 00:45:41,225
+So my number one advice is wherever you are, find the gamers here.
+
+679
+00:45:42,023 --> 00:45:46,827
+like for example if you're in like Taiwan has a fucking amazing gaming community
+
+680
+00:45:46,827 --> 00:45:52,693
+like actually crazy passionate gaming community and very supportive
+
+681
+00:45:52,693 --> 00:45:56,577
+so if you can tap into the Taiwanese gaming community
+
+682
+00:45:56,577 --> 00:45:58,759
+you already have a head start
+
+683
+00:45:58,759 --> 00:46:03,763
+so if you live in a city where you have say
+
+684
+00:46:04,790 --> 00:46:08,033
+gamer meetups and gamer things, just use your phone.
+
+685
+00:46:08,033 --> 00:46:11,215
+Go on that meetup app, look at the game stuff,
+
+686
+00:46:11,215 --> 00:46:13,617
+go to those people, get them to play your games,
+
+687
+00:46:13,617 --> 00:46:15,879
+get them to sign up for your Discord.
+
+688
+00:46:15,879 --> 00:46:16,539
+That's the start.
+
+689
+00:46:16,539 --> 00:46:20,122
+I mean, once you've got 100 people, you have a start,
+
+690
+00:46:20,122 --> 00:46:22,504
+and you can get 100, if your game is good
+
+691
+00:46:22,504 --> 00:46:24,205
+and you are going out there,
+
+692
+00:46:24,205 --> 00:46:25,406
+you can get 100 people, no problem.
+
+693
+00:46:25,406 --> 00:46:29,149
+And once you get 100 people, you can start going further.
+
+694
+00:46:29,149 --> 00:46:31,691
+And then when you're talking with
+
+695
+00:46:35,426 --> 00:46:44,068
+what's the interest like? You can say, hey, I've got this discord, it's not big, but look
+
+696
+00:46:44,068 --> 00:46:55,230
+at how crazy passionate these people are. And I've got zero marketing budget, but I've
+
+697
+00:46:55,230 --> 00:47:02,852
+got 100 people who are loving my game already. That has weight. That has weight.
+
+698
+00:47:03,259 --> 00:47:09,364
+Unless your name is already known, otherwise you usually have to start pretty small.
+
+699
+00:47:09,364 --> 00:47:19,391
+You get a few streamers that are pretty light on content, they don't have many things to talk about,
+
+700
+00:47:19,391 --> 00:47:28,978
+but you get the smaller ones, these guys interested, and then some of the bigger ones, like big guns, will come later.
+
+701
+00:47:33,459 --> 00:47:36,980
+streams or twitch streams about this game and then maybe I
+
+702
+00:47:36,980 --> 00:47:42,561
+Can like I see the interest there, so I'll try to follow up this small streamer
+
+703
+00:47:42,561 --> 00:47:49,183
+Yeah, so like this kind of progression. Do you see that in in press as well like are there any?
+
+704
+00:47:49,183 --> 00:47:53,244
+Not in press in streamers definitely
+
+705
+00:47:53,482 --> 00:47:58,023
+Like, in streamers, if you get enough smaller streamers playing your game, then medium streamers
+
+706
+00:47:58,023 --> 00:48:02,124
+play your game, and then enough medium streamers play your game, then bigger streamers play
+
+707
+00:48:02,124 --> 00:48:02,304
+your game.
+
+708
+00:48:02,304 --> 00:48:04,025
+In press, I don't see that.
+
+709
+00:48:04,025 --> 00:48:08,786
+It tends to be the other way around, that you hit the top and it filters down, or you
+
+710
+00:48:08,786 --> 00:48:09,926
+just stay at the bottom.
+
+711
+00:48:09,926 --> 00:48:14,267
+I say this from experience of being one of those guys at the bottom.
+
+712
+00:48:14,732 --> 00:48:24,378
+So yeah, I don't think press is the same way, but what I will say is there's almost no influencer too small.
+
+713
+00:48:24,378 --> 00:48:35,805
+So one of the things that we did, I think, very effectively was we targeted influencers who had like 1,000 followers or less on their given platforms.
+
+714
+00:48:35,805 --> 00:48:43,630
+And we hit them hard and were like, hey, come join the Discord, hey, join our creator lounge, join our people doing this, that and the other.
+
+715
+00:48:43,990 --> 00:48:51,113
+those people got involved, those people were super passionate, and it had the knock-on effect.
+
+716
+00:48:51,113 --> 00:48:57,756
+So even with the Sinner launch, where we had the big Dark Souls streamers playing Sinner,
+
+717
+00:48:57,756 --> 00:49:04,099
+we also went into all of the smaller lounges with like 70 people watching, or 80 people watching,
+
+718
+00:49:04,099 --> 00:49:09,062
+or 30 people watching, and just said, hey man, thanks for playing our game,
+
+719
+00:49:09,062 --> 00:49:13,043
+if you've got any questions you can follow up here, or you can join the Discord.
+
+720
+00:49:14,088 --> 00:49:19,630
+And we got loads of people joining our Discord from just that little message.
+
+721
+00:49:19,630 --> 00:49:25,471
+Just sort of like thanking people for their interest, interacting with people.
+
+722
+00:49:25,471 --> 00:49:27,452
+It makes a big difference.
+
+723
+00:49:27,452 --> 00:49:34,114
+Like I said, if you want to build a community, Twitter's a really good place to start to
+
+724
+00:49:34,114 --> 00:49:38,675
+figure out what's going on and a good place to reach out to people directly.
+
+725
+00:49:38,675 --> 00:49:41,136
+But, and put them somewhere.
+
+726
+00:49:41,136 --> 00:49:42,797
+I always recommend Discord because...
+
+727
+00:49:43,285 --> 00:49:51,829
+I can love Discord, but they also just gave me a shitload of money, so I'm very biased.
+
+728
+00:49:51,829 --> 00:49:55,171
+But I really, really, really strongly recommend Discord.
+
+729
+00:49:55,171 --> 00:49:57,332
+I can't think of another platform that works as well.
+
+730
+00:49:57,332 --> 00:50:02,855
+Speaking about Discord, nowadays there's new upcoming stores in Kodak City.
+
+731
+00:50:02,855 --> 00:50:03,875
+I know, that's how I got my money.
+
+732
+00:50:03,875 --> 00:50:05,116
+There's God, there's...
+
+733
+00:50:14,744 --> 00:50:22,747
+get money. If your game, if somebody passionately wants your game, then they need to pay for
+
+734
+00:50:22,747 --> 00:50:29,490
+it. And if you can get some kind of exclusivity deal, do it, because guaranteed money in 2018
+
+735
+00:50:29,490 --> 00:50:41,415
+is just unbelievably important. But none of these stores have even a fraction of the impact
+
+736
+00:50:41,415 --> 00:50:41,755
+of Steam.
+
+737
+00:50:42,476 --> 00:50:45,358
+Like, you know, I think that the biggest one is Gorg,
+
+738
+00:50:45,358 --> 00:50:50,020
+which is like, what, 4%, 5% of Steam?
+
+739
+00:50:50,020 --> 00:50:51,901
+Itches after that with 2% to 3%.
+
+740
+00:50:51,901 --> 00:50:54,063
+Discord's not even on the map yet.
+
+741
+00:50:54,063 --> 00:50:54,263
+So,
+
+742
+00:50:54,263 --> 00:51:03,068
+expending time, energy, and resources on these other stores,
+
+743
+00:51:03,068 --> 00:51:05,529
+it's tough to say it's worth your time,
+
+744
+00:51:05,529 --> 00:51:06,990
+unless they're offering something.
+
+745
+00:51:07,437 --> 00:51:13,301
+And never ever ever ever ever fall for people saying I offer you exposure.
+
+746
+00:51:13,301 --> 00:51:17,543
+Because it's the most common thing that they'll say.
+
+747
+00:51:17,543 --> 00:51:22,887
+Yeah, they'll say, give us your game on launch, do all this stuff.
+
+748
+00:51:22,887 --> 00:51:26,729
+And it's always a hassle, because everyone's got their own tax shit,
+
+749
+00:51:26,729 --> 00:51:31,752
+and everyone's got their own paperwork, and then you need to put someone in charge of it.
+
+750
+00:51:31,752 --> 00:51:35,054
+Look how tired Frank is.
+
+751
+00:51:35,054 --> 00:51:36,335
+And then you get nothing from it.
+
+752
+00:51:40,375 --> 00:51:41,655
+我們的Steam賣出會是5000-10000個月
+
+753
+00:51:41,655 --> 00:51:43,916
+這些其他店鋪你加起來是200-300個月
+
+754
+00:51:43,916 --> 00:51:46,077
+那些是有好的遊戲,那些沒有好的遊戲
+
+755
+00:51:46,077 --> 00:51:48,198
+他們不會賣任何東西
+
+756
+00:51:48,198 --> 00:51:49,778
+所以我的建議是
+
+757
+00:51:49,778 --> 00:51:52,999
+如果有一個想要你的遊戲的新平台
+
+758
+00:51:52,999 --> 00:51:55,820
+他們就需要去做
+
+759
+00:52:12,183 --> 00:52:16,227
+我想問一個跟時間有關的問題,大家聽一下好了
+
+760
+00:52:37,473 --> 00:52:41,314
+probably the thing that I see kill the most indie games
+
+761
+00:52:41,314 --> 00:52:44,716
+is just that nobody does anything other than develop their game.
+
+762
+00:52:44,716 --> 00:52:52,779
+And so they're developing, developing, developing, developing, developing, and then they launch it,
+
+763
+00:52:52,779 --> 00:52:56,621
+and then nobody pays any attention, and they go,
+
+764
+00:52:56,621 --> 00:52:58,302
+oh, well that's over then.
+
+765
+00:52:58,302 --> 00:53:00,303
+Like, that's that. And that's tragic.
+
+766
+00:53:00,303 --> 00:53:01,723
+Like, that's really sad.
+
+767
+00:53:01,723 --> 00:53:03,504
+Yeah, so this brings me to, like,
+
+768
+00:53:03,504 --> 00:53:05,985
+because most of these people here are developers, and
+
+769
+00:53:05,985 --> 00:53:06,225
+your
+
+770
+00:53:07,844 --> 00:53:18,412
+The schedule you talked about looks like it's kind of like when they're working on their own, the schedule looks like this.
+
+771
+00:53:18,412 --> 00:53:20,654
+But what happens if they work with a publisher like you?
+
+772
+00:53:20,654 --> 00:53:28,079
+Or maybe, what kind of completeness do they have to be in when they're trying to get a good result?
+
+773
+00:53:28,079 --> 00:53:35,585
+I mean, for example, if you're working with a publisher, then the publisher deals with everything.
+
+774
+00:53:43,123 --> 00:53:46,944
+the development that I just described, then you haven't got a good publisher.
+
+775
+00:53:46,944 --> 00:53:49,705
+In terms of trailers, do you outsource making of trailers? Who are some of the good companies
+
+776
+00:53:49,705 --> 00:53:50,765
+to outsource trailers?
+
+777
+00:53:50,765 --> 00:53:56,326
+So we've done a mix. We've done stuff in-house, depending on the developers and depending
+
+778
+00:53:56,326 --> 00:54:01,968
+on their skill set. So we've had some nice trailers made in-house. We've had one trailer
+
+779
+00:54:01,968 --> 00:54:10,170
+made by a gentleman called Josh. I can't remember his surname. If you reach out to me, I can
+
+780
+00:54:10,170 --> 00:54:11,090
+give it to you.
+
+781
+00:54:11,517 --> 00:54:16,241
+He does very good 2D trailers. Did you know the game That Dragon Cancer?
+
+782
+00:54:16,241 --> 00:54:22,106
+He's the guy that did the trailer for that, you know the trailer that made everyone cry?
+
+783
+00:54:22,106 --> 00:54:27,991
+He did that trailer. So he's a really talented guy, and he did one of our trailers.
+
+784
+00:54:27,991 --> 00:54:31,453
+And for Sinner we got a guy from Japan called Gavin.
+
+785
+00:54:31,453 --> 00:54:35,657
+And he did our Sinner trailers, which are crazy cinematic.
+
+786
+00:54:35,657 --> 00:54:39,240
+Like, I still don't understand how we afforded him, because he was far too good.
+
+787
+00:54:44,170 --> 00:54:46,671
+There's a really good guy called Eric Liu
+
+788
+00:54:46,671 --> 00:54:48,652
+Yeah I know Eric, yeah yeah yeah
+
+789
+00:54:48,652 --> 00:54:52,393
+Who is American but he has a...
+
+790
+00:54:52,393 --> 00:54:57,874
+He's a trailer editor and he has a newsletter that goes out every Sunday
+
+791
+00:54:57,874 --> 00:55:01,955
+Like with different topics like editing trailers
+
+792
+00:55:01,955 --> 00:55:04,256
+So if you want to learn how to do your own trailer
+
+793
+00:55:04,256 --> 00:55:07,197
+If you can't afford someone else to do it then...
+
+794
+00:55:07,197 --> 00:55:09,317
+Yes, so Eric Liu, right? L-I-U
+
+795
+00:55:09,317 --> 00:55:10,038
+Derek!
+
+796
+00:55:10,038 --> 00:55:13,178
+I've met, I've met because he's friends with Josh
+
+797
+00:55:13,904 --> 00:55:16,945
+So I met them both together.
+
+798
+00:55:16,945 --> 00:55:18,745
+Derek Liu. L-I-U.
+
+799
+00:55:18,745 --> 00:55:19,626
+Yes. L-I-U.
+
+800
+00:55:19,626 --> 00:55:29,329
+We can, we can, I'll put it in the presentation, I'll send the presentation to Josh.
+
+801
+00:55:29,329 --> 00:55:29,489
+Josh?
+
+802
+00:55:29,489 --> 00:55:30,049
+Yeah.
+
+803
+00:55:30,049 --> 00:55:31,969
+Anyone else?
+
+804
+00:55:31,969 --> 00:55:32,049
+Hey!
+
+805
+00:55:32,049 --> 00:55:32,690
+A new one.
+
+806
+00:55:32,690 --> 00:55:35,170
+A sponsoring, yeah.
+
+807
+00:55:43,607 --> 00:55:47,851
+I mean if you've already launched your game for a year, it's an uphill struggle to do
+
+808
+00:55:47,851 --> 00:55:49,092
+anything with media.
+
+809
+00:55:49,092 --> 00:55:54,377
+Like you are going to struggle really hard to get media attention unless you do something
+
+810
+00:55:54,377 --> 00:55:54,838
+crazy.
+
+811
+00:55:54,838 --> 00:56:00,443
+Like unless you have some update that like blows everybody away.
+
+812
+00:56:00,443 --> 00:56:03,966
+But if you are building a community, then absolutely.
+
+813
+00:56:07,782 --> 00:56:12,265
+start pinging people, hey I liked your game, my game is similar, see what happens, start
+
+814
+00:56:12,265 --> 00:56:18,390
+a conversation with the developers, get them interested, and just start building that community.
+
+815
+00:56:18,390 --> 00:56:22,214
+It's totally possible to build a community based around an older game, especially if
+
+816
+00:56:22,214 --> 00:56:26,497
+you're fine with essentially giving away copies of that game for free.
+
+817
+00:56:26,497 --> 00:56:32,682
+I know it's always painful to do, but I assure you that giving away copies of your game for
+
+818
+00:56:32,682 --> 00:56:33,183
+free...
+
+819
+00:56:34,050 --> 00:56:45,957
+to build a community will benefit you more in the long run than selling your game for
+
+820
+00:56:45,957 --> 00:56:59,666
+25 cents on a bundle. So if you have the choice between doing those two things, build your
+
+821
+00:56:59,666 --> 00:57:03,048
+community. No problem.
+
+822
+00:57:05,995 --> 00:57:20,666
+If you're launching your game anywhere close to the summer, winter, or occasionally spring, when they do their spring sale occasionally, then you're fucked.
+
+823
+00:57:20,666 --> 00:57:26,831
+There's just no way that you will get any attention because everybody's buying games for $2.
+
+824
+00:57:26,831 --> 00:57:35,278
+It's one of the reasons why I've become most unhappy with Steam, is the discount culture.
+
+825
+00:57:35,782 --> 00:57:40,904
+I think discount culture on Steam has had a really detrimental effect.
+
+826
+00:57:40,904 --> 00:57:42,684
+And that's a worry.
+
+827
+00:57:42,684 --> 00:57:46,666
+How long should we leave for?
+
+828
+00:57:46,666 --> 00:57:49,087
+I would say at least two weeks.
+
+829
+00:57:49,087 --> 00:57:50,988
+At least two weeks.
+
+830
+00:57:50,988 --> 00:57:53,889
+Three to four would be better.
+
+831
+00:57:53,889 --> 00:57:59,931
+About the launch day, I want to follow up the launch day question.
+
+832
+00:57:59,931 --> 00:58:00,792
+Because...
+
+833
+00:58:03,200 --> 00:58:08,263
+Nowadays they say there are already no good lunch date in a whole year.
+
+834
+00:58:08,263 --> 00:58:14,787
+No matter on what day you lunch, on what weekend, on what vacation, it's just bad.
+
+835
+00:58:14,787 --> 00:58:17,709
+But there are different levels of bad.
+
+836
+00:58:17,709 --> 00:58:20,290
+Yeah, there are definitely.
+
+837
+00:58:20,290 --> 00:58:26,674
+Don't launch on Christmas, that would be a bad idea.
+
+838
+00:58:26,674 --> 00:58:30,296
+25th of December, bad launch day.
+
+839
+00:58:30,296 --> 00:58:32,398
+In your experience, do you have...
+
+840
+00:58:33,230 --> 00:58:34,651
+A few windows per year?
+
+841
+00:58:34,651 --> 00:58:40,273
+It depends on the title as well, so it's kind of difficult to give a generic...
+
+842
+00:58:40,273 --> 00:58:40,593
+I see.
+
+843
+00:58:40,593 --> 00:58:43,274
+This day is good because it depends on what's coming out.
+
+844
+00:58:43,274 --> 00:58:47,856
+So actually, our Sinner launch date should have been terrible.
+
+845
+00:58:47,856 --> 00:58:52,157
+We ended up with this launch date because everything aligned and ended up...
+
+846
+00:58:52,157 --> 00:59:00,320
+We actually launched Sinner, which is a Souls-like game on Switch the day before Dark Souls.
+
+847
+00:59:03,390 --> 00:59:07,192
+So when I say we all fuck up scheduling, we all fuck up scheduling.
+
+848
+00:59:07,192 --> 00:59:11,994
+But we were lucky enough that our community pushed us through.
+
+849
+00:59:11,994 --> 00:59:16,075
+No, there's no good time, I don't think.
+
+850
+00:59:16,075 --> 00:59:19,997
+There's no time that you can look at and go, that's a good time.
+
+851
+00:59:19,997 --> 00:59:26,419
+If I had to put money on a place right now, I'd say quarter one is probably the better time.
+
+852
+00:59:26,419 --> 00:59:33,102
+It used to always be that January, February was considered to be a bad time to launch games.
+
+853
+00:59:33,923 --> 00:59:42,346
+But that just means there's not that many games launching in January, February, and that's basically what good means now.
+
+854
+00:59:42,346 --> 00:59:52,710
+Like, when can you launch your game at a time where there's going to be less people launching their games? That's it.
+
+855
+00:59:52,710 --> 00:59:58,372
+So January, February, even early March is probably like my ideal window, but...
+
+856
+00:59:58,372 --> 01:00:02,334
+I don't know, is my honest answer. It depends on the title, depends what else is coming out.
+
+857
+01:00:02,888 --> 01:00:04,530
+There's a lot of factors.
+
+858
+01:00:04,530 --> 01:00:07,914
+How do you follow up some of the,
+
+859
+01:00:07,914 --> 01:00:10,477
+like I want to avoid in conflict with some type of games
+
+860
+01:00:10,477 --> 01:00:14,802
+that they have super big titles that's coming out
+
+861
+01:00:14,802 --> 01:00:16,544
+maybe on one market.
+
+862
+01:00:16,544 --> 01:00:18,767
+How do you, yeah, like how do you?
+
+863
+01:00:20,360 --> 01:00:22,221
+You know something, sometimes it can't be avoided.
+
+864
+01:00:22,221 --> 01:00:25,202
+Like sometimes you have the perfect launch day
+
+865
+01:00:25,202 --> 01:00:26,922
+and you've got everything set up
+
+866
+01:00:26,922 --> 01:00:29,043
+and then you just get fucked by a surprise launch
+
+867
+01:00:29,043 --> 01:00:32,583
+or the week before somebody changes it.
+
+868
+01:00:32,583 --> 01:00:33,884
+This happened with us.
+
+869
+01:00:33,884 --> 01:00:35,984
+So we had a game that launched
+
+870
+01:00:35,984 --> 01:00:39,565
+and on the same day that we launched our game,
+
+871
+01:00:39,565 --> 01:00:42,006
+which was like a cute indie game,
+
+872
+01:00:42,006 --> 01:00:43,906
+Mike Bithell launched his...
+
+873
+01:00:45,101 --> 01:00:50,085
+surprise indie game that everyone was like,
+
+874
+01:00:50,085 --> 01:00:55,270
+Oh my god, Mike Bithell launched a new game! Woo!
+
+875
+01:00:55,270 --> 01:00:58,072
+So my game just like went from the rankings from like, woo!
+
+876
+01:00:58,072 --> 01:01:01,555
+I sent him a very, very bitter tweet.
+
+877
+01:01:01,555 --> 01:01:04,157
+Mike, give me some notice, you bastard!
+
+878
+01:01:04,157 --> 01:01:05,178
+But yeah, it happens.
+
+879
+01:01:05,178 --> 01:01:11,664
+That is the one thing that I always say to developers,
+
+880
+01:01:11,664 --> 01:01:12,524
+prepare to fail.
+
+881
+01:01:13,672 --> 01:01:20,155
+I know that's a horrible thing to hear, but if you get yourself in a situation where your
+
+882
+01:01:20,155 --> 01:01:26,638
+life is going to be destroyed by making your game, stop making your game.
+
+883
+01:01:26,638 --> 01:01:27,258
+Go get a job.
+
+884
+01:01:27,258 --> 01:01:29,359
+Like, go work in 7-Eleven.
+
+885
+01:01:29,359 --> 01:01:35,122
+Like, don't fucking, don't, don't get yourself in debt, don't mortgage your house.
+
+886
+01:01:35,460 --> 01:01:40,082
+Don't get money from your parents that you can't pay back.
+
+887
+01:01:40,082 --> 01:01:43,983
+All of this stuff is a big no-no. Right now,
+
+888
+01:01:43,983 --> 01:01:47,024
+most games do not make money.
+
+889
+01:01:47,024 --> 01:01:49,845
+That's a fact. So you have to factor it in.
+
+890
+01:01:49,845 --> 01:01:55,267
+If you can't factor it in, don't.
+
+891
+01:01:55,267 --> 01:01:58,688
+The days of, give it a go, it'll be fine, are over.
+
+892
+01:01:58,688 --> 01:02:01,049
+Is it long over? Yeah. We're back on time.
+
+893
+01:02:01,853 --> 01:02:06,394
+Especially, I mean, like, Steam has been over since Greenlight came out.
+
+894
+01:02:06,394 --> 01:02:10,795
+But people just didn't realize for like four years.
+
+895
+01:02:10,795 --> 01:02:15,576
+Everyone was like, oh, everyone's making money right now.
+
+896
+01:02:15,576 --> 01:02:16,816
+We're all poor.
+
+897
+01:02:16,816 --> 01:02:19,097
+Everyone's starving.
+
+898
+01:02:19,097 --> 01:02:22,358
+So that's a happy thing to think about.
+
+899
+01:02:22,358 --> 01:02:25,678
+I have one last question about scheduling, because...
+
+900
+01:02:27,676 --> 01:02:33,740
+the final preparation, like your launch or the final strategy of your development, you
+
+901
+01:02:33,740 --> 01:02:36,662
+are also considering going to shows.
+
+902
+01:02:36,662 --> 01:02:37,062
+Yes.
+
+903
+01:02:37,062 --> 01:02:40,905
+Conferences or festivals, shows.
+
+904
+01:02:40,905 --> 01:02:45,848
+So how do you kind of factor that in?
+
+905
+01:02:45,848 --> 01:02:48,810
+So the way...
+
+906
+01:02:50,086 --> 01:02:54,831
+I know that for me it's a good idea to go to shows because I've been building those
+
+907
+01:02:54,831 --> 01:03:00,376
+relationships for the last four years by going every year to all of these shows and because
+
+908
+01:03:00,376 --> 01:03:07,003
+I've built those relationships, I... so for example, with Cynna we did the Discord deal
+
+909
+01:03:07,003 --> 01:03:08,625
+and we did Xbox Games Pass.
+
+910
+01:03:08,625 --> 01:03:13,250
+I can't tell you how much money we made off that, but we broke even on Cynna before we
+
+911
+01:03:13,250 --> 01:03:13,890
+sold a contract.
+
+912
+01:03:15,307 --> 01:03:21,668
+And I got those deals because I went to those shows, I shook those hands, I met those people.
+
+913
+01:03:21,668 --> 01:03:27,110
+I got my first dev kit because at GDC I got drunk and I sat on somebody from Nintendo.
+
+914
+01:03:27,110 --> 01:03:30,010
+That's how I got my first Nintendo dev kit.
+
+915
+01:03:30,010 --> 01:03:32,891
+I sat on the European director of Nintendo.
+
+916
+01:03:32,891 --> 01:03:35,032
+And he was like sitting on a man.
+
+917
+01:03:35,032 --> 01:03:37,052
+Excuse me, I went, whoa!
+
+918
+01:03:37,052 --> 01:03:40,033
+That's how I got my Nintendo Switch dev kit.
+
+919
+01:03:45,158 --> 01:03:54,100
+So yeah, for me as a publisher, it's also good because I always have new stuff.
+
+920
+01:03:54,100 --> 01:04:00,642
+You know what I mean? I'm always going there with fresh stuff, with new things to talk about.
+
+921
+01:04:00,642 --> 01:04:06,763
+As developers, individual developers, I think showcasing is really, really risky.
+
+922
+01:04:06,763 --> 01:04:13,645
+It's so expensive and it takes so long to build those connections.
+
+923
+01:04:14,089 --> 01:04:19,352
+The only reason why I was able to build those connections was because I did GDC, I did PAX
+
+924
+01:04:19,352 --> 01:04:23,715
+East, I did PAX West, I did PAX Australia, I did anything else.
+
+925
+01:04:23,715 --> 01:04:26,737
+I did EGX in the UK, I did Rezd in the UK.
+
+926
+01:04:26,737 --> 01:04:31,081
+I basically spent six months travelling for two years.
+
+927
+01:04:31,081 --> 01:04:32,381
+Three years, God, three years.
+
+928
+01:04:32,381 --> 01:04:34,223
+That was a long three years.
+
+929
+01:04:35,825 --> 01:04:50,057
+Most of you can't do that. Most of you don't want to do that. It's horrible. You smell really bad most of the time.
+
+930
+01:04:50,057 --> 01:04:50,977
+It's gross.
+
+931
+01:04:50,977 --> 01:04:53,880
+So for me it made sense, but for individual developers...
+
+932
+01:04:53,880 --> 01:04:55,261
+It's dangerous.
+
+933
+01:04:55,261 --> 01:05:00,305
+You can very, very, very, very easily spend crazy amounts of money.
+
+934
+01:05:00,305 --> 01:05:02,127
+I mean, going to America is expensive.
+
+935
+01:05:02,656 --> 01:05:07,497
+The flights are expensive, staying there is expensive, eating there is expensive.
+
+936
+01:05:07,497 --> 01:05:12,278
+You guys are lucky because you guys don't need a visa.
+
+937
+01:05:12,278 --> 01:05:18,019
+But I mean, for most of the people in this part of the world, even getting a visa is expensive.
+
+938
+01:05:18,019 --> 01:05:23,180
+So, it's tough for me to say it's a good idea.
+
+939
+01:05:23,180 --> 01:05:28,441
+I always say, if you have the resources and it's not going to kill you, do it.
+
+940
+01:05:30,958 --> 01:05:35,462
+If you're on a budget and you're kind of weighing between like, oh well, do I spend my money
+
+941
+01:05:35,462 --> 01:05:41,587
+on developing the game and building the community and doing all the stuff I mentioned, or going
+
+942
+01:05:41,587 --> 01:05:45,810
+to GDC, fucking stay home.
+
+943
+01:05:45,810 --> 01:05:48,152
+Watch that shit on YouTube!
+
+944
+01:05:48,152 --> 01:05:52,856
+You know, the information doesn't get bad because you get it a few months later and
+
+945
+01:05:52,856 --> 01:05:56,278
+someone's always got a vault password if you ask nicely.
+
+946
+01:05:57,433 --> 01:06:01,395
+So yeah, don't kill yourself to do stuff like that. It's fun.
+
+947
+01:06:01,395 --> 01:06:07,779
+Every developer should do it once as an experience. It's like going to Mecca.
+
+948
+01:06:07,779 --> 01:06:13,583
+But you shouldn't be doing it if it's gonna hurt you.
+
+949
+01:06:13,583 --> 01:06:18,126
+So you have a very clear idea about why you are doing this trip.
+
+950
+01:06:18,126 --> 01:06:23,329
+Yeah, exactly. So for us, with some of our games now, we're helping them come with us.
+
+951
+01:06:27,605 --> 01:06:31,887
+and we'll pay for the booth, you know what I mean?
+
+952
+01:06:31,887 --> 01:06:36,250
+So suddenly, all the developer's paying for
+
+953
+01:06:36,250 --> 01:06:39,892
+is their accommodation and their food.
+
+954
+01:06:39,892 --> 01:06:41,413
+Hooray, bargain, good job.
+
+955
+01:06:41,413 --> 01:06:45,016
+But if you're not in that situation,
+
+956
+01:06:45,016 --> 01:06:48,378
+you're paying for everything on your own,
+
+957
+01:06:48,378 --> 01:06:50,259
+holy shit, it's expensive.
+
+958
+01:06:50,259 --> 01:06:51,460
+Like we spend 20 to 40,000 US dollars a year on showcasing?
+
+959
+01:06:57,102 --> 01:06:58,584
+So yeah.
+
+960
+01:06:58,584 --> 01:07:00,646
+Any other questions?
+
+961
+01:07:00,646 --> 01:07:01,948
+Anyone? Questions?
+
+962
+01:07:01,948 --> 01:07:03,750
+We're running out of time.
+
+963
+01:07:03,750 --> 01:07:06,232
+If you have any questions,
+
+964
+01:07:06,232 --> 01:07:08,815
+you can ask them in private.
+
+965
+01:07:08,815 --> 01:07:09,476
+My Twitter is...
+
+966
+01:07:09,476 --> 01:07:13,300
+Ah, I've lost it.
+
+967
+01:07:13,300 --> 01:07:13,521
+There we go.
+
+968
+01:07:13,521 --> 01:07:15,523
+My Twitter is there,
+
+969
+01:07:15,523 --> 01:07:17,365
+at Memlock87.
+
+970
+01:07:19,345 --> 01:07:28,271
+follow me. I make terrible jokes, I post pictures of my dogs and I talk about video games.
+
+971
+01:07:28,271 --> 01:07:36,117
+And if you have any questions at all, you can always contact me. You can DM me, my DMs
+
+972
+01:07:36,117 --> 01:07:41,000
+are open, so if you don't want to contact me in public, you don't have to. And I just
+
+973
+01:07:41,000 --> 01:07:46,324
+realised I didn't put the Discord link up there. Amazing. Amazing. Let's fix that.
+
+974
+01:07:46,828 --> 01:07:52,693
+And just underneath my Twitter handle is the Discord link.
+
+975
+01:07:52,693 --> 01:07:54,674
+So that's discord.gg slash AI.
+
+976
+01:07:54,674 --> 01:08:04,401
+And you should definitely come and join my community and become part of my...
+
+977
+01:08:04,401 --> 01:08:04,821
+Not cult.
+
+978
+01:08:04,821 --> 01:08:06,683
+A group of friendship.
+
+979
+01:08:06,683 --> 01:08:07,763
+But yeah.
+
+980
+01:08:08,709 --> 01:08:12,595
+Yeah, and any questions, anything at all, you can always contact me.
+
+981
+01:08:12,595 --> 01:08:18,764
+I am very very keen on supporting Taiwanese development and developers.
+
+982
+01:08:18,764 --> 01:08:21,688
+So just let me know, okay?
+
+983
+01:08:21,688 --> 01:08:21,909
+Cool.
+
+984
+01:08:21,909 --> 01:08:22,590
+Are we done?
+
+985
+01:08:22,590 --> 01:08:23,931
+OK, 那我們掌聲歡迎,再感謝一次Ian。
+

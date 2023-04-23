@@ -1,0 +1,5172 @@
+1
+00:00:00,699 --> 00:00:05,024
+我們這次邀請到 Imperial Games 42
+
+2
+00:00:05,024 --> 00:00:10,770
+Imperial 42 Games 的 Dylan 跟 Elsa
+
+3
+00:00:10,770 --> 00:00:12,052
+他們是一個跨國團隊
+
+4
+00:00:12,052 --> 00:00:12,873
+然後夫妻倆剛好在台灣
+
+5
+00:00:12,873 --> 00:00:16,056
+他們做的是一款類似像人狼的那種
+
+6
+00:00:16,056 --> 00:00:17,658
+需要用言語交談來推理的遊戲
+
+7
+00:00:26,502 --> 00:00:28,423
+So I'm Dylan, this is Elsa.
+
+8
+00:00:28,423 --> 00:00:30,784
+We're with Imperium 42 Game Studio.
+
+9
+00:00:30,784 --> 00:00:34,005
+And we made Throne of Lies.
+
+10
+00:00:34,005 --> 00:00:37,546
+And so right now it's for PC, Mac, and Linux.
+
+11
+00:00:37,546 --> 00:00:40,567
+And today I'm going to be telling you
+
+12
+00:00:40,567 --> 00:00:44,168
+about what I did right, what I did wrong,
+
+13
+00:00:44,168 --> 00:00:46,909
+and some general information that can help you
+
+14
+00:00:46,909 --> 00:00:50,530
+as indie developers.
+
+15
+00:00:50,530 --> 00:00:54,031
+So to start, I'm gonna show you what we started.
+
+16
+00:00:54,031 --> 00:00:56,472
+So when we first started, this is what it looked like.
+
+17
+00:00:56,847 --> 00:00:58,167
+It was pretty sad.
+
+18
+00:00:58,167 --> 00:01:03,009
+So this is when we were sort of experimenting a little bit.
+
+19
+00:01:03,009 --> 00:01:06,871
+This was very early stage here.
+
+20
+00:01:06,871 --> 00:01:12,794
+And then, now, this is about two years later, suddenly.
+
+21
+00:01:12,794 --> 00:01:22,738
+This is our thirty-second trailer, when we launched.
+
+22
+00:01:22,738 --> 00:01:23,778
+So we're, uh...
+
+23
+00:01:24,936 --> 00:01:26,957
+We're a 3D social production game.
+
+24
+00:01:26,957 --> 00:01:32,021
+And this means that there are good guys and bad guys,
+
+25
+00:01:32,021 --> 00:01:36,164
+and the good guys have to figure out who the bad guys are.
+
+26
+00:01:36,164 --> 00:01:38,606
+And in this game, it's online.
+
+27
+00:01:38,606 --> 00:01:39,506
+There's 16 players.
+
+28
+00:01:39,506 --> 00:01:42,849
+And you have some unique features
+
+29
+00:01:42,849 --> 00:01:44,210
+like drawing death notes.
+
+30
+00:01:44,210 --> 00:01:46,011
+It's all online.
+
+31
+00:01:46,011 --> 00:01:48,193
+It's done by a team of, we have a team of eight,
+
+32
+00:01:48,193 --> 00:01:50,534
+and the actual programmers are two.
+
+33
+00:01:50,534 --> 00:01:51,895
+I'm one of the programmers,
+
+34
+00:01:51,895 --> 00:01:53,777
+and the other programmer is in the United States.
+
+35
+00:01:56,270 --> 00:01:57,190
+And to get started, let's go.
+
+36
+00:01:57,190 --> 00:02:02,253
+So I told you a little bit about who I am generally.
+
+37
+00:02:02,253 --> 00:02:03,353
+I'm American.
+
+38
+00:02:03,353 --> 00:02:04,294
+I'm half British.
+
+39
+00:02:04,294 --> 00:02:07,316
+I've been living here with my wife, Elsa,
+
+40
+00:02:07,316 --> 00:02:10,477
+for about three years now.
+
+41
+00:02:10,477 --> 00:02:15,840
+I know that in Taiwan, cyber cafes are everywhere,
+
+42
+00:02:15,840 --> 00:02:17,881
+sort of like as often as you see Starbucks.
+
+43
+00:02:17,881 --> 00:02:20,823
+But in America, that's a very small thing.
+
+44
+00:02:20,823 --> 00:02:25,665
+I actually ran the first gaming cafe in South Carolina.
+
+45
+00:02:26,212 --> 00:02:30,413
+And so there I programmed some of our apps,
+
+46
+00:02:30,413 --> 00:02:33,094
+and then eventually I worked for the company
+
+47
+00:02:33,094 --> 00:02:35,775
+that ran our gaming cafe software.
+
+48
+00:02:35,775 --> 00:02:37,655
+And that was called Smart Launch at the time.
+
+49
+00:02:37,655 --> 00:02:42,377
+After that I went to Hawaii, where I met Elsa.
+
+50
+00:02:42,377 --> 00:02:43,877
+I went there for educational purposes.
+
+51
+00:02:43,877 --> 00:02:47,618
+And eventually I came to Taiwan.
+
+52
+00:02:47,618 --> 00:02:51,399
+And in between I worked all kinds of developer jobs.
+
+53
+00:02:51,399 --> 00:02:55,060
+I've done websites, back end, front end, full stack.
+
+54
+00:02:55,707 --> 00:02:57,967
+You know, just a bunch of little things.
+
+55
+00:02:57,967 --> 00:03:01,068
+Nothing really significant that I could really tell you.
+
+56
+00:03:01,068 --> 00:03:08,230
+Eventually, I didn't like my job, which is pretty much everyone's story, I'm sure.
+
+57
+00:03:08,230 --> 00:03:13,031
+And so I started programming a game on the side.
+
+58
+00:03:13,031 --> 00:03:14,331
+And that's when we launched Imperium 42.
+
+59
+00:03:14,331 --> 00:03:19,673
+So, Throne of Lies is our first game.
+
+60
+00:03:20,476 --> 00:03:24,899
+I told you a bit about it, you saw the trailer. It's made with Unity.
+
+61
+00:03:24,899 --> 00:03:29,702
+Right now it's Windows, Mac, Linux, maybe VR in the future, who knows.
+
+62
+00:03:29,702 --> 00:03:35,005
+Right now we have about 42,000 downloads in four months, so that's pretty good.
+
+63
+00:03:35,005 --> 00:03:38,047
+We only launched in October.
+
+64
+00:03:38,047 --> 00:03:42,529
+It's very similar to Town of Salem, if you've played that, or this game,
+
+65
+00:03:42,529 --> 00:03:46,152
+which is a popular mobile game that you guys may be familiar with.
+
+66
+00:03:51,448 --> 00:03:53,328
+So to start, I knew no Unity.
+
+67
+00:03:53,328 --> 00:03:54,889
+I knew nothing.
+
+68
+00:03:54,889 --> 00:04:02,170
+But I made some text adventure games with BB.net a while back.
+
+69
+00:04:02,170 --> 00:04:04,751
+And I like gaming, obviously.
+
+70
+00:04:04,751 --> 00:04:06,832
+But I didn't know where to start.
+
+71
+00:04:06,832 --> 00:04:08,192
+It's sort of overwhelming.
+
+72
+00:04:08,192 --> 00:04:10,312
+So eventually, I went to a Unity class.
+
+73
+00:04:10,312 --> 00:04:14,133
+And even though my Chinese is terrible,
+
+74
+00:04:14,133 --> 00:04:18,734
+and I was still able to absorb everything in the class.
+
+75
+00:04:18,734 --> 00:04:19,575
+Unity is in English.
+
+76
+00:04:21,037 --> 00:04:24,820
+And so this really helped me.
+
+77
+00:04:24,820 --> 00:04:28,262
+In cram school, opposed to just a regular education,
+
+78
+00:04:28,262 --> 00:04:30,763
+they really push through really fast.
+
+79
+00:04:30,763 --> 00:04:32,364
+So suddenly, in just a few months,
+
+80
+00:04:32,364 --> 00:04:35,987
+I made just a little online zombie shooter.
+
+81
+00:04:35,987 --> 00:04:38,268
+And from there, I felt really confident.
+
+82
+00:04:38,268 --> 00:04:41,090
+So I started making a game on the side.
+
+83
+00:04:41,090 --> 00:04:44,432
+I was still working full time as a developer, remotely.
+
+84
+00:04:44,432 --> 00:04:48,855
+So what ended up happening was I realized that.
+
+85
+00:04:49,623 --> 00:04:56,987
+I needed help, I couldn't do it by myself if I wanted this to be a real game, and I did it.
+
+86
+00:04:56,987 --> 00:04:59,728
+I'll talk more about finding people later,
+
+87
+00:04:59,728 --> 00:05:01,208
+but for now, we also did a...
+
+88
+00:05:01,208 --> 00:05:04,550
+I've been through a Kickstarter.
+
+89
+00:05:04,550 --> 00:05:06,551
+We successfully funded $21,000, we asked for $20,000.
+
+90
+00:05:06,551 --> 00:05:11,953
+I'll also be talking more about Kickstarter tips later on if you're interested in something like that.
+
+91
+00:05:11,953 --> 00:05:13,614
+I started off as just
+
+92
+00:05:13,614 --> 00:05:18,736
+by myself, and then eventually, I told you I needed help, I found a partner.
+
+93
+00:05:18,736 --> 00:05:19,196
+And...
+
+94
+00:05:20,170 --> 00:05:24,031
+He's a developer in the United States.
+
+95
+00:05:24,031 --> 00:05:25,652
+He is the only other programmer.
+
+96
+00:05:25,652 --> 00:05:28,672
+And once you have two, it starts getting official.
+
+97
+00:05:28,672 --> 00:05:29,392
+You start feeling it.
+
+98
+00:05:29,392 --> 00:05:32,933
+And then eventually, management.
+
+99
+00:05:32,933 --> 00:05:35,414
+And management is something that a lot of people don't
+
+100
+00:05:35,414 --> 00:05:37,434
+expect, but it sort of comes your way.
+
+101
+00:05:37,434 --> 00:05:39,375
+Suddenly, I'm developing less.
+
+102
+00:05:39,375 --> 00:05:42,195
+I want to develop more, but I have to manage.
+
+103
+00:05:42,195 --> 00:05:44,916
+So you have to think about legal, and hiring, and HR,
+
+104
+00:05:44,916 --> 00:05:48,457
+which I passed on to her, luckily.
+
+105
+00:05:48,457 --> 00:05:49,537
+Yeah, so if you have.
+
+106
+00:05:50,063 --> 00:05:52,845
+If you have a partner, then ask for a wife, a spouse,
+
+107
+00:05:52,845 --> 00:05:54,146
+or something that really helps too,
+
+108
+00:05:54,146 --> 00:05:56,667
+if it lays off some of the burden.
+
+109
+00:05:56,667 --> 00:05:59,349
+I used to do C Sharp.
+
+110
+00:05:59,349 --> 00:06:01,390
+I used to do VB.net when I started.
+
+111
+00:06:01,390 --> 00:06:03,311
+Now it's sort of a dead language.
+
+112
+00:06:03,311 --> 00:06:04,291
+No one uses that.
+
+113
+00:06:04,291 --> 00:06:07,033
+That's why we got taught in school.
+
+114
+00:06:07,033 --> 00:06:08,113
+VB.net, C Cool.
+
+115
+00:06:08,643 --> 00:06:15,808
+So I threw all that aside. Now I'm doing C-sharp JavaScript with Node mostly, like vanilla JavaScript.
+
+116
+00:06:15,808 --> 00:06:23,353
+No SQL. No SQL is the future. No one really uses SQL anymore, unless it's really an old database no one wants to migrate to.
+
+117
+00:06:23,353 --> 00:06:29,177
+I do a lot with APIs in DevOps. DevOps is sort of new to me, but APIs.
+
+118
+00:06:29,177 --> 00:06:33,461
+You guys, don't be afraid of APIs. They're your friends.
+
+119
+00:06:33,461 --> 00:06:38,444
+So like, you have Twitch and Discord and all these APIs.
+
+120
+00:06:38,815 --> 00:06:44,638
+to help you. You don't have to reinvent the wheel. So search for open source stuff first
+
+121
+00:06:44,638 --> 00:06:57,604
+as a template, or API stuff for doing anything you want. They usually have really good documentation.
+
+122
+00:06:57,604 --> 00:07:04,146
+So I'm going to teach you how to run a worldwide studio. What you do is, it's overwhelming,
+
+123
+00:07:04,146 --> 00:07:07,308
+so you start with one, and then you find more.
+
+124
+00:07:07,566 --> 00:07:10,447
+And so where do you find more?
+
+125
+00:07:10,447 --> 00:07:13,147
+I'm going to talk about that really soon.
+
+126
+00:07:13,147 --> 00:07:15,508
+But what you do want to do is when you hire people, you want
+
+127
+00:07:15,508 --> 00:07:16,888
+to give them the rules up front.
+
+128
+00:07:16,888 --> 00:07:19,709
+This is something you guys can definitely learn
+
+129
+00:07:19,709 --> 00:07:20,689
+from my mistakes.
+
+130
+00:07:20,689 --> 00:07:24,089
+So you want to have a contract at the very beginning.
+
+131
+00:07:24,089 --> 00:07:25,450
+You can Google free templates.
+
+132
+00:07:25,450 --> 00:07:27,890
+You don't have to hire a lawyer or spend any money.
+
+133
+00:07:27,890 --> 00:07:29,831
+Just Google it and edit it just a little bit.
+
+134
+00:07:29,831 --> 00:07:33,631
+You want to have the expectations up front.
+
+135
+00:07:33,631 --> 00:07:37,112
+You want to tell them they need to work x hours per week.
+
+136
+00:07:37,857 --> 00:07:41,858
+And they need to deliver in this type of way.
+
+137
+00:07:41,858 --> 00:07:43,419
+They need to communicate.
+
+138
+00:07:43,419 --> 00:07:48,661
+They must check in once every two days or three days.
+
+139
+00:07:48,661 --> 00:07:50,182
+You need to tell them what's up.
+
+140
+00:07:50,182 --> 00:07:51,803
+And this is where management comes in.
+
+141
+00:07:51,803 --> 00:07:54,064
+You really need to be strict on this, especially
+
+142
+00:07:54,064 --> 00:07:56,445
+at the beginning, because that's what sets the template.
+
+143
+00:07:56,445 --> 00:07:57,585
+You don't want to be stepped on.
+
+144
+00:07:57,585 --> 00:07:59,506
+You need to give them deadlines.
+
+145
+00:07:59,506 --> 00:08:01,087
+At the beginning, you're not going
+
+146
+00:08:01,087 --> 00:08:03,528
+to know what the deadlines are.
+
+147
+00:08:03,528 --> 00:08:05,849
+You're going to say, oh, I have no idea how long this takes
+
+148
+00:08:05,849 --> 00:08:06,189
+to make.
+
+149
+00:08:06,800 --> 00:08:08,862
+But what you're going to do is you're going to make a deadline anyway.
+
+150
+00:08:08,862 --> 00:08:09,402
+You're going to guess.
+
+151
+00:08:09,402 --> 00:08:14,086
+So you're going to say, three days, two weeks, it doesn't matter.
+
+152
+00:08:14,086 --> 00:08:16,848
+Eventually, you'll start to learn how long things should take.
+
+153
+00:08:16,848 --> 00:08:19,450
+And if they need to extend it, they'll tell you.
+
+154
+00:08:19,450 --> 00:08:23,753
+This is also a good way to see if you can trust your employees.
+
+155
+00:08:23,753 --> 00:08:26,395
+Because if you're working remotely like I am,
+
+156
+00:08:26,395 --> 00:08:31,419
+then you've never met these people before.
+
+157
+00:08:31,419 --> 00:08:33,680
+And that's where it comes to trials.
+
+158
+00:08:34,188 --> 00:08:37,329
+Trials, what you can do is when you hire someone new,
+
+159
+00:08:37,329 --> 00:08:40,470
+especially remotely, give them a 30 day trial.
+
+160
+00:08:40,470 --> 00:08:43,890
+When you have 30 days, you can make sure
+
+161
+00:08:43,890 --> 00:08:47,491
+that they perform exactly the way you want them to perform.
+
+162
+00:08:47,491 --> 00:08:51,152
+And if something goes wrong, you could say, sorry guys,
+
+163
+00:08:51,152 --> 00:08:52,852
+that's the end of the trial.
+
+164
+00:08:52,852 --> 00:08:53,912
+This was a trial run.
+
+165
+00:08:53,912 --> 00:08:57,373
+It also gives you sort of an excuse
+
+166
+00:08:57,373 --> 00:08:59,173
+to be sort of hard on them.
+
+167
+00:08:59,173 --> 00:09:00,933
+Because the beginning is everything.
+
+168
+00:09:02,495 --> 00:09:05,536
+And that's how you can tell if you trust them or not.
+
+169
+00:09:05,536 --> 00:09:07,517
+Communication is the most important,
+
+170
+00:09:07,517 --> 00:09:08,938
+especially for remote teams.
+
+171
+00:09:08,938 --> 00:09:11,439
+But even if you're in person, it's remote.
+
+172
+00:09:11,439 --> 00:09:13,419
+Communication is top key.
+
+173
+00:09:13,419 --> 00:09:17,181
+So Discord is what we use as the number one.
+
+174
+00:09:17,181 --> 00:09:19,942
+So Discord has really changed our development cycle
+
+175
+00:09:19,942 --> 00:09:24,723
+in the form of, we have one public one
+
+176
+00:09:24,723 --> 00:09:25,944
+and one private one.
+
+177
+00:09:25,944 --> 00:09:30,666
+So the private one is internal for the company.
+
+178
+00:09:30,666 --> 00:09:31,626
+So we have.
+
+179
+00:09:31,855 --> 00:09:38,179
+a news section, we have a high level to do, we have a section for PR, marketing, legal,
+
+180
+00:09:38,179 --> 00:09:44,343
+development, and you can code bots for that too, I'll talk about that later.
+
+181
+00:09:44,343 --> 00:09:47,045
+You can also use Trello.
+
+182
+00:09:47,045 --> 00:09:52,629
+If you guys have not used Trello before, it's sort of a scrum, agile type board.
+
+183
+00:09:52,629 --> 00:09:55,651
+It pretty much contains lists.
+
+184
+00:09:55,651 --> 00:09:58,713
+Actually I think I have it pulled up here, I can just show you what it looks like.
+
+185
+00:10:01,619 --> 00:10:02,919
+Where's my mouse?
+
+186
+00:10:02,919 --> 00:10:03,299
+There we go.
+
+187
+00:10:03,299 --> 00:10:08,961
+So you can organize it in different sections.
+
+188
+00:10:08,961 --> 00:10:11,681
+You can see a little bit of secrets that we're doing.
+
+189
+00:10:11,681 --> 00:10:15,522
+So we have a big backlog dump of things.
+
+190
+00:10:15,522 --> 00:10:17,343
+This should be tons of stuff.
+
+191
+00:10:17,343 --> 00:10:20,303
+Any time you think of it, just write it down.
+
+192
+00:10:20,303 --> 00:10:22,864
+Move it to things coming soon, even sooner.
+
+193
+00:10:22,864 --> 00:10:25,685
+And then you can assign it to whoever
+
+194
+00:10:25,685 --> 00:10:27,845
+with different priority levels and then drag it to done.
+
+195
+00:10:27,845 --> 00:10:29,085
+It's pretty satisfying to see done.
+
+196
+00:10:32,304 --> 00:10:38,649
+So trust is a big deal and that's why trials are really important.
+
+197
+00:10:38,649 --> 00:10:40,870
+You want to keep your promises.
+
+198
+00:10:40,870 --> 00:10:47,435
+And if you can't keep a promise, that's the point of the communication.
+
+199
+00:10:47,435 --> 00:10:52,659
+So if you feel like you're starting to become sick, give a warning to the team.
+
+200
+00:10:52,659 --> 00:10:57,142
+If you're coming up on a deadline and you don't think it's realistic, tell them.
+
+201
+00:10:57,142 --> 00:10:59,384
+Everyone can be very...
+
+202
+00:11:00,407 --> 00:11:05,089
+Very forgiving. As long as you communicate, then everything is under control.
+
+203
+00:11:05,089 --> 00:11:13,512
+It doesn't matter so much if you're late, it just matters that if you're late and nobody knows, that's when people get upset.
+
+204
+00:11:13,512 --> 00:11:20,955
+So, that said, you should work as a team and be understanding of each other, because eventually you'll have things that come up too.
+
+205
+00:11:20,955 --> 00:11:26,477
+And as long as they're not making excuses every single week, then I think it's okay.
+
+206
+00:11:26,477 --> 00:11:30,038
+You can find the humor in cross-culture issues.
+
+207
+00:11:30,620 --> 00:11:38,224
+So, we have an artist in India, and sometimes we have the communication barrier.
+
+208
+00:11:38,224 --> 00:11:43,106
+And so, sometimes I'll explain what I want to see in an art illustration.
+
+209
+00:11:43,106 --> 00:11:45,988
+And sometimes it doesn't come the way I want it.
+
+210
+00:11:45,988 --> 00:11:51,171
+So, what I end up doing is, instead of telling him in English what I want,
+
+211
+00:11:51,171 --> 00:11:54,192
+I mean, I'll tell him in English for the basics,
+
+212
+00:11:54,192 --> 00:11:57,434
+but I'll launch up MS Paint, and I'll doodle something,
+
+213
+00:11:57,434 --> 00:12:00,055
+and show him a picture of my paint.
+
+214
+00:12:00,516 --> 00:12:02,476
+So, and it ends up being really funny.
+
+215
+00:12:02,476 --> 00:12:03,877
+I actually save it.
+
+216
+00:12:03,877 --> 00:12:06,737
+Sometimes, you know when you see those memes with a horse,
+
+217
+00:12:06,737 --> 00:12:08,217
+where he says, how to draw a horse,
+
+218
+00:12:08,217 --> 00:12:09,978
+and it shows just some basic drawing,
+
+219
+00:12:09,978 --> 00:12:12,318
+and then a full, like, beautiful horse?
+
+220
+00:12:12,318 --> 00:12:13,658
+Yeah, something like that.
+
+221
+00:12:13,658 --> 00:12:14,958
+It gets pretty funny.
+
+222
+00:12:14,958 --> 00:12:18,579
+But yeah, because it can be frustrating too, you know?
+
+223
+00:12:18,579 --> 00:12:20,779
+So, you gotta find the humor in it,
+
+224
+00:12:20,779 --> 00:12:23,660
+because that's the way to go.
+
+225
+00:12:23,660 --> 00:12:27,901
+And when you're talking about teammates and management,
+
+226
+00:12:27,901 --> 00:12:29,421
+you need to learn to move on or adapt.
+
+227
+00:12:29,912 --> 00:12:32,234
+At first, try to adapt, and then move on.
+
+228
+00:12:32,234 --> 00:12:35,737
+So it could be said about gameplay elements.
+
+229
+00:12:35,737 --> 00:12:39,580
+Let's say you really want gameplay elements to work.
+
+230
+00:12:39,580 --> 00:12:42,042
+Like for example, you can see in our trailer,
+
+231
+00:12:42,042 --> 00:12:43,823
+they can draw death notes.
+
+232
+00:12:43,823 --> 00:12:45,385
+They can draw on that.
+
+233
+00:12:45,385 --> 00:12:47,526
+And so at first, we couldn't figure out
+
+234
+00:12:47,526 --> 00:12:52,611
+how to send it over the multiplayer network
+
+235
+00:12:52,611 --> 00:12:55,253
+so that everyone can see the same image.
+
+236
+00:12:55,253 --> 00:12:58,075
+And then at first, we were going to abandon it.
+
+237
+00:12:58,075 --> 00:12:58,415
+But then we just.
+
+238
+00:12:58,975 --> 00:13:01,637
+We knew that it was a lot of code to swap methods.
+
+239
+00:13:01,637 --> 00:13:05,339
+And so we did that, and we adapted, and it worked.
+
+240
+00:13:05,339 --> 00:13:08,821
+But some things don't work, and sometimes you just
+
+241
+00:13:08,821 --> 00:13:11,183
+have to move on and accept that.
+
+242
+00:13:11,183 --> 00:13:14,005
+And I said earlier, the same thing can apply to staff.
+
+243
+00:13:14,005 --> 00:13:15,285
+So let's say you hire someone.
+
+244
+00:13:15,285 --> 00:13:17,827
+In our case, PR guys, we find, are the hardest
+
+245
+00:13:17,827 --> 00:13:18,908
+to hire that are real.
+
+246
+00:13:18,908 --> 00:13:23,550
+And so sometimes you'll hire someone,
+
+247
+00:13:23,550 --> 00:13:27,313
+and their expectations don't meet your requirements.
+
+248
+00:13:28,178 --> 00:13:31,540
+and what you do is you can try to adapt, try to, you know,
+
+249
+00:13:31,540 --> 00:13:34,402
+what we do is we have a software we use called Time Doctor,
+
+250
+00:13:34,402 --> 00:13:37,303
+which is really useful for remote work.
+
+251
+00:13:37,303 --> 00:13:40,144
+It's like $10 a month,
+
+252
+00:13:40,144 --> 00:13:43,206
+and you can track their time and stuff.
+
+253
+00:13:43,206 --> 00:13:44,406
+You can, they'll take screenshots.
+
+254
+00:13:44,406 --> 00:13:46,547
+It's a little bit intrusive,
+
+255
+00:13:46,547 --> 00:13:48,709
+but usually we use it for disciplinary action.
+
+256
+00:13:52,172 --> 00:13:55,213
+Anyway, if that doesn't work, you have to move on.
+
+257
+00:13:55,213 --> 00:13:58,054
+You have to get rid of them, respectfully, of course,
+
+258
+00:13:58,054 --> 00:13:59,254
+and then try to find someone new.
+
+259
+00:13:59,254 --> 00:14:02,095
+For example, our PR guy, we had to get rid of him.
+
+260
+00:14:02,095 --> 00:14:02,935
+We got someone new.
+
+261
+00:14:02,935 --> 00:14:03,675
+And he was amazing.
+
+262
+00:14:03,675 --> 00:14:05,056
+He's been doing great.
+
+263
+00:14:05,056 --> 00:14:06,677
+Our engagement went up.
+
+264
+00:14:06,677 --> 00:14:10,458
+All this stuff, if we would have done this a long time ago,
+
+265
+00:14:10,458 --> 00:14:14,459
+then there wouldn't be any stress.
+
+266
+00:14:14,459 --> 00:14:15,079
+So yeah.
+
+267
+00:14:15,079 --> 00:14:17,920
+I mentioned earlier about Trello.
+
+268
+00:14:17,920 --> 00:14:19,901
+Scrum and Agile tactics are important,
+
+269
+00:14:19,901 --> 00:14:21,522
+because you really need to keep track.
+
+270
+00:14:22,010 --> 00:14:23,390
+of what everyone is doing.
+
+271
+00:14:23,390 --> 00:14:26,911
+It's also good for morale to see priority levels
+
+272
+00:14:26,911 --> 00:14:28,811
+and who is working on what.
+
+273
+00:14:28,811 --> 00:14:33,612
+So when you see that everyone else is working together,
+
+274
+00:14:33,612 --> 00:14:36,832
+it really raises morale for the entire team.
+
+275
+00:14:36,832 --> 00:14:40,973
+And then it also means you don't have to really ask questions
+
+276
+00:14:40,973 --> 00:14:42,973
+what people are doing, like you're poking them.
+
+277
+00:14:42,973 --> 00:14:46,474
+Sometimes some people don't like that.
+
+278
+00:14:46,474 --> 00:14:48,194
+Of course, you can ask what they're doing,
+
+279
+00:14:48,194 --> 00:14:50,375
+but you don't have to, which is sort of nice.
+
+280
+00:14:52,182 --> 00:14:55,104
+So all the developers here, the software developers,
+
+281
+00:14:55,104 --> 00:14:58,667
+the programmers, you probably know about Git.
+
+282
+00:14:58,667 --> 00:15:00,688
+But you may not know about GitLab.
+
+283
+00:15:00,688 --> 00:15:02,629
+Most people use GitHub.
+
+284
+00:15:02,629 --> 00:15:05,251
+That's sort of the flagship.
+
+285
+00:15:05,251 --> 00:15:08,273
+But GitLab has been an amazing experience.
+
+286
+00:15:08,273 --> 00:15:13,256
+You get 10 gigabytes for free, unlimited private repos,
+
+287
+00:15:13,256 --> 00:15:16,598
+and you can host your own GitLab on your VPS
+
+288
+00:15:16,598 --> 00:15:19,440
+if you use AWS, DigitalOcean, Google.
+
+289
+00:15:19,440 --> 00:15:21,422
+And so.
+
+290
+00:15:21,788 --> 00:15:26,232
+They also have support for continuous integration,
+
+291
+00:15:26,232 --> 00:15:27,573
+and that's also free.
+
+292
+00:15:27,573 --> 00:15:31,356
+This means that they have support for, if you push
+
+293
+00:15:31,356 --> 00:15:34,458
+and you have a special keyword, you
+
+294
+00:15:34,458 --> 00:15:39,022
+can make it so that it will automatically compile for you
+
+295
+00:15:39,022 --> 00:15:40,763
+and push to Steam or something.
+
+296
+00:15:40,763 --> 00:15:44,166
+So you have automatic building and automatic uploading,
+
+297
+00:15:44,166 --> 00:15:44,967
+which is super nice.
+
+298
+00:15:44,967 --> 00:15:47,068
+That's something that we haven't done yet,
+
+299
+00:15:47,068 --> 00:15:48,870
+but we really, really want to.
+
+300
+00:15:49,352 --> 00:15:50,973
+And so you've got to look at the future.
+
+301
+00:15:50,973 --> 00:15:55,916
+So if you want something like that, use GitLab instead of GitHub.
+
+302
+00:15:55,916 --> 00:15:59,078
+Reddit has been a big part of our life.
+
+303
+00:15:59,078 --> 00:16:01,139
+We like reddit.com slash r slash gamedev.
+
+304
+00:16:01,139 --> 00:16:05,282
+And here you can find so much for free.
+
+305
+00:16:05,282 --> 00:16:07,343
+I'm talking about music.
+
+306
+00:16:07,343 --> 00:16:17,790
+Any time someone goes to GDC, a group of open source composers
+
+307
+00:16:18,050 --> 00:16:21,450
+we'll put together a bunch of royalty-free music.
+
+308
+00:16:21,450 --> 00:16:24,871
+And when I say a bunch, I mean like 500 gigabytes
+
+309
+00:16:24,871 --> 00:16:29,392
+worth of free music and sounds, sound effects, everything,
+
+310
+00:16:29,392 --> 00:16:30,712
+and art.
+
+311
+00:16:30,712 --> 00:16:32,913
+So you can get so many things there.
+
+312
+00:16:32,913 --> 00:16:35,633
+And what you want to do is, especially when you're starting,
+
+313
+00:16:35,633 --> 00:16:36,754
+you can just use placeholders.
+
+314
+00:16:36,754 --> 00:16:40,635
+I mean, you don't have to have the final product
+
+315
+00:16:40,635 --> 00:16:43,475
+at the beginning, especially since at the beginning,
+
+316
+00:16:43,475 --> 00:16:45,996
+you just want to prototype and show off the product
+
+317
+00:16:45,996 --> 00:16:46,716
+to get more.
+
+318
+00:16:47,472 --> 00:16:53,374
+teammates and maybe investors or something.
+
+319
+00:16:53,374 --> 00:16:53,815
+So for
+
+320
+00:16:53,815 --> 00:17:01,117
+when you're hiring staff, there's also a game dev branch called game dev classifieds.
+
+321
+00:17:01,117 --> 00:17:04,619
+That's where I actually found half of my team.
+
+322
+00:17:04,619 --> 00:17:06,800
+So I mean
+
+323
+00:17:06,800 --> 00:17:13,842
+just going from this to this reddit place and hiring someone just really, you know, the game wouldn't exist without it.
+
+324
+00:17:13,842 --> 00:17:15,543
+We had a zero budget.
+
+325
+00:17:15,734 --> 00:17:18,335
+when we started Throne of Lies.
+
+326
+00:17:18,335 --> 00:17:19,276
+Zero.
+
+327
+00:17:19,276 --> 00:17:21,578
+So what we did was
+
+328
+00:17:21,578 --> 00:17:23,379
+we did profit sharing.
+
+329
+00:17:23,379 --> 00:17:26,561
+So we'll say if you work
+
+330
+00:17:26,561 --> 00:17:27,802
+every three hours per week
+
+331
+00:17:27,802 --> 00:17:29,323
+you work on Throne of Lies,
+
+332
+00:17:29,323 --> 00:17:31,785
+you get 1% of the company
+
+333
+00:17:31,785 --> 00:17:32,025
+profits.
+
+334
+00:17:32,025 --> 00:17:34,647
+So this encourages people.
+
+335
+00:17:34,647 --> 00:17:36,889
+But it doesn't encourage everyone.
+
+336
+00:17:36,889 --> 00:17:38,450
+It's not for everyone.
+
+337
+00:17:38,450 --> 00:17:40,291
+If you're on, for example,
+
+338
+00:17:40,291 --> 00:17:42,453
+GameDevClassifieds,
+
+339
+00:17:42,453 --> 00:17:44,514
+you're already expecting...
+
+340
+00:17:45,063 --> 00:17:46,364
+Profit sharing.
+
+341
+00:17:46,364 --> 00:17:50,006
+So you can launch a game like Throne of Lies
+
+342
+00:17:50,006 --> 00:17:53,088
+and not pay a penny until you actually
+
+343
+00:17:53,088 --> 00:17:54,089
+start making some money.
+
+344
+00:17:54,089 --> 00:17:57,511
+So especially if you have a remote team.
+
+345
+00:17:57,511 --> 00:17:58,691
+I work at home.
+
+346
+00:17:58,691 --> 00:18:01,853
+I don't have an office fee to pay.
+
+347
+00:18:01,853 --> 00:18:04,955
+And the remote staff, profit share,
+
+348
+00:18:04,955 --> 00:18:07,176
+it really helps if your budget is not huge.
+
+349
+00:18:07,176 --> 00:18:14,040
+And that said, you should still have some savings
+
+350
+00:18:14,040 --> 00:18:14,720
+before you start.
+
+351
+00:18:15,276 --> 00:18:19,177
+because yeah, you will find unexpected things.
+
+352
+00:18:19,177 --> 00:18:24,218
+And the more money you have saved, the more secure you'll feel.
+
+353
+00:18:24,218 --> 00:18:27,358
+And if you have a spouse, the more secure they'll feel too.
+
+354
+00:18:27,358 --> 00:18:31,979
+You know, because if you suddenly say you're quitting your full-time job to
+
+355
+00:18:31,979 --> 00:18:36,320
+make a video game, you may get some weird looks.
+
+356
+00:18:36,320 --> 00:18:40,721
+But yeah, so before I quit, I made sure that I had savings.
+
+357
+00:18:41,318 --> 00:18:45,481
+we had staff. I made sure that we had a small scope.
+
+358
+00:18:45,481 --> 00:18:55,186
+And so, when I say small scope, I mean, I wouldn't recommend going out and making your
+
+359
+00:18:55,186 --> 00:19:03,050
+first video game an MMO. That's huge. And when you're hiring people, people aren't
+
+360
+00:19:03,050 --> 00:19:08,593
+likely to follow you because they can't see the light at the end of the tunnel. You need
+
+361
+00:19:08,593 --> 00:19:10,314
+something where you can see from A to B.
+
+362
+00:19:11,112 --> 00:19:14,975
+In our case, Throne of Lies, we know that it's a tabletop game.
+
+363
+00:19:14,975 --> 00:19:16,936
+It's just one room.
+
+364
+00:19:16,936 --> 00:19:18,537
+And you can have other rooms, but it's
+
+365
+00:19:18,537 --> 00:19:21,880
+mostly focused on one room.
+
+366
+00:19:21,880 --> 00:19:26,003
+And I can list everything about the game on a Google Doc.
+
+367
+00:19:26,003 --> 00:19:28,244
+If you can't do that, your scope is too high.
+
+368
+00:19:28,244 --> 00:19:32,007
+So be sure to just list the high-level architecture, which
+
+369
+00:19:32,007 --> 00:19:32,447
+I'll list soon.
+
+370
+00:19:32,447 --> 00:19:38,551
+And so this is sort of fluff talk, but if you're
+
+371
+00:19:39,217 --> 00:19:41,278
+If you're stuck, just keep researching.
+
+372
+00:19:41,278 --> 00:19:42,358
+Don't give up.
+
+373
+00:19:42,358 --> 00:19:44,740
+Google has all the answers to everything.
+
+374
+00:19:44,740 --> 00:19:48,402
+And you may be stumped for, maybe you just put a comma in
+
+375
+00:19:48,402 --> 00:19:50,563
+the wrong place or something.
+
+376
+00:19:50,563 --> 00:19:51,564
+It's the same thing.
+
+377
+00:19:51,564 --> 00:19:55,066
+All programmers, especially, can speak for this.
+
+378
+00:19:55,066 --> 00:19:57,587
+You usually find the answer by realizing you
+
+379
+00:19:57,587 --> 00:20:02,450
+did something stupid.
+
+380
+00:20:02,450 --> 00:20:07,533
+So we found that DigitalOcean has been really useful for
+
+381
+00:20:07,533 --> 00:20:08,633
+our experience.
+
+382
+00:20:09,311 --> 00:20:11,632
+especially for an online game.
+
+383
+00:20:11,632 --> 00:20:14,853
+But even if you have an offline game, it can be very useful.
+
+384
+00:20:14,853 --> 00:20:19,354
+So if you have a VPS, DigitalOcean is cheaper
+
+385
+00:20:19,354 --> 00:20:24,836
+and gives you more stuff, and is more simple than AWS and Google.
+
+386
+00:20:24,836 --> 00:20:27,197
+And I highly recommend it.
+
+387
+00:20:27,197 --> 00:20:29,858
+In our case, we started off with a discourse forum.
+
+388
+00:20:29,858 --> 00:20:33,419
+Because whether you have an online or offline game,
+
+389
+00:20:33,419 --> 00:20:36,140
+you want people talking about your game.
+
+390
+00:20:36,140 --> 00:20:37,521
+You want people discussing it.
+
+391
+00:20:38,058 --> 00:20:41,740
+And so Discourse is a Ruby-based forum.
+
+392
+00:20:41,740 --> 00:20:43,060
+It's very live and active.
+
+393
+00:20:43,060 --> 00:20:46,462
+And it's free, which is most important.
+
+394
+00:20:46,462 --> 00:20:48,543
+I pay $20 a month for my DigitalOcean
+
+395
+00:20:48,543 --> 00:20:51,624
+and have this Discourse.
+
+396
+00:20:51,624 --> 00:20:55,765
+And it's like a forum, but it's all live.
+
+397
+00:20:55,765 --> 00:20:58,787
+So you can see people typing a response.
+
+398
+00:20:58,787 --> 00:21:00,927
+You can paste images directly in.
+
+399
+00:21:00,927 --> 00:21:03,468
+You don't have to refresh to see conversation flowing.
+
+400
+00:21:03,468 --> 00:21:04,529
+Twitter uses it.
+
+401
+00:21:04,529 --> 00:21:05,989
+EVE Online uses it.
+
+402
+00:21:05,989 --> 00:21:06,850
+It's good stuff.
+
+403
+00:21:09,828 --> 00:21:12,669
+So I want to talk about back end as a service, BaaS.
+
+404
+00:21:12,669 --> 00:21:18,311
+So most people think this is only useful for online games.
+
+405
+00:21:18,311 --> 00:21:19,932
+I'm going to say it's not.
+
+406
+00:21:19,932 --> 00:21:22,693
+I'm going to say it's useful for both.
+
+407
+00:21:22,693 --> 00:21:24,854
+Because this is cloud storage.
+
+408
+00:21:24,854 --> 00:21:29,396
+So what you can do is you can store stats in the cloud.
+
+409
+00:21:29,396 --> 00:21:31,837
+You can store authentication information.
+
+410
+00:21:31,837 --> 00:21:35,398
+You can store things that people may use.
+
+411
+00:21:35,398 --> 00:21:39,040
+So in our example, people will log in through Steam.
+
+412
+00:21:39,497 --> 00:21:44,622
+And when they log in through Steam, it goes to GameSparks.
+
+413
+00:21:44,622 --> 00:21:47,686
+And from there, they have our internal ID.
+
+414
+00:21:47,686 --> 00:21:49,247
+And from there, we can link it to anything.
+
+415
+00:21:49,247 --> 00:21:52,190
+We can say log in with Twitch or Facebook or anything.
+
+416
+00:21:52,190 --> 00:21:54,553
+And that means we can link it to other things
+
+417
+00:21:54,553 --> 00:21:56,735
+outside of the game.
+
+418
+00:21:56,735 --> 00:22:00,138
+So for this, you can consider meta stuff.
+
+419
+00:22:00,138 --> 00:22:02,020
+So for example, we can have our website.
+
+420
+00:22:02,593 --> 00:22:04,173
+pull stats from the game.
+
+421
+00:22:04,173 --> 00:22:06,234
+We can say, who has the most points?
+
+422
+00:22:06,234 --> 00:22:07,515
+Who has the most kills?
+
+423
+00:22:07,515 --> 00:22:11,096
+Who has the highest level of number of achievements?
+
+424
+00:22:11,096 --> 00:22:14,798
+And these are things you can find in offline games, too.
+
+425
+00:22:14,798 --> 00:22:18,619
+And for online games, they also have server-side support.
+
+426
+00:22:18,619 --> 00:22:21,461
+Or if you're a single-player game, you want some DRM,
+
+427
+00:22:21,461 --> 00:22:23,741
+you don't want your game to end up on Pirate Bay,
+
+428
+00:22:23,741 --> 00:22:27,383
+then this is something that you can
+
+429
+00:22:27,383 --> 00:22:28,463
+choose for server-side stuff.
+
+430
+00:22:30,349 --> 00:22:33,930
+So in our case, we can use it to make sure people don't cheat.
+
+431
+00:22:33,930 --> 00:22:36,550
+We can make sure that for multiplayer games,
+
+432
+00:22:36,550 --> 00:22:41,051
+it's not OK for people to cheat because it ruins other people's experience.
+
+433
+00:22:41,051 --> 00:22:46,933
+For single-player games, you might not care.
+
+434
+00:22:46,933 --> 00:22:48,373
+You guys should market early.
+
+435
+00:22:48,373 --> 00:22:51,594
+And if you've been to developer conferences,
+
+436
+00:22:51,594 --> 00:22:55,915
+this is probably something you hear in every single one.
+
+437
+00:22:55,915 --> 00:22:56,855
+It's very true.
+
+438
+00:22:56,855 --> 00:22:59,435
+There are ways to do it very efficiently.
+
+439
+00:22:59,873 --> 00:23:02,754
+I know you guys want to just jump into the game, but this is sort of a requirement.
+
+440
+00:23:02,754 --> 00:23:08,036
+Because you don't want to have this awesome game and nobody knows about it.
+
+441
+00:23:08,036 --> 00:23:14,559
+So, what you can do is you can make a single website and have just one hero banner.
+
+442
+00:23:14,559 --> 00:23:19,401
+You can hire someone on Fiverr.com, which I mention in a little bit.
+
+443
+00:23:19,401 --> 00:23:24,884
+Fiverr.com, you spend $5, $10, and you can get some really awesome stuff.
+
+444
+00:23:24,884 --> 00:23:28,325
+Some of it's sort of, you know, template-y. It's like a template, but...
+
+445
+00:23:28,804 --> 00:23:40,049
+They're all very nice and some of them are very legit. You can get voiceovers. Actually, I have it pulled up
+
+446
+00:23:40,049 --> 00:23:46,252
+For like five bucks you can get logo design you can get like a single page page website voiceover
+
+447
+00:23:46,252 --> 00:23:51,034
+We have our original Kickstarter trailer had a two-minute voiceover
+
+448
+00:23:51,034 --> 00:23:56,436
+I paid $20 for it and the guy sounded amazing the guy sounded like some celebrity. Oh, it was great
+
+449
+00:23:57,438 --> 00:23:59,679
+You think that voiceovers are really expensive?
+
+450
+00:23:59,679 --> 00:24:00,239
+They're not.
+
+451
+00:24:00,239 --> 00:24:00,739
+Go to Fiverr.com.
+
+452
+00:24:00,739 --> 00:24:05,201
+This is an awesome site for some things you've got to beware.
+
+453
+00:24:05,201 --> 00:24:08,522
+Some of the services are just terrible.
+
+454
+00:24:08,522 --> 00:24:10,863
+But half of them are amazing, and they'll
+
+455
+00:24:10,863 --> 00:24:13,584
+save you tons of money.
+
+456
+00:24:13,584 --> 00:24:13,784
+Yeah.
+
+457
+00:24:13,784 --> 00:24:17,726
+So let me go back to my slide here.
+
+458
+00:24:21,325 --> 00:24:25,427
+So when you market earlier, you have your single page website, you have all your social
+
+459
+00:24:25,427 --> 00:24:32,831
+media set up like Twitter and Instagram. Instagram's getting really popular lately, we realized.
+
+460
+00:24:32,831 --> 00:24:38,894
+And have it all linked to your website. You have a sign-up form with just only asking
+
+461
+00:24:38,894 --> 00:24:47,599
+for first name and email, nothing else. Now, 100% ask for first name because as a new company,
+
+462
+00:24:47,599 --> 00:24:49,580
+your email is going to be sent to spam.
+
+463
+00:24:50,722 --> 00:24:52,603
+And they have huge filters.
+
+464
+00:24:52,603 --> 00:24:55,564
+If Google doesn't recognize you, or Yahoo,
+
+465
+00:24:55,564 --> 00:25:01,447
+whatever you use, you'll be sent the spam 50% of the time.
+
+466
+00:25:01,447 --> 00:25:05,049
+So when you say their first name, like, hi, first name,
+
+467
+00:25:05,049 --> 00:25:08,490
+hi, Dylan, it goes through the filters.
+
+468
+00:25:08,490 --> 00:25:11,732
+Google thinks, hey, you know this person, so we're going to
+
+469
+00:25:11,732 --> 00:25:13,293
+go through, even if you're new.
+
+470
+00:25:13,293 --> 00:25:15,033
+So this is something you want to do.
+
+471
+00:25:15,434 --> 00:25:21,338
+Also, email lists have value to you and also for future games.
+
+472
+00:25:21,338 --> 00:25:25,380
+You can say, hey, you played our first game.
+
+473
+00:25:25,380 --> 00:25:34,946
+Check out our second game.
+
+474
+00:25:34,946 --> 00:25:37,888
+You can think it for the future.
+
+475
+00:25:37,888 --> 00:25:44,672
+OK, so we're at high level architecture.
+
+476
+00:25:45,278 --> 00:25:48,621
+I mentioned earlier about the game.
+
+477
+00:25:48,621 --> 00:25:51,304
+You should be able to structure it in a Google document
+
+478
+00:25:51,304 --> 00:25:52,064
+properly.
+
+479
+00:25:52,064 --> 00:25:55,847
+But the same should be done with your company.
+
+480
+00:25:55,847 --> 00:25:58,850
+So with that, you can just do that with a press kit.
+
+481
+00:25:58,850 --> 00:26:02,073
+And so a lot of times, if you Google for press kit templates,
+
+482
+00:26:02,073 --> 00:26:05,035
+you'll see press kit with parentheses.
+
+483
+00:26:05,035 --> 00:26:05,676
+That's old.
+
+484
+00:26:05,676 --> 00:26:06,656
+Don't use that.
+
+485
+00:26:06,656 --> 00:26:09,819
+That one uses PHP, and it's sort of dated.
+
+486
+00:26:10,459 --> 00:26:13,040
+You can use differently.
+
+487
+00:26:13,040 --> 00:26:16,122
+This differently is sort of a futuristic one.
+
+488
+00:26:16,122 --> 00:26:17,022
+You can find it.
+
+489
+00:26:17,022 --> 00:26:18,363
+It's open source on GitLab.
+
+490
+00:26:18,363 --> 00:26:21,444
+For example, our press kit looks like this.
+
+491
+00:26:21,444 --> 00:26:24,846
+It looks just like the old press kit with the parentheses.
+
+492
+00:26:24,846 --> 00:26:26,046
+I think they call it doPressKit.
+
+493
+00:26:26,046 --> 00:26:31,048
+And so it's structured just very simply.
+
+494
+00:26:31,048 --> 00:26:32,409
+It's really easy.
+
+495
+00:26:32,409 --> 00:26:33,730
+It's templated.
+
+496
+00:26:33,730 --> 00:26:36,411
+All you need to do is replace their text with your own.
+
+497
+00:26:38,097 --> 00:26:41,119
+And while you're doing this, something
+
+498
+00:26:41,119 --> 00:26:47,001
+that really helps get yourself exposed to Twitch and YouTube
+
+499
+00:26:47,001 --> 00:26:48,862
+is offer cutouts.
+
+500
+00:26:48,862 --> 00:26:49,662
+Check this out.
+
+501
+00:26:49,662 --> 00:26:53,164
+So we have art cutouts, and we send these
+
+502
+00:26:53,164 --> 00:26:53,904
+to our content creators.
+
+503
+00:26:53,904 --> 00:26:57,326
+And this is useful for even bloggers, too.
+
+504
+00:26:57,326 --> 00:26:59,547
+Anyone that makes any content for your game,
+
+505
+00:26:59,547 --> 00:27:02,568
+they have high quality assets.
+
+506
+00:27:02,568 --> 00:27:04,509
+So if I click this, it's going to be
+
+507
+00:27:04,509 --> 00:27:06,970
+a giant, high resolution image, which is probably
+
+508
+00:27:06,970 --> 00:27:07,930
+going to take forever to load.
+
+509
+00:27:08,405 --> 00:27:09,125
+And so it's huge.
+
+510
+00:27:09,125 --> 00:27:11,127
+You can't see it, but it's transparent.
+
+511
+00:27:11,127 --> 00:27:14,290
+So they can use it on whatever article, or if they're
+
+512
+00:27:14,290 --> 00:27:16,391
+making, you know, YouTube, they have the thumbnails.
+
+513
+00:27:16,391 --> 00:27:19,514
+They can make it effortlessly, over and over.
+
+514
+00:27:19,514 --> 00:27:27,320
+And that encourages them to play your game.
+
+515
+00:27:27,320 --> 00:27:30,663
+So a lot of people need support for their game.
+
+516
+00:27:30,663 --> 00:27:34,266
+And for that, you can use Freshdesk.
+
+517
+00:27:34,266 --> 00:27:35,887
+Freshdesk is a.
+
+518
+00:27:36,808 --> 00:27:39,931
+support desk service, and it's free.
+
+519
+00:27:39,931 --> 00:27:44,314
+And what's special about them is that you can have a support email,
+
+520
+00:27:44,314 --> 00:27:46,456
+like support at imperium42.com,
+
+521
+00:27:46,456 --> 00:27:51,000
+and the email will turn into a ticket automatically.
+
+522
+00:27:51,000 --> 00:27:56,584
+So that's really easy, so you can get your whole team to collaborate with each other.
+
+523
+00:27:56,584 --> 00:27:59,786
+And you can have, there's also private notes and automated things,
+
+524
+00:27:59,786 --> 00:28:03,369
+like if you have a scammer emailing you saying,
+
+525
+00:28:03,369 --> 00:28:05,531
+please give me 20 keys, then you can...
+
+526
+00:28:05,881 --> 00:28:10,063
+you can have an automated response based on certain keywords and stuff.
+
+527
+00:28:10,063 --> 00:28:13,924
+So there's always communication going with tickets.
+
+528
+00:28:13,924 --> 00:28:16,946
+So everyone knows what's happening at the same time.
+
+529
+00:28:16,946 --> 00:28:19,246
+So let's say you're busy, you say,
+
+530
+00:28:19,246 --> 00:28:21,327
+Elsa, please look at this ticket.
+
+531
+00:28:21,327 --> 00:28:24,549
+Then she'll go and she'll already know what's going on.
+
+532
+00:28:24,549 --> 00:28:31,251
+There's no information ever lost between the agents looking at the support tickets.
+
+533
+00:28:31,251 --> 00:28:33,012
+Buffer is amazing.
+
+534
+00:28:34,065 --> 00:28:40,930
+will queue up your post for social media and send it to all the social media platforms
+
+535
+00:28:40,930 --> 00:28:42,571
+at the same time.
+
+536
+00:28:42,571 --> 00:28:45,273
+So let's say you have, it's a pain, right?
+
+537
+00:28:45,273 --> 00:28:51,918
+You're doing Twitch, Facebook, Instagram, I think they have others too even, like Pinterest,
+
+538
+00:28:51,918 --> 00:28:54,539
+all the other little ones no one cares that much about.
+
+539
+00:28:54,539 --> 00:29:00,924
+But you can have them, and you queue up your post and it'll send it at the times that Buffer
+
+540
+00:29:00,924 --> 00:29:02,265
+thinks is the perfect time.
+
+541
+00:29:02,690 --> 00:29:04,931
+for you to send them. It'll automatically space it out for you.
+
+542
+00:29:04,931 --> 00:29:12,597
+So let's say, in our case, the best time to send it out is 2am because we target America.
+
+543
+00:29:12,597 --> 00:29:17,121
+And so, if we go like, 2am, I'm not going to stay up until 2am and post it.
+
+544
+00:29:17,121 --> 00:29:19,983
+But, I can queue it up to buffer, and I can queue it up many times.
+
+545
+00:29:19,983 --> 00:29:22,525
+I can queue up maybe 10 posts at a time.
+
+546
+00:29:22,525 --> 00:29:27,829
+So I queue up 10 at a time, and it'll send it out to Twitter, Instagram, Facebook,
+
+547
+00:29:27,829 --> 00:29:29,450
+all at 2am automatically.
+
+548
+00:29:29,989 --> 00:29:31,190
+So this is good stuff.
+
+549
+00:29:31,190 --> 00:29:37,514
+And if you add multiple, it will automatically space it out.
+
+550
+00:29:37,514 --> 00:29:40,496
+Buffer.com. It's free, too.
+
+551
+00:29:40,496 --> 00:29:43,858
+I'm not going to talk much about ads, but if you do do ads,
+
+552
+00:29:43,858 --> 00:29:50,622
+in our experience, the best thing to look out for is don't do pay-per-view.
+
+553
+00:29:50,622 --> 00:29:52,864
+That's just... that's meant for companies like Coke, Coca-Cola,
+
+554
+00:29:52,864 --> 00:29:55,926
+that want brand recognition.
+
+555
+00:29:55,926 --> 00:29:57,787
+But you don't want brand recognition.
+
+556
+00:29:57,787 --> 00:29:59,808
+I mean, it's nice, but you want conversion.
+
+557
+00:30:00,293 --> 00:30:03,595
+You want people to click on your ad and buy the game.
+
+558
+00:30:03,595 --> 00:30:07,117
+I mean, if they know it but don't buy it,
+
+559
+00:30:07,117 --> 00:30:09,038
+it shouldn't matter to most of you.
+
+560
+00:30:09,038 --> 00:30:09,659
+So pay per click.
+
+561
+00:30:09,659 --> 00:30:11,460
+You can track this stuff.
+
+562
+00:30:11,460 --> 00:30:13,141
+You can track most of the conversions.
+
+563
+00:30:13,141 --> 00:30:15,662
+Although, if you use Steam, it's sort of hard
+
+564
+00:30:15,662 --> 00:30:16,723
+to see if it works or not.
+
+565
+00:30:16,723 --> 00:30:19,104
+So I still don't recommend it that much.
+
+566
+00:30:19,104 --> 00:30:20,925
+But if you do it, do that.
+
+567
+00:30:20,925 --> 00:30:24,107
+GIFs and videos work the best for these types
+
+568
+00:30:24,107 --> 00:30:26,788
+when we're looking at engagements.
+
+569
+00:30:33,881 --> 00:30:35,441
+So what have I learned?
+
+570
+00:30:35,441 --> 00:30:37,782
+Read the fine print.
+
+571
+00:30:37,782 --> 00:30:40,743
+Now, when you launch that online game,
+
+572
+00:30:40,743 --> 00:30:42,503
+you launch World of Warcraft or something,
+
+573
+00:30:42,503 --> 00:30:44,664
+and you see the big terms of service,
+
+574
+00:30:44,664 --> 00:30:47,545
+I know everyone just skips past that.
+
+575
+00:30:47,545 --> 00:30:53,566
+But now you're in management, so you need to read this stuff.
+
+576
+00:30:53,566 --> 00:30:59,928
+So for example, we were choosing between our back end of service.
+
+577
+00:30:59,928 --> 00:31:03,309
+And at the time, we chose PlayFab.
+
+578
+00:31:03,616 --> 00:31:05,217
+for our very first one, before GameSparks.
+
+579
+00:31:05,217 --> 00:31:07,839
+And before that, as we're working on that,
+
+580
+00:31:07,839 --> 00:31:10,722
+I spent about a year of development
+
+581
+00:31:10,722 --> 00:31:12,143
+adding them into the game.
+
+582
+00:31:12,143 --> 00:31:14,645
+It was supposed to be $10 a month.
+
+583
+00:31:14,645 --> 00:31:16,947
+And then when we launched, I got the contract.
+
+584
+00:31:16,947 --> 00:31:20,069
+And so maybe about two weeks before we launched,
+
+585
+00:31:20,069 --> 00:31:21,110
+I got the contract.
+
+586
+00:31:21,110 --> 00:31:21,991
+I read it over.
+
+587
+00:31:21,991 --> 00:31:25,113
+And suddenly, I realized I'm not paying $10 a month
+
+588
+00:31:25,113 --> 00:31:25,834
+once I launch.
+
+589
+00:31:25,834 --> 00:31:29,137
+I'm paying $300 a month once I first launch.
+
+590
+00:31:29,137 --> 00:31:31,238
+And for a company with no budget.
+
+591
+00:31:31,831 --> 00:31:40,575
+If you've launched with Steam before, you don't get paid for even two months.
+
+592
+00:31:40,575 --> 00:31:45,877
+You have to wait two months and then you get paid.
+
+593
+00:31:45,877 --> 00:31:49,758
+I want to explain FinePrint in Chinese.
+
+594
+00:31:49,758 --> 00:31:50,339
+Sure.
+
+595
+00:31:50,339 --> 00:31:57,561
+FinePrint is a document that you have to read carefully.
+
+596
+00:31:58,635 --> 00:32:01,216
+Yeah, so we thought we were paying $10 a month.
+
+597
+00:32:01,216 --> 00:32:03,818
+Now we're paying $300 a month, US dollars.
+
+598
+00:32:03,818 --> 00:32:06,820
+So that's a big difference.
+
+599
+00:32:06,820 --> 00:32:08,822
+And so we couldn't afford that.
+
+600
+00:32:08,822 --> 00:32:13,845
+And so we ended up having to spend 150 hours to port
+
+601
+00:32:13,845 --> 00:32:15,686
+to the competitor, GameSparks.
+
+602
+00:32:15,686 --> 00:32:17,928
+And in the end, I did look ahead.
+
+603
+00:32:17,928 --> 00:32:22,791
+And they said that they would give me a free account,
+
+604
+00:32:22,791 --> 00:32:24,472
+since we were a very small team.
+
+605
+00:32:24,472 --> 00:32:26,493
+And so you guys can do that, too.
+
+606
+00:32:26,867 --> 00:32:29,548
+If you go to gamesparks.com and you have a small team,
+
+607
+00:32:29,548 --> 00:32:36,073
+small as in full-time, you can get a free Gamesparks BaaS account.
+
+608
+00:32:36,073 --> 00:32:41,557
+As long as you have under 100,000 people per month,
+
+609
+00:32:41,557 --> 00:32:44,499
+which is a lot, we don't even have half that,
+
+610
+00:32:44,499 --> 00:32:49,182
+then you get it for free, with no limitations.
+
+611
+00:32:49,182 --> 00:32:51,104
+It's awesome.
+
+612
+00:32:54,511 --> 00:32:59,293
+So as for PR firms, a lot of people, they wonder if they need PR or not.
+
+613
+00:32:59,293 --> 00:33:01,635
+And the answer is probably no.
+
+614
+00:33:01,635 --> 00:33:03,095
+Almost every time.
+
+615
+00:33:03,095 --> 00:33:09,238
+The PR guys, what I just taught you earlier about Buffer and all that, they're using that.
+
+616
+00:33:09,238 --> 00:33:09,939
+You can do that.
+
+617
+00:33:09,939 --> 00:33:14,161
+It seems like they're doing a lot, but all they do is they know the tools.
+
+618
+00:33:14,161 --> 00:33:21,965
+And we actually hired a PR firm at the beginning for our Kickstarter, and we spent about $1
+
+619
+00:33:22,447 --> 00:33:25,048
+We spent too much. We spent like $2,000 US dollars,
+
+620
+00:33:25,048 --> 00:33:26,929
+$3,000 US dollars, which was all of our budget on PR.
+
+621
+00:33:26,929 --> 00:33:29,150
+And so this ended up being a mistake.
+
+622
+00:33:29,150 --> 00:33:38,256
+So in the end, I realized that people, bloggers and news people for gaming,
+
+623
+00:33:38,256 --> 00:33:43,999
+they don't really care about Kickstarters.
+
+624
+00:33:43,999 --> 00:33:50,083
+You know, people have Kickstarters so often these days that it's just not news anymore.
+
+625
+00:33:50,786 --> 00:33:55,689
+And so many Kickstarters don't actually come into real games.
+
+626
+00:33:55,689 --> 00:34:01,093
+So people are afraid to cover you if you have a Kickstarter.
+
+627
+00:34:01,093 --> 00:34:07,757
+It may be better if you're new, if you actually launched.
+
+628
+00:34:07,757 --> 00:34:12,480
+But even then, you can actually Google for press release
+
+629
+00:34:12,480 --> 00:34:13,801
+companies instead.
+
+630
+00:34:13,801 --> 00:34:16,823
+And you pay maybe $45, maybe $50 US, and they
+
+631
+00:34:17,864 --> 00:34:23,766
+will distribute out to maybe hundreds, thousands of emails and companies.
+
+632
+00:34:23,766 --> 00:34:26,167
+You can do this yourself for $50 instead of $3,000.
+
+633
+00:34:26,167 --> 00:34:30,629
+Because just what I told you, this is what they do.
+
+634
+00:34:30,629 --> 00:34:32,790
+They know the tools, they know the sources.
+
+635
+00:34:32,790 --> 00:34:37,592
+And if you know what to Google, you can do it for so much cheaper.
+
+636
+00:34:37,592 --> 00:34:39,273
+So just skip PR firms.
+
+637
+00:34:39,273 --> 00:34:44,175
+If you're going to do a PR firm anyway, at least go to their website.
+
+638
+00:34:44,175 --> 00:34:47,136
+They'll always have client lists.
+
+639
+00:34:47,627 --> 00:34:50,829
+then contact those developers directly.
+
+640
+00:34:50,829 --> 00:34:52,610
+So somebody recently contacted me,
+
+641
+00:34:52,610 --> 00:34:53,731
+because we're on their website still.
+
+642
+00:34:53,731 --> 00:34:55,532
+They asked me, what do you think about these guys?
+
+643
+00:34:55,532 --> 00:34:58,714
+We're about to spend a few thousand.
+
+644
+00:34:58,714 --> 00:35:01,836
+And we didn't have very good things to say.
+
+645
+00:35:01,836 --> 00:35:07,980
+And so we may have saved them some money.
+
+646
+00:35:07,980 --> 00:35:12,442
+So you want to set your public milestones two weeks
+
+647
+00:35:12,442 --> 00:35:14,684
+after you're ready.
+
+648
+00:35:14,684 --> 00:35:15,084
+We made a mistake.
+
+649
+00:35:15,750 --> 00:35:22,094
+So when we launched our Alpha for the first time, we launched on the same day we were ready.
+
+650
+00:35:22,094 --> 00:35:25,636
+We said, we think we're going to be ready by this day?
+
+651
+00:35:25,636 --> 00:35:28,197
+Well, we were, literally.
+
+652
+00:35:28,197 --> 00:35:32,220
+So there was no buffer time in between.
+
+653
+00:35:32,220 --> 00:35:35,942
+What ended up happening was we were in a rush, we couldn't sleep,
+
+654
+00:35:35,942 --> 00:35:41,565
+we had to test a million miles an hour, we were stressed.
+
+655
+00:35:41,565 --> 00:35:43,326
+It was a very stressful time.
+
+656
+00:35:44,197 --> 00:35:50,541
+If we would have set our launch date maybe two weeks, or even a month after we're ready,
+
+657
+00:35:50,541 --> 00:35:54,324
+we could polish it a little bit, we could take our time to test it.
+
+658
+00:35:54,324 --> 00:35:57,546
+Lots of times there's always something small that,
+
+659
+00:35:57,546 --> 00:36:02,669
+something small maybe takes five minutes to change, but may have a big impact.
+
+660
+00:36:02,669 --> 00:36:09,034
+For example, let's say you have a tutorial and your tutorial button didn't work or something,
+
+661
+00:36:09,034 --> 00:36:13,657
+then just an extra little bit of time after you think you're ready.
+
+662
+00:36:14,285 --> 00:36:18,607
+it really makes a difference, not just for the players,
+
+663
+00:36:18,607 --> 00:36:20,247
+but for your whole team and your body.
+
+664
+00:36:20,247 --> 00:36:22,208
+We use Wikia for our documentation, our rules,
+
+665
+00:36:22,208 --> 00:36:26,890
+our external localization.
+
+666
+00:36:26,890 --> 00:36:31,733
+We don't have localization in the game yet.
+
+667
+00:36:31,733 --> 00:36:35,814
+I know I'm surprised that you guys showed up,
+
+668
+00:36:35,814 --> 00:36:40,096
+because we don't have Chinese localization yet.
+
+669
+00:36:40,096 --> 00:36:41,737
+So thank you guys for coming.
+
+670
+00:36:42,179 --> 00:36:48,202
+So it's pretty embarrassing, but we do have external localization right now.
+
+671
+00:36:48,202 --> 00:36:54,045
+And so what I mean by that is, I think I have Wikia pulled up, I do.
+
+672
+00:36:54,045 --> 00:36:57,567
+So here's the English one.
+
+673
+00:36:57,567 --> 00:37:01,649
+We actually have our community translate for us.
+
+674
+00:37:01,649 --> 00:37:06,491
+Because in exchange, we give them free keys.
+
+675
+00:37:06,491 --> 00:37:08,252
+Some of them just do it for free.
+
+676
+00:37:13,576 --> 00:37:16,118
+Some of them just do it because they're passionate about the game.
+
+677
+00:37:16,118 --> 00:37:24,164
+So you can see it's just a dump of documentation.
+
+678
+00:37:24,164 --> 00:37:27,506
+We have charts here. If it's in red, the page doesn't exist yet.
+
+679
+00:37:27,506 --> 00:37:29,608
+If it's in blue, then the page does exist.
+
+680
+00:37:29,608 --> 00:37:33,150
+And so some of it is in an English template.
+
+681
+00:37:33,150 --> 00:37:37,434
+You can see it's still in English, even though this is the Chinese page.
+
+682
+00:37:37,434 --> 00:37:43,078
+But you can see people are slowly editing section by section about the game.
+
+683
+00:37:43,893 --> 00:37:48,094
+So localization is a big project.
+
+684
+00:37:48,094 --> 00:37:50,815
+And you don't have to have it in game right at the beginning.
+
+685
+00:37:50,815 --> 00:37:53,956
+What you can do is, while you're programming,
+
+686
+00:37:53,956 --> 00:37:57,276
+you can ask the community to help you localize.
+
+687
+00:37:57,276 --> 00:37:59,997
+So when we do localize, everything is here.
+
+688
+00:37:59,997 --> 00:38:02,778
+And what are they working for?
+
+689
+00:38:02,778 --> 00:38:06,419
+You can give them game keys I mentioned earlier.
+
+690
+00:38:06,419 --> 00:38:10,040
+You can give them titles if you use Discord, or even in game.
+
+691
+00:38:10,040 --> 00:38:11,900
+You can give them something special.
+
+692
+00:38:12,551 --> 00:38:15,152
+In Discord, it takes two seconds to add them a title,
+
+693
+00:38:15,152 --> 00:38:16,472
+but they're stoked about it.
+
+694
+00:38:16,472 --> 00:38:21,053
+We give them a secret channel called Wikia Masters.
+
+695
+00:38:21,053 --> 00:38:26,734
+And so only the Wikia people that contribute and localize
+
+696
+00:38:26,734 --> 00:38:28,795
+can see this channel in Discord.
+
+697
+00:38:28,795 --> 00:38:30,415
+It's huge for morale.
+
+698
+00:38:30,415 --> 00:38:34,336
+They think it's super cool, and they're part of the community.
+
+699
+00:38:34,336 --> 00:38:35,176
+They're engaged.
+
+700
+00:38:35,176 --> 00:38:37,757
+And sometimes they compete to see
+
+701
+00:38:37,757 --> 00:38:42,438
+who has the highest edit counts, which is a win-win, you know?
+
+702
+00:38:43,283 --> 00:38:44,164
+It's a wonderful thing.
+
+703
+00:38:44,164 --> 00:38:47,705
+And so we actually have quite a lot of translations.
+
+704
+00:38:47,705 --> 00:38:51,586
+The only thing we did was the English one.
+
+705
+00:38:51,586 --> 00:38:54,127
+But even then, the community will help expand it,
+
+706
+00:38:54,127 --> 00:38:56,087
+because they're very passionate.
+
+707
+00:38:56,087 --> 00:38:58,268
+If you get a community to follow you,
+
+708
+00:38:58,268 --> 00:39:01,609
+Discord again is the key to that.
+
+709
+00:39:01,609 --> 00:39:04,350
+And Discourse, that forum I mentioned earlier.
+
+710
+00:39:04,350 --> 00:39:07,251
+Then these people will help you do this for free,
+
+711
+00:39:07,251 --> 00:39:11,192
+because they want their community to understand
+
+712
+00:39:11,192 --> 00:39:12,532
+the game in their own language.
+
+713
+00:39:13,500 --> 00:39:18,302
+We have some people who are very passionate, and they just want to translate.
+
+714
+00:39:18,302 --> 00:39:22,284
+And I'm happy to do that, so I can keep developing,
+
+715
+00:39:22,284 --> 00:39:28,387
+and localization will come pretty easy later.
+
+716
+00:39:28,387 --> 00:39:31,688
+So, if you're looking into multiplayer,
+
+717
+00:39:31,688 --> 00:39:34,849
+there are two major competitors.
+
+718
+00:39:34,849 --> 00:39:36,710
+You can use UNet, or you can use...
+
+719
+00:39:36,710 --> 00:39:39,551
+Oh, I think that's three.
+
+720
+00:39:39,551 --> 00:39:41,092
+UNet, Photon, or GameSparks.
+
+721
+00:39:42,338 --> 00:39:43,459
+Simply put, don't use U-Net.
+
+722
+00:39:43,459 --> 00:39:47,821
+U-Net was made by Unity, so your first bet will think, oh,
+
+723
+00:39:47,821 --> 00:39:51,283
+it's made by Unity, so it's probably the best.
+
+724
+00:39:51,283 --> 00:39:56,005
+Let me tell you, it's sort of an abandoned module.
+
+725
+00:39:56,005 --> 00:39:57,725
+We used it.
+
+726
+00:39:57,725 --> 00:40:01,047
+And there's no documentation.
+
+727
+00:40:01,047 --> 00:40:02,808
+There's no support.
+
+728
+00:40:02,808 --> 00:40:03,828
+And it's incomplete.
+
+729
+00:40:03,828 --> 00:40:05,189
+It's sort of like an alpha.
+
+730
+00:40:05,189 --> 00:40:06,710
+Maybe it will be good one day.
+
+731
+00:40:06,710 --> 00:40:07,410
+Maybe.
+
+732
+00:40:07,410 --> 00:40:10,131
+But for now, just simply skip it.
+
+733
+00:40:10,131 --> 00:40:11,012
+As for PlayFab.
+
+734
+00:40:11,513 --> 00:40:14,175
+PlayFab is the competitor to GameSparks.
+
+735
+00:40:14,175 --> 00:40:15,637
+They don't have real-time servers,
+
+736
+00:40:15,637 --> 00:40:17,558
+but they have the data sort of like GameSparks.
+
+737
+00:40:17,558 --> 00:40:21,081
+With PlayFab, there's tons of limitations.
+
+738
+00:40:21,081 --> 00:40:23,983
+And they may have been the example
+
+739
+00:40:23,983 --> 00:40:27,045
+we used earlier for the fine print.
+
+740
+00:40:27,045 --> 00:40:29,147
+So I recommend don't using them.
+
+741
+00:40:29,147 --> 00:40:31,529
+Again, I think GameSparks.
+
+742
+00:40:31,529 --> 00:40:35,612
+GameSparks and Photon are both great.
+
+743
+00:40:35,612 --> 00:40:38,454
+GameSparks does both, real-time and data.
+
+744
+00:40:38,454 --> 00:40:40,836
+Photon just does real-time.
+
+745
+00:40:41,965 --> 00:40:43,607
+But they both have really good documentation.
+
+746
+00:40:43,607 --> 00:40:47,670
+And you can make a multiplayer lobby in maybe two hours.
+
+747
+00:40:47,670 --> 00:40:49,432
+Really, it's fast, super fast.
+
+748
+00:40:49,432 --> 00:40:55,777
+So about our Kickstarter, our Kickstarter,
+
+749
+00:40:55,777 --> 00:40:59,500
+it's definitely a full-time job.
+
+750
+00:40:59,500 --> 00:41:02,563
+And if you think it won't be, you're in denial.
+
+751
+00:41:02,563 --> 00:41:04,624
+It's very hard work.
+
+752
+00:41:04,624 --> 00:41:09,608
+When you're on a Kickstarter, maybe years ago,
+
+753
+00:41:09,608 --> 00:41:10,249
+you could have concepts.
+
+754
+00:41:10,575 --> 00:41:12,897
+But now, it's not these days.
+
+755
+00:41:12,897 --> 00:41:17,721
+These days, you have to have almost a full game,
+
+756
+00:41:17,721 --> 00:41:19,482
+like maybe 75% complete.
+
+757
+00:41:19,482 --> 00:41:22,164
+You need to have full GIFs.
+
+758
+00:41:22,164 --> 00:41:25,827
+You need to have maybe 20 GIFs of the gameplay.
+
+759
+00:41:25,827 --> 00:41:29,570
+You need to have a gameplay trailer ready.
+
+760
+00:41:29,570 --> 00:41:32,773
+And you also need to have a monologue at the beginning.
+
+761
+00:41:32,773 --> 00:41:35,715
+Like you, yourself, preferably the owner,
+
+762
+00:41:35,715 --> 00:41:37,977
+is talking about the game.
+
+763
+00:41:37,977 --> 00:41:39,118
+Because on Kickstarter.
+
+764
+00:41:39,819 --> 00:41:43,863
+They're not buying the game, they're buying your concept.
+
+765
+00:41:43,863 --> 00:41:46,285
+They're investing in you, the developer.
+
+766
+00:41:46,285 --> 00:41:48,747
+So, it's very important.
+
+767
+00:41:48,747 --> 00:41:52,131
+Your speech comes before your trailer in a Kickstarter.
+
+768
+00:41:52,131 --> 00:41:53,992
+So you speak first.
+
+769
+00:41:53,992 --> 00:41:55,774
+You talk to the people.
+
+770
+00:41:55,774 --> 00:41:58,336
+Say, this is why you should invest in us.
+
+771
+00:41:58,336 --> 00:42:01,459
+And you need to be very passionate about it.
+
+772
+00:42:01,459 --> 00:42:02,460
+You need to show emotion.
+
+773
+00:42:03,125 --> 00:42:05,427
+uh... you know, even just explain like why
+
+774
+00:42:05,427 --> 00:42:11,312
+uh... how long you've been working on it and what it means to you. Why did you make this game?
+
+775
+00:42:11,312 --> 00:42:12,072
+Just really
+
+776
+00:42:12,072 --> 00:42:14,114
+pour your heart and soul into it.
+
+777
+00:42:14,114 --> 00:42:15,255
+And that's
+
+778
+00:42:15,255 --> 00:42:17,357
+what they're investing in.
+
+779
+00:42:17,357 --> 00:42:18,458
+We made a mistake earlier
+
+780
+00:42:18,458 --> 00:42:20,680
+at the very beginning.
+
+781
+00:42:20,680 --> 00:42:22,481
+We put the gameplay trailer first
+
+782
+00:42:22,481 --> 00:42:24,964
+and then our monologue.
+
+783
+00:42:24,964 --> 00:42:26,605
+And we had like a two minute trailer, it was sort of long.
+
+784
+00:42:29,264 --> 00:42:34,928
+And so once we swapped it, we put our speech first,
+
+785
+00:42:34,928 --> 00:42:38,110
+then suddenly you could actually see the curve go up,
+
+786
+00:42:38,110 --> 00:42:39,691
+like almost immediately.
+
+787
+00:42:39,691 --> 00:42:42,893
+Yeah, that's when we discovered people invest in you,
+
+788
+00:42:42,893 --> 00:42:45,875
+not the game, on Kickstarter.
+
+789
+00:42:45,875 --> 00:42:48,757
+And so for Kickstarter, if you're in Taiwan,
+
+790
+00:42:48,757 --> 00:42:52,599
+it's okay, you can still have a Kickstarter,
+
+791
+00:42:52,599 --> 00:42:54,401
+but you would need to have a partner
+
+792
+00:42:54,401 --> 00:42:56,802
+that has some sort of connection to US.
+
+793
+00:42:58,103 --> 00:43:00,926
+Because it needs to go to a US bank account.
+
+794
+00:43:00,926 --> 00:43:03,648
+And so if you have a friend or family or something like that,
+
+795
+00:43:03,648 --> 00:43:06,150
+just say you can give them a percentage.
+
+796
+00:43:06,150 --> 00:43:09,673
+Say, hey, if you help us with the Kickstarter,
+
+797
+00:43:09,673 --> 00:43:13,897
+we'll give you 10% just by being the agent for the bank
+
+798
+00:43:13,897 --> 00:43:18,381
+or something like that, too.
+
+799
+00:43:18,381 --> 00:43:19,522
+Let's see.
+
+800
+00:43:19,522 --> 00:43:20,823
+Oh, for trailer.
+
+801
+00:43:20,823 --> 00:43:22,885
+So I mentioned earlier, we had a two-minute trailer
+
+802
+00:43:22,885 --> 00:43:24,666
+at the beginning.
+
+803
+00:43:25,576 --> 00:43:31,057
+The trailer I showed you earlier was our newest one, and that's been the most successful one.
+
+804
+00:43:31,057 --> 00:43:34,398
+So that one's only 30 seconds long.
+
+805
+00:43:34,398 --> 00:43:40,740
+That means a 30-second trailer is significantly better than a 2-minute trailer.
+
+806
+00:43:40,740 --> 00:43:49,022
+This means it's cheaper to make, it's less stressful to make, and you may even be able to do it yourself.
+
+807
+00:43:49,022 --> 00:43:51,222
+I used Filmora to make that trailer.
+
+808
+00:43:51,222 --> 00:43:53,463
+I didn't hire anyone professional.
+
+809
+00:43:54,382 --> 00:43:58,303
+I think I paid maybe $50 for a license,
+
+810
+00:43:58,303 --> 00:44:00,423
+and I was able to put that together.
+
+811
+00:44:00,423 --> 00:44:05,064
+And the way I did it was, I just played a whole bunch of games,
+
+812
+00:44:05,064 --> 00:44:06,745
+and I kept recording them in full HD.
+
+813
+00:44:06,745 --> 00:44:10,085
+So over time, I have all these different clips.
+
+814
+00:44:10,085 --> 00:44:14,286
+And so if I want a specific event to happen,
+
+815
+00:44:14,286 --> 00:44:17,447
+I can just pull it and throw it in the trailer,
+
+816
+00:44:17,447 --> 00:44:18,467
+pull it and throw it in the trailer.
+
+817
+00:44:18,467 --> 00:44:22,548
+I only need 30 seconds, so it's not very stressful.
+
+818
+00:44:24,043 --> 00:44:27,585
+But if you really have no desire to make a game trailer,
+
+819
+00:44:27,585 --> 00:44:31,086
+you can hire someone.
+
+820
+00:44:31,086 --> 00:44:32,967
+Write down GameSharkStudio.
+
+821
+00:44:32,967 --> 00:44:36,128
+You can ask me later if you forget.
+
+822
+00:44:36,128 --> 00:44:37,089
+GameSharkStudio.
+
+823
+00:44:37,089 --> 00:44:40,490
+They're somewhere in Europe.
+
+824
+00:44:40,490 --> 00:44:44,972
+And they'll make you a really good trailer for really cheap,
+
+825
+00:44:44,972 --> 00:44:48,954
+like really good price.
+
+826
+00:44:48,954 --> 00:44:51,275
+We were very satisfied with them.
+
+827
+00:44:52,917 --> 00:44:56,217
+Oh, and one more thing about the trailer, because it is so important, your trailer.
+
+828
+00:44:56,217 --> 00:44:58,458
+Show the UI.
+
+829
+00:44:58,458 --> 00:45:05,259
+If you don't show the UI, even if it's gameplay, they won't believe you.
+
+830
+00:45:05,259 --> 00:45:08,280
+They'll think it's a cinematic trailer.
+
+831
+00:45:08,280 --> 00:45:09,320
+And so, yeah.
+
+832
+00:45:09,320 --> 00:45:14,241
+And so we're like, no, this is, I swear, this is gameplay.
+
+833
+00:45:14,241 --> 00:45:14,981
+Yeah, right, man.
+
+834
+00:45:14,981 --> 00:45:19,742
+So yeah, show your UI, and they'll believe you that it's gameplay.
+
+835
+00:45:20,382 --> 00:45:24,785
+And when you do have your trailer, start the gameplay instantly.
+
+836
+00:45:24,785 --> 00:45:27,547
+So, within the first two seconds.
+
+837
+00:45:27,547 --> 00:45:33,092
+Maybe show your... sort of like hours earlier, show your title for two seconds max.
+
+838
+00:45:33,092 --> 00:45:38,736
+Then go straight to the gameplay.
+
+839
+00:45:38,736 --> 00:45:41,038
+Oh, sorry, I mentioned this for the video makers.
+
+840
+00:45:41,038 --> 00:45:43,840
+It's Whale Shark Studio, not Game Shark Studio.
+
+841
+00:45:43,840 --> 00:45:46,462
+I think I was having a flashback to the old...
+
+842
+00:45:46,913 --> 00:45:51,698
+Gameshark days on Sega Genesis and Super Nintendo.
+
+843
+00:45:51,698 --> 00:45:51,918
+Okay, so
+
+844
+00:45:51,918 --> 00:45:55,861
+you can have your alpha on Steam.
+
+845
+00:45:55,861 --> 00:45:58,283
+Sorry, what is that 50% lower goal thing?
+
+846
+00:45:58,283 --> 00:45:59,084
+50% lower goal?
+
+847
+00:45:59,084 --> 00:46:04,208
+Oh, I'm sorry, I skipped a section. So for the Kickstarter,
+
+848
+00:46:04,208 --> 00:46:08,152
+50% lower goal, half lower goal.
+
+849
+00:46:08,152 --> 00:46:12,916
+That's what you want to aim for. So, in our case...
+
+850
+00:46:13,246 --> 00:46:15,707
+We asked for $20,000 because we wanted $20,000.
+
+851
+00:46:15,707 --> 00:46:17,848
+That was a mistake.
+
+852
+00:46:17,848 --> 00:46:23,531
+We were extremely stressed, because we only
+
+853
+00:46:23,531 --> 00:46:24,851
+got $21,000 in the end.
+
+854
+00:46:24,851 --> 00:46:27,112
+So we barely made it.
+
+855
+00:46:27,112 --> 00:46:32,635
+And if you know Kickstarter, it's all or nothing.
+
+856
+00:46:32,635 --> 00:46:34,916
+So it's better to ask for half.
+
+857
+00:46:34,916 --> 00:46:37,777
+As long as you can actually work with half,
+
+858
+00:46:37,777 --> 00:46:41,179
+as long as you can still make the game with half,
+
+859
+00:46:41,179 --> 00:46:41,679
+ask for half.
+
+860
+00:46:42,790 --> 00:46:46,052
+So if we did it again, we would have asked for $10,000.
+
+861
+00:46:46,052 --> 00:46:49,615
+So then once you hit $10,000, you say, oh, we're over the amount.
+
+862
+00:46:49,615 --> 00:46:50,917
+If we hit $20,000, we can say 200% funded.
+
+863
+00:46:50,917 --> 00:46:53,679
+It sounds so good, right?
+
+864
+00:46:53,679 --> 00:46:57,982
+I mean, the PR people will just eat that up.
+
+865
+00:46:57,982 --> 00:46:59,063
+It's just great.
+
+866
+00:46:59,063 --> 00:47:01,565
+And then you can have stretch goals.
+
+867
+00:47:01,565 --> 00:47:03,847
+So then everyone's excited.
+
+868
+00:47:03,847 --> 00:47:06,630
+They're trying to get that stretch goal.
+
+869
+00:47:06,630 --> 00:47:09,832
+Stretch goal is when you, if you make the funding,
+
+870
+00:47:09,832 --> 00:47:11,073
+if you're overfunded.
+
+871
+00:47:11,443 --> 00:47:15,145
+You could unlock special things in game.
+
+872
+00:47:15,145 --> 00:47:18,346
+And some of it, lots of the stretch goals,
+
+873
+00:47:18,346 --> 00:47:21,027
+you probably plan to do anyway.
+
+874
+00:47:21,027 --> 00:47:23,507
+But if you're funded, you can say you'll do it faster.
+
+875
+00:47:23,507 --> 00:47:25,988
+You'll do it like, you'll release it with this feature,
+
+876
+00:47:25,988 --> 00:47:27,269
+or maybe an extra class.
+
+877
+00:47:27,269 --> 00:47:33,831
+And so that really helps your funding.
+
+878
+00:47:33,831 --> 00:47:35,731
+So yeah, your alpha.
+
+879
+00:47:35,731 --> 00:47:37,792
+You can have your alpha on Steam,
+
+880
+00:47:37,792 --> 00:47:39,893
+and it doesn't have to be early access.
+
+881
+00:47:40,654 --> 00:47:46,158
+Early Access right now does not have a good vision.
+
+882
+00:47:46,158 --> 00:47:49,680
+When you see an Early Access game,
+
+883
+00:47:49,680 --> 00:47:51,562
+then people are skeptical.
+
+884
+00:47:51,562 --> 00:47:53,363
+They're suspicious.
+
+885
+00:47:53,363 --> 00:47:55,184
+They may not want to play it.
+
+886
+00:47:55,184 --> 00:48:01,028
+And if they do, they'll judge it as if it's a full release game.
+
+887
+00:48:01,028 --> 00:48:05,632
+So you may get negative reviews with AAA expectations
+
+888
+00:48:05,632 --> 00:48:08,594
+if they run into bugs.
+
+889
+00:48:08,594 --> 00:48:08,974
+And so.
+
+890
+00:48:09,623 --> 00:48:13,604
+What we did is we had a closed alpha and beta.
+
+891
+00:48:13,604 --> 00:48:18,064
+And when I say closed, I mean, you could buy keys from our website.
+
+892
+00:48:18,064 --> 00:48:20,145
+We use Stripe, by the way.
+
+893
+00:48:20,145 --> 00:48:20,485
+S-T-R-I-P-E
+
+894
+00:48:20,485 --> 00:48:25,666
+And so, at first we used Stripe, but if I did it again,
+
+895
+00:48:25,666 --> 00:48:27,506
+we would use itch.io
+
+896
+00:48:27,506 --> 00:48:28,666
+I-T-C-H dot I-O
+
+897
+00:48:28,666 --> 00:48:30,186
+They're free!
+
+898
+00:48:30,186 --> 00:48:32,867
+And you can just upload a bunch of keys,
+
+899
+00:48:32,867 --> 00:48:37,088
+and they'll buy it, and you can choose how much commission they get.
+
+900
+00:48:37,088 --> 00:48:38,368
+It's really easy.
+
+901
+00:48:39,075 --> 00:48:41,536
+pretty much free.
+
+902
+00:48:41,536 --> 00:48:45,438
+But the benefits are huge.
+
+903
+00:48:45,438 --> 00:48:49,039
+So let's say you submit your game to Steam.
+
+904
+00:48:49,039 --> 00:48:51,080
+Right now, you don't have to have it voted.
+
+905
+00:48:51,080 --> 00:48:51,760
+They changed it.
+
+906
+00:48:51,760 --> 00:48:55,101
+All you have to do is pay $100 US, and your game is on Steam.
+
+907
+00:48:55,101 --> 00:48:59,463
+It doesn't mean that it's launched yet.
+
+908
+00:48:59,463 --> 00:49:04,805
+As soon as you know that your game is going to be official,
+
+909
+00:49:04,805 --> 00:49:07,586
+then you do this, and you make a store.
+
+910
+00:49:08,235 --> 00:49:12,416
+So your store is going to have your gameplay trailer.
+
+911
+00:49:12,416 --> 00:49:15,357
+It's going to have screenshots.
+
+912
+00:49:15,357 --> 00:49:21,178
+And most importantly, it's going to have a coming soon.
+
+913
+00:49:21,178 --> 00:49:26,039
+You can say when the date is optional.
+
+914
+00:49:26,039 --> 00:49:27,159
+Coming soon, quarter four, 2018.
+
+915
+00:49:27,159 --> 00:49:29,399
+And most importantly, a wishlist button.
+
+916
+00:49:29,399 --> 00:49:29,859
+Add to wishlist.
+
+917
+00:49:29,859 --> 00:49:30,379
+This is huge.
+
+918
+00:49:30,379 --> 00:49:33,740
+You can have your game launch a year later if you wanted to.
+
+919
+00:49:33,740 --> 00:49:34,800
+And you have that store there.
+
+920
+00:49:34,800 --> 00:49:38,001
+Remember that I mentioned early marketing.
+
+921
+00:49:38,311 --> 00:49:39,612
+This is early marketing.
+
+922
+00:49:39,612 --> 00:49:41,813
+And people are adding to their wish list.
+
+923
+00:49:41,813 --> 00:49:45,675
+So when you do launch, every single person that added your
+
+924
+00:49:45,675 --> 00:49:50,117
+game to the wish list will be notified saying, hey, this
+
+925
+00:49:50,117 --> 00:49:53,238
+game has launched.
+
+926
+00:49:53,238 --> 00:49:56,300
+You should buy this game.
+
+927
+00:49:56,300 --> 00:49:57,100
+So that really helps.
+
+928
+00:49:57,100 --> 00:50:00,622
+So for example, I think I have our store page.
+
+929
+00:50:00,622 --> 00:50:02,103
+Let's see, store.
+
+930
+00:50:09,303 --> 00:50:13,145
+Oh wow, it's localized.
+
+931
+00:50:13,145 --> 00:50:14,185
+Oh, she changed it.
+
+932
+00:50:14,185 --> 00:50:18,887
+So when you have the store page, even if you're not live,
+
+933
+00:50:18,887 --> 00:50:22,369
+you can have it look exactly like something like this.
+
+934
+00:50:22,369 --> 00:50:27,331
+You can put a little graphic, say who's on the team.
+
+935
+00:50:27,331 --> 00:50:29,552
+This is really good for also if you're looking into investors
+
+936
+00:50:29,552 --> 00:50:30,913
+or team members.
+
+937
+00:50:30,913 --> 00:50:35,095
+If you're on the Steam store, you're official, right?
+
+938
+00:50:35,095 --> 00:50:36,655
+There's something about it that's
+
+939
+00:50:36,655 --> 00:50:38,076
+sort of prestigious about it.
+
+940
+00:50:39,303 --> 00:50:42,025
+And you just describe the game, and that's pretty much it.
+
+941
+00:50:42,025 --> 00:50:42,825
+Oh, and your specs.
+
+942
+00:50:42,825 --> 00:50:47,828
+Yeah, and then there's the Add to Wishlist button, which I
+
+943
+00:50:47,828 --> 00:50:55,712
+don't think shows on mine.
+
+944
+00:50:55,712 --> 00:50:57,612
+But it's somewhere here at the top.
+
+945
+00:50:57,612 --> 00:50:59,433
+And so when you have Steam, it's free marketing.
+
+946
+00:50:59,433 --> 00:51:00,254
+You may as well do it.
+
+947
+00:51:00,254 --> 00:51:01,855
+And also, it helps you for your release.
+
+948
+00:51:01,855 --> 00:51:04,536
+It makes your release really flowing.
+
+949
+00:51:04,857 --> 00:51:10,438
+Because in these days, people don't want to download a third-party application.
+
+950
+00:51:10,438 --> 00:51:13,919
+They don't want to download just an .exe file or something.
+
+951
+00:51:13,919 --> 00:51:15,440
+It looks sort of sketchy.
+
+952
+00:51:15,440 --> 00:51:21,861
+Maybe they'll think it's a virus, or maybe even your antivirus will pick it up as a virus.
+
+953
+00:51:21,861 --> 00:51:23,881
+Even if it's not, right?
+
+954
+00:51:23,881 --> 00:51:26,802
+So you want something that people can trust.
+
+955
+00:51:26,802 --> 00:51:27,662
+People trust Steam.
+
+956
+00:51:29,945 --> 00:51:34,526
+And so you can also use the API even before you're launched.
+
+957
+00:51:34,526 --> 00:51:36,747
+So you can have the login with Steam.
+
+958
+00:51:36,747 --> 00:51:39,507
+You can have Steam Friends.
+
+959
+00:51:39,507 --> 00:51:42,228
+You can have multiplayer servers.
+
+960
+00:51:42,228 --> 00:51:43,648
+We don't use their multiplayer servers,
+
+961
+00:51:43,648 --> 00:51:44,829
+but you can if you want to.
+
+962
+00:51:44,829 --> 00:51:48,709
+They have free multiplayer servers you can use.
+
+963
+00:51:48,709 --> 00:51:52,910
+And we didn't use that because we want to dedicate it.
+
+964
+00:51:52,910 --> 00:51:54,531
+So this one's peer-to-peer.
+
+965
+00:51:54,531 --> 00:51:56,771
+But I hear they're actually pretty decent.
+
+966
+00:51:56,771 --> 00:51:58,472
+Counter-Strike, of course, uses their own.
+
+967
+00:51:59,092 --> 00:52:04,874
+servers, and I think Borderlands also uses the Steam servers too.
+
+968
+00:52:04,874 --> 00:52:18,140
+Okay, so Discord is a really big part of our game, and I told you.
+
+969
+00:52:18,140 --> 00:52:24,483
+So we have the company server, which is private, and we have the public one.
+
+970
+00:52:24,483 --> 00:52:26,784
+Then what you want is you want community moderators.
+
+971
+00:52:27,268 --> 00:52:30,389
+And these guys don't just moderate your community.
+
+972
+00:52:30,389 --> 00:52:33,670
+They're almost like lower level developers.
+
+973
+00:52:33,670 --> 00:52:36,831
+They're probably going to end up being more knowledgeable
+
+974
+00:52:36,831 --> 00:52:38,712
+about your own game than you.
+
+975
+00:52:38,712 --> 00:52:43,253
+Because lots of times, you're more often developing your game
+
+976
+00:52:43,253 --> 00:52:45,634
+rather than playing it.
+
+977
+00:52:45,634 --> 00:52:51,376
+And so someone once said that if you like video games,
+
+978
+00:52:51,376 --> 00:52:53,056
+don't make video games.
+
+979
+00:52:53,056 --> 00:52:54,377
+Because you won't be able to play as much.
+
+980
+00:52:55,862 --> 00:52:58,083
+Anyway, Discord you can do so much.
+
+981
+00:52:58,083 --> 00:53:01,644
+It's sort of like Slack if you've never used it before.
+
+982
+00:53:01,644 --> 00:53:03,125
+But, for video games.
+
+983
+00:53:03,125 --> 00:53:04,365
+But it's even more than that.
+
+984
+00:53:04,365 --> 00:53:07,446
+I mean, I would use it even for not video games.
+
+985
+00:53:07,446 --> 00:53:10,187
+You can program bots to do anything.
+
+986
+00:53:10,187 --> 00:53:12,728
+There's a really good API called Discord.js.
+
+987
+00:53:12,728 --> 00:53:14,788
+You can use that for free.
+
+988
+00:53:14,788 --> 00:53:19,590
+And, for example, we use it for in-game engagement and moderation.
+
+989
+00:53:19,590 --> 00:53:21,371
+So what we can do is,
+
+990
+00:53:21,371 --> 00:53:24,192
+we can type in a bot command.
+
+991
+00:53:24,735 --> 00:53:29,240
+to suspend a player in-game, or to warn them, or to grant them gold.
+
+992
+00:53:29,240 --> 00:53:32,363
+Let's say that someone translates your game for you.
+
+993
+00:53:32,363 --> 00:53:37,688
+I can type in, like, exclamation mark, grant gold, and boom.
+
+994
+00:53:37,688 --> 00:53:40,711
+And then it grants this user gold in-game,
+
+995
+00:53:40,711 --> 00:53:42,292
+even though I'm typing it from Discord.
+
+996
+00:53:42,292 --> 00:53:48,298
+So you can think, oh, and also Discord just recently added rich presents.
+
+997
+00:53:48,854 --> 00:53:51,075
+This is sort of like Steam, how they know what you're doing.
+
+998
+00:53:51,075 --> 00:53:56,438
+Steam will say, he's playing Throne of Lies.
+
+999
+00:53:56,438 --> 00:53:58,619
+And Discord goes even deeper.
+
+1000
+00:53:58,619 --> 00:54:02,941
+Discord will say, he's playing Throne of Lies,
+
+1001
+00:54:02,941 --> 00:54:06,502
+and he's on day two in game.
+
+1002
+00:54:06,502 --> 00:54:09,604
+Or his game is just finishing, or something like that.
+
+1003
+00:54:09,604 --> 00:54:12,905
+And sort of like Steam, there's even a Join button,
+
+1004
+00:54:12,905 --> 00:54:14,766
+or a Spectate button you can use.
+
+1005
+00:54:14,766 --> 00:54:17,127
+So there's a lot of stuff you can do.
+
+1006
+00:54:18,908 --> 00:54:22,550
+people go crazy about titles and praise and stuff like recognition
+
+1007
+00:54:22,550 --> 00:54:26,312
+because in our discord we have twelve thousand players
+
+1008
+00:54:26,312 --> 00:54:28,573
+and it's really hard to stand out when there's
+
+1009
+00:54:28,573 --> 00:54:30,314
+you know we have an average of
+
+1010
+00:54:30,314 --> 00:54:32,755
+two thousand players online at the same time
+
+1011
+00:54:32,755 --> 00:54:33,756
+so the list is just
+
+1012
+00:54:33,756 --> 00:54:35,777
+it's just a dump of players
+
+1013
+00:54:35,777 --> 00:54:37,398
+and so what ends up happening is
+
+1014
+00:54:37,398 --> 00:54:39,739
+people want to stand out and so when they do
+
+1015
+00:54:39,739 --> 00:54:41,860
+when they contribute to the wikia
+
+1016
+00:54:41,860 --> 00:54:43,100
+or they report bugs
+
+1017
+00:54:43,100 --> 00:54:46,982
+you can have a bugs section, a bugs channel, a feedback channel
+
+1018
+00:54:46,982 --> 00:54:47,543
+if the
+
+1019
+00:54:48,449 --> 00:54:50,350
+if they help new players a lot.
+
+1020
+00:54:50,350 --> 00:54:53,552
+You can grant them titles to make them stand out.
+
+1021
+00:54:53,552 --> 00:54:55,314
+And this really boosts morale, like crazy.
+
+1022
+00:54:55,314 --> 00:55:00,317
+And for any of you that play online games,
+
+1023
+00:55:00,317 --> 00:55:02,438
+if you attend like a GM event or something,
+
+1024
+00:55:02,438 --> 00:55:05,920
+and you get an exclusive title, it's so cool, isn't it?
+
+1025
+00:55:05,920 --> 00:55:08,442
+It's the same thing in Discord.
+
+1026
+00:55:08,442 --> 00:55:10,563
+Players feel cool about it, and it
+
+1027
+00:55:10,563 --> 00:55:15,567
+makes them want to engage even more in the community.
+
+1028
+00:55:15,567 --> 00:55:17,248
+And what you can do, too, as game developers,
+
+1029
+00:55:17,585 --> 00:55:20,026
+you can have an official game server.
+
+1030
+00:55:20,026 --> 00:55:24,388
+So you can see our URL is actually discord.gg slash tol.
+
+1031
+00:55:24,388 --> 00:55:28,029
+And so that's because we're an official game server.
+
+1032
+00:55:28,029 --> 00:55:29,270
+It didn't take much to do it.
+
+1033
+00:55:29,270 --> 00:55:32,772
+All we did is fill out an application and say, hey,
+
+1034
+00:55:32,772 --> 00:55:34,492
+we're the real developers.
+
+1035
+00:55:34,492 --> 00:55:37,754
+And this is the game that we're supporting.
+
+1036
+00:55:37,754 --> 00:55:42,056
+And so suddenly you get an official verification.
+
+1037
+00:55:42,056 --> 00:55:43,997
+You get the URL there.
+
+1038
+00:55:43,997 --> 00:55:45,717
+And then when people join it, you
+
+1039
+00:55:45,717 --> 00:55:46,518
+can actually get a
+
+1040
+00:55:48,112 --> 00:55:50,954
+Let's see, discord.tv slash tol.
+
+1041
+00:55:50,954 --> 00:55:55,378
+You can actually get some splash art, and it makes it look super cool.
+
+1042
+00:55:55,378 --> 00:55:56,319
+It looks very official.
+
+1043
+00:55:56,319 --> 00:55:58,400
+So, uh, oh, there it is.
+
+1044
+00:55:58,400 --> 00:56:01,523
+So it looks sort of like this.
+
+1045
+00:56:01,523 --> 00:56:05,386
+And you can customize the art in the background.
+
+1046
+00:56:05,386 --> 00:56:13,133
+So, when you make your games, a lot of people are going to request game keys.
+
+1047
+00:56:13,133 --> 00:56:15,474
+They're going to say, I'm press.
+
+1048
+00:56:15,474 --> 00:56:17,116
+I'm a famous.
+
+1049
+00:56:19,582 --> 00:56:23,242
+and they'll say, I have millions of views, trust me.
+
+1050
+00:56:23,242 --> 00:56:25,463
+And they're going to ask for keys.
+
+1051
+00:56:25,463 --> 00:56:32,704
+So, what you do is, you say, hey, come to Discord,
+
+1052
+00:56:32,704 --> 00:56:35,105
+link your Twitch account, link your Twitter account,
+
+1053
+00:56:35,105 --> 00:56:40,126
+or you can even, they can also support Steam, link your Steam account,
+
+1054
+00:56:40,126 --> 00:56:43,587
+and we'll give you keys. You'll find very fast
+
+1055
+00:56:43,587 --> 00:56:48,648
+that half the people never come to Discord because they're fake.
+
+1056
+00:56:49,453 --> 00:56:56,659
+So, more than half, I'd say about 75% of the people that ask for keys are fake.
+
+1057
+00:56:56,659 --> 00:57:07,047
+So, Discord, because you can link your accounts, this has been an invaluable tool to verify people, to see if they're real or not.
+
+1058
+00:57:07,047 --> 00:57:15,834
+And ever since then, we haven't seen any keys on, you know, Kinguin and G2A.
+
+1059
+00:57:15,834 --> 00:57:16,815
+Speaking of which...
+
+1060
+00:57:17,192 --> 00:57:22,815
+If your game does end up on Kinguin or G2A without your permission,
+
+1061
+00:57:22,815 --> 00:57:27,337
+you can send them a message, like an official message,
+
+1062
+00:57:27,337 --> 00:57:30,558
+say, hey, please take it down and blacklist,
+
+1063
+00:57:30,558 --> 00:57:33,800
+and then make sure you speak to the manager.
+
+1064
+00:57:33,800 --> 00:57:40,683
+We did that, and they made sure that they won't show our game on Kinguin or G2A ever again.
+
+1065
+00:57:40,683 --> 00:57:43,444
+I'm sure this helps some of you guys out there.
+
+1066
+00:57:43,444 --> 00:57:45,385
+You know what I'm talking about.
+
+1067
+00:57:47,800 --> 00:57:52,722
+So in your Discord, you also want to have, I mentioned earlier, a feedback and bugs section.
+
+1068
+00:57:52,722 --> 00:57:54,743
+Just have it, just have them dump it there.
+
+1069
+00:57:54,743 --> 00:57:56,925
+You can have some bot commands for FAQs,
+
+1070
+00:57:56,925 --> 00:58:00,407
+like how to get your logs to post it in the bug reports,
+
+1071
+00:58:00,407 --> 00:58:02,548
+how, uh, FAQ for, like, uh, your links,
+
+1072
+00:58:02,548 --> 00:58:05,249
+or, you know, anything complex that you say over and over.
+
+1073
+00:58:05,249 --> 00:58:06,770
+You can have it all bot commands.
+
+1074
+00:58:06,770 --> 00:58:10,492
+And so, it's sort of like if you ever watched a Twitch streamer,
+
+1075
+00:58:10,492 --> 00:58:14,634
+you know, you can type ! and a command, and lots of times it'll give them links or information.
+
+1076
+00:58:14,634 --> 00:58:16,775
+You can do something like that.
+
+1077
+00:58:17,598 --> 00:58:22,700
+And then news have a read-only section for players to see.
+
+1078
+00:58:22,700 --> 00:58:26,322
+You can tag everyone, so that even if they're offline,
+
+1079
+00:58:26,322 --> 00:58:30,784
+they'll eventually see it.
+
+1080
+00:58:30,784 --> 00:58:33,425
+Let's go to the next slide here.
+
+1081
+00:58:33,425 --> 00:58:36,867
+So let's talk about Unity.
+
+1082
+00:58:36,867 --> 00:58:38,468
+Why Unity?
+
+1083
+00:58:38,468 --> 00:58:40,789
+Well, Unity is free while developing.
+
+1084
+00:58:40,789 --> 00:58:43,490
+That's always an incentive for indie devs.
+
+1085
+00:58:43,490 --> 00:58:45,311
+They have an asset store that's invaluable.
+
+1086
+00:58:45,905 --> 00:58:50,487
+The asset store, I'm sure that you've all experienced it if you've used Unity before.
+
+1087
+00:58:50,487 --> 00:58:53,508
+They have tons of free assets, or almost free assets.
+
+1088
+00:58:53,508 --> 00:58:58,850
+Don't forget that your game doesn't have to start with the final assets.
+
+1089
+00:58:58,850 --> 00:59:02,532
+You saw my blooper video at the very beginning.
+
+1090
+00:59:02,532 --> 00:59:07,374
+Our game models don't look like that, the textures don't look like that, neither do the shadings.
+
+1091
+00:59:07,374 --> 00:59:11,135
+But it really allowed us to get started fast.
+
+1092
+00:59:11,135 --> 00:59:14,077
+To just throw something in there instead of just squares.
+
+1093
+00:59:14,551 --> 00:59:21,475
+you could have just squares, but it's sort of good for morale, and it's good for screenshots.
+
+1094
+00:59:21,475 --> 00:59:26,498
+And especially if you're doing a Kickstarter, or you're trying to get some press,
+
+1095
+00:59:26,498 --> 00:59:31,462
+if you show someone with some type of model, or environment, or art, or some sort of placeholders,
+
+1096
+00:59:31,462 --> 00:59:37,005
+it's better than just squares, and black and white.
+
+1097
+00:59:37,677 --> 00:59:40,618
+And that pretty much is the definition of prototyping.
+
+1098
+00:59:40,618 --> 00:59:42,238
+It's just having a bunch of placeholders
+
+1099
+00:59:42,238 --> 00:59:44,858
+so that people can envision what your game will
+
+1100
+00:59:44,858 --> 00:59:46,419
+be when you're finished.
+
+1101
+00:59:46,419 --> 00:59:50,199
+It doesn't necessarily have to work all the way,
+
+1102
+00:59:50,199 --> 00:59:54,320
+but give them something to think about.
+
+1103
+00:59:54,320 --> 00:59:56,120
+Unity is high level.
+
+1104
+00:59:56,120 --> 01:00:01,881
+This means that unlike Unreal, you
+
+1105
+01:00:01,881 --> 01:00:03,862
+don't have to program memory management.
+
+1106
+01:00:03,862 --> 01:00:07,202
+You don't have to program low level physics.
+
+1107
+01:00:09,344 --> 01:00:11,266
+it'll probably be more efficient if you do.
+
+1108
+01:00:11,266 --> 01:00:13,607
+I mean, it will be more efficient if you do.
+
+1109
+01:00:13,607 --> 01:00:15,729
+But the fact that you can
+
+1110
+01:00:15,729 --> 01:00:16,690
+just skip all this stuff
+
+1111
+01:00:16,690 --> 01:00:20,072
+and just go straight to making the game
+
+1112
+01:00:20,072 --> 01:00:21,854
+is really good for morale.
+
+1113
+01:00:21,854 --> 01:00:22,875
+It's good for prototyping.
+
+1114
+01:00:22,875 --> 01:00:23,755
+And...
+
+1115
+01:00:23,755 --> 01:00:28,159
+you can always do the optimization stuff later.
+
+1116
+01:00:28,159 --> 01:00:28,819
+Right?
+
+1117
+01:00:28,819 --> 01:00:31,301
+I mean, lots of times when you're making a game,
+
+1118
+01:00:31,301 --> 01:00:32,522
+you don't want to...
+
+1119
+01:00:32,522 --> 01:00:36,425
+you want to start with the game itself, not all the lower level stuff.
+
+1120
+01:00:36,425 --> 01:00:37,866
+You can make games faster.
+
+1121
+01:00:37,866 --> 01:00:38,947
+It's faster to learn, too.
+
+1122
+01:00:39,736 --> 01:00:42,337
+and they have good tutorials.
+
+1123
+01:00:42,337 --> 01:00:45,699
+If you don't know something, just Google it again.
+
+1124
+01:00:45,699 --> 01:00:46,279
+Watch YouTube video.
+
+1125
+01:00:46,279 --> 01:00:49,421
+Unity actually has built in, they
+
+1126
+01:00:49,421 --> 01:00:52,482
+have their own native tutorial videos.
+
+1127
+01:00:52,482 --> 01:00:54,143
+And they're very high budget tutorials.
+
+1128
+01:00:54,143 --> 01:00:55,463
+They have videos.
+
+1129
+01:00:55,463 --> 01:00:56,404
+They have demos.
+
+1130
+01:00:56,404 --> 01:01:00,106
+They have full games that they can give you to poke around
+
+1131
+01:01:00,106 --> 01:01:02,527
+with, depending on your learning style.
+
+1132
+01:01:02,527 --> 01:01:08,850
+Some people like to reverse engineer things.
+
+1133
+01:01:09,402 --> 01:01:10,923
+You can do multiple ports.
+
+1134
+01:01:10,923 --> 01:01:16,825
+Nintendo Switch has been really big lately for Indie developers.
+
+1135
+01:01:16,825 --> 01:01:19,906
+And so you can port it straight to Nintendo Switch
+
+1136
+01:01:19,906 --> 01:01:21,126
+with almost effortlessly.
+
+1137
+01:01:21,126 --> 01:01:24,447
+Or at the beginning, we were just going to do Windows.
+
+1138
+01:01:24,447 --> 01:01:28,829
+And then we realized how easy it was to do Mac and Linux, too.
+
+1139
+01:01:28,829 --> 01:01:31,650
+So we're just like, OK, all it requires us is to switch to Mac,
+
+1140
+01:01:31,650 --> 01:01:34,591
+build, done.
+
+1141
+01:01:34,591 --> 01:01:37,151
+So if you can, you may as well.
+
+1142
+01:01:37,988 --> 01:01:41,671
+And so, especially if your game is very console-friendly,
+
+1143
+01:01:41,671 --> 01:01:44,453
+for consoles, you may require some extra stuff,
+
+1144
+01:01:44,453 --> 01:01:45,773
+like for the controller support.
+
+1145
+01:01:45,773 --> 01:01:48,195
+You want buttons to go to different buttons.
+
+1146
+01:01:48,195 --> 01:01:52,398
+But in the long term, it's not that much
+
+1147
+01:01:52,398 --> 01:01:59,562
+to be able to port it to consoles, too.
+
+1148
+01:01:59,562 --> 01:02:00,703
+And now, why not Unity?
+
+1149
+01:02:00,703 --> 01:02:06,007
+So Unity, they don't make games unlike Unreal.
+
+1150
+01:02:06,007 --> 01:02:06,987
+Unreal.
+
+1151
+01:02:07,449 --> 01:02:10,832
+makes AAA games that people want to play.
+
+1152
+01:02:10,832 --> 01:02:12,573
+This means that they're developers too.
+
+1153
+01:02:12,573 --> 01:02:16,836
+I mean, when I say they, I mean like the big guys,
+
+1154
+01:02:16,836 --> 01:02:19,198
+the CEOs and stuff.
+
+1155
+01:02:19,198 --> 01:02:21,280
+And so these guys actually are developers.
+
+1156
+01:02:21,280 --> 01:02:24,742
+And so if they run into a bug while they're
+
+1157
+01:02:24,742 --> 01:02:27,124
+making a AAA game, like Unreal Tournament or something,
+
+1158
+01:02:27,124 --> 01:02:31,167
+then they will go in and they'll fix it.
+
+1159
+01:02:31,167 --> 01:02:34,790
+But as for Unity, they outsource all their demos.
+
+1160
+01:02:34,790 --> 01:02:36,772
+And so if they run into a bug.
+
+1161
+01:02:37,257 --> 01:02:41,440
+then they don't really fix it for a few years.
+
+1162
+01:02:41,440 --> 01:02:45,283
+And so there are countless unfixed bugs.
+
+1163
+01:02:45,283 --> 01:02:49,887
+In our examples, in our experience, we have freezes,
+
+1164
+01:02:49,887 --> 01:02:52,349
+we have crashes, we have UI bugs.
+
+1165
+01:02:52,349 --> 01:02:56,252
+If you've ever used the scroller in Unity,
+
+1166
+01:02:56,252 --> 01:02:59,935
+it'll always shift everything over to the side,
+
+1167
+01:02:59,935 --> 01:03:02,337
+and your screen will sometimes turn pink.
+
+1168
+01:03:02,337 --> 01:03:05,920
+And it's just not fun.
+
+1169
+01:03:07,058 --> 01:03:10,940
+But if you experience bugs, because Unity is so modular,
+
+1170
+01:03:10,940 --> 01:03:12,201
+you can just work around it.
+
+1171
+01:03:12,201 --> 01:03:15,002
+Go to the Unity store and find an alternative.
+
+1172
+01:03:15,002 --> 01:03:17,924
+You don't have to use the Unity built-in stuff.
+
+1173
+01:03:17,924 --> 01:03:19,585
+You don't like the scroller?
+
+1174
+01:03:19,585 --> 01:03:22,747
+Go in and find a scroller, or you can make your own.
+
+1175
+01:03:22,747 --> 01:03:26,949
+They make it really easy to be modular in a very simple way.
+
+1176
+01:03:26,949 --> 01:03:29,311
+I made my own scroller in the end,
+
+1177
+01:03:29,311 --> 01:03:32,733
+and it ended up not being, it didn't take me very long
+
+1178
+01:03:32,733 --> 01:03:35,314
+to make, and then I used the template from the Asset Store
+
+1179
+01:03:35,314 --> 01:03:36,095
+to help me get there.
+
+1180
+01:03:37,514 --> 01:03:43,639
+So yeah, you will experience bugs, but you can just skip it.
+
+1181
+01:03:43,639 --> 01:03:45,921
+But be sure that the upgrades are not stable,
+
+1182
+01:03:45,921 --> 01:03:48,463
+so be sure you copy your entire project,
+
+1183
+01:03:48,463 --> 01:03:51,105
+and then try upgrading if you're ever trying to upgrade.
+
+1184
+01:03:51,105 --> 01:03:53,127
+That's the only way to be safe.
+
+1185
+01:03:53,127 --> 01:03:57,330
+OK, so they're free.
+
+1186
+01:03:57,330 --> 01:03:58,311
+They're free, actually.
+
+1187
+01:03:58,311 --> 01:03:59,792
+While you're developing, it's free.
+
+1188
+01:03:59,792 --> 01:04:02,114
+Even when you launch, it's still free.
+
+1189
+01:04:02,114 --> 01:04:03,656
+But if you do the personal edition,
+
+1190
+01:04:03,656 --> 01:04:05,177
+they'll sort of shame you.
+
+1191
+01:04:05,177 --> 01:04:07,118
+They'll put the personal logo at the bottom.
+
+1192
+01:04:07,777 --> 01:04:11,699
+So it makes you really unprofessional.
+
+1193
+01:04:11,699 --> 01:04:15,820
+I've seen people give negative reviews just saying, oh,
+
+1194
+01:04:15,820 --> 01:04:19,422
+developers are cheap because they have the personal edition
+
+1195
+01:04:19,422 --> 01:04:19,842
+or something.
+
+1196
+01:04:19,842 --> 01:04:24,824
+So that's something really to think about, really.
+
+1197
+01:04:24,824 --> 01:04:26,745
+And so if you make over $100,000 or you
+
+1198
+01:04:26,745 --> 01:04:30,306
+don't want that personal edition slash screen to show,
+
+1199
+01:04:30,306 --> 01:04:32,947
+then you can pay for the licenses.
+
+1200
+01:04:32,947 --> 01:04:35,528
+You don't have to jump to the pro license.
+
+1201
+01:04:35,878 --> 01:04:41,283
+They have a per seat license, but they have a lower level one that's like $35 per month
+
+1202
+01:04:41,283 --> 01:04:47,008
+per seat or something like that, if you make under a certain amount of money.
+
+1203
+01:04:47,008 --> 01:04:48,289
+So it's not bad. It's really not.
+
+1204
+01:04:48,289 --> 01:04:58,117
+And then lastly, Unity does abandon modules. Think of Unreal more like a game engine and
+
+1205
+01:04:58,117 --> 01:05:04,302
+Unity more like a sales engine. So lots of times they really push marketing
+
+1206
+01:05:04,302 --> 01:05:04,782
+very hard.
+
+1207
+01:05:05,135 --> 01:05:07,756
+so they want to add, they want to get the feature list really high.
+
+1208
+01:05:07,756 --> 01:05:12,238
+And so that's wonderful, I love features, but not at the cost of stability.
+
+1209
+01:05:12,238 --> 01:05:16,960
+And, you know, I don't want them, I want them to continuously develop it.
+
+1210
+01:05:16,960 --> 01:05:20,782
+And in this case, I mentioned U-Net earlier, I said don't use U-Net.
+
+1211
+01:05:20,782 --> 01:05:26,004
+And then they also have a service called Collab, Collaborate.
+
+1212
+01:05:26,004 --> 01:05:28,165
+It's very unstable too, it's like Gits.
+
+1213
+01:05:28,754 --> 01:05:29,535
+Just use Git and GitLab, guys.
+
+1214
+01:05:29,535 --> 01:05:31,997
+In the end, we got rid of all of our Unity services,
+
+1215
+01:05:31,997 --> 01:05:38,143
+and suddenly our game editor is way faster and way less buggy.
+
+1216
+01:05:38,143 --> 01:05:53,557
+So really quickly, what I plan for the future.
+
+1217
+01:05:54,786 --> 01:06:01,709
+We have a private API, and that API is so that it'll spread out to other services and stuff, like Discord.
+
+1218
+01:06:01,709 --> 01:06:07,332
+We want a public one, so that people can make community sites without involving us.
+
+1219
+01:06:07,332 --> 01:06:11,154
+They can have stats sites and stuff, whatever they can come up with.
+
+1220
+01:06:11,154 --> 01:06:14,736
+We want to improve our UI and UX experience.
+
+1221
+01:06:14,736 --> 01:06:22,060
+We want to have a better community engagement, so we want to make a Twitch extension, for example, so that players can click.
+
+1222
+01:06:22,676 --> 01:06:24,997
+And we have different abilities.
+
+1223
+01:06:24,997 --> 01:06:27,398
+We want them to be able to hover over the abilities
+
+1224
+01:06:27,398 --> 01:06:27,999
+to see what they do.
+
+1225
+01:06:27,999 --> 01:06:29,980
+We want them to be able to click on a journal
+
+1226
+01:06:29,980 --> 01:06:32,161
+and it opens a journal with their last known entry.
+
+1227
+01:06:32,161 --> 01:06:35,542
+There's some fun stuff you can do with that.
+
+1228
+01:06:35,542 --> 01:06:39,404
+And because hardly any indie games do this, if you do that,
+
+1229
+01:06:39,404 --> 01:06:40,185
+you will be on Twitch.
+
+1230
+01:06:40,185 --> 01:06:45,267
+Because audience engagement is a very rare thing in Twitch.
+
+1231
+01:06:45,267 --> 01:06:47,348
+And streamers have to work really hard for it.
+
+1232
+01:06:47,348 --> 01:06:49,409
+So if you can give them something,
+
+1233
+01:06:49,409 --> 01:06:51,430
+then they're more likely to play your game.
+
+1234
+01:06:52,057 --> 01:06:53,318
+And that's why we want it really bad.
+
+1235
+01:06:53,318 --> 01:06:57,101
+As for publishers, people always ask,
+
+1236
+01:06:57,101 --> 01:06:57,982
+do we need a publisher?
+
+1237
+01:06:57,982 --> 01:07:02,706
+I would say that if you're doing PC, Mac, and Linux,
+
+1238
+01:07:02,706 --> 01:07:04,888
+I would say no, you don't need a publisher.
+
+1239
+01:07:04,888 --> 01:07:06,129
+Except if you're going to China.
+
+1240
+01:07:06,129 --> 01:07:07,750
+Because they have all these rules.
+
+1241
+01:07:07,750 --> 01:07:08,871
+They have tons of rules.
+
+1242
+01:07:08,871 --> 01:07:09,852
+And you want to get on Tencent.
+
+1243
+01:07:09,852 --> 01:07:14,176
+And especially since we're in Taiwan,
+
+1244
+01:07:14,176 --> 01:07:15,377
+then you know how that goes.
+
+1245
+01:07:15,377 --> 01:07:18,679
+They need to approve everything and make sure that.
+
+1246
+01:07:19,488 --> 01:07:21,750
+Yeah, you want a publisher to do that.
+
+1247
+01:07:21,750 --> 01:07:26,793
+And also, your art assets may even be localized, too.
+
+1248
+01:07:26,793 --> 01:07:30,136
+So it's not just about translating it
+
+1249
+01:07:30,136 --> 01:07:32,137
+to the local language.
+
+1250
+01:07:32,137 --> 01:07:32,878
+It's art.
+
+1251
+01:07:32,878 --> 01:07:33,598
+It's community.
+
+1252
+01:07:33,598 --> 01:07:36,180
+Even the website will look different.
+
+1253
+01:07:36,180 --> 01:07:37,261
+It's localized.
+
+1254
+01:07:37,261 --> 01:07:40,644
+You want everything a little bit tailored
+
+1255
+01:07:40,644 --> 01:07:43,145
+towards that specific demographic.
+
+1256
+01:07:43,145 --> 01:07:47,288
+But yeah, I hear that if you do a mobile game,
+
+1257
+01:07:47,288 --> 01:07:48,990
+almost every person I hear says.
+
+1258
+01:07:49,323 --> 01:07:51,984
+If you're doing a mobile game, you do want a publisher.
+
+1259
+01:07:51,984 --> 01:07:54,505
+Because there are so many mobile games out there,
+
+1260
+01:07:54,505 --> 01:07:56,365
+the publishers will help you stand out.
+
+1261
+01:07:56,365 --> 01:08:00,287
+We want a physical card game.
+
+1262
+01:08:00,287 --> 01:08:02,948
+So if you're making games, then you may as well
+
+1263
+01:08:02,948 --> 01:08:04,328
+branch out as much as you can.
+
+1264
+01:08:04,328 --> 01:08:07,089
+And so we have this game concept.
+
+1265
+01:08:07,089 --> 01:08:10,931
+And we realized it would make a wonderful physical card game.
+
+1266
+01:08:10,931 --> 01:08:13,071
+And so we don't even have to make it.
+
+1267
+01:08:13,071 --> 01:08:15,452
+We just have to find a partner that's
+
+1268
+01:08:15,452 --> 01:08:17,053
+very good at making these types of games
+
+1269
+01:08:17,053 --> 01:08:19,013
+and say, hey, we have the concept.
+
+1270
+01:08:19,340 --> 01:08:20,681
+And you can build this.
+
+1271
+01:08:20,681 --> 01:08:21,442
+Let's work together.
+
+1272
+01:08:21,442 --> 01:08:25,164
+And so that's, you branch it out as much as possible.
+
+1273
+01:08:25,164 --> 01:08:30,507
+And then we eventually want to keep going with new games,
+
+1274
+01:08:30,507 --> 01:08:36,951
+although we want to keep updating our current one.
+
+1275
+01:08:36,951 --> 01:08:38,532
+So if you guys have any questions beyond this,
+
+1276
+01:08:38,532 --> 01:08:42,734
+let's say we have some questions and answers,
+
+1277
+01:08:42,734 --> 01:08:46,156
+and then later on you go, ah, I forgot to ask.
+
+1278
+01:08:46,156 --> 01:08:48,798
+Just go on Discord and ask me.
+
+1279
+01:08:49,252 --> 01:08:51,753
+I'm i42xblade, the link there.
+
+1280
+01:08:51,753 --> 01:08:54,973
+If you go to that link on the right,
+
+1281
+01:08:54,973 --> 01:08:56,974
+throneofli.es slash blah.
+
+1282
+01:08:56,974 --> 01:09:00,915
+This has everything we talked about tonight.
+
+1283
+01:09:00,915 --> 01:09:04,575
+It has this PowerPoint presentation in PDF form.
+
+1284
+01:09:04,575 --> 01:09:07,796
+And it has some of these links.
+
+1285
+01:09:07,796 --> 01:09:10,297
+Yeah, so if you're just remembering something,
+
+1286
+01:09:10,297 --> 01:09:12,657
+just remember throneofli.es slash blah.
+
+1287
+01:09:12,657 --> 01:09:13,337
+It has everything.
+
+1288
+01:09:13,337 --> 01:09:18,398
+So, do you guys have any questions for me?
+
+1289
+01:09:19,201 --> 01:09:22,145
+Sorry, so I think we already run the flower.
+
+1290
+01:09:22,145 --> 01:09:22,826
+Oh, OK.
+
+1291
+01:09:22,826 --> 01:09:25,289
+So I think we could take a short, very short break.
+
+1292
+01:09:25,289 --> 01:09:25,469
+OK, sure.
+
+1293
+01:09:25,469 --> 01:09:27,972
+And we'll come back for the Q&A session, like four or five.
+

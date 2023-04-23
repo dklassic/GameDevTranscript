@@ -1,0 +1,3044 @@
+1
+00:00:00,368 --> 00:00:05,773
+about how do you make the case for a very small or even a single person team.
+
+2
+00:00:05,813 --> 00:00:13,819
+What is the value for this build test automation just for one person?
+
+3
+00:00:14,120 --> 00:00:16,001
+It is like he's doing everything.
+
+4
+00:00:16,021 --> 00:00:18,543
+There's only one person using Unity or whatever,
+
+5
+00:00:18,563 --> 00:00:20,705
+Unreal or whatever thing he's using.
+
+6
+00:00:26,094 --> 00:00:26,774
+第一個問題是說像這樣的瘋狂因為他在描述的問題其實是多人合作的時候會遭遇到的困境比如說我東西改了然後你的電腦上的版本就爛掉了但是如果我今天是很小團隊可能每一個人,比如說只有一個人會開Unity
+
+7
+00:00:26,774 --> 00:00:27,455
+兩三個人的團隊可能只有一個人會開Unity或者是你根本就是一個人團隊你自己單獨開發
+
+8
+00:00:27,455 --> 00:00:27,915
+那理論上有什麼錯誤你應該在Unity裡面就會抓到
+
+9
+00:00:55,804 --> 00:00:56,224
+那我趕快要會過不會過,在我電腦上一看就知道那這樣子的process,對這樣子的行為的團隊有沒有什麼還是有沒有額外的幫助這樣我主要的問題是這個
+
+10
+00:01:22,099 --> 00:01:23,199
+Anyone has any idea?
+
+11
+00:01:24,020 --> 00:01:27,041
+Should I go with the microphone?
+
+12
+00:01:27,061 --> 00:01:28,602
+What do you want me to ask?
+
+13
+00:01:28,642 --> 00:01:29,903
+The question you were asking
+
+14
+00:01:30,083 --> 00:01:31,624
+The answer to that question
+
+15
+00:01:31,784 --> 00:01:33,285
+Not from me, but from someone else
+
+16
+00:01:33,465 --> 00:01:38,287
+So just to check this
+
+17
+00:01:39,028 --> 00:01:41,029
+Why is it useful for one person?
+
+18
+00:01:41,489 --> 00:01:42,029
+Because
+
+19
+00:01:42,850 --> 00:01:43,510
+I just push
+
+20
+00:01:43,710 --> 00:01:45,411
+I have a separate machine that builds
+
+21
+00:01:45,431 --> 00:01:46,972
+A separate machine
+
+22
+00:01:47,232 --> 00:01:48,433
+And I just push my code
+
+23
+00:01:49,167 --> 00:01:50,528
+and then build stuff in the background.
+
+24
+00:01:51,368 --> 00:01:54,689
+And I don't have to like click and wait and like...
+
+25
+00:01:54,829 --> 00:01:56,870
+Like...
+
+26
+00:01:58,450 --> 00:02:00,451
+Use... like lock up this machine.
+
+27
+00:02:00,531 --> 00:02:03,152
+I can continue working and do whatever I do.
+
+28
+00:02:03,172 --> 00:02:08,513
+And I just know that I always have the latest build ready to test once it's done.
+
+29
+00:02:09,834 --> 00:02:11,654
+So you constantly...
+
+30
+00:02:12,615 --> 00:02:14,395
+On your working computer, you only just...
+
+31
+00:02:15,241 --> 00:02:21,205
+push to whatever data repository you're using, and the other computer will just keep fetching that?
+
+32
+00:02:21,485 --> 00:02:21,786
+Yes.
+
+33
+00:02:23,387 --> 00:02:23,667
+And this.
+
+34
+00:02:25,248 --> 00:02:34,114
+Yeah, it's made life a lot easier. I only set it up a couple months ago, and it's, yeah, it's more of the same thing.
+
+35
+00:02:34,134 --> 00:02:37,716
+Do you have any ideas? Anyone else?
+
+36
+00:02:39,277 --> 00:02:40,978
+Cool. I'll stop there.
+
+37
+00:02:41,299 --> 00:02:43,480
+Thank you.
+
+38
+00:02:45,887 --> 00:02:46,248
+可以用多嗎?都可以隨便你自己用就是說如果有寫好Unitest的話可以把一些你平常不會常常改的問題寫上去然後它自動跑的時候它就會幫你檢查你就不用直接執行遊戲然後再弄到
+
+39
+00:03:14,533 --> 00:03:14,653
+所以你可以等於說你單獨把你想要測試的遊戲東西對分離出來測試對OK, 請翻譯所以基本上他說他可以分離像是具體的過程只是為了遊戲邏輯所以他如果做了任何遊戲邏輯改變他只能測試那些然後他不需要等整個遊戲完成非常好的觀點
+
+40
+00:03:38,451 --> 00:03:45,035
+This is Unreal specific, but in Unreal, some errors only show up when you build an entire game.
+
+41
+00:03:46,195 --> 00:03:53,139
+So in Editor, they won't show up as errors, but if you package the entire game, it will.
+
+42
+00:03:53,559 --> 00:03:56,201
+So you do.
+
+43
+00:03:56,221 --> 00:03:57,301
+So that's it.
+
+44
+00:03:57,341 --> 00:03:59,783
+This is Zilang. He's a character in Unreal.
+
+45
+00:04:00,752 --> 00:04:06,596
+After the game is released, sometimes there are problems only at that time.
+
+46
+00:04:06,636 --> 00:04:13,320
+But when you are in the editor, you will see these problems.
+
+47
+00:04:30,315 --> 00:04:32,517
+Your build will break, but your editor is running fine.
+
+48
+00:04:32,737 --> 00:04:36,020
+And then the same is true for platform-specific code.
+
+49
+00:04:37,101 --> 00:04:39,502
+Chances are you're running your editor in Windows, and
+
+50
+00:04:39,523 --> 00:04:42,765
+you make it build for Mac, or the other way around.
+
+51
+00:04:42,905 --> 00:04:45,827
+And those kind of problems, you will only see them when
+
+52
+00:04:45,867 --> 00:04:47,208
+you're actually making the build.
+
+53
+00:04:48,269 --> 00:04:51,252
+So those were all really, really good answers.
+
+54
+00:04:51,732 --> 00:04:58,477
+I would add for myself, the way I work is I'm very
+
+55
+00:04:58,537 --> 00:04:59,018
+forgetful.
+
+56
+00:04:59,558 --> 00:04:59,738
+So.
+
+57
+00:05:00,412 --> 00:05:09,422
+Even if I'm just working by myself on a project, if I look at my own code from like three or six months ago, that's essentially code from someone else at that point.
+
+58
+00:05:09,522 --> 00:05:11,103
+I have no idea what's going on.
+
+59
+00:05:11,944 --> 00:05:20,714
+And so, if my task is to extend that code or refactor that code and make something new in it,
+
+60
+00:05:21,597 --> 00:05:24,478
+a reading to know that I'm not writing something that
+
+61
+00:05:24,578 --> 00:05:26,078
+used to be working.
+
+62
+00:05:26,098 --> 00:05:29,099
+So the way I do those kind of refactors is I write a unit
+
+63
+00:05:29,139 --> 00:05:34,120
+test first that kind of proves that the code right now is
+
+64
+00:05:34,180 --> 00:05:36,221
+working and doing the thing that it's supposed to be
+
+65
+00:05:36,241 --> 00:05:39,841
+doing, and then I patch it, I change it, and then I run the
+
+66
+00:05:39,921 --> 00:05:43,302
+unit test again to see that I didn't accidentally
+
+67
+00:05:44,042 --> 00:05:44,883
+introduce an error.
+
+68
+00:05:45,563 --> 00:05:48,823
+And automating that means that
+
+69
+00:05:50,326 --> 00:05:54,970
+This unit test will just run whenever I make a change.
+
+70
+00:05:55,271 --> 00:05:56,592
+It's not taking too long.
+
+71
+00:05:57,252 --> 00:06:01,716
+So it's all about getting that off your mind and having this
+
+72
+00:06:01,756 --> 00:06:03,858
+confidence as a backup.
+
+73
+00:06:03,938 --> 00:06:08,042
+If anything happens to you, it tells you and says, you have
+
+74
+00:06:08,062 --> 00:06:08,443
+to search.
+
+75
+00:06:10,064 --> 00:06:10,184
+John 阿實自己補充的想法是通常程式設計師都還蠻健忘的
+
+76
+00:06:10,264 --> 00:06:11,225
+我們會忘記自己三個月六個月前寫的東西到底是怎麼回的如果當時有先把UnityTest寫好或是說你要重新開始動這個專案的時候
+
+77
+00:06:11,225 --> 00:06:11,725
+你先寫UnityTest
+
+78
+00:06:11,725 --> 00:06:12,305
+然後你寫完UnityTest才去做Reflect或是開始做新功能加入的話
+
+79
+00:07:00,682 --> 00:07:04,424
+And then in addition to that, whenever I start a new
+
+80
+00:07:04,484 --> 00:07:07,005
+project for Game Jam or for some private things or
+
+81
+00:07:07,025 --> 00:07:09,946
+something, one of the first things that I want to do is
+
+82
+00:07:10,026 --> 00:07:13,508
+just copy over all my very generic tools from the
+
+83
+00:07:13,528 --> 00:07:15,729
+previous project, from the big ones.
+
+84
+00:07:16,149 --> 00:07:19,611
+So I copy over all the unit tests and all the utility
+
+85
+00:07:19,651 --> 00:07:20,151
+functions.
+
+86
+00:07:22,112 --> 00:07:25,234
+And it just makes the editor better and more productive.
+
+87
+00:08:22,144 --> 00:08:22,484
+目前這個 Jenkins 的流程裡面
+
+88
+00:08:22,544 --> 00:08:23,764
+基本上你一定要 push 到公開的 Git 的 Server 上它才會去抓新版本
+
+89
+00:08:23,844 --> 00:08:24,004
+那在 Git 裡面我們做操作有時候是分兩階段
+
+90
+00:08:24,044 --> 00:08:24,384
+我們會先 commit
+
+91
+00:08:24,404 --> 00:08:24,784
+我們做了一些小修改,我們先 commit
+
+92
+00:08:24,804 --> 00:08:25,065
+在本季先 commit 出來所以我可能會做很多小步驟那我要真的要送到
+
+93
+00:08:45,899 --> 00:08:46,779
+就是正式版裡面的就是我的真正的SKIT Server上的時候
+
+94
+00:08:46,779 --> 00:08:47,099
+我才會Push一次
+
+95
+00:08:47,099 --> 00:08:47,740
+那我那次Push可能會一次送幾十個Commit上去
+
+96
+00:08:47,740 --> 00:08:48,300
+那這樣是不是也代表著我的Jankings使用
+
+97
+00:08:48,300 --> 00:08:48,640
+其實它並沒有真的說每個Commit都執行
+
+98
+00:08:48,640 --> 00:08:48,800
+它其實是我每一次大Push一次的時候我才會執行一次
+
+99
+00:09:08,862 --> 00:09:09,482
+我不知道大家的使用習慣是這樣嗎?已經有在用CI或是已經有在用GemGems的你們的使用習慣是這樣嗎?
+
+100
+00:09:09,482 --> 00:09:10,023
+還是說你會想辦法做到每次commit都是要執行的,所以我每次都會撤資
+
+101
+00:09:10,023 --> 00:09:11,003
+所以我的第二個問題是基本上,當你使用Git,你做local commit
+
+102
+00:09:37,016 --> 00:09:42,522
+And for some people, we would like to have a bunch of
+
+103
+00:09:42,562 --> 00:09:43,102
+local commits.
+
+104
+00:09:43,543 --> 00:09:44,864
+And then we do one push.
+
+105
+00:09:44,944 --> 00:09:51,311
+But basically, Jenkins only take the test and the files
+
+106
+00:09:51,411 --> 00:09:53,893
+from the Git server.
+
+107
+00:09:54,814 --> 00:09:57,097
+So basically, you are sending, say, maybe I do 30
+
+108
+00:09:57,217 --> 00:09:58,378
+commits, and then I do one push.
+
+109
+00:10:01,169 --> 00:10:09,296
+that new test, or the new process, the new test run build process is 30 commits later.
+
+110
+00:10:09,316 --> 00:10:13,940
+So I don't know if that's a good thing to do or a bad thing to do.
+
+111
+00:10:13,960 --> 00:10:15,541
+What is the best place here?
+
+112
+00:10:15,561 --> 00:10:27,170
+It depends on why are you doing 30 commits in a row without pushing it back to the server.
+
+113
+00:10:27,411 --> 00:10:28,511
+We do.
+
+114
+00:10:31,489 --> 00:10:34,370
+is we have, it's called feature branches.
+
+115
+00:10:35,030 --> 00:10:37,471
+So someone has to, you know,
+
+116
+00:10:39,232 --> 00:10:43,233
+create a new prop in the game and make it show up.
+
+117
+00:10:44,594 --> 00:10:46,915
+And that was for,
+
+118
+00:10:48,056 --> 00:10:51,897
+that was shown earlier, called DevOps.
+
+119
+00:10:54,418 --> 00:10:57,620
+There's a, there's a, if you Google just like DevOps,
+
+120
+00:10:57,660 --> 00:11:00,861
+you will find a lot of information about that.
+
+121
+00:11:03,466 --> 00:11:10,248
+In this case, when you have this branch and you're working on it, while you're working on it, it's not ready.
+
+122
+00:11:11,168 --> 00:11:15,909
+You know it's broken, because you're working on it. You're in the middle of working on it.
+
+123
+00:11:16,350 --> 00:11:21,411
+So you don't really want to run the unit tests yet.
+
+124
+00:11:22,571 --> 00:11:30,614
+But then, at the end, when your feature is complete and you want to get it back to main, you do want to run the unit tests.
+
+125
+00:11:30,634 --> 00:11:31,614
+So, in plastic...
+
+126
+00:11:32,430 --> 00:11:34,151
+You use branches for that in Git.
+
+127
+00:11:34,752 --> 00:11:37,093
+I think you can either use branches for...
+
+128
+00:11:37,214 --> 00:11:40,616
+Ah, Git is very complicated. I don't know.
+
+129
+00:11:41,137 --> 00:11:41,397
+Yeah?
+
+130
+00:11:42,958 --> 00:11:46,241
+You use branches and there's like a separate tool
+
+131
+00:11:46,621 --> 00:11:50,644
+that is the most, like, gooey thing.
+
+132
+00:11:50,664 --> 00:11:51,685
+It's called GitFlow.
+
+133
+00:11:52,105 --> 00:11:52,646
+GitFlow.
+
+134
+00:11:53,266 --> 00:11:53,607
+Yeah.
+
+135
+00:11:53,827 --> 00:11:55,688
+Which is the same process of like features
+
+136
+00:11:55,748 --> 00:11:57,690
+and then you have like releases and stuff like that.
+
+137
+00:11:59,311 --> 00:11:59,531
+Right.
+
+138
+00:12:01,504 --> 00:12:07,205
+What I didn't show, because I wanted to keep it simple, is there was a branch selector here.
+
+139
+00:12:07,225 --> 00:12:09,686
+So you can absolutely...
+
+140
+00:12:10,086 --> 00:12:11,966
+That's being cut by the screen.
+
+141
+00:12:12,146 --> 00:12:12,306
+Oh.
+
+142
+00:12:13,207 --> 00:12:14,167
+Destroy the video.
+
+143
+00:12:14,807 --> 00:12:15,827
+Yeah.
+
+144
+00:12:16,467 --> 00:12:17,968
+There's a branch specifier there.
+
+145
+00:12:21,168 --> 00:12:27,310
+But, and Jenkins does have a multi-branch configuration where...
+
+146
+00:12:28,967 --> 00:12:33,890
+It looks at the commits in all the branches and runs the unit tests in the branches separately.
+
+147
+00:12:34,250 --> 00:12:40,774
+So that is a little bit more complicated than what I showed today, but you can set that up.
+
+148
+00:12:41,835 --> 00:12:52,301
+And so I think what works for us is you have your branch, you make it ready for main and then you merge it.
+
+149
+00:12:54,527 --> 00:12:56,427
+you start a new feature on a new branch.
+
+150
+00:12:56,527 --> 00:12:58,848
+Because if you keep using the same branch,
+
+151
+00:13:00,188 --> 00:13:01,149
+what's the point?
+
+152
+00:13:01,229 --> 00:13:03,149
+And now there are two features on that branch.
+
+153
+00:13:03,910 --> 00:13:08,911
+So, I would suggest you run the unit test at the end of the branch.
+
+154
+00:13:09,851 --> 00:13:15,853
+And in Plastic, you always check everything in right away.
+
+155
+00:13:16,173 --> 00:13:17,974
+In Git, you can have your local commits.
+
+156
+00:13:18,034 --> 00:13:20,975
+And then, you don't even have to branch, right?
+
+157
+00:13:21,775 --> 00:13:23,456
+Because your local commits are already there.
+
+158
+00:13:25,093 --> 00:13:30,898
+But I think to make this work, you would still have to branch out even locally,
+
+159
+00:13:30,918 --> 00:13:32,359
+and then commit the...
+
+160
+00:13:33,199 --> 00:13:34,761
+Commit the branch to the...
+
+161
+00:13:34,841 --> 00:13:38,843
+Commit it as a branch, and then you would run the Jenkins process
+
+162
+00:13:40,064 --> 00:13:41,986
+and point it to the branch and say,
+
+163
+00:13:42,006 --> 00:13:44,768
+OK, this branch is now ready, please run the unit tests,
+
+164
+00:13:44,948 --> 00:13:47,790
+and if the unit tests are green, merge it to main,
+
+165
+00:13:47,950 --> 00:13:53,134
+like squash or merge, whatever it's called, and git.
+
+166
+00:13:54,152 --> 00:13:54,732
+這都是可以用來做的回答有點長,比較簡約的回答我自己的理解就是說不管是Plastic還是Dig你要開一個新的功能
+
+167
+00:13:54,732 --> 00:13:55,393
+開一個新的Feature Branch一個分支只寫一個功能
+
+168
+00:13:55,393 --> 00:13:55,613
+這個功能寫完之後你要merge之前才去做
+
+169
+00:14:20,401 --> 00:14:20,601
+自動化的代理測試測試完之後,如果全部的Test都通過的話就會自動合併
+
+170
+00:14:20,601 --> 00:14:20,681
+OK有人有其他的問題嗎?
+
+171
+00:14:20,681 --> 00:14:20,822
+或是剛剛有什麼新的Con?有什麼評論?
+
+172
+00:14:44,681 --> 00:14:53,926
+So if you don't want to automate that, what you can do in Jenkins is you can configure your project to be parameterized
+
+173
+00:14:54,566 --> 00:14:58,428
+and you add a string parameter for whatever, like the branch, right?
+
+174
+00:14:58,488 --> 00:15:04,892
+And then when you push this button here to build it, they ask you, okay, which branch do you want to build?
+
+175
+00:15:05,992 --> 00:15:11,015
+That's, if you have a small team, that is totally enough.
+
+176
+00:15:13,997 --> 00:15:16,881
+You just have to push it manually, right?所以這個功能是
+
+177
+00:15:16,881 --> 00:15:17,242
+Jankin上面可以
+
+178
+00:15:17,242 --> 00:15:18,103
+每次要build之前可以手動設定你要下哪些參數
+
+179
+00:15:18,103 --> 00:15:18,964
+可以自己定一個branch的參數去決定要build哪一個branch
+
+180
+00:15:42,924 --> 00:15:43,124
+其他人有問題嗎?如果沒有的話我去問了另外有一個問題是因為它現在的展示範圍基本上是以PC為主其實台灣這邊應該有蠻多人的經驗是在開發手機平台上的遊戲
+
+181
+00:16:03,227 --> 00:16:03,647
+所以我是蠻想知道說針對手機的環境如果你要透過 Jenkins 自動化的話有沒有一些額外的注意事項
+
+182
+00:16:03,687 --> 00:16:03,927
+應該就是要開始使用 Jenkins 來跑手機專案的人應該要注意所以我的下一個問題是我們已經談了一些不同的平台
+
+183
+00:16:30,551 --> 00:16:35,034
+But a lot of the developers in Taiwan do mobile games.
+
+184
+00:16:35,955 --> 00:16:43,361
+So I'm curious about if there are any additional things you
+
+185
+00:16:43,381 --> 00:16:47,284
+have to take care of if you are doing on the mobile front.
+
+186
+00:16:47,304 --> 00:16:52,268
+Maybe this is probably a little bit the same as on the
+
+187
+00:16:52,308 --> 00:16:52,769
+console front.
+
+188
+00:16:52,789 --> 00:16:55,030
+You have some additional process you have to do if you
+
+189
+00:16:55,050 --> 00:16:55,851
+want to really push it.
+
+190
+00:16:58,649 --> 00:17:00,811
+deliver the thing to the end user?
+
+191
+00:17:03,314 --> 00:17:05,656
+I know that on
+
+192
+00:17:08,119 --> 00:17:10,681
+on consoles you have to like increase the version number
+
+193
+00:17:11,042 --> 00:17:12,583
+and that version number is baked in
+
+194
+00:17:12,803 --> 00:17:16,127
+like it's in one of the config files in your project
+
+195
+00:17:16,207 --> 00:17:16,667
+like so
+
+196
+00:17:17,188 --> 00:17:19,791
+so part of the automation process would be
+
+197
+00:17:20,411 --> 00:17:20,652
+to
+
+198
+00:17:22,557 --> 00:17:29,026
+to open that file, replace the version number, put it back in, because you don't want to do that manually.
+
+199
+00:17:29,446 --> 00:17:35,774
+And I'm sure on mobile there might be steps like that as well. Anyone else?
+
+200
+00:17:44,449 --> 00:17:47,832
+Yeah, there's a lot of configurations to do.
+
+201
+00:17:49,894 --> 00:17:58,081
+And we know we built the Xcode project or the Android Studio project.
+
+202
+00:17:58,201 --> 00:18:03,005
+And there's a very good build and update wrapper called FastLane,
+
+203
+00:18:03,245 --> 00:18:04,987
+and it's currently owned by Google.
+
+204
+00:18:06,121 --> 00:18:10,042
+So we ask Unity to build an intermediate form
+
+205
+00:18:10,162 --> 00:18:14,562
+and then use the dev wrapper to finish the build and deliver.
+
+206
+00:18:14,582 --> 00:18:16,363
+Okay.
+
+207
+00:18:16,403 --> 00:18:20,003
+So you have to incorporate Fastlane into Jenkins?
+
+208
+00:18:20,323 --> 00:18:32,305
+Yeah, you have to incorporate Fastlane into Jenkins.
+
+209
+00:18:32,745 --> 00:18:35,286
+Like, when you were doing console,
+
+210
+00:18:36,500 --> 00:18:39,161
+How would you set up in a way that...
+
+211
+00:18:40,642 --> 00:18:40,962
+like...
+
+212
+00:18:42,082 --> 00:18:48,604
+so it is ready for maybe certification process or something like that?
+
+213
+00:18:50,225 --> 00:18:52,166
+Is that allowed to be talked about?
+
+214
+00:18:56,707 --> 00:18:57,067
+Yeah.
+
+215
+00:18:57,748 --> 00:18:59,048
+Not sure how to answer the question.
+
+216
+00:19:02,409 --> 00:19:05,390
+When you make builds for...
+
+217
+00:19:06,685 --> 00:19:14,489
+Consoles, there are different types of builds, like a debug build or a release build.
+
+218
+00:19:15,610 --> 00:19:20,273
+The difference is that the debug build runs slower, but you can have a connected profiler
+
+219
+00:19:20,353 --> 00:19:23,054
+and get interesting information.
+
+220
+00:19:23,495 --> 00:19:31,219
+So you would build debug builds on the developer's machine, and then it's directly connected
+
+221
+00:19:31,239 --> 00:19:34,981
+to the Xbox or PlayStation, and then you push it over.
+
+222
+00:19:35,001 --> 00:19:35,762
+That's all there is to it.
+
+223
+00:19:36,710 --> 00:19:39,553
+probably on your own machine and not automated.
+
+224
+00:19:40,294 --> 00:19:45,778
+You could if you wanted to, but it has to be separated from the actual releases.
+
+225
+00:19:46,879 --> 00:19:52,164
+And then for the releases, you have to make a build and package it up.
+
+226
+00:19:52,284 --> 00:19:55,547
+I think that's similar to the mobile process.
+
+227
+00:19:55,707 --> 00:20:02,613
+And then once it's packaged up, you submit it in some sort of backend from Microsoft or Sony.
+
+228
+00:20:04,849 --> 00:20:13,055
+And once it's there, then you have to sit and wait.
+
+229
+00:20:13,135 --> 00:20:18,959
+If they come back with any sort of violations, then you fix that and make a new build and upload it again.
+
+230
+00:20:18,979 --> 00:20:29,065
+I guess that follows. I would follow that up with another question that's kind of related.
+
+231
+00:20:31,622 --> 00:20:37,023
+Basically, there are processes in, say, console build that you just cannot automate, right?
+
+232
+00:20:38,163 --> 00:20:43,744
+And do you think there are other things that you also cannot automate?
+
+233
+00:20:47,045 --> 00:20:50,005
+Like, not related to consoles, but there are things you just can't...
+
+234
+00:20:50,386 --> 00:20:54,386
+It's hard to incorporate into Jenkins or the CI process or...
+
+235
+00:20:55,466 --> 00:20:58,687
+No, as long as it's on our side...
+
+236
+00:21:00,514 --> 00:21:02,555
+we have full control.
+
+237
+00:21:05,117 --> 00:21:09,199
+So really for us, as soon as it leaves our control,
+
+238
+00:21:09,239 --> 00:21:11,721
+as soon as it's about some other platforms
+
+239
+00:21:12,341 --> 00:21:13,942
+and what they want to do,
+
+240
+00:21:14,463 --> 00:21:17,365
+that's when we can automate it.
+
+241
+00:21:19,046 --> 00:21:22,068
+The things that are a little bit more difficult on our side are like...
+
+242
+00:21:22,743 --> 00:21:28,045
+Okay, configurations, you have to make sure that you're building with a certain flags and parameters,
+
+243
+00:21:28,585 --> 00:21:34,726
+and then you have to inject the build number and date and watermark and all those kind of things.
+
+244
+00:21:34,766 --> 00:21:38,907
+But if you have programmers that can program a game,
+
+245
+00:21:40,367 --> 00:21:44,408
+you have programmers that can program some stupid build automation.
+
+246
+00:21:47,709 --> 00:21:49,269
+It's not very interesting work, but...
+
+247
+00:21:50,679 --> 00:22:03,558
+But once you have, yes, it's like scripting, shell scripting, batch scripting, maybe some Python, or if you want to, you can mostly do stuff in Unity as well and just directly interact with the file system.
+
+248
+00:22:06,135 --> 00:22:06,916
+我剛剛的問題是說就像剛剛提到的手機或是說在Console上面,有些過程可能就是它沒有辦法因為平台的緣故,所以它沒有辦法被自動化我剛剛的問題就是說
+
+249
+00:22:06,916 --> 00:22:07,216
+除了這個之外,還有沒有其他東西可能很難自動化,或者是它就確實無法被Jemmy自動化
+
+250
+00:22:32,117 --> 00:22:32,757
+剛剛的回答是說,只要是在你自己可以掌控的開發環境底下應該還是有辦法自動化只是有些東西可能需要花比較多時間去調教才能把你的Build Script寫到完美理論上來說,你有第一次的經驗之後有第一次的流程,之後應該就可以一直使用應該會越來越順手才對
+
+251
+00:23:06,870 --> 00:23:10,172
+You're going to see all of me now.
+
+252
+00:23:10,273 --> 00:23:12,034
+Any additional questions?
+
+253
+00:23:15,997 --> 00:23:17,839
+So if you have a look at the Jenkins file,
+
+254
+00:23:18,900 --> 00:23:24,304
+really all it does is execute batch scripts.
+
+255
+00:23:25,505 --> 00:23:26,886
+This is a one-line batch script,
+
+256
+00:23:26,906 --> 00:23:32,090
+which just, like, this is UnityX with some
+
+257
+00:23:32,211 --> 00:23:35,193
+exe, but some flags.
+
+258
+00:23:36,717 --> 00:23:44,204
+and it's a one-line patch script, but you might as well execute some Windows patch script
+
+259
+00:23:44,264 --> 00:23:47,186
+or some Python script or anything here, right?
+
+260
+00:23:47,246 --> 00:23:51,891
+So anything you could script, you can trigger it from Jenkins.
+
+261
+00:23:52,832 --> 00:23:57,676
+So basically, like, anything that can be run on command line, you can put that here?
+
+262
+00:23:58,036 --> 00:24:02,460
+Yeah. Yeah, anything that doesn't require you to, like, mouse click or something.
+
+263
+00:24:03,087 --> 00:24:08,409
+I guess even if it does require you to mouse, you can use Ghost Mouse and record that and
+
+264
+00:24:09,569 --> 00:24:12,130
+use the command line to trigger that.
+
+265
+00:24:12,290 --> 00:24:15,391
+It gets tricky, but it's not impossible.
+
+266
+00:24:16,052 --> 00:24:17,312
+At some point, it just becomes...
+
+267
+00:24:18,173 --> 00:24:20,974
+If you want to make a game, you don't really want to make build processes, right?
+
+268
+00:24:21,034 --> 00:24:23,255
+It's just overhead.
+
+269
+00:24:30,784 --> 00:24:40,087
+A question that is related to why we're having this automation discussion in the first place
+
+270
+00:24:40,187 --> 00:24:48,370
+is that you need to automate a process across different disciplinary.
+
+271
+00:24:48,650 --> 00:24:54,272
+So like programmers, designers, project managers, artists in the same team.
+
+272
+00:24:57,157 --> 00:24:59,838
+Obviously, once you have this set up, you don't want to just
+
+273
+00:25:00,218 --> 00:25:03,379
+always find this one person and say, hey, you're the build
+
+274
+00:25:03,399 --> 00:25:08,181
+programmer, you should have responsibility over this.
+
+275
+00:25:09,261 --> 00:25:15,743
+So how do you go about distributing knowledge or
+
+276
+00:25:15,763 --> 00:25:21,385
+training your team member when they are non-programmers and
+
+277
+00:25:21,465 --> 00:25:21,825
+use this?
+
+278
+00:25:24,085 --> 00:25:25,066
+That's a very good question.
+
+279
+00:25:26,165 --> 00:25:36,813
+Last year I was at GDC and I went to a workshop that was about automated testing in games.
+
+280
+00:25:37,454 --> 00:25:44,719
+And one person asked, how do you make people run the unit tests?
+
+281
+00:25:44,739 --> 00:25:50,163
+Because if it takes 10 minutes, I don't want to sit there and wait 10 minutes.
+
+282
+00:25:50,544 --> 00:25:54,166
+I just want to move on with my life. I want to get work done.
+
+283
+00:25:56,887 --> 00:26:07,991
+So their problem was they have some automation, they have some new tests, but people just don't follow the rules.
+
+284
+00:26:09,672 --> 00:26:18,536
+And basically all the big companies in that workshop, all the people from big companies,
+
+285
+00:26:18,676 --> 00:26:22,597
+and there were people from like EA and Google and Microsoft and...
+
+286
+00:26:23,837 --> 00:26:26,839
+They have like hundreds of projects with hundreds of people.
+
+287
+00:26:27,159 --> 00:26:28,400
+They all say the same thing.
+
+288
+00:26:29,561 --> 00:26:29,981
+Which is...
+
+289
+00:26:32,663 --> 00:26:34,644
+If you're really at that size,
+
+290
+00:26:36,065 --> 00:26:36,866
+you just like...
+
+291
+00:26:37,266 --> 00:26:39,147
+You configure your repository so that
+
+292
+00:26:39,648 --> 00:26:41,349
+you cannot check into main.
+
+293
+00:26:41,929 --> 00:26:42,690
+You just cannot.
+
+294
+00:26:42,950 --> 00:26:45,412
+You don't have the rights to check in.
+
+295
+00:26:46,172 --> 00:26:47,313
+Like, even if you tried.
+
+296
+00:26:47,693 --> 00:26:49,134
+All you can do is make a branch,
+
+297
+00:26:49,715 --> 00:26:50,515
+work on a branch,
+
+298
+00:26:50,535 --> 00:26:52,397
+and then at the end of your branch you can say,
+
+299
+00:26:52,437 --> 00:26:52,637
+Hey!
+
+300
+00:26:53,836 --> 00:27:00,459
+You press a button somewhere, like in Jenkins or some backend that you made.
+
+301
+00:27:00,959 --> 00:27:04,081
+And then the process goes in and runs the unit tests.
+
+302
+00:27:05,761 --> 00:27:11,944
+And if those unit tests fail, there's nobody else that will...
+
+303
+00:27:13,845 --> 00:27:15,746
+You cannot blame anyone else. It's your branch.
+
+304
+00:27:16,886 --> 00:27:21,088
+So you kind of have to figure out how to fix it.
+
+305
+00:27:21,128 --> 00:27:22,949
+And I'm sure sometimes, or often...
+
+306
+00:27:23,957 --> 00:27:29,598
+Because often I write a unit test and then it fails for some level designer.
+
+307
+00:27:29,658 --> 00:27:32,339
+And they are like, I don't know what this error means.
+
+308
+00:27:33,219 --> 00:27:37,901
+Because it's just saying, OK, you forgot, this file is corrupt.
+
+309
+00:27:37,921 --> 00:27:39,561
+What does it mean? What do I have to do?
+
+310
+00:27:39,981 --> 00:27:45,503
+So they do come to me and they ask, OK, how do I un-mess this mess?
+
+311
+00:27:47,684 --> 00:27:49,044
+And then I explain it to them.
+
+312
+00:27:49,124 --> 00:27:50,885
+And sometimes I do have to help out.
+
+313
+00:27:50,905 --> 00:27:53,245
+But over time, I'm like, OK, I'm going to fix this.
+
+314
+00:27:55,319 --> 00:27:57,641
+The same kind of people tend to make the same kind of mistakes.
+
+315
+00:27:58,621 --> 00:28:01,203
+And you have like 10 different categories of mistakes.
+
+316
+00:28:01,663 --> 00:28:04,145
+And you don't have to teach all 10 categories to everyone.
+
+317
+00:28:04,165 --> 00:28:07,747
+You just have to teach that one category to this group of people,
+
+318
+00:28:07,767 --> 00:28:10,349
+that category to that group of people.
+
+319
+00:28:10,809 --> 00:28:12,891
+And that totally works. That just comes with time.
+
+320
+00:28:13,791 --> 00:28:18,134
+So, especially when you have some process where you just cannot check into Maine,
+
+321
+00:28:18,815 --> 00:28:22,297
+even if you wanted to, and even if you're in a rush and you want to go home.
+
+322
+00:29:39,305 --> 00:29:39,625
+確保自己的產出的內容是可以被整合進專案主線裡面但是也有另一方面的因素因為當你有遊戲計畫的時候你會有很多規則但問題是那些規則是寫在Unitex還是人們的頭上
+
+323
+00:30:06,115 --> 00:30:16,878
+And so, like, you have to set up your prefab in a certain way, you have to have the colitis here, but there, you have to have, like, this type of colitis, but not that type of colitis, there has to be, like, physics material.
+
+324
+00:30:18,779 --> 00:30:28,061
+There are so many rules that you have in just your, like, your asset setup, not even just code, but, like, for people who are not programmers.
+
+325
+00:30:28,681 --> 00:30:35,603
+And so, it's much more difficult to teach those people all the rules that they need to know.
+
+326
+00:30:35,947 --> 00:30:38,368
+there are to make sure that all your assets are correct,
+
+327
+00:30:38,908 --> 00:30:44,490
+than it is to write a test to check those rules automatically
+
+328
+00:30:45,270 --> 00:30:49,312
+and then just have forces across the entire project.
+
+329
+00:30:50,092 --> 00:30:51,953
+Because then you never have to shout at people.
+
+330
+00:30:53,953 --> 00:30:57,074
+People don't enjoy getting shouted,
+
+331
+00:30:58,235 --> 00:30:59,935
+especially not from other people.
+
+332
+00:31:00,175 --> 00:31:01,556
+If the computer is shouting at you,
+
+333
+00:31:01,656 --> 00:31:03,457
+it's a little bit less painful.
+
+334
+00:31:05,637 --> 00:31:05,937
+Okay.
+
+335
+00:31:06,777 --> 00:31:12,339
+So, and it gives you more confidence if you, if you're like new or you don't really know.
+
+336
+00:31:13,700 --> 00:31:17,962
+And you do your work and maybe you forgot something, maybe you didn't forget something, I don't know.
+
+337
+00:31:18,702 --> 00:31:22,583
+You're just like, okay, I'm gonna ask the computer if everything's alright.
+
+338
+00:31:23,764 --> 00:31:26,065
+And then if the computer says cool, then it's cool.
+
+339
+00:31:26,545 --> 00:31:32,247
+And if not, that's also cool because it was just like, I didn't know myself.
+
+340
+00:31:32,748 --> 00:31:34,688
+It's better I have this automated.
+
+341
+00:31:56,397 --> 00:31:58,298
+程式Repository的時候你就讓絕大部分的人基本上不能把它的分支整合進主要的主線裡面你要整合進之前一定要通過自動化的單元測試
+
+342
+00:31:58,298 --> 00:31:58,458
+關鍵當然是要怎麼把單元測試寫好剛剛Jonas補充的就是說很多時候你
+
+343
+00:32:39,499 --> 00:32:39,939
+那溝通上可能就會因為你常常需要去講說這個地方有什麼我們內規要怎樣設定啊然後哪些東西compile可能會過但是我們不能這樣寫我們要那樣寫還是說我們的要加什麼特定東西是要怎麼調就是有一個專門針對你這個團隊或這個專案的步驟那這個東西如果你平常都是用嘴巴講的話就當然很多人很容易忘記而且有一些美術或是非城市人員或是企劃
+
+344
+00:34:28,382 --> 00:34:33,245
+nothing wrong with your lungs or whatever, right? And you have more confidence that, okay,
+
+345
+00:34:33,826 --> 00:34:39,849
+you're coughing, you're not going to die from cancer or something, because
+
+346
+00:34:41,030 --> 00:34:50,656
+they were able to check. And so we have the privilege as programmers or as people who work
+
+347
+00:34:50,676 --> 00:34:54,898
+with computers to automate these things and run these checks like...
+
+348
+00:34:56,057 --> 00:35:02,601
+every hour, right? So we can get a full health check, blood test and everything all the time.
+
+349
+00:35:02,841 --> 00:35:07,904
+And that gives you a real good confidence that, okay, you didn't get sick or that everything
+
+350
+00:35:07,964 --> 00:35:11,606
+is still really good. You don't have to, like, guess around.
+
+351
+00:35:13,227 --> 00:35:18,730
+So I think the final question would be how will you make sure that the automated unit
+
+352
+00:35:19,171 --> 00:35:21,812
+test part is really that robust? How long have you...
+
+353
+00:35:22,646 --> 00:35:29,167
+I just say, over the course of Subnautica, the game has been running for how many years?
+
+354
+00:35:29,947 --> 00:35:30,728
+Five, six years?
+
+355
+00:35:31,008 --> 00:35:31,248
+Yeah.
+
+356
+00:35:31,928 --> 00:35:36,809
+So that's a very long lifespan for a game project.
+
+357
+00:35:38,249 --> 00:35:44,250
+Did you have automated tests from the very beginning or did you put it in midway?
+
+358
+00:35:45,050 --> 00:35:48,251
+We had some unit tests in the beginning of the year.
+
+359
+00:35:50,011 --> 00:35:57,355
+The useful unit tests come over time as you make a build and everything was green and
+
+360
+00:35:57,375 --> 00:35:59,736
+then you play it and it doesn't work.
+
+361
+00:35:59,756 --> 00:36:02,478
+And then you figure out what was wrong.
+
+362
+00:36:03,619 --> 00:36:08,522
+And then you know what was wrong and you notice, okay, I didn't have a unit test for that.
+
+363
+00:36:09,802 --> 00:36:17,407
+And so what I really, really recommend is instead of just fixing the bug and then...
+
+364
+00:36:19,215 --> 00:36:28,022
+work on your game again, write a unit test first that catches this issue, and then you
+
+365
+00:36:28,082 --> 00:36:32,426
+fix the bug, and then you run the unit test again and verify that indeed now it is green
+
+366
+00:36:32,746 --> 00:36:37,430
+before it was red. So you have confidence that your unit test actually tests what you
+
+367
+00:36:38,231 --> 00:36:44,436
+just broke. And then from then on this bug will never happen again. And so the idea of
+
+368
+00:36:44,496 --> 00:36:47,599
+course would be to write the unit test as broad as possible to...
+
+369
+00:36:49,202 --> 00:36:51,263
+to find an entire class of blocks.
+
+370
+00:36:52,124 --> 00:36:56,126
+So what I said before was, we have these two tests.
+
+371
+00:36:56,346 --> 00:36:59,228
+One is check all the assets in the project,
+
+372
+00:36:59,368 --> 00:37:02,370
+and if anything is like referencing something missing,
+
+373
+00:37:03,330 --> 00:37:04,211
+then fail.
+
+374
+00:37:04,891 --> 00:37:08,113
+And the other test is when the programmer writes
+
+375
+00:37:08,733 --> 00:37:12,655
+assert not null or some attribute on a property,
+
+376
+00:37:12,715 --> 00:37:15,177
+and they are like, okay, whatever you do with my script,
+
+377
+00:37:15,237 --> 00:37:17,938
+if you use it and you put it on some prefab.
+
+378
+00:37:18,447 --> 00:37:22,330
+Please make sure to assign that field, because otherwise the script is not working.
+
+379
+00:37:22,770 --> 00:37:28,234
+Those two unit tests are covering like 85% of our errors already.
+
+380
+00:37:29,255 --> 00:37:33,598
+Because we have a distributed team, we have like 30 people all over the world.
+
+381
+00:37:33,758 --> 00:37:41,564
+And it's really easy for people to make a mistake in Unity, and Unity knows it but doesn't tell you.
+
+382
+00:37:42,805 --> 00:37:45,667
+And so just those two tests have prevented...
+
+383
+00:37:46,340 --> 00:37:54,984
+I don't know how many hundreds of hours of us having to track down like why is the game so weird now.
+
+384
+00:37:55,644 --> 00:38:04,127
+Because sometimes when you forgot to assign something, later in the game you have a no reference exception.
+
+385
+00:38:05,347 --> 00:38:10,569
+And that doesn't take down your entire game, it just takes down that particular call stack.
+
+386
+00:38:10,930 --> 00:38:14,491
+And then some other stuff that is in that call stack stops working.
+
+387
+00:38:15,068 --> 00:38:20,111
+The classic example for us was streaming, the world streaming.
+
+388
+00:38:21,712 --> 00:38:29,075
+We used to have it so that you could take down the entire world streaming if you have an exception in just the wrong kind of code.
+
+389
+00:38:29,095 --> 00:38:35,858
+And so people would just play the game and the world streaming would stop and so they would swim to the edge of the world.
+
+390
+00:38:37,179 --> 00:38:40,200
+And there's no more world coming in.
+
+391
+00:38:40,620 --> 00:38:43,322
+This is obviously a world streaming problem.
+
+392
+00:38:43,871 --> 00:38:46,472
+But it's not a workflow 3.0 problem, that was a symptom.
+
+393
+00:38:47,093 --> 00:38:52,095
+The root cause was like someone, some artist renamed the texture somewhere.
+
+394
+00:38:52,995 --> 00:38:56,737
+Like, there's very far disconnect between the two.
+
+395
+00:38:56,997 --> 00:39:02,220
+And if sometimes like days in between, it's really, really difficult to track that down.
+
+396
+00:39:03,320 --> 00:39:06,742
+And so, those two tests are, I will put them in the project.
+
+397
+00:39:07,042 --> 00:39:08,263
+They are very, very useful.
+
+398
+00:39:39,059 --> 00:39:39,279
+這些東西要透過很長的時間慢慢建立起來就是你每次有新的錯誤就是你可能之前已經有一組測試然後執行了遊戲結果發現遊戲還是掛掉那這個時候你就應該要針對這個掛掉的情況新增一組測試然後Jonas剛剛建議的流程是說
+
+399
+00:39:39,279 --> 00:39:39,419
+你不應該說我修好這個Bug然後我就開始繼續開發下一個功能而是我應該先針對這個錯誤狀況先去寫測試
+
+400
+00:40:09,103 --> 00:40:09,444
+在我修bug之前確定我剛寫的測試有辦法把bug找出來
+
+401
+00:40:09,444 --> 00:40:09,604
+然後你把bug修掉,然後再去開發下功能理論上這樣,你之後在這個狀態裡面的時候應該就不會再遇到你剛剛那樣子的
+
+402
+00:40:09,604 --> 00:40:10,104
+就是你的新的症狀會變成舊的症狀然後它會包含在你的單元測試裡面還有其他UniTest跟ASUS
+
+403
+00:40:10,104 --> 00:40:13,087
+When you have your test setup, there is a good chance that
+
+404
+00:40:39,262 --> 00:40:41,023
+You have a certain class, like, OK, these
+
+405
+00:40:41,103 --> 00:40:44,485
+are all the NPCs in the game, all the NPC prefabs.
+
+406
+00:40:44,545 --> 00:40:47,407
+And they have to have a rigid body on them,
+
+407
+00:40:47,467 --> 00:40:49,828
+or they must not have a rigid body on them,
+
+408
+00:40:49,868 --> 00:40:52,169
+or they must have this script or that script on them, right?
+
+409
+00:40:52,589 --> 00:40:56,491
+And so you have all these rules that these specific prefabs
+
+410
+00:40:56,592 --> 00:40:58,673
+have to have these set of scripts set up
+
+411
+00:40:58,733 --> 00:40:59,393
+in a certain way.
+
+412
+00:40:59,473 --> 00:41:00,814
+Otherwise, the game will not work.
+
+413
+00:41:02,395 --> 00:41:06,197
+And all these kind of rules, you can put them into code,
+
+414
+00:41:06,337 --> 00:41:07,437
+put them into a unit test.
+
+415
+00:41:10,829 --> 00:41:14,092
+in this folder, then the issue will apply and then check it automatically.
+
+416
+00:41:14,552 --> 00:41:17,354
+And that is something that you have to do project by project.
+
+417
+00:41:17,414 --> 00:41:23,379
+It's different, but it doesn't actually take that much time to do it.
+
+418
+00:41:23,439 --> 00:41:27,002
+And then after you've done that, you know that all your prefabs,
+
+419
+00:41:27,162 --> 00:41:29,124
+done by someone else who's not a programmer,
+
+420
+00:41:30,024 --> 00:41:32,446
+are guaranteed to have all the required components,
+
+421
+00:41:32,526 --> 00:41:36,169
+or are guaranteed to not have all the forbidden components,
+
+422
+00:41:36,830 --> 00:41:38,271
+all these kind of things.
+
+423
+00:41:38,551 --> 00:41:39,832
+But do you write those tests?
+
+424
+00:41:41,172 --> 00:41:46,457
+Like from the very beginning or you only added them because you were noticing errors?
+
+425
+00:41:46,637 --> 00:41:48,919
+Yeah, we're all busy.
+
+426
+00:41:49,319 --> 00:41:56,625
+So there's no point in trying to come up with a clever way of testing what might break in the future.
+
+427
+00:41:57,526 --> 00:41:58,987
+If it's not a problem, don't fix it.
+
+428
+00:41:59,067 --> 00:42:06,693
+So wait for the problem to show up and then write the unit test and then fix it.
+
+429
+00:42:15,982 --> 00:42:16,062
+不知道現在有沒有其他已經有在用CI的人想要衝的
+
+430
+00:42:38,600 --> 00:42:44,566
+One thing is like when you have a lot of people working on that, then like how for the game
+
+431
+00:42:44,586 --> 00:42:48,369
+industry and then like how like once people keep trying to have this separate feature
+
+432
+00:42:48,389 --> 00:42:53,074
+branches, then often happens that the people try to push their feature branch because one
+
+433
+00:42:53,874 --> 00:42:58,118
+is committed to the master branch and the other sometimes can do some modification.
+
+434
+00:42:58,759 --> 00:43:03,503
+So how do you kind of like approach this kind of thing?
+
+435
+00:43:08,217 --> 00:43:13,579
+and then the other person has to merge and that's to their branch because otherwise they cannot commit theirs.
+
+436
+00:43:13,839 --> 00:43:18,341
+Yes, exactly like that. There can be more strategies, but what's your recommendation?
+
+437
+00:43:18,881 --> 00:43:27,425
+Yeah, that's a very good question and it definitely is a problem.
+
+438
+00:43:28,825 --> 00:43:32,967
+We have that problem too and we have people in all kinds of towns.
+
+439
+00:43:37,057 --> 00:43:39,239
+long branches, what tends to be...
+
+440
+00:43:41,320 --> 00:43:43,762
+what you kind of want to do is
+
+441
+00:43:45,043 --> 00:43:46,684
+you don't want to touch the same files
+
+442
+00:43:48,826 --> 00:43:52,369
+at the same time. So if you can
+
+443
+00:43:52,629 --> 00:43:55,971
+structure your project such that
+
+444
+00:43:56,872 --> 00:44:00,715
+different people are working on different files, it's not always possible.
+
+445
+00:44:02,336 --> 00:44:04,017
+Then you don't have merges where you have...
+
+446
+00:44:04,883 --> 00:44:08,784
+individual files, right? You just have to, okay, I changed these five files,
+
+447
+00:44:09,045 --> 00:44:12,206
+Johnson's changed these three files in the meantime,
+
+448
+00:44:12,906 --> 00:44:16,948
+but they are completely separate sets of files, so it doesn't matter if you check in first or I
+
+449
+00:44:16,988 --> 00:44:20,889
+check in first, it's not going to result in a conflict.
+
+450
+00:44:26,852 --> 00:44:29,733
+So is your question specifically about merge conflicts?
+
+451
+00:44:33,977 --> 00:44:36,278
+more like that, like if somebody is like
+
+452
+00:44:38,359 --> 00:44:40,100
+having a priority or like how do you like
+
+453
+00:44:40,500 --> 00:44:41,960
+because if somebody is like doing
+
+454
+00:44:42,000 --> 00:44:44,061
+complicated things and the other things
+
+455
+00:44:44,462 --> 00:44:46,182
+do small things which kind of break the big
+
+456
+00:44:47,063 --> 00:44:48,524
+change, then he is very frustrated
+
+457
+00:44:48,904 --> 00:44:49,924
+yeah, yeah, exactly
+
+458
+00:44:49,964 --> 00:44:50,284
+so
+
+459
+00:44:50,304 --> 00:44:58,668
+I think
+
+460
+00:45:01,010 --> 00:45:01,870
+the biggest part to
+
+461
+00:45:03,528 --> 00:45:09,449
+So I guess the main question was that if someone makes a small change and they break someone
+
+462
+00:45:09,509 --> 00:45:11,970
+else's really big work, that's really bad, right?
+
+463
+00:45:12,010 --> 00:45:15,411
+And you can make a lot of small changes and break a lot of small things.
+
+464
+00:45:16,111 --> 00:45:22,752
+And so you can really get stuck in the situation where you never have a working product because
+
+465
+00:45:22,772 --> 00:45:29,734
+someone is always breaking it while the other people are fixing it.
+
+466
+00:45:29,754 --> 00:45:32,295
+And that's what this is trying to solve.
+
+467
+00:45:32,873 --> 00:45:39,719
+that the entire reason DefOx is a thing is to stop that from happening so that the people
+
+468
+00:45:39,799 --> 00:45:47,945
+who break the little things, they would break them on their own local branches and they
+
+469
+00:45:47,965 --> 00:45:54,050
+cannot break main because they cannot check into main and so at the end of their branch
+
+470
+00:45:54,110 --> 00:46:00,415
+they would trigger the Jenkins testing process and they would run the unit test and if everything
+
+471
+00:46:00,435 --> 00:46:01,156
+is green it goes in.
+
+472
+00:46:03,528 --> 00:46:09,890
+If they still manage to break main, that's kind of like not their fault, but then your
+
+473
+00:46:09,970 --> 00:46:11,090
+unit tests are not good enough.
+
+474
+00:46:12,251 --> 00:46:16,932
+And so then sit down and make your unit tests better.
+
+475
+00:46:17,753 --> 00:46:23,635
+And over time, these kind of like small things that tend to break the work for everyone else
+
+476
+00:46:23,775 --> 00:46:27,296
+become less and less because your unit tests are getting better and better and catching
+
+477
+00:46:27,356 --> 00:46:30,577
+more of these cases until eventually.
+
+478
+00:47:01,607 --> 00:47:01,827
+就是更新小的功能但是有一個主程式可能在更新一個很大的功能但是因為大功能它開發時間可能比較久那小功能他們一直想要Merge回去結果就一直把主要的子幹弄壞那主線弄壞的這個情況就是剛剛提到的為什麼有些公司可能會設定出就是說某些人不能碰主線你只能
+
+479
+00:47:24,425 --> 00:47:24,646
+不能去出去,不能去merge回來的設計
+
+480
+00:47:24,646 --> 00:47:24,766
+基本上要有足夠的權限才能去merge回主線就是剛剛講到這個情況
+
+481
+00:47:24,766 --> 00:47:25,226
+如果你在這樣的setup情況下
+
+482
+00:47:25,226 --> 00:47:25,386
+讓小光能merge回去然後通過你的專案單元測試
+
+483
+00:47:25,386 --> 00:47:25,466
+結果還是會fail你的主線還是爛掉的情況那就代表你的
+
+484
+00:48:42,348 --> 00:48:42,909
+如果大家對這個議題有興趣的話,可以去查Database的文件
+
+485
+00:48:42,909 --> 00:48:43,049
+相關的資料在Google可以查到的是蠻多的可能大同小異都有各自不同的處理方式不過應該是大同都會遇到類似這樣的情況
+
+486
+00:49:09,411 --> 00:49:09,611
+我蠻好奇海歸這邊你自己經驗裡面你碰過CI上面最扯的問題是什麼有沒有奇聞分享
+
+487
+00:49:09,611 --> 00:49:09,891
+OK, sorry
+
+488
+00:49:09,891 --> 00:49:12,872
+So what I was trying to say is
+
+489
+00:49:12,872 --> 00:49:16,574
+Big companies have solved these problems
+
+490
+00:49:16,574 --> 00:49:18,914
+with massive amounts of computers
+
+491
+00:49:18,914 --> 00:49:20,075
+and massive amounts of people
+
+492
+00:49:20,075 --> 00:49:22,316
+and we are indie game developers
+
+493
+00:49:22,316 --> 00:49:24,977
+we don't have
+
+494
+00:49:39,922 --> 00:49:44,343
+like 20 DevOps engineers that take care of our build circle fund, right?
+
+495
+00:49:45,723 --> 00:49:57,986
+But what has happened in the last couple of years is that these kind of tools, Jenkins and stuff, have become available to our scale.
+
+496
+00:49:58,466 --> 00:50:01,086
+Where it makes sense to have that if you have four people.
+
+497
+00:50:01,806 --> 00:50:03,887
+Where it makes sense to have that if you have two people.
+
+498
+00:50:04,427 --> 00:50:07,868
+Now even more it makes sense to have that if you have just one single person.
+
+499
+00:50:09,191 --> 00:50:10,931
+It still makes sense to have that.
+
+500
+00:50:10,931 --> 00:50:19,854
+So now we can have those kind of nice things that the big ones were having for a very long time.
+
+501
+00:50:19,854 --> 00:50:23,115
+And it helps us be more productive.
+
+502
+00:50:28,924 --> 00:50:29,565
+以前大公司才會專門處理DevOps的問題現在是因為工具的進步導致大家覺得
+
+503
+00:50:29,565 --> 00:50:29,985
+就像是剛剛提到的一人團隊其實使用Jenkins這樣子的自動化流程管理
+
+504
+00:50:29,985 --> 00:50:30,225
+還有DevOps的工具其實對小團隊來說幫助也都很多那就希望今天的這個
+
+505
+00:51:17,944 --> 00:51:18,404
+感謝大家今天來參加3月1號的IT Big Share我們這個健康網路工作坊之後下兩三個月應該會有新的主題繼續推出時間就比較不一定,就看新的章節什麼時候完成或者是說有沒有什麼臨時問題想要中間插進來
+
+506
+00:51:45,622 --> 00:51:46,082
+如果大家去報名頁面上看的話最開始提問單的連結還在上面所以如果你有想到新的問題你要丟進來就是隨時可以來丟如果對於已經講過的議題你有什麼更進階的想法想要提出來的話我們很歡迎大家送資料到那個因為我們是直接用Google phone去提問
+
+507
+00:52:13,714 --> 00:52:13,895
+歡迎大家直接來提問或是說送意見進來我們每隔幾個禮拜或是每隔1、2個月都會看一次重新整理一下現在我們收到回覆的狀況我想大家再給Jonas一個掌聲,謝謝
+
+508
+00:52:39,895 --> 00:52:43,176
+Yeah, the survey is actually just on our... I just mentioned it.
+
+509
+00:52:43,196 --> 00:52:44,036
+Oh, I see.
+
+510
+00:52:44,076 --> 00:52:44,636
+The survey...
+
+511
+00:52:44,656 --> 00:52:46,997
+I think it's here.
+
+512
+00:52:47,057 --> 00:52:50,378
+Yeah, we should just put it here, but it's not here.
+
+513
+00:52:50,398 --> 00:52:50,898
+Right.
+
+514
+00:52:51,098 --> 00:52:54,278
+But basically it's on our KKTX page. You can just go there.
+
+515
+00:52:55,099 --> 00:52:56,099
+I don't know how to get there.
+
+516
+00:53:01,140 --> 00:53:03,220
+So, the reason that I'm asking about the survey is...
+
+517
+00:53:03,320 --> 00:53:09,262
+I need to figure out what to talk about in the next workshop.
+
+518
+00:53:09,841 --> 00:53:17,885
+So if you have any suggestions, any topics, any questions that you would like me to research and present,
+
+519
+00:53:18,866 --> 00:53:20,627
+please fill out the survey form.
+
+520
+00:53:22,628 --> 00:53:26,710
+For any comments and stuff, I'm always on the IGDShare Discord.
+
+521
+00:53:28,030 --> 00:53:33,193
+Happy to have any kind of feedback, if you liked it.
+
+522
+00:53:34,534 --> 00:53:35,915
+Tell me if you hated it.
+
+523
+00:53:36,766 --> 00:53:37,106
+請告訴我,這比想像中更重要我可以改進如果不想告訴我,直接告訴Johnson他會告訴你總之不管是好的壞的建議都行
+
+524
+00:53:37,106 --> 00:53:37,387
+好的壞的回饋、反應意見都請盡量告訴我們從剛剛的KaliTex活動頁面上有連結可以直接連過有英文版
+
+525
+00:54:04,932 --> 00:54:08,594
+So this feedback form is also in English.
+
+526
+00:54:08,855 --> 00:54:14,178
+And if you go to our KPage event page, our description
+
+527
+00:54:14,238 --> 00:54:18,420
+actually have a link just to this Google form that you can
+
+528
+00:54:18,440 --> 00:54:21,042
+send in new topics, ideas, and new things.
+
+529
+00:54:23,783 --> 00:54:27,946
+So with that said, we officially wrapped the
+
+530
+00:54:27,966 --> 00:54:29,126
+discussion today.
+
+531
+00:54:33,923 --> 00:54:38,446
+But I would still have another off-topic question.
+
+532
+00:54:39,146 --> 00:54:42,428
+It's kind of related, but it's kind of a new thing we're
+
+533
+00:54:42,508 --> 00:54:43,408
+thinking about right now.
+
+534
+00:54:44,369 --> 00:54:52,234
+So we discussed, I do remember that discussion at Cafe some
+
+535
+00:54:52,254 --> 00:54:55,916
+weeks ago that we had some other participants' ideas as
+
+536
+00:54:55,936 --> 00:55:00,178
+well, so I think at the Cafe we said,
+
+537
+00:55:05,567 --> 00:55:11,512
+Maybe it's beneficial to set up some kind of Q&A, maybe
+
+538
+00:55:11,532 --> 00:55:15,795
+remote or network Q&A process, where people can just put in
+
+539
+00:55:15,835 --> 00:55:18,758
+their question, like very, very specific question, but
+
+540
+00:55:18,818 --> 00:55:21,600
+not like this kind of broad questions, but like very
+
+541
+00:55:21,640 --> 00:55:24,122
+specific questions about Unity, about game development,
+
+542
+00:55:24,262 --> 00:55:24,883
+or anything.
+
+543
+00:55:25,924 --> 00:55:30,968
+And then we will have more experienced mentors who can
+
+544
+00:55:30,988 --> 00:55:34,271
+just try to pick up some questions from the tool.
+
+545
+00:55:35,663 --> 00:55:40,046
+and try to solve that very specific problem for them.
+
+546
+00:55:40,126 --> 00:55:44,689
+Because a lot of questions that I know my friends,
+
+547
+00:55:45,469 --> 00:55:47,931
+my programmer or the other friends are talking about
+
+548
+00:55:49,011 --> 00:55:51,413
+is something very specific, but actually it's not
+
+549
+00:55:51,473 --> 00:55:52,494
+very hard to solve.
+
+550
+00:55:52,674 --> 00:55:55,576
+Maybe if you already encountered a problem before
+
+551
+00:55:55,656 --> 00:55:58,177
+on your Unity setup or something like that,
+
+552
+00:55:58,197 --> 00:56:00,379
+maybe it's just a few check boxes.
+
+553
+00:56:02,953 --> 00:56:05,914
+person who are new to that problem, he may end up
+
+554
+00:56:06,754 --> 00:56:12,075
+searching Unity forum or try to Google or try to search
+
+555
+00:56:12,235 --> 00:56:15,896
+over the Stack Overflow for several hours, but you don't
+
+556
+00:56:16,096 --> 00:56:17,516
+know what you're actually looking at.
+
+557
+00:56:18,596 --> 00:56:24,038
+So if there's a form or some kind of funnel, then we can
+
+558
+00:56:24,378 --> 00:56:25,558
+get these questions in.
+
+559
+00:56:26,958 --> 00:56:27,218
+And then.
+
+560
+00:56:28,125 --> 00:56:29,366
+人們可以認出症狀可以說,你應該檢查這些文件然後這就能在一小時內解決我覺得這是另一種方式來支持我們的DevCommunity我會再次強調我們之前在某次私下講解的時候有提到一個想法
+
+561
+00:56:59,119 --> 00:56:59,700
+這個馬農工作坊是收集大家對特定議題的興趣度可能大家都對程式專案架構有問題所以我們12月底的時候開的是跟Decoupling相關的
+
+562
+00:56:59,700 --> 00:57:00,520
+後來Jonas發現很多人對CI也有興趣
+
+563
+00:57:21,461 --> 00:57:21,721
+他特別針對CI開第二場
+
+564
+00:57:21,721 --> 00:57:22,661
+他在Database上有些Backlog就是有下次的主題已經在籌劃中可是這個是比較廣範圍的問答方式這也不算問答,這比較像是說有些人想要知道什麼東西我們這邊來想辦法準備一些基礎的素材資料讓大家有一些基礎的資料可以看不過有另外一個想法是說
+
+565
+00:58:16,429 --> 00:58:17,349
+國際開發者,現在在台灣的幾個人其實在Discord上有一個小群裡面都是英文討論
+
+566
+00:58:17,349 --> 00:58:18,109
+會有人常常會送Unity ScreenShot在這邊剛好出現什麼怪問題,以前沒有看過大家可能就會馬上討論一下
+
+567
+00:58:18,109 --> 00:58:18,469
+也許過一下子他就會找到解法我們這邊也有其他人曾經遇過很奇怪的,可能跟Google專門相關的問題
+
+568
+00:58:18,469 --> 00:58:18,609
+還是跟iOS專門相關的問題新手第一次遇到,不知道怎麼解
+
+569
+00:58:46,214 --> 00:58:46,554
+這些問題如果一個人自己去應碰的話搞不好你查兩三天也查不到資料但是有解過的人他可能幾分鐘,他幾十分鐘可以告訴你這應該怎麼解我們現在是想說可不可以set up一個就是規劃一個類似像也是一樣類似像問題收集檔的內容但是他不是針對某個範圍的問題去描述你是把一個很針對性的問題丟進來
+
+570
+00:59:13,207 --> 00:59:14,129
+這些問題包括一些不敢在Scalable或Scalable Pro上公開問的問題
+
+571
+00:59:14,129 --> 00:59:14,309
+或是不太適合在UNFT官網論壇上發問的內容
+
+572
+00:59:30,599 --> 00:59:30,819
+有點像是信得過我們或是說你信得過我們背後的有意願當講師的人譬如像Jonas這樣他可能是有意願當講師
+
+573
+00:59:30,819 --> 00:59:31,039
+有意願當Mentor的人那他會負責去看所謂剛好可能譬如說這一週我們收到十個疑難雜症小問題那他可能會挑他知道的東西去幫忙排除那如果說需要排除的問題
+
+574
+01:00:01,058 --> 01:00:01,178
+提問者需要給更多資訊就是他送了問題進來表單裡面之後可能還有很多資料,比如說log檔之類的他要額外再給這個時候我們希望講師或導師跟提問者可以直接聯繫有點像是私下幫忙解答小問題那種就是私底下的社群
+
+575
+01:00:55,513 --> 01:00:56,533
+可能在State of the flow上查了兩天也查不到解法的問題
+
+576
+01:00:56,533 --> 01:00:57,073
+或是說在Unity上問了
+
+577
+01:00:57,073 --> 01:00:57,513
+然後結果Unity的官方也沒有給答案但是可能有一個很神秘的
+
+578
+01:00:57,513 --> 01:00:58,234
+Walkaround是社群間有一些已經知道的他會自己流傳但是可能不曉得
+
+579
+01:00:58,234 --> 01:00:59,194
+所以沒有傳到你這邊來那如果你自己要去試這些Walkaround要試出來可能要試好幾天或是好幾個小時那如果
+
+580
+01:01:49,999 --> 01:01:50,439
+就是在英語能力上,他沒有辦法很精確的用英文去描述他現在遇到的問題之類的就是大家都很想好所以其實是有點像是有點像在Facebook社訪的問題然後有同行談天的概念
+
+581
+01:02:17,614 --> 01:02:18,094
+它的差異比較不像是單純說我在Facebook上問
+
+582
+01:02:18,094 --> 01:02:18,615
+因為Facebook上問的問題應該這樣講我想設立這樣的機制有有
+
+583
+01:02:18,615 --> 01:02:19,075
+有兩個關鍵一個關鍵是很多公開的討論版像Facebook或是以前曾經設立過的像台灣英文體的一些中文論壇它
+
+584
+01:03:15,246 --> 01:03:15,326
+我根本就不想花時間在論壇上放比較緊張因為我看到問題都很沒營養對我來講也沒什麼幫助另外一方面是有些問題你可能不適合在譬如說你要附你的log檔出來
+
+585
+01:03:15,326 --> 01:03:15,386
+你的log檔裡面可能有很多東西你要先碼掉或是你可能碼掉之後他反而會把一些問題的徵兆蓋掉這種東西你沒有辦法貼到公開論壇像英文體育觀光論壇去
+
+586
+01:03:44,321 --> 01:03:44,781
+像這種情況我們就希望說你如果把你的問題徵兆送進來那有人曾經看過這樣的問題徵兆的話他就可以私下說那請你提供給我你的contact ID
+
+587
+01:03:44,781 --> 01:03:45,021
+還是你真的有錯那些login號碼那這個時候就是那個提問者跟那個導師直接去進行一對一的溝通那我們可能會有一個人專門去審核說
+
+588
+01:04:37,184 --> 01:04:37,284
+還是說剛好某些譬如說IOS政策改變然後新的政策要怎麼做可能要引發一些程式上或是說你的遊戲狀態上有些修改這種時候所以形式是表單之類的嗎形式我覺得應該是用表單所以它會是一個表單是公開的然後我們可能會列出說這個表單上面目前有誰願意掛名說他會來負責解答
+
+589
+01:05:07,711 --> 01:05:07,971
+就是製造這樣的資訊那你送進來的問題是不公開的還是加在上面就是送進來的問題只有上面的Mainnet會看到這樣然後可能會有一個地方會公開所以這些問題太簡單了
+
+590
+01:06:53,914 --> 01:06:54,014
+感覺是起始性起始性的問題對 因為這樣聽起來回答問題的時間點其實不會太快對我來講 如果我去發發在一段多天比較沒有名堂色的去丟翻我一直期待的這種期待就算我去發US官方或者其實也是這種期待就是會不會有減肥變但是因為我已經長了可能一陣子很少算了 這樣還可以維持預期那最後我結論有可能是就會開始變差
+
+591
+01:08:40,403 --> 01:08:40,443
+因為他很針對性的那一部分嗯有時候啊我覺得從到這輪比賽的狀態下就是其實你也蠻接觸到的有點像MV又再現了就是這樣子邰哥覺得你覺得即時性要求大概會有多高
+
+592
+01:09:09,335 --> 01:09:12,838
+Just cue Jonas in for the discussion.
+
+593
+01:09:13,219 --> 01:09:14,840
+Sorry for non-translating.
+
+594
+01:09:15,600 --> 01:09:17,422
+But the question that we were discussing,
+
+595
+01:09:17,522 --> 01:09:21,125
+if we have a form,
+
+596
+01:09:21,365 --> 01:09:23,026
+some form just like this,
+
+597
+01:09:23,147 --> 01:09:25,368
+but it's for very, very specific questions,
+
+598
+01:09:26,549 --> 01:09:30,472
+and so people who have already dealt with those questions,
+
+599
+01:09:30,492 --> 01:09:32,414
+maybe they're just Unity setup
+
+600
+01:09:32,474 --> 01:09:34,556
+or iOS publishing problems,
+
+601
+01:09:35,256 --> 01:09:36,297
+or how do you set up?
+
+602
+01:09:37,691 --> 01:09:40,172
+in a very specific way for some very specific needs.
+
+603
+01:09:40,712 --> 01:09:42,392
+Those are not necessarily beginner.
+
+604
+01:09:42,492 --> 01:09:44,733
+Those can be very advanced questions,
+
+605
+01:09:44,793 --> 01:09:47,214
+but once you have experienced that,
+
+606
+01:09:47,394 --> 01:09:50,774
+you can solve that in maybe minutes, right?
+
+607
+01:09:51,215 --> 01:09:54,275
+While some other people can start for hours.
+
+608
+01:09:55,396 --> 01:09:58,476
+And it's also a bit like what we have
+
+609
+01:09:58,636 --> 01:10:00,417
+on the foreigner Discord group,
+
+610
+01:10:00,477 --> 01:10:02,417
+where we're just sending questions,
+
+611
+01:10:02,517 --> 01:10:03,478
+and then people...
+
+612
+01:10:04,205 --> 01:10:09,266
+like you or Ed or Dylan or Fernando,
+
+613
+01:10:10,027 --> 01:10:13,287
+you guys can answer questions to each other.
+
+614
+01:10:13,307 --> 01:10:18,808
+And do you think there's a way to actually scale that up?
+
+615
+01:10:21,509 --> 01:10:25,790
+Obviously, there are confidentiality problems
+
+616
+01:10:25,890 --> 01:10:30,371
+where you don't want specific things to be posted to public forums.
+
+617
+01:10:32,110 --> 01:10:37,734
+But also, maybe there's a response time concern as well.
+
+618
+01:10:37,874 --> 01:10:42,676
+If I ask a question and I don't get an answer in, say, two days,
+
+619
+01:10:43,697 --> 01:10:46,418
+maybe it's not worth asking in the first place.
+
+620
+01:10:46,438 --> 01:10:59,525
+I'm a little bit sad that Stack Overflow isn't working like it used to do ten years ago.
+
+621
+01:11:01,073 --> 01:11:04,975
+people really started with JavaScript and C sharp
+
+622
+01:11:05,635 --> 01:11:09,796
+because everyone was on Stack Overflow
+
+623
+01:11:09,816 --> 01:11:12,897
+and it was really really fast, even for very specific questions
+
+624
+01:11:13,938 --> 01:11:16,138
+but I feel like now, like gamedev
+
+625
+01:11:17,079 --> 01:11:21,340
+stackexchange.com doesn't really run very well
+
+626
+01:11:21,540 --> 01:11:24,941
+Unity Answers doesn't run very well, like nobody's
+
+627
+01:11:25,341 --> 01:11:29,243
+really answering, and on the forums people were just like
+
+628
+01:11:30,496 --> 01:11:43,288
+Maybe you find an answer, but then nobody else finds that problem and answer, even if they have the same kind of problem and want the same kind of answer, because the search function is not good.
+
+629
+01:11:43,948 --> 01:11:50,935
+So, I think the infrastructure would have been there, but we're not using it, and we're just like...
+
+630
+01:11:50,955 --> 01:11:55,679
+I don't know, I feel like the kids these days, they ask the questions on Reddit instead of...
+
+631
+01:11:58,823 --> 01:12:00,283
+on the second floor.
+
+632
+01:12:00,824 --> 01:12:01,124
+So...
+
+633
+01:12:03,025 --> 01:12:04,346
+And then there's the other problem that
+
+634
+01:12:04,386 --> 01:12:06,587
+there are lots of questions which you just cannot...
+
+635
+01:12:07,207 --> 01:12:09,129
+You just cannot disclose them to the public.
+
+636
+01:12:09,169 --> 01:12:09,509
+Yeah.
+
+637
+01:12:10,389 --> 01:12:14,812
+You only disclose them to the trusted people.
+
+638
+01:12:14,832 --> 01:12:17,373
+I mean, technically, you're not even allowed to do that.
+
+639
+01:12:17,914 --> 01:12:18,234
+Yeah.
+
+640
+01:12:18,454 --> 01:12:19,334
+Technically.
+
+641
+01:12:19,975 --> 01:12:20,195
+So...
+
+642
+01:12:28,540 --> 01:12:30,401
+It's difficult.
+
+643
+01:12:32,141 --> 01:12:34,701
+But I understand that maybe five, ten years ago,
+
+644
+01:12:34,721 --> 01:12:36,482
+Stellar was pretty responsive.
+
+645
+01:12:36,622 --> 01:12:36,882
+Yeah.
+
+646
+01:12:37,582 --> 01:12:45,123
+But it's just like too many sites like that get set up
+
+647
+01:12:45,183 --> 01:12:48,204
+for many, many different criteria.
+
+648
+01:12:49,124 --> 01:12:51,324
+So each of them is kind of branching out.
+
+649
+01:12:51,604 --> 01:12:55,585
+And then each of them get lesser and lesser page views.
+
+650
+01:12:56,005 --> 01:12:56,185
+Yeah.
+
+651
+01:12:57,434 --> 01:12:59,455
+which is generally lower response time,
+
+652
+01:12:59,835 --> 01:13:01,776
+high response time and lower density.
+
+653
+01:13:02,096 --> 01:13:02,376
+Yeah.
+
+654
+01:13:04,096 --> 01:13:05,597
+Yeah, especially with gain.
+
+655
+01:13:06,397 --> 01:13:07,538
+I don't think it was a good idea
+
+656
+01:13:07,578 --> 01:13:08,698
+to separate it from
+
+657
+01:13:09,318 --> 01:13:10,599
+main stake overflow because
+
+658
+01:13:11,839 --> 01:13:13,500
+it's programmers talking to programmers.
+
+659
+01:13:13,580 --> 01:13:15,341
+So, anyway.
+
+660
+01:13:16,521 --> 01:13:16,841
+Um...
+
+661
+01:13:19,422 --> 01:13:19,722
+I think...
+
+662
+01:13:27,254 --> 01:13:37,863
+I think there's also, I'm not sure, if you're really good at English, you can find a lot of resources relatively fast still.
+
+663
+01:13:38,204 --> 01:13:42,988
+I'm not sure if that's the same if you Google in traditional Chinese, maybe.
+
+664
+01:13:44,169 --> 01:13:46,571
+Nothing solid comes up.
+
+665
+01:13:46,591 --> 01:13:51,295
+Yeah, there's a very big language barrier as well.
+
+666
+01:13:51,395 --> 01:13:53,136
+If you're searching in Chinese.
+
+667
+01:13:54,443 --> 01:13:59,027
+Nowadays, usually what gets popped out is from simplified Chinese.
+
+668
+01:13:59,407 --> 01:13:59,747
+Yeah.
+
+669
+01:14:00,388 --> 01:14:08,894
+And there's like, only a handful of places has traditional Chinese discussions regarding
+
+670
+01:14:08,934 --> 01:14:14,799
+maybe like Unity discussions or game dev discussions, technically anyway.
+
+671
+01:14:16,400 --> 01:14:16,821
+Yeah.
+
+672
+01:14:17,021 --> 01:14:23,146
+So, what I'm trying to figure out is if there's a way for a community
+
+673
+01:14:23,843 --> 01:14:25,645
+to be self-sustaining on this part?
+
+674
+01:14:25,785 --> 01:14:26,065
+Mmm.
+
+675
+01:14:29,268 --> 01:14:29,808
+I don't think so.
+
+676
+01:14:30,449 --> 01:14:31,730
+I really don't think so.
+
+677
+01:14:32,150 --> 01:14:33,752
+Because you need to have a critical mass.
+
+678
+01:14:34,252 --> 01:14:34,492
+Yeah.
+
+679
+01:14:34,873 --> 01:14:35,233
+And...
+
+680
+01:14:35,253 --> 01:14:38,676
+Sorry.
+
+681
+01:14:38,716 --> 01:14:41,438
+Can you get me some cold water?
+
+682
+01:14:41,498 --> 01:14:41,718
+Yeah.
+
+683
+01:14:43,020 --> 01:14:43,780
+This is your water.
+
+684
+01:14:43,820 --> 01:14:44,120
+Yeah.
+
+685
+01:14:45,382 --> 01:14:45,662
+So...
+
+686
+01:14:47,864 --> 01:14:51,847
+Like the English game development community has that critical mass.
+
+687
+01:14:53,621 --> 01:14:58,023
+And any other language basically doesn't.
+
+688
+01:14:58,583 --> 01:15:03,465
+Like, if I were to Google my problems in German, that would not work.
+
+689
+01:15:05,086 --> 01:15:13,569
+So I'm afraid that if you really want to have an answer, you have to learn English first.
+
+690
+01:15:17,231 --> 01:15:21,593
+I cannot see how it can work if you don't have...
+
+691
+01:15:23,175 --> 01:15:24,836
+at least 100 million people.
+
+692
+01:15:24,896 --> 01:15:25,216
+Mm-hmm.
+
+693
+01:15:30,938 --> 01:15:32,939
+But is there a way to just
+
+694
+01:15:36,580 --> 01:15:38,721
+extend what we already have on,
+
+695
+01:15:38,741 --> 01:15:40,642
+let me say, the
+
+696
+01:15:41,942 --> 01:15:43,082
+the foreign nurse group or
+
+697
+01:15:44,143 --> 01:15:45,063
+like similar form?
+
+698
+01:15:45,543 --> 01:15:45,703
+I mean...
+
+699
+01:15:46,656 --> 01:15:48,016
+You have a Discord channel, right?
+
+700
+01:15:48,337 --> 01:15:53,399
+There's nothing stopping people from just asking stuff in the Discord channel.
+
+701
+01:15:53,419 --> 01:15:57,121
+I think still the difference would be like,
+
+702
+01:15:57,361 --> 01:16:03,285
+one is public, and the other is kind of a semi-private, right?
+
+703
+01:16:03,425 --> 01:16:04,505
+I think that's the main difference.
+
+704
+01:16:15,549 --> 01:16:21,051
+Not that I'm a super expert, but a lot of the time the stuff that I'm trying to solve is not...
+
+705
+01:16:21,071 --> 01:16:29,374
+You might want to use the microphone for this.
+
+706
+01:16:30,914 --> 01:16:38,536
+So, not that I'm a super super expert, but a lot of the time the things that I'm trying to solve are not...
+
+707
+01:16:39,789 --> 01:16:41,891
+They're not like general programming things.
+
+708
+01:16:42,131 --> 01:16:50,918
+And if you Google for like the issue, so for example,
+
+709
+01:16:51,658 --> 01:16:56,702
+a couple of days ago, I had an issue where some animations
+
+710
+01:16:56,762 --> 01:16:58,884
+were not triggering correctly.
+
+711
+01:16:58,904 --> 01:17:06,910
+For no reason that I could discern that it's like I just
+
+712
+01:17:06,990 --> 01:17:08,891
+couldn't create new animations for this.
+
+713
+01:17:10,206 --> 01:17:11,887
+and it was bizarre.
+
+714
+01:17:11,907 --> 01:17:14,549
+You can't search for that.
+
+715
+01:17:14,629 --> 01:17:15,449
+Like, if you search
+
+716
+01:17:16,290 --> 01:17:17,431
+animations are not triggering
+
+717
+01:17:18,111 --> 01:17:19,932
+you get a million beginner
+
+718
+01:17:19,972 --> 01:17:21,653
+questions about how to
+
+719
+01:17:22,654 --> 01:17:23,715
+how to
+
+720
+01:17:24,275 --> 01:17:25,456
+do the most basic thing.
+
+721
+01:17:26,336 --> 01:17:27,497
+And that's often the case, is that
+
+722
+01:17:27,537 --> 01:17:29,899
+the thing you're trying to find
+
+723
+01:17:30,099 --> 01:17:31,900
+is so specific that you just get
+
+724
+01:17:31,980 --> 01:17:33,821
+the most generic results.
+
+725
+01:17:33,841 --> 01:17:36,282
+And so, having
+
+726
+01:17:37,539 --> 01:17:47,784
+friends that are also advanced Unity users, you can ask them or you can like, sample work with them.
+
+727
+01:17:48,204 --> 01:17:59,290
+And like often, often, often it's just having someone to listen to or to like, you know, turn on the duck.
+
+728
+01:17:59,670 --> 01:18:01,371
+Yeah, duck bugging.
+
+729
+01:18:01,431 --> 01:18:02,291
+Duck bugging.
+
+730
+01:18:02,411 --> 01:18:05,913
+Yeah, like having, having someone there that can...
+
+731
+01:18:07,227 --> 01:18:13,612
+I often just say it is useful when someone points you in a slightly different direction
+
+732
+01:18:13,632 --> 01:18:15,534
+then you'll get there.
+
+733
+01:18:16,795 --> 01:18:22,499
+And that's what I find useful because in the broader internet there isn't that.
+
+734
+01:18:24,941 --> 01:18:28,144
+There isn't those people that are listening.
+
+735
+01:18:28,204 --> 01:18:29,585
+You'll get some chump that's like...
+
+736
+01:18:30,642 --> 01:18:32,223
+Oh, I'll try this really basic thing.
+
+737
+01:18:32,243 --> 01:18:37,167
+Yeah, obviously I haven't done that because I don't know anything.
+
+738
+01:18:37,187 --> 01:18:39,069
+Like, yeah.
+
+739
+01:18:39,129 --> 01:18:41,751
+Yeah, it's difficult.
+
+740
+01:18:41,911 --> 01:18:45,974
+I don't know what the answer is.
+
+741
+01:18:45,994 --> 01:18:49,197
+Like, if you can get enough people using the
+
+742
+01:18:50,338 --> 01:18:54,261
+actually share Discord to ask all those questions,
+
+743
+01:18:54,341 --> 01:18:56,823
+then you can get a critical mass.
+
+744
+01:19:02,710 --> 01:19:04,871
+Like, one other discord that is...
+
+745
+01:19:07,853 --> 01:19:15,677
+Like, it's the artificial unity scripting questions or something like that.
+
+746
+01:19:15,737 --> 01:19:23,801
+And there's a bunch of guys in there that also have shit games and are past users.
+
+747
+01:19:23,841 --> 01:19:28,984
+And the questions that they're asking are very specific.
+
+748
+01:19:31,593 --> 01:19:33,674
+I've never used it much, but it's occasionally useful.
+
+749
+01:19:33,694 --> 01:19:38,478
+It's sort of a headache.
+
+750
+01:19:38,498 --> 01:19:44,263
+I think because we never want to show it.
+
+751
+01:19:44,283 --> 01:19:49,448
+I don't know if you've thought about it.
+
+752
+01:19:49,468 --> 01:19:50,989
+About the same level of helping each other out.
+
+753
+01:19:51,009 --> 01:19:51,269
+That's not...
+
+754
+01:19:51,289 --> 01:19:53,371
+It doesn't really help anyone, but...
+
+755
+01:19:53,391 --> 01:19:53,551
+Yeah.
+
+756
+01:19:53,571 --> 01:19:54,812
+I mean, I would happily like...
+
+757
+01:19:56,305 --> 01:19:59,027
+start using the LG t-shirt
+
+758
+01:19:59,027 --> 01:20:06,532
+discord to ask questions about webinar
+
+759
+01:20:06,532 --> 01:20:11,315
+ok, maybe let's try that first好,那時間其實也差不多我覺得大家可能會有些問題要留在這邊繼續私下聊天
+
+760
+01:20:26,559 --> 01:20:26,759
+因為今天內容本來就只有上半場的講座還是感謝大家留到現在,繼續參加討論做一些開放式的提問下次...因為GDC停了所以我們可能三月底或者是
+
+761
+01:20:53,380 --> 01:20:53,720
+四月的時候會再辦分享因為本來我們三月通常是跳過的但因為現在GDC確定取消掉那我們行程應該就是三月底會在台灣所以我們會再想想看不會說三月底搞不好有活下台還是說三月底是別的事情那就感謝大家今天來參加我們就之後再見
+

@@ -1,0 +1,7764 @@
+1
+00:00:00,738 --> 00:00:04,919
+那就是很感謝大家今天來參加我們
+
+2
+00:00:04,919 --> 00:00:07,280
+4月份的獨立遊戲開發者分享會
+
+3
+00:00:07,280 --> 00:00:09,640
+那也是很難得這次邀請到
+
+4
+00:00:09,640 --> 00:00:11,641
+節奏一聲的其中一位開發者
+
+5
+00:00:11,641 --> 00:00:16,082
+那他其實是2017年的時候就來過台北一次
+
+6
+00:00:16,082 --> 00:00:20,023
+來台北這個去到台北遊戲開發者論壇參展
+
+7
+00:00:20,023 --> 00:00:23,023
+那這次就是過了幾年之後遊戲終於出了
+
+8
+00:00:23,023 --> 00:00:24,984
+然後出了幾個月現在成績很好
+
+9
+00:00:24,984 --> 00:00:27,625
+那就是大家可以跟他揮個手
+
+10
+00:00:27,625 --> 00:00:29,585
+就應該看得到
+
+11
+00:00:29,585 --> 00:00:30,125
+謝謝各位
+
+12
+00:00:30,721 --> 00:00:32,322
+Thanks for coming.
+
+13
+00:00:32,322 --> 00:00:40,566
+Let's give a round of applause to Hafiz.
+
+14
+00:00:40,566 --> 00:00:42,367
+Thanks for coming, thanks for having me here.
+
+15
+00:00:42,367 --> 00:00:50,431
+Okay, so let's start with just an easy, simple self-intro.
+
+16
+00:00:50,431 --> 00:00:54,393
+Some people may know your game but may not know you at all.
+
+17
+00:00:54,393 --> 00:00:57,354
+Maybe have a self-introduction.
+
+18
+00:00:58,635 --> 00:00:59,056
+OK, sure.
+
+19
+00:00:59,056 --> 00:00:59,996
+Hi, everyone.
+
+20
+00:00:59,996 --> 00:01:01,237
+My name's Hafiz.
+
+21
+00:01:01,237 --> 00:01:06,081
+I'm the co-creator of Rhythm Doctor and A Dance of Fire
+
+22
+00:01:06,081 --> 00:01:06,742
+and Ice.
+
+23
+00:01:06,742 --> 00:01:08,043
+That means I used to do the coding, the music,
+
+24
+00:01:08,043 --> 00:01:10,024
+the game design.
+
+25
+00:01:10,024 --> 00:01:12,426
+But these days, I focus more towards the game design
+
+26
+00:01:12,426 --> 00:01:14,388
+and the music.
+
+27
+00:01:14,388 --> 00:01:14,988
+How nice.
+
+28
+00:01:14,988 --> 00:01:18,631
+And Rhythm Doctor and A Dance of Fire and Ice
+
+29
+00:01:18,631 --> 00:01:20,093
+are one-button rhythm games.
+
+30
+00:01:20,093 --> 00:01:22,455
+So we focus only on rhythm games.
+
+31
+00:01:22,455 --> 00:01:23,415
+OK, so I will translate that.
+
+32
+00:01:24,367 --> 00:01:30,991
+那 Harviz 他是 7thbit games 的開發者之一
+
+33
+00:01:30,991 --> 00:01:35,213
+那他之前有在做的工作有包括就是
+
+34
+00:01:35,213 --> 00:01:39,456
+音樂 然後寫程式跟遊戲設計都是他親自來做
+
+35
+00:01:39,456 --> 00:01:42,237
+那他目前這幾年比較 focus 在
+
+36
+00:01:42,237 --> 00:01:45,099
+就是只有在 就是比較聚焦在
+
+37
+00:01:45,099 --> 00:01:47,140
+純粹的這個遊戲設計的這部分
+
+38
+00:01:47,140 --> 00:01:49,822
+那其他的部分他就是可能交給隊友做這樣子
+
+39
+00:01:49,822 --> 00:01:52,543
+那他之前有做過一款遊戲叫做
+
+40
+00:01:54,130 --> 00:01:56,792
+冰與火之舞
+
+41
+00:01:56,792 --> 00:02:01,794
+然後現在就是兩個月前才上市的那款遊戲
+
+42
+00:02:01,794 --> 00:02:05,436
+叫做《節奏一生》Reason Doctor
+
+43
+00:02:05,436 --> 00:02:05,576
+OK
+
+44
+00:02:05,576 --> 00:02:14,700
+So I guess I will
+
+45
+00:02:14,700 --> 00:02:19,042
+start with some of your like game development background
+
+46
+00:02:19,042 --> 00:02:21,163
+or like how did you started
+
+47
+00:02:21,163 --> 00:02:22,924
+like jumping into indie development
+
+48
+00:02:23,627 --> 00:02:30,312
+So may I ask about what was your journey going into indie development?
+
+49
+00:02:30,312 --> 00:02:34,575
+Like what was your major in university or like what school did you study?
+
+50
+00:02:34,575 --> 00:02:35,395
+That kind of thing.
+
+51
+00:02:35,395 --> 00:02:38,097
+Can you give a simple background?
+
+52
+00:02:38,097 --> 00:02:40,539
+Actually at university I studied engineering.
+
+53
+00:02:40,539 --> 00:02:43,661
+So I didn't do anything related to game design.
+
+54
+00:02:43,661 --> 00:02:47,043
+I studied engineering at Cambridge in the UK.
+
+55
+00:02:47,043 --> 00:02:50,125
+But actually my journey into game development was kind of like...
+
+56
+00:02:51,546 --> 00:02:52,887
+kind of parallel to that.
+
+57
+00:02:52,887 --> 00:02:54,308
+So like I started making games
+
+58
+00:02:54,308 --> 00:02:55,588
+when I was about nine years old.
+
+59
+00:02:55,588 --> 00:02:59,130
+When I was nine, I found this tool called Game Maker.
+
+60
+00:02:59,130 --> 00:03:01,071
+So like back then it was called Game Maker,
+
+61
+00:03:01,071 --> 00:03:02,132
+now it's called Game Maker Studio.
+
+62
+00:03:02,132 --> 00:03:05,154
+Back then it was like Game Maker 6, I think.
+
+63
+00:03:05,154 --> 00:03:07,455
+And I would make games
+
+64
+00:03:07,455 --> 00:03:09,536
+and then I would put them on a floppy disk
+
+65
+00:03:09,536 --> 00:03:10,897
+and then I would come to school
+
+66
+00:03:10,897 --> 00:03:13,158
+and I'll share them with friends and stuff like that.
+
+67
+00:03:13,158 --> 00:03:14,539
+Like they were really small games,
+
+68
+00:03:14,539 --> 00:03:18,521
+but that was how I first started trying to make games.
+
+69
+00:03:19,301 --> 00:03:22,222
+And then I kind of forgot about it for like 10 years.
+
+70
+00:03:22,222 --> 00:03:24,443
+And then during university, I started
+
+71
+00:03:24,443 --> 00:03:28,125
+having the feeling that I want to try making one game.
+
+72
+00:03:28,125 --> 00:03:29,426
+So then that was how I started again.
+
+73
+00:03:29,426 --> 00:03:29,686
+OK.
+
+74
+00:03:29,686 --> 00:03:39,050
+So the process, so the progress kind of like stopped from,
+
+75
+00:03:39,050 --> 00:03:42,052
+like maybe you're in between your middle school, high school
+
+76
+00:03:42,052 --> 00:03:43,252
+that you just didn't touch it.
+
+77
+00:03:44,830 --> 00:03:48,554
+Yeah, yeah, yeah, because I think I just got like I just lost interest.
+
+78
+00:03:48,554 --> 00:03:53,380
+Like, you know, when you're when you're a kid, you just like you do whatever is interesting.
+
+79
+00:03:53,380 --> 00:03:57,285
+And then I was like doing GameMaker for like one or two years, I think.
+
+80
+00:03:57,285 --> 00:03:59,728
+Like every day I would hang on on the forum on the forums.
+
+81
+00:03:59,728 --> 00:04:01,931
+I was like 10 or 11 years old.
+
+82
+00:04:02,349 --> 00:04:03,710
+like I would hang out on the forums,
+
+83
+00:04:03,710 --> 00:04:05,711
+I would give reviews to other people's games,
+
+84
+00:04:05,711 --> 00:04:06,691
+I would post my own games.
+
+85
+00:04:06,691 --> 00:04:08,752
+But like, I was really young,
+
+86
+00:04:08,752 --> 00:04:10,493
+so like I didn't really know how to type properly,
+
+87
+00:04:10,493 --> 00:04:13,415
+and like you could tell I was a kid.
+
+88
+00:04:13,415 --> 00:04:15,656
+So like after like one or two years,
+
+89
+00:04:15,656 --> 00:04:17,937
+like I just stopped and I just did other stuff for a while.
+
+90
+00:04:17,937 --> 00:04:20,578
+Actually, there's a very good intro to this
+
+91
+00:04:20,578 --> 00:04:24,140
+because we do have a like 10 year old here
+
+92
+00:04:24,140 --> 00:04:26,021
+in the background, so.
+
+93
+00:04:26,021 --> 00:04:26,381
+Oh really?
+
+94
+00:04:26,381 --> 00:04:29,763
+Yeah, so I think that's a very good inspiration.
+
+95
+00:04:29,763 --> 00:04:30,623
+So I'll try to like.
+
+96
+00:04:30,854 --> 00:04:34,316
+translate the gist of what you just said
+
+97
+00:04:34,316 --> 00:04:39,200
+就是Havis他在九歲的時候就
+
+98
+00:04:39,200 --> 00:04:41,801
+那時候就已經有game maker這個套裝軟體
+
+99
+00:04:41,801 --> 00:04:42,582
+然後他就已經
+
+100
+00:04:43,575 --> 00:04:45,596
+就是大概花了一兩年的時間
+
+101
+00:04:45,596 --> 00:04:47,097
+在用GameMaker做一些小遊戲
+
+102
+00:04:47,097 --> 00:04:49,319
+然後會去GameMaker的討論版上面
+
+103
+00:04:49,319 --> 00:04:51,321
+可能跟別人分享自己做了什麼
+
+104
+00:04:51,321 --> 00:04:53,402
+或是說把自己的遊戲做完
+
+105
+00:04:53,402 --> 00:04:56,505
+然後就用磁片call到學校
+
+106
+00:04:56,505 --> 00:04:57,765
+然後分享給同學這樣子
+
+107
+00:04:57,765 --> 00:04:59,967
+然後他可能會去
+
+108
+00:04:59,967 --> 00:05:01,929
+論壇上面評論別人的遊戲之類的
+
+109
+00:05:01,929 --> 00:05:05,551
+那他是到大學的時候
+
+110
+00:05:05,551 --> 00:05:08,053
+因為去就是讀了這個
+
+111
+00:05:11,076 --> 00:05:13,177
+工程電機相關的科系
+
+112
+00:05:13,177 --> 00:05:16,179
+然後可能那時候
+
+113
+00:05:16,179 --> 00:05:18,701
+從小學到國中高中那段時間
+
+114
+00:05:18,701 --> 00:05:21,363
+其實他大概就是只有一開始的時候有稍微碰一下Game Maker
+
+115
+00:05:21,363 --> 00:05:23,044
+然後他到大學的時候
+
+116
+00:05:23,044 --> 00:05:25,065
+然後才重新又開始
+
+117
+00:05:25,065 --> 00:05:28,347
+想要就是
+
+118
+00:05:28,347 --> 00:05:29,348
+做遊戲的這個想法
+
+119
+00:05:29,348 --> 00:05:30,809
+才又重新燃起這樣子
+
+120
+00:05:30,809 --> 00:05:33,631
+然後所以接下來我們就可能繼續問
+
+121
+00:05:33,631 --> 00:05:34,672
+他後來發生什麼事情
+
+122
+00:05:37,355 --> 00:05:40,938
+When you were studying in Cambridge in UK,
+
+123
+00:05:40,938 --> 00:05:49,066
+so did you grew up in UK or did you like go to UK for just for the university?
+
+124
+00:05:49,066 --> 00:05:51,748
+Yeah, no, no. So I grew up here in Malaysia in Malaysia.
+
+125
+00:05:51,748 --> 00:05:56,573
+OK. And then I only started to go to UK for A-levels, which was when I was about
+
+126
+00:05:57,903 --> 00:05:58,804
+18 to 19, I guess.
+
+127
+00:05:58,804 --> 00:06:01,366
+Yeah, and then I stayed there for A-levels and then I went to
+
+128
+00:06:01,366 --> 00:06:03,207
+uh, university there.
+
+129
+00:06:03,207 --> 00:06:03,547
+I see.
+
+130
+00:06:03,547 --> 00:06:04,648
+And then I came back after.
+
+131
+00:06:04,648 --> 00:06:04,808
+I see.
+
+132
+00:06:04,808 --> 00:06:08,091
+So what, what was, what was it like, like, when you was,
+
+133
+00:06:08,091 --> 00:06:11,013
+when you were studying engineering in UK, like,
+
+134
+00:06:11,013 --> 00:06:14,656
+did you find, uh,
+
+135
+00:06:14,656 --> 00:06:18,600
+like, maybe friends or classmates there that are also into
+
+136
+00:06:18,600 --> 00:06:21,082
+uh, game development?
+
+137
+00:06:21,082 --> 00:06:21,862
+Or like, were you...
+
+138
+00:06:21,862 --> 00:06:22,623
+Actually, yeah.
+
+139
+00:06:23,177 --> 00:06:29,761
+Yeah, so actually, no, I like, so none of my classmates were making games, but something
+
+140
+00:06:29,761 --> 00:06:35,204
+that's interesting is that over there in Cambridge, there was also something called Cambridge Indies.
+
+141
+00:06:35,204 --> 00:06:40,047
+So it's like an indie meetup, I guess just like this one, but for the location of Cambridge.
+
+142
+00:06:40,047 --> 00:06:45,170
+And there were actually a lot of like pretty popular indie game designers there.
+
+143
+00:06:45,170 --> 00:06:49,913
+So I was able to meet them. People like, do you know Stephen Sausage Troll?
+
+144
+00:06:51,120 --> 00:06:52,581
+Yeah, I've heard the game.
+
+145
+00:06:52,581 --> 00:06:54,442
+It's a very, very hard puzzle game.
+
+146
+00:06:54,442 --> 00:06:56,603
+He used to be there.
+
+147
+00:06:56,603 --> 00:07:01,805
+And then I met some other fairly popular people
+
+148
+00:07:01,805 --> 00:07:03,506
+in the indie space.
+
+149
+00:07:03,506 --> 00:07:04,986
+And that was really inspiring.
+
+150
+00:07:04,986 --> 00:07:07,007
+I only went to one or two meetups.
+
+151
+00:07:07,007 --> 00:07:10,188
+So I'll finish my lectures, and then I'll go there.
+
+152
+00:07:10,188 --> 00:07:12,729
+And then I would just code for the rest of the day
+
+153
+00:07:12,729 --> 00:07:13,910
+with them in a cafe.
+
+154
+00:07:13,910 --> 00:07:17,691
+And then sometimes I'd talk to them.
+
+155
+00:07:18,404 --> 00:07:20,025
+Yeah, it was really nice.
+
+156
+00:07:20,025 --> 00:07:23,847
+So that was like my indie community experience
+
+157
+00:07:23,847 --> 00:07:25,588
+while I was there, I guess.
+
+158
+00:07:25,588 --> 00:07:27,929
+Whereas for my friends in the same course,
+
+159
+00:07:27,929 --> 00:07:31,511
+they didn't do game development, but it
+
+160
+00:07:31,511 --> 00:07:35,433
+was nice to just have them play test my games and stuff like
+
+161
+00:07:35,433 --> 00:07:35,613
+that.
+
+162
+00:07:35,613 --> 00:07:36,474
+Oh, cool.
+
+163
+00:07:36,474 --> 00:07:40,676
+So that was like about 10 years ago, 10-ish?
+
+164
+00:07:40,676 --> 00:07:41,176
+Like maybe 2000?
+
+165
+00:07:41,176 --> 00:07:41,897
+In university?
+
+166
+00:07:41,897 --> 00:07:42,337
+Yeah.
+
+167
+00:07:43,724 --> 00:07:47,705
+我畢業在2015年,大概六年前,六到八年前
+
+168
+00:07:47,705 --> 00:07:50,945
+哦,所以比十年前還早,很棒
+
+169
+00:07:50,945 --> 00:07:52,086
+對,比十年前還早
+
+170
+00:07:52,086 --> 00:07:56,907
+那我來翻譯一下
+
+171
+00:07:56,907 --> 00:08:04,789
+就是他在英國劍橋那邊念大學的時候,就是念電機跟工程相關的
+
+172
+00:08:04,789 --> 00:08:08,749
+但是其實他那個時候的朋友還有同學其實並沒有很多人
+
+173
+00:08:08,749 --> 00:08:09,490
+應該是玩...
+
+174
+00:08:10,530 --> 00:08:14,935
+朋友圈裡面還有同學圈裡面可能就是沒有人在做遊戲開發跟遊戲設計但是
+
+175
+00:08:14,935 --> 00:08:16,798
+那時候在英國的劍橋有
+
+176
+00:08:16,798 --> 00:08:20,022
+就是像我們現在台北這邊很多社群一樣就是他們那邊有一些獨立遊戲開發社群
+
+177
+00:08:21,623 --> 00:08:26,408
+可能在2010年初期也是有很熱絡的活動
+
+178
+00:08:26,408 --> 00:08:29,791
+他就是在課餘的時間就會去參加
+
+179
+00:08:29,791 --> 00:08:32,033
+然後從那時候就認識到
+
+180
+00:08:32,033 --> 00:08:34,035
+當時其實有些還蠻有名的開發者
+
+181
+00:08:34,035 --> 00:08:37,458
+包括像他剛剛有提一個例子是那個
+
+182
+00:08:37,458 --> 00:08:39,040
+就是Steven's Sausage Roll
+
+183
+00:08:39,040 --> 00:08:40,401
+是一個滾香腸的解謎遊戲 非常的難
+
+184
+00:08:43,044 --> 00:08:44,186
+這邊應該有蠻多人玩過
+
+185
+00:08:44,186 --> 00:08:46,228
+至少沒有玩過的話應該有聽過這款
+
+186
+00:08:46,228 --> 00:08:49,692
+如果沒有玩過的話可以去Steam上查一下
+
+187
+00:08:49,692 --> 00:08:54,458
+大概三四年前還四五年前
+
+188
+00:08:54,458 --> 00:08:55,519
+有小紅過一陣子的解謎遊戲
+
+189
+00:08:58,858 --> 00:09:01,739
+下課的時候就是會去跟這些開發者
+
+190
+00:09:01,739 --> 00:09:02,659
+就是他還是學生身分
+
+191
+00:09:02,659 --> 00:09:04,640
+但是他會去跟這些開發者交流
+
+192
+00:09:04,640 --> 00:09:06,800
+然後去交換一些知識
+
+193
+00:09:06,800 --> 00:09:07,820
+或是說跟他們學習
+
+194
+00:09:07,820 --> 00:09:10,121
+那他自己做的一些遊戲成品
+
+195
+00:09:10,121 --> 00:09:11,901
+可能就是回去學校
+
+196
+00:09:11,901 --> 00:09:14,621
+然後就給同學試玩這樣
+
+197
+00:09:14,621 --> 00:09:16,942
+就是同學雖然沒有參與遊戲開發
+
+198
+00:09:16,942 --> 00:09:19,742
+但是他可以就是做一個局外人的身分
+
+199
+00:09:19,742 --> 00:09:21,903
+就是去幫他測試遊戲
+
+200
+00:09:21,903 --> 00:09:23,263
+或是說看看遊戲做得好不好玩這樣子
+
+201
+00:09:23,263 --> 00:09:23,403
+OK
+
+202
+00:09:23,403 --> 00:09:23,523
+所以
+
+203
+00:09:31,921 --> 00:09:37,543
+So you graduated in 2015, and when did the IGF thing happen?
+
+204
+00:09:39,016 --> 00:09:43,319
+Okay. So that happened actually during while I was in university.
+
+205
+00:09:43,319 --> 00:09:43,759
+Okay.
+
+206
+00:09:43,759 --> 00:09:45,860
+So like that was 2014.
+
+207
+00:09:45,860 --> 00:09:50,263
+So like that was my first time visiting the US actually.
+
+208
+00:09:50,263 --> 00:09:55,827
+So what happened was like I was working on this game called Rhythm Doctor.
+
+209
+00:09:55,827 --> 00:09:58,449
+So like I would work on it during the summer holidays.
+
+210
+00:09:58,449 --> 00:10:01,151
+So like in Cambridge, like the workload is just way too much.
+
+211
+00:10:01,151 --> 00:10:04,533
+So like I basically can't work on it at all during the term.
+
+212
+00:10:04,533 --> 00:10:04,633
+Right.
+
+213
+00:10:04,633 --> 00:10:07,435
+Like between terms, I can like kind of work on it a little bit.
+
+214
+00:10:08,227 --> 00:10:14,197
+And then so like I started with an online demo and then like some people liked it
+
+215
+00:10:14,197 --> 00:10:19,565
+and then we kind of slowly grew like added more levels and then let people play and then in
+
+216
+00:10:19,565 --> 00:10:21,629
+2013 at the end of it like
+
+217
+00:10:22,759 --> 00:10:24,921
+I learned about this thing called the IGF.
+
+218
+00:10:24,921 --> 00:10:28,665
+So like, apparently it's a competition where like anyone can submit their game.
+
+219
+00:10:28,665 --> 00:10:30,766
+And for students back then it was free.
+
+220
+00:10:30,766 --> 00:10:34,470
+I think now it's not free anymore, but back then, so like back then there was
+
+221
+00:10:34,470 --> 00:10:35,451
+no, like, there was no harm, you know?
+
+222
+00:10:35,451 --> 00:10:39,615
+So, so like, even though I had like, I thought like, you know, there's no way
+
+223
+00:10:39,615 --> 00:10:41,596
+we're going to get any kind of nomination.
+
+224
+00:10:41,596 --> 00:10:45,640
+Cause like, you know, we don't know like games at all, but like, since it was
+
+225
+00:10:45,640 --> 00:10:46,601
+free, like I thought, why not, you know?
+
+226
+00:10:47,382 --> 00:10:49,143
+So I just submitted it.
+
+227
+00:10:49,143 --> 00:10:51,704
+And then I totally forgot about it,
+
+228
+00:10:51,704 --> 00:10:55,247
+because I was so 100% sure that nothing would come off it.
+
+229
+00:10:55,247 --> 00:10:58,809
+And then two months later in January,
+
+230
+00:10:58,809 --> 00:11:03,352
+I was looking at the game demo, the stats, right?
+
+231
+00:11:03,352 --> 00:11:06,034
+There's something called stat counter.
+
+232
+00:11:06,034 --> 00:11:07,574
+It's like it gives you your stats
+
+233
+00:11:07,574 --> 00:11:09,676
+for how many page visits your demo gets.
+
+234
+00:11:09,676 --> 00:11:12,498
+And then suddenly there's a huge spike.
+
+235
+00:11:12,498 --> 00:11:13,258
+On which platform?
+
+236
+00:11:13,258 --> 00:11:14,179
+Like 1,000 people came.
+
+237
+00:11:14,179 --> 00:11:16,420
+Do you remember on which platform?
+
+238
+00:11:16,420 --> 00:11:16,720
+1,000 people.
+
+239
+00:11:17,420 --> 00:11:18,161
+Sorry?
+
+240
+00:11:18,161 --> 00:11:22,782
+Do you remember on what platform that you got your demo account?
+
+241
+00:11:22,782 --> 00:11:25,203
+Yeah, this was just on Dropbox.
+
+242
+00:11:25,203 --> 00:11:26,323
+Oh, just on Dropbox, okay.
+
+243
+00:11:26,323 --> 00:11:29,664
+Yeah, yeah. So, like, I put the HTML on the Dropbox.
+
+244
+00:11:29,664 --> 00:11:31,785
+And then that was my link.
+
+245
+00:11:31,785 --> 00:11:35,406
+So, like, when I submitted to the IGF, like, I just put the Dropbox link.
+
+246
+00:11:35,406 --> 00:11:36,146
+Right, okay.
+
+247
+00:11:36,146 --> 00:11:37,987
+But it was like a HTML, you know.
+
+248
+00:11:37,987 --> 00:11:40,628
+So, like, you could actually go on it. You don't have to download it.
+
+249
+00:11:40,628 --> 00:11:43,408
+And then it would play the...
+
+250
+00:11:44,538 --> 00:11:49,201
+Because actually back then Dropbox, so like there was a normal Dropbox where you can share files,
+
+251
+00:11:49,201 --> 00:11:54,864
+but there's also the direct link Dropbox. So like if you change the URL a bit, you can actually
+
+252
+00:11:54,864 --> 00:11:58,885
+treat it like your own website. So you can link directly to the HTML and then it will load as
+
+253
+00:11:58,885 --> 00:12:03,608
+if it's HTML. So I did that. So like on the set counter, I saw the view suddenly go up.
+
+254
+00:12:03,608 --> 00:12:08,310
+So I was like wondering what happened. So then I just searched my game.
+
+255
+00:12:09,010 --> 00:12:11,352
+on Google and then suddenly I saw it on the list of IGF.
+
+256
+00:12:11,352 --> 00:12:14,975
+So like, they didn't even give us any email or anything.
+
+257
+00:12:14,975 --> 00:12:16,537
+Like, I found it after everyone else.
+
+258
+00:12:16,537 --> 00:12:17,798
+Yeah, yeah, yeah.
+
+259
+00:12:17,798 --> 00:12:19,259
+That we got selected.
+
+260
+00:12:19,259 --> 00:12:20,079
+Yeah, yeah, yeah.
+
+261
+00:12:20,079 --> 00:12:21,961
+It's really strange.
+
+262
+00:12:21,961 --> 00:12:26,324
+Yeah, that was not my experience with IGF, but, okay.
+
+263
+00:12:26,324 --> 00:12:28,186
+Okay, let me translate that.
+
+264
+00:12:28,186 --> 00:12:31,849
+Like, yeah, that was a bit long, but I will try to condense that.
+
+265
+00:12:33,088 --> 00:12:38,815
+就是因為我記得這款遊戲有入圍過IGF學生獎
+
+266
+00:12:38,815 --> 00:12:41,198
+然後我就跟他確認一下說他的那個
+
+267
+00:12:41,198 --> 00:12:44,542
+就是節奏醫生在什麼時候就是入IGF的
+
+268
+00:12:44,542 --> 00:12:49,588
+那他那時候是2014年IGF的就是學生組就是入圍這樣
+
+269
+00:12:51,208 --> 00:12:54,310
+那他那款遊戲其實就是節奏醫生在開發
+
+270
+00:12:54,310 --> 00:12:56,210
+應該是開發在大學期間開發一兩年
+
+271
+00:12:56,210 --> 00:12:59,332
+他那時候2013年的時候還是
+
+272
+00:12:59,332 --> 00:13:02,113
+就是還在劍橋大學念書的時候
+
+273
+00:13:02,113 --> 00:13:03,794
+那其實那個時候因為
+
+274
+00:13:03,794 --> 00:13:06,014
+就是既然是全球知名的學府
+
+275
+00:13:06,014 --> 00:13:08,315
+所以功課也是非常的繁重
+
+276
+00:13:08,315 --> 00:13:12,017
+那其實在這個學期間是沒辦法開發遊戲的
+
+277
+00:13:12,017 --> 00:13:16,118
+那所以他是用就是寒暑假的時間去做
+
+278
+00:13:16,118 --> 00:13:16,979
+那做一做之後就
+
+279
+00:13:18,246 --> 00:13:23,029
+也是意外的看到了有一個比賽
+
+280
+00:13:23,029 --> 00:13:24,029
+就是獨立遊戲的競賽
+
+281
+00:13:24,029 --> 00:13:26,991
+叫做IGF Independent Games Festival
+
+282
+00:13:26,991 --> 00:13:27,611
+獨立遊戲節
+
+283
+00:13:27,611 --> 00:13:30,313
+那他是跟每一年的遊戲開發者大會
+
+284
+00:13:30,313 --> 00:13:32,754
+在舊金山GDC一起舉辦的
+
+285
+00:13:32,754 --> 00:13:35,916
+那他是無意間在2013年的時候看到這個東西
+
+286
+00:13:35,916 --> 00:13:38,358
+然後就說那我年底的時候還有增稿的時間
+
+287
+00:13:38,358 --> 00:13:39,839
+就投過去看一看
+
+288
+00:13:39,839 --> 00:13:42,100
+然後後來也就是沒有特別去在意說
+
+289
+00:13:42,100 --> 00:13:43,861
+到底會不會入圍還是有沒有得獎
+
+290
+00:13:43,861 --> 00:13:45,822
+總之應該也是功課很忙吧
+
+291
+00:13:47,011 --> 00:13:48,532
+投稿之後就忘記了
+
+292
+00:13:48,532 --> 00:13:49,932
+然後結果
+
+293
+00:13:49,932 --> 00:13:50,993
+就是不料隔年的
+
+294
+00:13:50,993 --> 00:13:52,254
+就是2014年的年初
+
+295
+00:13:52,254 --> 00:13:53,814
+好像一二月的時候就突然間
+
+296
+00:13:53,814 --> 00:13:54,475
+看到欸
+
+297
+00:13:54,475 --> 00:13:55,695
+怎麼就入圍了這樣子
+
+298
+00:13:55,695 --> 00:13:56,696
+然後
+
+299
+00:13:56,696 --> 00:13:57,556
+他說那個時候是
+
+300
+00:13:57,556 --> 00:14:00,538
+遊戲是host在就是
+
+301
+00:14:00,538 --> 00:14:01,718
+Dropbox上面
+
+302
+00:14:01,718 --> 00:14:01,938
+那
+
+303
+00:14:01,938 --> 00:14:04,980
+Dropbox現在有改版了
+
+304
+00:14:04,980 --> 00:14:06,200
+那以前比較舊的版本是
+
+305
+00:14:06,200 --> 00:14:08,101
+你可以在Dropbox上面
+
+306
+00:14:08,101 --> 00:14:09,482
+就是
+
+307
+00:14:09,482 --> 00:14:09,502
+用
+
+308
+00:14:10,595 --> 00:14:11,916
+一些超連結的方式
+
+309
+00:14:11,916 --> 00:14:16,658
+可以把它當成像正常的網頁的伺服器使用
+
+310
+00:14:16,658 --> 00:14:19,280
+那他就只是把他的遊戲
+
+311
+00:14:19,280 --> 00:14:22,402
+就是host在這個Dropbox上面
+
+312
+00:14:22,402 --> 00:14:24,483
+然後結果就是
+
+313
+00:14:24,483 --> 00:14:27,065
+看到了Dropbox那個下載數量突然間暴增
+
+314
+00:14:27,065 --> 00:14:27,665
+他才去查說為什麼
+
+315
+00:14:27,665 --> 00:14:28,866
+然後去Google一下
+
+316
+00:14:28,866 --> 00:14:30,627
+發現怎麼自己入圍了
+
+317
+00:14:30,627 --> 00:14:33,469
+那就是因為這樣入圍之後
+
+318
+00:14:33,469 --> 00:14:36,570
+就才就是第一次去美國
+
+319
+00:14:36,570 --> 00:14:39,292
+然後第一次去舊金山參加GDC這樣子
+
+320
+00:14:42,432 --> 00:14:49,398
+Okay, so that was your first journey to GD. Did you like go back to the US afterwards?
+
+321
+00:14:49,398 --> 00:14:55,123
+No, no, so that was like the only time I ever went. Oh, this is the only time you went, okay.
+
+322
+00:14:57,015 --> 00:15:05,620
+Okay. But it was pretty fun because we got... So for all these games, I worked with my friend from
+
+323
+00:15:05,620 --> 00:15:10,823
+college. His name is Winston. He was studying in a different university in London. So he's
+
+324
+00:15:10,823 --> 00:15:13,904
+studying at LSE, London School of Economics.
+
+325
+00:15:14,683 --> 00:15:18,967
+And since A-level, like he would like...
+
+326
+00:15:18,967 --> 00:15:22,691
+So back in college, I used to do this thing called like a college newsletter.
+
+327
+00:15:22,691 --> 00:15:25,675
+Right. It's like it's like an editorial thing.
+
+328
+00:15:25,675 --> 00:15:26,936
+So like I used to be the editor.
+
+329
+00:15:26,936 --> 00:15:29,499
+So I would like try to make this a newsletter for the school.
+
+330
+00:15:30,079 --> 00:15:32,360
+But not game related, right?
+
+331
+00:15:32,360 --> 00:15:35,341
+Winston was always my guy to help draw anything.
+
+332
+00:15:35,341 --> 00:15:38,222
+So, because he was really good at art.
+
+333
+00:15:38,222 --> 00:15:40,903
+So, whenever I needed an article, he needed some illustrations, I'd ask him,
+
+334
+00:15:40,903 --> 00:15:43,144
+Winston, can you draw something, something.
+
+335
+00:15:43,144 --> 00:15:45,225
+And he would always draw something really good.
+
+336
+00:15:45,225 --> 00:15:48,406
+So, when I first started making the prototype for Rhythm Doctor,
+
+337
+00:15:48,907 --> 00:15:53,751
+He was the first person I thought, you know, like I thought maybe you can help me
+
+338
+00:15:53,751 --> 00:15:55,032
+do all the graphics because I can't draw.
+
+339
+00:15:55,032 --> 00:15:58,174
+And then, yeah, that's what he did.
+
+340
+00:15:58,174 --> 00:16:00,896
+So then during the IGF, like I went with him and another friend
+
+341
+00:16:00,896 --> 00:16:06,741
+and all three of us went to the to the to the US, to San Francisco for the first time.
+
+342
+00:16:06,741 --> 00:16:14,047
+So the third teammate was from South America, right?
+
+343
+00:16:15,261 --> 00:16:18,764
+Oh, OK. No, no. So at the time of IGF, we didn't meet him yet.
+
+344
+00:16:18,764 --> 00:16:20,125
+Oh, so like this.
+
+345
+00:16:20,125 --> 00:16:23,968
+So this this third friend was just like he was just a mutual friend.
+
+346
+00:16:23,968 --> 00:16:25,469
+He just wanted to come for fun.
+
+347
+00:16:25,469 --> 00:16:26,670
+OK, so he was helping us.
+
+348
+00:16:26,670 --> 00:16:29,092
+He was just helping us like
+
+349
+00:16:29,092 --> 00:16:32,655
+start out the booth and like, I see, find food and stuff like that.
+
+350
+00:16:32,655 --> 00:16:33,375
+Yeah. Yeah.
+
+351
+00:16:33,375 --> 00:16:35,577
+So actually. So the third guy is Yakomo.
+
+352
+00:16:35,577 --> 00:16:36,998
+He's from South America.
+
+353
+00:16:36,998 --> 00:16:37,218
+Yeah.
+
+354
+00:16:37,218 --> 00:16:40,601
+It was actually at IGF that we met him.
+
+355
+00:16:40,601 --> 00:16:43,483
+So how it was was if you get nominated for.
+
+356
+00:16:44,003 --> 00:16:47,144
+an award, they will give you a booth at the IGF.
+
+357
+00:16:47,144 --> 00:16:50,825
+Right. So we were with all the student booths.
+
+358
+00:16:50,825 --> 00:16:54,606
+So there are some people there, like, I didn't know at the time,
+
+359
+00:16:54,606 --> 00:16:55,687
+but now they're pretty well known.
+
+360
+00:16:55,687 --> 00:16:58,307
+Do you know Mahdi Barami?
+
+361
+00:16:58,307 --> 00:17:00,368
+He made Angare.
+
+362
+00:17:00,368 --> 00:17:02,828
+He's an Iranian game developer.
+
+363
+00:17:02,828 --> 00:17:05,429
+So he makes this really beautiful kind of puzzle games.
+
+364
+00:17:05,429 --> 00:17:07,130
+There's one called Angare.
+
+365
+00:17:07,130 --> 00:17:09,350
+And then there's the other guy.
+
+366
+00:17:09,350 --> 00:17:10,551
+He was like a few booths down.
+
+367
+00:17:10,551 --> 00:17:11,791
+His name was Albert Shee.
+
+368
+00:17:12,488 --> 00:17:15,990
+he made a museum of simulation technology,
+
+369
+00:17:15,990 --> 00:17:21,253
+which now is called superliminal, right?
+
+370
+00:17:21,253 --> 00:17:22,914
+So,
+
+371
+00:17:22,914 --> 00:17:28,417
+so you, you didn't,
+
+372
+00:17:28,417 --> 00:17:30,077
+you didn't know.
+
+373
+00:17:32,245 --> 00:17:36,946
+I forgot. Yeah. How do I pronounce his name? I kind of,
+
+374
+00:17:36,946 --> 00:17:40,807
+so like it's spelled G I A C O M O,
+
+375
+00:17:40,807 --> 00:17:44,067
+but it's pronounced with a Y. So it's a Yakomo. Oh, Yakomo. Okay.
+
+376
+00:17:44,067 --> 00:17:48,088
+So you, so like, like, like, like, like, like this is what I think,
+
+377
+00:17:48,088 --> 00:17:51,109
+but like I've not spoken to him in like so many years, right. But, but,
+
+378
+00:17:51,109 --> 00:17:55,010
+but I think that's true. Cause like all, like we talk every day,
+
+379
+00:17:55,010 --> 00:17:57,951
+but we always talk with only text. So like we never voice or video.
+
+380
+00:17:57,951 --> 00:18:01,811
+So even videoing with you guys, like this is the first time I video in like,
+
+381
+00:18:02,572 --> 00:18:05,673
+Four years or something. Okay
+
+382
+00:18:05,673 --> 00:18:12,295
+So so so anyway, like like his name is Yakoma. Okay. Oh, yeah, so just to continue the story. Yeah
+
+383
+00:18:12,295 --> 00:18:15,677
+So we were at we had our own booth
+
+384
+00:18:15,677 --> 00:18:21,239
+At the IGF. So Yakoma was one of the people who just came he was like, oh you have a nice game
+
+385
+00:18:21,239 --> 00:18:23,740
+And he was showing me his game on his phone
+
+386
+00:18:23,740 --> 00:18:27,801
+He's like if you want to make a mobile part of your game, I can help you
+
+387
+00:18:27,801 --> 00:18:31,143
+So then he showed me this like, you know, super smooth kind of car racing game
+
+388
+00:18:31,915 --> 00:18:34,016
+And I was like, oh, that's cool.
+
+389
+00:18:34,016 --> 00:18:35,917
+So we just exchanged details.
+
+390
+00:18:35,917 --> 00:18:40,741
+And then I didn't really think anything about it until a few months later.
+
+391
+00:18:40,741 --> 00:18:43,062
+He was like, hey, you remember me from IGF?
+
+392
+00:18:43,062 --> 00:18:44,864
+He just emailed me.
+
+393
+00:18:44,864 --> 00:18:46,064
+And then I was like, yeah.
+
+394
+00:18:46,064 --> 00:18:49,707
+And then that's when we started to slowly start to work together.
+
+395
+00:18:50,396 --> 00:19:00,946
+Okay, so that's interesting. So I didn't quite catch the back story with you and Winston,
+
+396
+00:19:00,946 --> 00:19:10,316
+because you said Winston was from LSE, which is also a very prestigious school in the UK, right?
+
+397
+00:19:12,550 --> 00:19:17,193
+Yeah. And so how, how, so like, did you guys meet after?
+
+398
+00:19:17,193 --> 00:19:22,156
+Oh, okay. So, so what happened was like, so we were together before that.
+
+399
+00:19:22,156 --> 00:19:27,819
+We were together during A-levels at our A-level college together.
+
+400
+00:19:27,819 --> 00:19:32,923
+So then it was only after that, then I went to Cambridge and then he went to LSE.
+
+401
+00:19:32,923 --> 00:19:35,224
+So he's also from Malaysia?
+
+402
+00:19:35,224 --> 00:19:36,305
+He's also from Malaysia.
+
+403
+00:19:37,046 --> 00:19:41,711
+Yes, he is. So I guess that's why I kind of got close to him while I was in A-levels in college,
+
+404
+00:19:41,711 --> 00:19:47,118
+because you see someone from your own country there and then you start to talk to them.
+
+405
+00:19:47,118 --> 00:19:54,166
+And the newsletter thing that you were editing, that was like cross school or like there's...
+
+406
+00:19:55,142 --> 00:19:56,563
+Oh, no, no. This was during A-level.
+
+407
+00:19:56,563 --> 00:19:58,224
+So during our A-level college.
+
+408
+00:19:58,224 --> 00:20:01,006
+I think it's kind of confusing because in the UK,
+
+409
+00:20:01,006 --> 00:20:03,268
+college does not mean university.
+
+410
+00:20:03,268 --> 00:20:06,150
+Right. So like in the US, college is a university.
+
+411
+00:20:06,150 --> 00:20:07,831
+Like MIT is a college.
+
+412
+00:20:07,831 --> 00:20:11,854
+But in the UK, like a college is not that like the equivalent of MIT
+
+413
+00:20:11,854 --> 00:20:14,756
+is like Cambridge and LSE. Those are universities.
+
+414
+00:20:14,756 --> 00:20:15,777
+Right. Whereas.
+
+415
+00:20:16,337 --> 00:20:19,020
+I'm talking about college, which is like before university.
+
+416
+00:20:19,020 --> 00:20:22,964
+So after high school, you finish high school, you have to do A-levels for two years.
+
+417
+00:20:22,964 --> 00:20:26,387
+So that's like a two year little, it's called college.
+
+418
+00:20:26,387 --> 00:20:28,869
+And then after that, you go to university.
+
+419
+00:20:28,869 --> 00:20:31,432
+So I met Winston in college before that.
+
+420
+00:20:31,432 --> 00:20:32,713
+OK, I see.
+
+421
+00:20:32,713 --> 00:20:38,659
+OK, so let me also try to translate that.
+
+422
+00:20:40,522 --> 00:20:46,105
+就是哈菲斯他在倫敦就學的時間是從就是高中畢業後去那邊
+
+423
+00:20:46,105 --> 00:20:52,568
+然後就是英國那邊的學制好像是要先念一個叫做這個A level的
+
+424
+00:20:52,568 --> 00:20:55,109
+的算是大學前的學校
+
+425
+00:20:55,109 --> 00:21:00,992
+然後在他後來才去就是這個劍橋
+
+426
+00:21:00,992 --> 00:21:02,833
+那他在
+
+427
+00:21:04,445 --> 00:21:10,369
+A-Level那邊的時候就是有跟另外一個一樣是從馬來西亞過去的朋友
+
+428
+00:21:10,369 --> 00:21:13,371
+就是叫Winston Lee
+
+429
+00:21:13,371 --> 00:21:15,572
+然後在倫敦那邊在念A-Level的時候認識
+
+430
+00:21:15,572 --> 00:21:19,455
+然後他們那時候就是因為有開辦那個
+
+431
+00:21:19,455 --> 00:21:22,617
+算是他們當時就在學期間的那個
+
+432
+00:21:22,617 --> 00:21:28,240
+像是學校電子報或是學校的那個學生報之類的那種專欄
+
+433
+00:21:28,240 --> 00:21:31,022
+那所以他那時候會寫一些文章
+
+434
+00:21:31,022 --> 00:21:33,624
+那他寫文章需要配圖的時候就會請Winston幫忙
+
+435
+00:21:34,360 --> 00:21:37,422
+所以後來進這個劍橋之後
+
+436
+00:21:37,422 --> 00:21:40,023
+他開始有就是自己私下做一些遊戲
+
+437
+00:21:40,023 --> 00:21:41,224
+那那個時候他還想說
+
+438
+00:21:41,224 --> 00:21:42,525
+如果我需要做遊戲的時候
+
+439
+00:21:42,525 --> 00:21:43,725
+有一些美術的幫忙
+
+440
+00:21:43,725 --> 00:21:45,647
+我可能就是回去找之前
+
+441
+00:21:45,647 --> 00:21:46,827
+我那個會畫圖的朋友
+
+442
+00:21:46,827 --> 00:21:48,248
+一起來幫忙這樣子
+
+443
+00:21:48,248 --> 00:21:51,650
+所以那個時候他就跟Winston
+
+444
+00:21:51,650 --> 00:21:54,672
+一起就做那個節奏一聲的
+
+445
+00:21:54,672 --> 00:21:55,973
+初始的版本
+
+446
+00:21:55,973 --> 00:21:58,494
+那後來那個版本丟去IGF
+
+447
+00:21:58,494 --> 00:22:00,776
+有這個入圍的時候呢
+
+448
+00:22:00,776 --> 00:22:01,896
+他在現場就是有
+
+449
+00:22:03,673 --> 00:22:08,517
+因為很多的學生的作品都是被圈在同一區這樣
+
+450
+00:22:08,517 --> 00:22:10,038
+那他們就是認識很多人
+
+451
+00:22:10,038 --> 00:22:12,980
+那其中一個人是後來他們也是在IGF現場認識的
+
+452
+00:22:12,980 --> 00:22:16,824
+是一個南美洲的開發者叫Yakumo
+
+453
+00:22:16,824 --> 00:22:23,409
+那Yakumo他後來應該就是主要負責接受醫生的程式
+
+454
+00:22:23,409 --> 00:22:24,990
+對那他是現場認識他之後就後來過了一陣子
+
+455
+00:22:27,827 --> 00:22:31,368
+然後就是GDC跟IGF結束了
+
+456
+00:22:31,368 --> 00:22:33,369
+然後過了幾個月他才又寫信過來說
+
+457
+00:22:33,369 --> 00:22:35,530
+那要不要來合作做一點東西這樣子
+
+458
+00:22:35,530 --> 00:22:38,151
+然後後來就說那乾脆就是一起做這個
+
+459
+00:22:38,151 --> 00:22:40,252
+接受醫生這個專案對
+
+460
+00:22:40,252 --> 00:22:41,772
+好 剛剛這應該是我應該跳過很多細節
+
+461
+00:22:41,772 --> 00:22:44,173
+所以就如果大家真的是有忘記的話
+
+462
+00:22:44,173 --> 00:22:45,894
+可以看錄影
+
+463
+00:22:45,894 --> 00:22:46,814
+對 因為剛剛其實講很多東西
+
+464
+00:22:49,576 --> 00:22:54,960
+And actually, do you remember that actually I and my friend,
+
+465
+00:22:54,960 --> 00:22:58,142
+my colleague went to Indiecade like some time ago,
+
+466
+00:22:58,142 --> 00:22:59,883
+and we met with Yakumo?
+
+467
+00:22:59,883 --> 00:23:03,486
+I don't know if you remember that.
+
+468
+00:23:03,486 --> 00:23:05,127
+I think it's also around 2017.
+
+469
+00:23:05,127 --> 00:23:08,709
+Like maybe, but I wasn't there.
+
+470
+00:23:08,709 --> 00:23:10,671
+So only Yakumo was there.
+
+471
+00:23:10,671 --> 00:23:15,834
+There was a year where Rhythm, I think Rhythm Doctor also.
+
+472
+00:23:17,139 --> 00:23:21,122
+was nominated in IndieCade.
+
+473
+00:23:21,122 --> 00:23:23,304
+Yeah, yeah, yeah.
+
+474
+00:23:23,304 --> 00:23:27,327
+That was like, I think 2018 maybe? 2017.
+
+475
+00:23:27,327 --> 00:23:28,607
+I think it's 2017.
+
+476
+00:23:30,380 --> 00:23:36,322
+Yeah, yeah. So I wasn't there because, you know, like Malaysia is so far away from the US.
+
+477
+00:23:36,322 --> 00:23:40,164
+Yeah. So like I already so by that time I was already in Malaysia.
+
+478
+00:23:40,164 --> 00:23:46,067
+Right. But then Yakomo and our other, so that and our PR person.
+
+479
+00:23:46,067 --> 00:23:50,469
+Well, he's not the artist for Redunza Fire and Ice for the other game.
+
+480
+00:23:50,469 --> 00:23:54,110
+So like Yakomo and Kyle, who's the PR person, they went to Indicate.
+
+481
+00:23:54,110 --> 00:23:56,792
+And did they meet you? Did they meet your friend?
+
+482
+00:23:57,575 --> 00:24:00,996
+I think we both I think we had dinner together, actually.
+
+483
+00:24:00,996 --> 00:24:03,957
+Oh, oh, you you actually met Yakumo yourself.
+
+484
+00:24:03,957 --> 00:24:04,698
+Yeah. Yeah, I think so.
+
+485
+00:24:04,698 --> 00:24:05,198
+Oh, cool. OK.
+
+486
+00:24:05,198 --> 00:24:07,059
+Yeah, I actually did know that.
+
+487
+00:24:07,059 --> 00:24:09,019
+Yeah. OK, that's really cool.
+
+488
+00:24:09,019 --> 00:24:11,020
+OK. Yeah.
+
+489
+00:24:11,020 --> 00:24:15,862
+So I want to indicate that year because
+
+490
+00:24:15,862 --> 00:24:18,703
+two of Taiwan Indie games
+
+491
+00:24:18,703 --> 00:24:21,585
+also was nominated, also were nominated.
+
+492
+00:24:21,585 --> 00:24:22,405
+Oh, nice. Yeah.
+
+493
+00:24:22,405 --> 00:24:24,786
+So one of one of them actually is detention.
+
+494
+00:24:26,357 --> 00:24:32,939
+Oh yeah, so one of the developer of detention in the background as well
+
+495
+00:24:32,939 --> 00:24:36,340
+Oh it's you, nice to meet you
+
+496
+00:24:36,340 --> 00:24:38,981
+OK anyway
+
+497
+00:24:38,981 --> 00:24:40,081
+對就是
+
+498
+00:24:40,081 --> 00:24:41,321
+那個
+
+499
+00:24:41,321 --> 00:24:44,242
+他的南美洲的那位同事是他
+
+500
+00:24:44,242 --> 00:24:46,843
+其實很長時間他都是遠距工作都沒有碰面
+
+501
+00:24:46,843 --> 00:24:49,044
+因為他也是在他們
+
+502
+00:24:49,044 --> 00:24:50,444
+2014年入圍之後
+
+503
+00:24:50,444 --> 00:24:51,344
+才
+
+504
+00:24:51,344 --> 00:24:53,625
+過了幾個月之後才聯繫上然後才就是遠端工作這樣
+
+505
+00:24:53,625 --> 00:24:53,645
+對那
+
+506
+00:24:56,782 --> 00:25:01,105
+後來2017年這個節奏一生又有入圍另外一個美國的獎項
+
+507
+00:25:01,105 --> 00:25:03,627
+那一年是我們有去那個
+
+508
+00:25:03,627 --> 00:25:04,928
+展叫做Indicate
+
+509
+00:25:04,928 --> 00:25:06,869
+然後剛好那年的時候是台灣有兩個
+
+510
+00:25:06,869 --> 00:25:14,535
+遊戲入圍Indicate一個就是返校然後另外一個是
+
+511
+00:25:14,535 --> 00:25:17,017
+中文名字叫前往
+
+512
+00:25:17,017 --> 00:25:19,259
+英文名字我已經忘記了但是他是一個
+
+513
+00:25:19,259 --> 00:25:20,680
+就是
+
+514
+00:25:20,680 --> 00:25:21,640
+密室逃脫遊戲
+
+515
+00:25:21,640 --> 00:25:23,122
+是有結合VR的密室逃脫遊戲
+
+516
+00:25:23,122 --> 00:25:25,403
+然後剛好那一年就是很意外的跟
+
+517
+00:25:26,550 --> 00:25:30,172
+就是接受醫生的主人是南美洲主人是碰面這樣子
+
+518
+00:25:30,172 --> 00:25:34,433
+所以我分開跟他們兩位碰過面然後
+
+519
+00:25:34,433 --> 00:25:35,673
+而且應該是其實在同一年因為2017年
+
+520
+00:25:35,673 --> 00:25:38,775
+So didn't you come to Taipei in 2017?
+
+521
+00:25:38,775 --> 00:25:41,335
+Yeah, that was TGDF, right?
+
+522
+00:25:41,335 --> 00:25:47,638
+Yeah, so I met you and Yakumo in the same year.
+
+523
+00:25:47,638 --> 00:25:53,379
+But you probably didn't meet Yakumo in the same year at all.
+
+524
+00:25:55,433 --> 00:26:01,275
+Like, did you actually meet with Yakumo in 2017?
+
+525
+00:26:01,275 --> 00:26:02,356
+No, no, no. Not at all.
+
+526
+00:26:02,356 --> 00:26:06,638
+So the only time I ever met him was 2014.
+
+527
+00:26:06,638 --> 00:26:11,119
+So I guess you were the person who connected us in 2017.
+
+528
+00:26:11,119 --> 00:26:11,500
+Okay.
+
+529
+00:26:11,500 --> 00:26:13,180
+And there was no one else.
+
+530
+00:26:13,180 --> 00:26:17,422
+Okay, let's move on to actual game questions.
+
+531
+00:26:17,422 --> 00:26:19,243
+Okay, sure. Yeah.
+
+532
+00:26:20,015 --> 00:26:24,139
+So I do remember you mentioned, I think it's also like some other event that I met you,
+
+533
+00:26:24,139 --> 00:26:28,502
+that you mentioned you, I think in South Korea.
+
+534
+00:26:28,502 --> 00:26:29,623
+In South Korea.
+
+535
+00:26:29,623 --> 00:26:30,243
+Yeah, in Korea.
+
+536
+00:26:30,243 --> 00:26:34,607
+And then you were showcasing a dance of ice and fire.
+
+537
+00:26:34,607 --> 00:26:34,767
+Yes.
+
+538
+00:26:34,767 --> 00:26:40,051
+Right. So I was kind of confused, like you were doing Rhythm Doctor,
+
+539
+00:26:40,051 --> 00:26:43,193
+but Rhythm Doctor hasn't come out.
+
+540
+00:26:43,193 --> 00:26:44,835
+And then you are some of the other games.
+
+541
+00:26:44,835 --> 00:26:48,237
+So can you discuss a little bit about...
+
+542
+00:26:48,567 --> 00:26:53,455
+the development of like both games like like you yeah
+
+543
+00:26:54,975 --> 00:26:58,376
+So what happened was, so A Dance of Fire and Ice.
+
+544
+00:26:58,376 --> 00:27:00,697
+OK, I'm going to call it AdoFai.
+
+545
+00:27:00,697 --> 00:27:05,879
+OK, so like that's A-D-O-F-A-I because that's the acronym for A Dance of Fire and Ice.
+
+546
+00:27:05,879 --> 00:27:07,439
+And it's easier to say.
+
+547
+00:27:07,439 --> 00:27:08,200
+So AdoFai this game.
+
+548
+00:27:08,200 --> 00:27:08,360
+OK.
+
+549
+00:27:08,360 --> 00:27:12,101
+So there's Rhythm Doctor and there's AdoFai.
+
+550
+00:27:12,101 --> 00:27:19,763
+Rhythm Doctor was like I made it in like during university, whereas A Dance of Fire and Ice.
+
+551
+00:27:19,763 --> 00:27:24,505
+So basically after Rhythm Doctor, after I submitted Rhythm Doctor to the IGF.
+
+552
+00:27:25,077 --> 00:27:28,619
+And then they announced it.
+
+553
+00:27:28,619 --> 00:27:31,840
+So I had some other Malaysian game developers contact me
+
+554
+00:27:31,840 --> 00:27:34,681
+because at the time I didn't know anyone in the Malaysian
+
+555
+00:27:34,681 --> 00:27:38,342
+industry, in the Malaysian indie games industry, or even
+
+556
+00:27:38,342 --> 00:27:40,583
+like games industry in general.
+
+557
+00:27:40,583 --> 00:27:44,805
+So after Rhythm Doctor got the IGF, we had someone from one
+
+558
+00:27:44,805 --> 00:27:46,666
+of the universities contact me.
+
+559
+00:27:46,666 --> 00:27:50,287
+So I went there to meet with a bunch of indie developers and
+
+560
+00:27:50,287 --> 00:27:53,048
+they were like, oh, have you heard of this game jam called
+
+561
+00:27:53,048 --> 00:27:53,528
+Ludum Dare?
+
+562
+00:27:54,473 --> 00:27:59,437
+It's like a 48-hour jam where you make a game in like two days.
+
+563
+00:27:59,437 --> 00:28:03,300
+So usually it's a weekend, so from Saturday to Sunday, you'll make a game.
+
+564
+00:28:03,300 --> 00:28:04,600
+So I was like, oh, that's cool.
+
+565
+00:28:04,600 --> 00:28:09,144
+So during my holidays, there was one Ludum Dare jam at the time.
+
+566
+00:28:09,144 --> 00:28:13,567
+So I went there, and then that's when I made A Dance of Fire and Ice.
+
+567
+00:28:13,567 --> 00:28:17,489
+So that's why that game started, even though Rhythm Doctor wasn't finished.
+
+568
+00:28:17,489 --> 00:28:18,530
+It's because it was a game jam.
+
+569
+00:28:18,530 --> 00:28:21,812
+And usually in game jams, you just want to try to make something small.
+
+570
+00:28:22,722 --> 00:28:28,729
+So after I made that, I released it and then I decided to make a few more levels and then
+
+571
+00:28:28,729 --> 00:28:33,114
+made an online demo. And then people started playing that as well. So now we had two games
+
+572
+00:28:33,114 --> 00:28:42,605
+kind of in development at the same time. And that was just the case up until both games were released.
+
+573
+00:28:45,075 --> 00:28:49,998
+So what year was that Ludum Dare? Was it also in 2017 or it's like earlier?
+
+574
+00:28:49,998 --> 00:28:55,021
+No, no, it was in 2014. So like 2014, in early 2014, like we went to GDC.
+
+575
+00:28:55,021 --> 00:28:55,581
+Right.
+
+576
+00:28:55,581 --> 00:29:02,485
+And then after we went to GDC, we came back and then I went back for summer holidays in
+
+577
+00:29:02,485 --> 00:29:07,588
+Malaysia. I met up with other developers there. And then that's when we did the Ludum Dare.
+
+578
+00:29:07,588 --> 00:29:08,448
+Oh, I see. I see.
+
+579
+00:29:09,370 --> 00:29:12,111
+那就是Havis的另外一款遊戲
+
+580
+00:29:12,111 --> 00:29:14,411
+A Dance of Ice and Fire
+
+581
+00:29:14,411 --> 00:29:17,132
+就是簡稱叫Art of Fire
+
+582
+00:29:17,132 --> 00:29:19,173
+那這款遊戲它是
+
+583
+00:29:19,173 --> 00:29:20,954
+也是一樣是一個一顆按鍵
+
+584
+00:29:20,954 --> 00:29:23,114
+就可以玩的節奏遊戲
+
+585
+00:29:23,114 --> 00:29:27,756
+那他那時候是在IGF入圍已經
+
+586
+00:29:27,756 --> 00:29:29,496
+就是整個活動都結束了
+
+587
+00:29:29,496 --> 00:29:31,357
+然後回到馬來西亞之後
+
+588
+00:29:31,357 --> 00:29:36,099
+他才開始認識一些就是呃
+
+589
+00:29:36,099 --> 00:29:36,219
+就是
+
+590
+00:29:39,253 --> 00:29:42,636
+OK, wait, let me clarify one thing.
+
+591
+00:29:42,636 --> 00:29:45,878
+So you you went back to UK in 2014, right?
+
+592
+00:29:45,878 --> 00:29:47,759
+Not Malaysia or...
+
+593
+00:29:47,759 --> 00:29:51,722
+No, no. So I was studying in the UK in Cambridge.
+
+594
+00:29:51,722 --> 00:29:53,483
+I had a four year degree.
+
+595
+00:29:53,483 --> 00:29:56,165
+So that was like 2012 to 2011, 2015.
+
+596
+00:29:56,165 --> 00:30:00,247
+Right. But I would also go back to Malaysia for a summer.
+
+597
+00:30:00,247 --> 00:30:02,329
+Oh, just from time to time. OK.
+
+598
+00:30:02,329 --> 00:30:02,709
+OK, got it.
+
+599
+00:30:02,709 --> 00:30:06,591
+So that was when I met the other Malaysian developers.
+
+600
+00:30:06,591 --> 00:30:06,792
+Right.
+
+601
+00:30:07,724 --> 00:30:10,946
+對 那就是他還在學期間
+
+602
+00:30:10,946 --> 00:30:15,970
+但是他在回馬來西亞的一小段時間
+
+603
+00:30:15,970 --> 00:30:18,191
+就是那時候剛好有一個
+
+604
+00:30:18,191 --> 00:30:20,813
+Lundari的這個線上Game Jam
+
+605
+00:30:20,813 --> 00:30:23,075
+然後他那時候在馬來西亞也開始認識一些
+
+606
+00:30:23,075 --> 00:30:25,437
+就是因為參與一些活動有人來找他
+
+607
+00:30:25,437 --> 00:30:28,119
+然後就他認識一些馬來西亞的開發者
+
+608
+00:30:28,119 --> 00:30:30,941
+然後看到有這個線上Game Jam的社群可以參與
+
+609
+00:30:30,941 --> 00:30:32,622
+然後他就做了這個
+
+610
+00:30:32,622 --> 00:30:36,185
+就是A Dance of Ice and Fire的這個小遊戲
+
+611
+00:30:36,185 --> 00:30:37,246
+好 然後就
+
+612
+00:30:38,788 --> 00:30:40,589
+把那個遊戲當作一個免費的Demo
+
+613
+00:30:40,589 --> 00:30:41,730
+就在網路上流傳這樣
+
+614
+00:30:41,730 --> 00:30:44,931
+所以我記得那個遊戲是
+
+615
+00:30:44,931 --> 00:30:48,173
+那個遊戲是安卓的Demo嗎?
+
+616
+00:30:48,173 --> 00:30:54,035
+它是在Ludum Dare後期開始的
+
+617
+00:30:54,035 --> 00:30:54,936
+所以他們給你兩天時間製作一個遊戲
+
+618
+00:30:54,936 --> 00:30:55,196
+然後你需要上傳
+
+619
+00:30:55,196 --> 00:30:55,676
+通常是網路版
+
+620
+00:30:55,676 --> 00:30:58,597
+所以你需要一個網路瀏覽器
+
+621
+00:30:58,597 --> 00:30:59,698
+所以第一版本是網路瀏覽器
+
+622
+00:31:07,497 --> 00:31:09,698
+The first version was on the browser.
+
+623
+00:31:09,698 --> 00:31:09,938
+Okay.
+
+624
+00:31:09,938 --> 00:31:10,798
+Yes, that's right.
+
+625
+00:31:10,798 --> 00:31:15,899
+And then after that, like, there was still some time during the holidays.
+
+626
+00:31:15,899 --> 00:31:22,241
+So that became my kind of, like, that became the game I was more working on for the next few holidays.
+
+627
+00:31:22,241 --> 00:31:25,562
+So like, because like, you know, that gave me motivation again.
+
+628
+00:31:25,562 --> 00:31:25,682
+Right.
+
+629
+00:31:25,682 --> 00:31:27,683
+Because there was a new game that like, you know, like...
+
+630
+00:31:28,565 --> 00:31:31,966
+When you make a new game, it always gives you a lot of new ideas, right?
+
+631
+00:31:31,966 --> 00:31:37,047
+Because like the starting part of a game is usually really easy, where there's all these
+
+632
+00:31:37,047 --> 00:31:41,848
+ideas you can explore. Whereas for Rhythm Doctor, I already made a few levels, so it was like,
+
+633
+00:31:41,848 --> 00:31:46,949
+it's getting a bit hard to come up with new ideas. So after making A Dance of Fire and Ice,
+
+634
+00:31:46,949 --> 00:31:52,350
+that motivated me again. So I would make like three worlds, and then I released the Android
+
+635
+00:31:52,350 --> 00:31:52,710
+version.
+
+636
+00:31:53,929 --> 00:31:58,894
+I put it up on like, Congregate and Newgrounds and stuff like that.
+
+637
+00:31:58,894 --> 00:32:00,275
+That was like, 2014, 2015-ish.
+
+638
+00:32:00,275 --> 00:32:07,221
+And that was the first time I tried selling a game because the Android version was paid.
+
+639
+00:32:07,221 --> 00:32:12,626
+So that was the first time we actually got any kind of money for a game.
+
+640
+00:32:12,626 --> 00:32:19,092
+So that was really interesting because while I was doing my degree, I never really thought I would.
+
+641
+00:32:19,971 --> 00:32:21,571
+be an indie game developer.
+
+642
+00:32:21,571 --> 00:32:24,512
+Like I always had the idea that after I graduate,
+
+643
+00:32:24,512 --> 00:32:27,633
+you know, I do four years of engineering.
+
+644
+00:32:27,633 --> 00:32:28,713
+Why would I throw that away?
+
+645
+00:32:28,713 --> 00:32:31,574
+You know, like I've learned so much,
+
+646
+00:32:31,574 --> 00:32:34,374
+like all these very specific things.
+
+647
+00:32:34,374 --> 00:32:36,595
+And I wanted like a chance to use it in the industry
+
+648
+00:32:36,595 --> 00:32:38,135
+and all that stuff.
+
+649
+00:32:38,135 --> 00:32:41,576
+So like, it never entered my mind.
+
+650
+00:32:41,576 --> 00:32:43,316
+Like, you know, since I was young,
+
+651
+00:32:43,316 --> 00:32:46,397
+like indie game development was never anything
+
+652
+00:32:46,397 --> 00:32:49,098
+I saw myself doing like as a full-time thing.
+
+653
+00:32:49,998 --> 00:32:54,061
+Because if I did, I probably wouldn't have done engineering.
+
+654
+00:32:54,061 --> 00:32:59,205
+I probably have gone to... I had tried to go to a game design school or something like that.
+
+655
+00:32:59,205 --> 00:33:03,749
+But because I had no intention to be an indie game developer at all.
+
+656
+00:33:03,749 --> 00:33:08,773
+So that's why I did engineering. And it was only after we started releasing our games while I was
+
+657
+00:33:08,773 --> 00:33:12,436
+in uni and then people started liking them. And then some people would start paying for them.
+
+658
+00:33:12,436 --> 00:33:18,040
+I thought maybe I would spend one or two years after university just to make indie games.
+
+659
+00:33:18,644 --> 00:33:19,645
+然後我會再回到當工程師
+
+660
+00:33:19,645 --> 00:33:19,945
+但這還沒發生
+
+661
+00:33:19,945 --> 00:33:21,165
+已經六年了
+
+662
+00:33:21,165 --> 00:33:22,206
+我現在還在玩印度遊戲
+
+663
+00:33:22,206 --> 00:33:22,826
+OK 這很重要
+
+664
+00:33:22,826 --> 00:33:23,086
+我會詳細跟進
+
+665
+00:33:23,086 --> 00:33:24,207
+就是
+
+666
+00:33:24,207 --> 00:33:24,647
+他在做這個
+
+667
+00:33:24,647 --> 00:33:29,289
+A Dance of Ice and Fire的時候
+
+668
+00:33:29,289 --> 00:33:30,429
+就是那時候是一個小遊戲
+
+669
+00:33:30,429 --> 00:33:32,290
+他一開始只有做網頁版
+
+670
+00:33:32,290 --> 00:33:33,991
+後來他就是
+
+671
+00:33:49,010 --> 00:33:57,498
+那網頁版他有放到一些就是當時應該算是還都蠻知名的一些網頁遊戲的
+
+672
+00:33:57,498 --> 00:33:59,661
+就是那種集合網站portal
+
+673
+00:33:59,661 --> 00:34:02,564
+像congregate或是newground直接網站
+
+674
+00:34:02,564 --> 00:34:05,867
+那他後來也有把這版本做成了
+
+675
+00:34:05,867 --> 00:34:10,312
+就是那當時那個game jam版本然後他做了好像三個不同的世界之後就
+
+676
+00:34:12,534 --> 00:34:14,275
+做成一個Android上
+
+677
+00:34:14,275 --> 00:34:15,756
+就是Google Play上可以玩的遊戲
+
+678
+00:34:15,756 --> 00:34:17,298
+然後他就直接釋出這樣
+
+679
+00:34:17,298 --> 00:34:20,060
+然後他那時候在Android上面賣的這個版本
+
+680
+00:34:20,060 --> 00:34:24,144
+就直接是有付費很便宜的一個遊戲這樣
+
+681
+00:34:24,144 --> 00:34:26,325
+那無論他那個遊戲當初賣了多便宜
+
+682
+00:34:26,325 --> 00:34:30,189
+總之是一個他真的有收到錢的作品
+
+683
+00:34:30,189 --> 00:34:34,312
+那也是因為這樣子他才開始發現說
+
+684
+00:34:34,312 --> 00:34:38,816
+也許就是做遊戲然後
+
+685
+00:34:38,816 --> 00:34:39,737
+就是做著一個遊戲然後
+
+686
+00:34:41,148 --> 00:34:42,249
+獲取營收
+
+687
+00:34:42,249 --> 00:34:45,832
+然後以後可能可以把這個當成事業或是生意
+
+688
+00:34:45,832 --> 00:34:47,133
+就是這個想法才今天出現
+
+689
+00:34:47,133 --> 00:34:49,255
+因為他雖然很早就開始做
+
+690
+00:34:49,255 --> 00:34:52,137
+像用Game Maker做一些小遊戲或是之類的
+
+691
+00:34:52,137 --> 00:34:53,579
+但是
+
+692
+00:34:53,579 --> 00:34:55,440
+他剛剛有講到他覺得如果
+
+693
+00:34:55,440 --> 00:34:57,282
+如果他在求學過程中
+
+694
+00:34:57,282 --> 00:34:59,203
+有把
+
+695
+00:34:59,203 --> 00:35:02,086
+開發遊戲這件事情當成一個很重要的事情去
+
+696
+00:35:02,086 --> 00:35:05,309
+考量或是說把這東西當成未來可以從事
+
+697
+00:35:05,309 --> 00:35:08,071
+就是
+
+698
+00:35:08,071 --> 00:35:09,092
+算是謀生計的一個
+
+699
+00:35:10,182 --> 00:35:11,882
+一個行為的話
+
+700
+00:35:11,882 --> 00:35:14,763
+他應該當時就不會想要去念
+
+701
+00:35:14,763 --> 00:35:16,403
+電機或工程相關的科系
+
+702
+00:35:16,403 --> 00:35:17,763
+他應該那時候就會開始去找
+
+703
+00:35:17,763 --> 00:35:20,444
+就是遊戲科系去念
+
+704
+00:35:20,444 --> 00:35:21,584
+那就是因為到大學
+
+705
+00:35:21,584 --> 00:35:22,524
+入大學之前為止
+
+706
+00:35:22,524 --> 00:35:24,264
+他都沒有去認真去思考過這個問題
+
+707
+00:35:24,264 --> 00:35:26,585
+所以他覺得說
+
+708
+00:35:26,585 --> 00:35:28,445
+就是可能遊戲是偶爾做一做
+
+709
+00:35:28,445 --> 00:35:30,886
+然後他還是想要就是當
+
+710
+00:35:30,886 --> 00:35:34,006
+就是學有專精的這種
+
+711
+00:35:34,006 --> 00:35:36,747
+就是工程師或者是
+
+712
+00:35:36,747 --> 00:35:37,067
+就是比較傳統的
+
+713
+00:35:38,708 --> 00:35:40,129
+不管是軟體或是硬體的工程師
+
+714
+00:35:40,129 --> 00:35:43,570
+然後之後可能就是做正常的工程師的工作這樣
+
+715
+00:35:43,570 --> 00:35:49,253
+對那也是陰錯陽差之下就導致他現在
+
+716
+00:35:49,253 --> 00:35:51,894
+就是一直在做獨立遊戲
+
+717
+00:35:51,894 --> 00:35:54,776
+那他剛剛有提到另外一點蠻重要的是說
+
+718
+00:35:54,776 --> 00:35:58,717
+他在開發節奏醫生的時候
+
+719
+00:35:58,717 --> 00:36:02,479
+其實到2014 2015年已經算是開發了好幾年
+
+720
+00:36:02,479 --> 00:36:05,181
+然後也做了幾個關卡
+
+721
+00:36:05,181 --> 00:36:05,481
+那但是
+
+722
+00:36:07,121 --> 00:36:11,302
+當時節奏醫生他要再想出新的關卡跟變出新的玩法花樣
+
+723
+00:36:11,302 --> 00:36:13,643
+其實會需要花相對更大的心力
+
+724
+00:36:13,643 --> 00:36:16,244
+那就是其實做起來是蠻累的
+
+725
+00:36:16,244 --> 00:36:19,885
+那也是因為有那個Game Jam的機會做了另外一款遊戲
+
+726
+00:36:19,885 --> 00:36:24,626
+才感覺說有一個新東西可以嘗試新的玩法
+
+727
+00:36:24,626 --> 00:36:27,167
+那就算是可以對自己充個電
+
+728
+00:36:27,167 --> 00:36:28,867
+那充個電之後可能多一些想法
+
+729
+00:36:28,867 --> 00:36:30,848
+那以後也許會有更多可以
+
+730
+00:36:31,892 --> 00:36:35,015
+拿來做遊戲設計或是遊戲開發的素材
+
+731
+00:36:35,015 --> 00:36:38,738
+或者是一些想法之類的
+
+732
+00:36:38,738 --> 00:36:41,500
+對 那
+
+733
+00:36:41,500 --> 00:36:43,461
+就
+
+734
+00:36:43,461 --> 00:36:46,904
+怎麼講 就是
+
+735
+00:36:46,904 --> 00:36:49,326
+像這種就是用Game Jam
+
+736
+00:36:49,326 --> 00:36:53,089
+來稍微充個電 然後稍微
+
+737
+00:36:53,089 --> 00:36:53,349
+重新
+
+738
+00:36:54,449 --> 00:36:58,411
+看一些或是嘗試一些自己正常的專案
+
+739
+00:36:58,411 --> 00:36:59,352
+或是比較大的專案
+
+740
+00:36:59,352 --> 00:37:00,532
+不會去嘗試一些事情
+
+741
+00:37:00,532 --> 00:37:04,294
+其實是我們在推Game Jam類活動的時候
+
+742
+00:37:04,294 --> 00:37:05,475
+還蠻主打的一個點
+
+743
+00:37:05,475 --> 00:37:08,156
+那如果有人這邊以後想要參加Game Jam的話
+
+744
+00:37:08,156 --> 00:37:08,916
+就是可以關注
+
+745
+00:37:08,916 --> 00:37:10,297
+因為台灣現在其實Game Jam也很多
+
+746
+00:37:10,297 --> 00:37:12,038
+那我想在座這邊應該有蠻多人
+
+747
+00:37:12,038 --> 00:37:14,639
+也是至少都看過或是參與過這樣子
+
+748
+00:37:14,639 --> 00:37:16,620
+那我這邊就不太多做介紹
+
+749
+00:37:16,620 --> 00:37:17,340
+那如果有問題的話
+
+750
+00:37:17,340 --> 00:37:17,741
+等一下可以再繼續問
+
+751
+00:37:20,329 --> 00:37:25,112
+Okay, so let's get into some of the game design questions
+
+752
+00:37:25,112 --> 00:37:26,953
+that I had.
+
+753
+00:37:26,953 --> 00:37:33,897
+So you mentioned that you want to try something new
+
+754
+00:37:33,897 --> 00:37:36,659
+in A Dance of Ice and Fire, right?
+
+755
+00:37:36,659 --> 00:37:40,521
+And that's sort of like,
+
+756
+00:37:40,521 --> 00:37:44,944
+kind of like revitalized your ideas
+
+757
+00:37:44,944 --> 00:37:47,885
+and your passion about game design at the time.
+
+758
+00:37:48,517 --> 00:37:52,220
+But interestingly, the Rhythm Doctor and Adophi,
+
+759
+00:37:52,220 --> 00:38:01,610
+both are rhythm games that can only be played with one button.
+
+760
+00:38:01,610 --> 00:38:04,673
+So why did you hold on to that constraint?
+
+761
+00:38:04,673 --> 00:38:08,196
+That's an interesting question.
+
+762
+00:38:08,196 --> 00:38:10,258
+Actually, if you ask me, do I ever want to?
+
+763
+00:38:10,830 --> 00:38:13,451
+Do I ever want to make other genres of games?
+
+764
+00:38:13,451 --> 00:38:18,413
+I don't think I have that much interest, but it's not only
+
+765
+00:38:18,413 --> 00:38:21,954
+my interest, but also because I don't think I'll be good
+
+766
+00:38:21,954 --> 00:38:26,636
+enough to try making another kind of genre of game.
+
+767
+00:38:26,636 --> 00:38:30,738
+Because I guess one of the reasons why I like to do rhythm
+
+768
+00:38:30,738 --> 00:38:31,458
+kind of games, right?
+
+769
+00:38:31,458 --> 00:38:33,359
+Because I have a music background.
+
+770
+00:38:33,359 --> 00:38:38,181
+So I know that it's a lot easier to find ideas that are new.
+
+771
+00:38:39,467 --> 00:38:44,670
+for me compared to other people if I try to work in this genre.
+
+772
+00:38:44,670 --> 00:38:51,254
+So that's one of the reasons why for me, I wanted to stick to rhythm.
+
+773
+00:38:51,254 --> 00:38:58,698
+But also because I have a natural interest in music and rhythm and exploring that stuff.
+
+774
+00:38:58,698 --> 00:39:02,100
+So even if I wasn't making games, I was still composing stuff.
+
+775
+00:39:03,316 --> 00:39:07,639
+playing the piano, playing the guitar and the violin and all that kind of stuff.
+
+776
+00:39:07,639 --> 00:39:14,964
+So if I make games and I can actually, I have a chance to use all that stuff
+
+777
+00:39:14,964 --> 00:39:18,127
+in the game itself, that's even more motivating for me.
+
+778
+00:39:19,499 --> 00:39:25,647
+So that's, I think, a big reason why I really like to make games in this specific genre.
+
+779
+00:39:25,647 --> 00:39:30,032
+Because I think I might be better at it than other genres, but also because
+
+780
+00:39:30,032 --> 00:39:33,396
+I just have an interest in this specific kind of field.
+
+781
+00:39:34,277 --> 00:39:38,719
+Even though the games I play, I don't really play many rhythm games, actually.
+
+782
+00:39:38,719 --> 00:39:45,402
+So the games I love to play are like twitchy platformer kind of games, like Celeste, Super Hexagon,
+
+783
+00:39:45,402 --> 00:39:46,943
+Velocibox, one of my friend's games.
+
+784
+00:39:46,943 --> 00:39:48,964
+It's kind of like Super Hexagon as well.
+
+785
+00:39:50,048 --> 00:39:52,170
+That's usually the kind of games I like.
+
+786
+00:39:52,170 --> 00:39:56,994
+And the reason why I like it is because it's very relaxing to me
+
+787
+00:39:56,994 --> 00:40:00,697
+to just kind of memorize inputs and not think about anything.
+
+788
+00:40:00,697 --> 00:40:06,481
+So as a way to de-stress, that's usually my kind of game that I like to play.
+
+789
+00:40:06,481 --> 00:40:08,803
+But it's not rhythm games.
+
+790
+00:40:08,803 --> 00:40:17,329
+Part of the reason why I think is because of the design of rhythm games these days,
+
+791
+00:40:17,329 --> 00:40:18,851
+the skill ceiling is really high.
+
+792
+00:40:19,775 --> 00:40:22,617
+And usually the more interesting parts of game design
+
+793
+00:40:22,617 --> 00:40:26,281
+is only at the higher levels of play.
+
+794
+00:40:26,281 --> 00:40:32,226
+Whereas if you're not good at finger dexterity like I am,
+
+795
+00:40:32,226 --> 00:40:35,429
+then you'll be stuck at a lower level where things are not
+
+796
+00:40:35,429 --> 00:40:37,170
+as interesting.
+
+797
+00:40:37,170 --> 00:40:40,573
+So that was also why the games that I tried to design,
+
+798
+00:40:40,573 --> 00:40:44,217
+I tried to make them easy in terms of the dexterity.
+
+799
+00:40:44,943 --> 00:40:48,244
+but complicated in terms of the theory, because that's the kind of thing I like, right?
+
+800
+00:40:48,244 --> 00:40:53,326
+That's the kind of thing I enjoy more, like the kind of musical complexity.
+
+801
+00:40:53,326 --> 00:40:58,729
+But I don't want to have to try to train my finger dexterity just in order to experience that kind of
+
+802
+00:40:58,729 --> 00:41:05,452
+complexity in the rhythm. So that's like, if you ask me why our games are rhythm games,
+
+803
+00:41:05,452 --> 00:41:08,873
+and why our games are one button games, and why our games are...
+
+804
+00:41:10,167 --> 00:41:15,309
+kind of simple in terms of not requiring too much finger
+
+805
+00:41:15,309 --> 00:41:15,989
+dexterity.
+
+806
+00:41:15,989 --> 00:41:19,930
+So that's why I write, because that's what I like.
+
+807
+00:41:19,930 --> 00:41:22,891
+I want to explore the more complicated parts
+
+808
+00:41:22,891 --> 00:41:29,634
+without having to get good at the dexterity and my skills.
+
+809
+00:41:29,634 --> 00:41:31,995
+OK, that really makes a lot of sense.
+
+810
+00:41:31,995 --> 00:41:34,676
+And I think it's also very important.
+
+811
+00:41:34,676 --> 00:41:36,457
+I will try to translate that.
+
+812
+00:41:36,457 --> 00:41:37,097
+So.
+
+813
+00:41:38,250 --> 00:41:43,473
+就是我剛剛問的問題是想要問說就是
+
+814
+00:41:43,473 --> 00:41:45,874
+他的兩款遊戲現在都是
+
+815
+00:41:45,874 --> 00:41:48,675
+不僅都是
+
+816
+00:41:48,675 --> 00:41:49,576
+節奏遊戲
+
+817
+00:41:49,576 --> 00:41:50,716
+而且都是
+
+818
+00:41:50,716 --> 00:41:53,138
+只用一顆鍵就可以操作的節奏遊戲
+
+819
+00:41:53,138 --> 00:41:57,780
+到底是怎樣的因素影響他去連續做兩款遊戲都是這個風格
+
+820
+00:41:57,780 --> 00:41:59,701
+那
+
+821
+00:41:59,701 --> 00:42:02,002
+第一個部分是跟就是節奏遊戲有關
+
+822
+00:42:02,002 --> 00:42:02,883
+就是說為什麼只挑節奏遊戲
+
+823
+00:42:02,883 --> 00:42:02,903
+那
+
+824
+00:42:04,760 --> 00:42:06,802
+他說他其實他本人自己
+
+825
+00:42:06,802 --> 00:42:09,404
+甚至也沒有玩太多別的類型的遊戲
+
+826
+00:42:09,404 --> 00:42:10,585
+甚至節奏就是現在比較
+
+827
+00:42:10,585 --> 00:42:12,607
+市面上比較流行的音樂節奏遊戲
+
+828
+00:42:12,607 --> 00:42:14,248
+他其實也沒有玩很多
+
+829
+00:42:14,248 --> 00:42:17,170
+但是他自己有音樂背景
+
+830
+00:42:17,170 --> 00:42:22,475
+那所以他覺得用他自己熟悉的
+
+831
+00:42:22,475 --> 00:42:24,116
+就是有專長的東西
+
+832
+00:42:24,116 --> 00:42:26,158
+去發想一些比較新的內容
+
+833
+00:42:26,158 --> 00:42:27,299
+應該是相對來講
+
+834
+00:42:27,299 --> 00:42:29,160
+比去發想一些他不熟悉的內容
+
+835
+00:42:29,160 --> 00:42:31,022
+要來得容易
+
+836
+00:42:31,022 --> 00:42:32,903
+那所以他才會就是一直想要
+
+837
+00:42:33,782 --> 00:42:38,883
+就是開發跟節奏遊戲相關的類型
+
+838
+00:42:38,883 --> 00:42:40,284
+那另外一個方面是說
+
+839
+00:42:40,284 --> 00:42:43,584
+他的這個玩法上為什麼要限制說
+
+840
+00:42:43,584 --> 00:42:46,805
+就是連續兩款都是只有一顆鍵
+
+841
+00:42:46,805 --> 00:42:48,146
+而不是說像一些音樂遊戲
+
+842
+00:42:48,146 --> 00:42:51,146
+他可能是操作上比較複雜
+
+843
+00:42:51,146 --> 00:42:54,607
+那他的感覺是
+
+844
+00:42:54,607 --> 00:42:57,428
+因為現在蠻多音樂遊戲
+
+845
+00:42:57,428 --> 00:43:01,569
+你可能在這個關卡
+
+846
+00:43:01,569 --> 00:43:02,789
+就是譬如說某一個譜面是
+
+847
+00:43:03,499 --> 00:43:04,960
+譬如說什麼連音特別多啊
+
+848
+00:43:04,960 --> 00:43:07,681
+還是說他可能就是這個這首音樂是
+
+849
+00:43:07,681 --> 00:43:10,282
+打特定的節奏或是說走特定的風格
+
+850
+00:43:10,282 --> 00:43:14,843
+但是這個concept這個概念可能
+
+851
+00:43:14,843 --> 00:43:17,004
+對玩家來說是
+
+852
+00:43:17,004 --> 00:43:19,165
+大腦容易理解但是他
+
+853
+00:43:19,165 --> 00:43:23,726
+手指就是不夠快就是你可能要練很久才能練到那個手速或是說那個手的
+
+854
+00:43:24,467 --> 00:43:26,948
+的那個某一些音符
+
+855
+00:43:26,948 --> 00:43:28,449
+或是某一些節奏的pattern
+
+856
+00:43:28,449 --> 00:43:30,070
+某些節奏的模式
+
+857
+00:43:30,070 --> 00:43:31,450
+你一定要反覆的去練習
+
+858
+00:43:31,450 --> 00:43:33,831
+然後把你的這個手練到很靈活
+
+859
+00:43:33,831 --> 00:43:34,792
+才有辦法
+
+860
+00:43:34,792 --> 00:43:36,273
+就用肌肉記憶之類的概念
+
+861
+00:43:36,273 --> 00:43:38,273
+才能去玩一些很高端的關卡
+
+862
+00:43:38,273 --> 00:43:40,735
+那些遊戲裡面很多有趣的關卡
+
+863
+00:43:40,735 --> 00:43:42,755
+他也許其實都是
+
+864
+00:43:42,755 --> 00:43:45,036
+普遍難度都相當高的
+
+865
+00:43:45,036 --> 00:43:46,837
+那反過來說
+
+866
+00:43:46,837 --> 00:43:48,778
+他比較希望可以做一款節奏遊戲是
+
+867
+00:43:50,174 --> 00:43:51,315
+操作很簡單
+
+868
+00:43:51,315 --> 00:43:54,097
+就是你不需要去熟悉很多那種
+
+869
+00:43:54,097 --> 00:43:56,419
+譬如說什麼吉他英雄的指法
+
+870
+00:43:56,419 --> 00:43:59,361
+還是說什麼
+
+871
+00:43:59,361 --> 00:44:01,823
+呃某些這個節奏遊戲
+
+872
+00:44:01,823 --> 00:44:02,624
+或是打鼓遊戲
+
+873
+00:44:02,624 --> 00:44:04,285
+有那種很複雜的
+
+874
+00:44:04,285 --> 00:44:06,627
+就是呃
+
+875
+00:44:06,627 --> 00:44:08,588
+有好幾個不同的那個骨面
+
+876
+00:44:08,588 --> 00:44:09,849
+都要去記
+
+877
+00:44:09,849 --> 00:44:12,131
+那就是說只用一顆按鍵
+
+878
+00:44:12,131 --> 00:44:14,453
+然後你就是一隻手指一起去戳他
+
+879
+00:44:14,453 --> 00:44:16,334
+就可以玩的遊戲
+
+880
+00:44:16,334 --> 00:44:17,936
+那但是在這之上
+
+881
+00:44:17,936 --> 00:44:18,296
+他可以
+
+882
+00:44:19,497 --> 00:44:24,638
+用這麼簡單的操作模式去加入一些相對
+
+883
+00:44:24,638 --> 00:44:26,918
+就是說
+
+884
+00:44:26,918 --> 00:44:29,858
+你大腦會需要花一點時間才能理解的概念
+
+885
+00:44:29,858 --> 00:44:30,859
+譬如說
+
+886
+00:44:30,859 --> 00:44:34,819
+特定形式的節奏像如果有玩過節奏醫生的人應該知道就是說他
+
+887
+00:44:34,819 --> 00:44:37,620
+其實在每一個大關或是說每一個
+
+888
+00:44:37,620 --> 00:44:41,741
+角色出來跟你介紹他的背景然後就是你要去
+
+889
+00:44:41,741 --> 00:44:45,121
+幫他的時候其實你
+
+890
+00:44:45,121 --> 00:44:46,901
+那個那個按法就是你如果有get到的話
+
+891
+00:44:48,344 --> 00:44:48,905
+你就會按
+
+892
+00:44:48,905 --> 00:44:50,187
+如果你沒有get到的話
+
+893
+00:44:50,187 --> 00:44:51,849
+就是跟你手速多快
+
+894
+00:44:51,849 --> 00:44:53,412
+其實沒什麼關聯
+
+895
+00:44:53,412 --> 00:44:54,213
+像這樣子的東西
+
+896
+00:44:54,213 --> 00:44:55,234
+是他比較喜歡做的
+
+897
+00:44:55,234 --> 00:44:56,997
+所以他才會連續做兩款遊戲
+
+898
+00:44:56,997 --> 00:44:57,998
+都是像這樣子的風格
+
+899
+00:45:00,355 --> 00:45:07,480
+OK, so I want to switch gear to two other type of questions,
+
+900
+00:45:07,480 --> 00:45:12,463
+because I know you might if I add something more to what I was talking about earlier.
+
+901
+00:45:12,463 --> 00:45:15,825
+Yeah. So, like, I just want to say that, like,
+
+902
+00:45:15,825 --> 00:45:21,088
+nothing, nothing I personally do, like, I don't think it matches.
+
+903
+00:45:21,088 --> 00:45:23,750
+I don't think it's as good as what anyone else does.
+
+904
+00:45:23,750 --> 00:45:24,970
+And what I mean by that is, like,
+
+905
+00:45:24,970 --> 00:45:26,691
+some people, they say, like, they play Rhythm Doctor.
+
+906
+00:45:27,292 --> 00:45:35,454
+And they say, wow, this is the first game that focus on music theory or the first game that teach the first game that's actually about rhythm or something like that.
+
+907
+00:45:35,454 --> 00:45:36,294
+Right.
+
+908
+00:45:36,294 --> 00:45:48,497
+But actually, all the kind of stuff that I like to focus on, like fundamentals of rhythm theory, maybe like swing music or irregular time signatures or interesting rhythms, all that stuff exists in other games.
+
+909
+00:45:49,738 --> 00:45:53,700
+You know, like the biggest rhythm games like Dance Dance Revolution or
+
+910
+00:45:53,700 --> 00:45:57,741
+anything that React does, like once you go up to the high levels,
+
+911
+00:45:57,741 --> 00:46:03,264
+like all that stuff is there. The only difference is that
+
+912
+00:46:03,264 --> 00:46:06,725
+because I eliminate most of the
+
+913
+00:46:06,725 --> 00:46:10,147
+dexterity requirements, people who are not that good
+
+914
+00:46:10,147 --> 00:46:16,250
+at rhythm games can experience that kind of high level of rhythm without
+
+915
+00:46:16,570 --> 00:46:19,231
+without having to get very good at the game first.
+
+916
+00:46:19,231 --> 00:46:22,872
+And that's why these people say, like, oh, this is the first
+
+917
+00:46:22,872 --> 00:46:25,153
+the first music rhythm theory game or whatever.
+
+918
+00:46:25,153 --> 00:46:27,494
+But it's not. It's just because it's just because, like,
+
+919
+00:46:27,494 --> 00:46:29,635
+it's just made more accessible to these people.
+
+920
+00:46:29,635 --> 00:46:31,655
+And the people who say that are usually people who are
+
+921
+00:46:31,655 --> 00:46:35,977
+who don't really have much experience in the big rhythm games.
+
+922
+00:46:35,977 --> 00:46:38,097
+And I think that's similar to
+
+923
+00:46:38,097 --> 00:46:42,219
+similar to like why, like similar to why I make rhythm games,
+
+924
+00:46:42,219 --> 00:46:44,860
+because, like, I know I'm not better than anyone,
+
+925
+00:46:44,860 --> 00:46:46,500
+like probably everyone in this room, right?
+
+926
+00:46:46,705 --> 00:46:53,506
+would have, like maybe some of you have like gone to game design school.
+
+927
+00:46:53,506 --> 00:47:00,028
+So, you actually know the fundamentals of game design much better than me, because like I
+
+928
+00:47:00,028 --> 00:47:07,429
+haven't actually studied a lot of these things. So, like it's something I want to get better at,
+
+929
+00:47:07,429 --> 00:47:12,790
+but it's the same kind of reasoning, right? So, I'm like everything I do is not really like...
+
+930
+00:47:13,465 --> 00:47:16,126
+anything better than anyone else.
+
+931
+00:47:16,126 --> 00:47:18,547
+I'm just kind of sticking to the stuff I know.
+
+932
+00:47:18,547 --> 00:47:23,269
+And sometimes I kind of make stuff that's inaccessible
+
+933
+00:47:23,269 --> 00:47:26,430
+because inaccessible to normal players,
+
+934
+00:47:26,430 --> 00:47:30,492
+more accessible to those players.
+
+935
+00:47:30,492 --> 00:47:33,873
+So sometimes it might seem to them
+
+936
+00:47:33,873 --> 00:47:36,814
+like our games are innovative in some way,
+
+937
+00:47:36,814 --> 00:47:40,015
+but really it's just like a mishmash of...
+
+938
+00:47:40,792 --> 00:47:44,614
+of influences and inspirations
+
+939
+00:47:44,614 --> 00:47:48,115
+made into something that's more accessible to
+
+940
+00:47:48,115 --> 00:47:50,436
+the average player, I think.
+
+941
+00:47:50,436 --> 00:47:51,557
+If that makes sense.
+
+942
+00:47:51,557 --> 00:47:55,698
+I think that's a very humble way of putting it.
+
+943
+00:47:55,698 --> 00:47:58,359
+But yeah, I get it. I get what you're saying.
+
+944
+00:47:58,359 --> 00:48:01,601
+So let me also translate that part quickly.
+
+945
+00:48:01,601 --> 00:48:04,362
+He just said that
+
+946
+00:48:10,185 --> 00:48:14,766
+很多知名的音樂遊戲
+
+947
+00:48:14,766 --> 00:48:15,947
+包括他剛剛也有舉例
+
+948
+00:48:15,947 --> 00:48:17,667
+就是像雷亞的音樂遊戲
+
+949
+00:48:17,667 --> 00:48:19,588
+就是這種音樂遊戲
+
+950
+00:48:19,588 --> 00:48:22,048
+它裡面就是各種樂曲
+
+951
+00:48:22,048 --> 00:48:24,089
+也是會有很多
+
+952
+00:48:24,089 --> 00:48:27,090
+就是跟音樂相關的背景知識或是技巧
+
+953
+00:48:27,090 --> 00:48:28,550
+或是說有些背景資訊
+
+954
+00:48:28,550 --> 00:48:29,710
+玩家不一定會知道
+
+955
+00:48:29,710 --> 00:48:31,651
+但是你玩到高端的玩家
+
+956
+00:48:31,651 --> 00:48:35,252
+你一定是會體驗到那些相關的東西
+
+957
+00:48:35,252 --> 00:48:36,832
+但是大部分的這些音樂遊戲會讓
+
+958
+00:48:40,746 --> 00:48:45,527
+沒有辦法練起來的那些比較普通的玩家
+
+959
+00:48:45,527 --> 00:48:48,608
+他就無法體會到就是所謂
+
+960
+00:48:48,608 --> 00:48:52,709
+就是音樂跟節奏那些有趣的面向
+
+961
+00:48:52,709 --> 00:48:55,590
+可能就是沒有辦法去體會到
+
+962
+00:48:55,590 --> 00:48:59,851
+那所以他常常聽到有一些
+
+963
+00:48:59,851 --> 00:49:01,391
+現在的玩家可能會說
+
+964
+00:49:01,391 --> 00:49:02,932
+他們的兩款作品都是讓
+
+965
+00:49:05,342 --> 00:49:08,003
+就是那些玩家都會說你這個遊戲讓我耳目一新啊
+
+966
+00:49:08,003 --> 00:49:09,884
+就是我從來沒有看過節奏遊戲這樣做
+
+967
+00:49:09,884 --> 00:49:11,425
+或是說有很多節奏遊戲
+
+968
+00:49:11,425 --> 00:49:14,586
+就是好像
+
+969
+00:49:14,586 --> 00:49:15,486
+在
+
+970
+00:49:15,486 --> 00:49:20,929
+在展現跟節奏相關的概念上面都不如這款遊戲那種感覺
+
+971
+00:49:20,929 --> 00:49:24,870
+但是他強調是說其實並不是其他遊戲都沒有這些內容而是
+
+972
+00:49:27,307 --> 00:49:32,430
+他想要做的遊戲比較偏向就是可以用很簡單的操作
+
+973
+00:49:32,430 --> 00:49:39,134
+就能讓玩家體驗到那些相對比較
+
+974
+00:49:39,134 --> 00:49:41,595
+難或是比較進階的一些概念
+
+975
+00:49:41,595 --> 00:49:43,236
+那
+
+976
+00:49:43,236 --> 00:49:44,036
+你也就是
+
+977
+00:49:46,143 --> 00:49:48,083
+不需要是一個專業的音樂遊戲玩家
+
+978
+00:49:48,083 --> 00:49:49,744
+你也可以知道你可以體會到那些
+
+979
+00:49:49,744 --> 00:49:52,904
+譬如說什麼就是不規則的節拍啊
+
+980
+00:49:52,904 --> 00:49:55,025
+或是說一些比較不常見的節拍的那些概念
+
+981
+00:49:55,025 --> 00:49:55,965
+你以前可能
+
+982
+00:49:55,965 --> 00:49:58,225
+可能也許以前高中國中音樂課有上過
+
+983
+00:49:58,225 --> 00:50:00,145
+但是馬上就還給老師那些東西
+
+984
+00:50:00,145 --> 00:50:03,246
+就是你反而玩這款遊戲之後可以體驗到那些內容
+
+985
+00:50:03,246 --> 00:50:05,246
+那也不會操作很複雜
+
+986
+00:50:05,246 --> 00:50:07,527
+對那他自己
+
+987
+00:50:07,527 --> 00:50:10,467
+其實並沒有去學過很多就是遊戲設計遊戲開發相關的知識
+
+988
+00:50:10,467 --> 00:50:10,487
+那
+
+989
+00:50:13,298 --> 00:50:14,499
+他所有東西都是自學
+
+990
+00:50:14,499 --> 00:50:16,881
+所以他寧可就是用他自己所知自己所學
+
+991
+00:50:16,881 --> 00:50:19,463
+就是盡量把自己知道的東西簡化
+
+992
+00:50:19,463 --> 00:50:25,187
+然後推給算是讓他的這個遊戲的可被接受的程度
+
+993
+00:50:25,187 --> 00:50:28,850
+就是在一般玩家間可被接受的程度就是更上升
+
+994
+00:50:28,850 --> 00:50:30,871
+那所以才會有那麼多玩家覺得說
+
+995
+00:50:30,871 --> 00:50:34,354
+好像這些東西都只有在你這款節奏遊戲裡看過
+
+996
+00:50:34,354 --> 00:50:35,555
+那其實是因為那些玩家
+
+997
+00:50:35,555 --> 00:50:38,858
+其實他們當初可能是有嘗試過一些比較難的節奏遊戲
+
+998
+00:50:38,858 --> 00:50:40,959
+但是就玩了一下就被擊退了
+
+999
+00:50:40,959 --> 00:50:42,240
+所以也不會體驗到那些
+
+1000
+00:50:42,961 --> 00:50:45,222
+比較難的幾個遊戲到底有哪些美好處
+
+1001
+00:50:45,222 --> 00:50:45,403
+OK
+
+1002
+00:50:45,403 --> 00:50:54,148
+So I want to switch gear to other side of
+
+1003
+00:50:54,148 --> 00:50:59,551
+like some of my remaining questions
+
+1004
+00:50:59,551 --> 00:51:02,733
+So I noticed that in the game there is a lot of
+
+1005
+00:51:04,782 --> 00:51:08,426
+Mandarin and Chinese references.
+
+1006
+00:51:08,426 --> 00:51:11,751
+So I wonder if that is your idea,
+
+1007
+00:51:11,751 --> 00:51:13,373
+or if that's Winston's idea.
+
+1008
+00:51:13,373 --> 00:51:18,819
+How did you make, so there are even music
+
+1009
+00:51:18,819 --> 00:51:21,102
+with Mandarin lyrics, right?
+
+1010
+00:51:21,102 --> 00:51:23,025
+So how did you make that happen?
+
+1011
+00:51:24,895 --> 00:51:28,438
+Okay, so first of all, have you been to Malaysia before?
+
+1012
+00:51:28,438 --> 00:51:30,981
+So like Malaysia has kind of a big...
+
+1013
+00:51:30,981 --> 00:51:34,364
+Like Malaysia has a big Chinese influence already in itself, right?
+
+1014
+00:51:34,364 --> 00:51:36,286
+A big part of the population is Chinese.
+
+1015
+00:51:36,286 --> 00:51:38,928
+Like I'm part Chinese, Winston's Malaysian Chinese.
+
+1016
+00:51:38,928 --> 00:51:44,433
+So like we already have that kind of culture in...
+
+1017
+00:51:44,433 --> 00:51:48,898
+We have the kind of culture in our country already.
+
+1018
+00:51:48,898 --> 00:51:49,758
+So part of it is...
+
+1019
+00:51:51,403 --> 00:51:54,186
+So how we work like me and Winston, right?
+
+1020
+00:51:54,186 --> 00:51:56,890
+I would ask him to draw like I would never give him like an
+
+1021
+00:51:56,890 --> 00:51:58,812
+actual like something to draw.
+
+1022
+00:51:58,812 --> 00:52:01,155
+I would just give him the mechanic like we need a character
+
+1023
+00:52:01,155 --> 00:52:05,981
+or we need a heart and then he would just do whatever he wants.
+
+1024
+00:52:05,981 --> 00:52:08,705
+So like a lot of the stuff that a lot of the stuff with like
+
+1025
+00:52:08,705 --> 00:52:09,586
+Chinese influence.
+
+1026
+00:52:10,922 --> 00:52:16,344
+comes from him, he just decides to take that character into
+
+1027
+00:52:16,344 --> 00:52:17,744
+this kind of culture.
+
+1028
+00:52:17,744 --> 00:52:22,186
+And then I would see it, and then I would get inspired by it,
+
+1029
+00:52:22,186 --> 00:52:28,188
+and I would kind of make something that goes more towards
+
+1030
+00:52:28,188 --> 00:52:29,068
+that kind of culture.
+
+1031
+00:52:29,068 --> 00:52:31,729
+But then if you're asking for the music specifically.
+
+1032
+00:52:34,491 --> 00:52:40,197
+Like, I guess the first boss level, it uses an Erhu and a Guzheng.
+
+1033
+00:52:40,197 --> 00:52:43,060
+These are like Chinese instruments.
+
+1034
+00:52:43,060 --> 00:52:49,708
+That was kind of like an interesting coincidence, I guess, because I was listening to this.
+
+1035
+00:52:49,708 --> 00:52:53,111
+I think he's a Taiwanese musician.
+
+1036
+00:52:53,111 --> 00:52:56,095
+Oh, what's his name?
+
+1037
+00:52:58,792 --> 00:53:01,237
+Shanghai Restoration Project.
+
+1038
+00:53:01,237 --> 00:53:02,499
+Maybe he's from China, actually.
+
+1039
+00:53:02,499 --> 00:53:06,267
+Yeah, so he's an artist called Shanghai Restoration Project.
+
+1040
+00:53:06,267 --> 00:53:09,533
+He likes to combine Chinese instruments with hip-hop.
+
+1041
+00:53:10,642 --> 00:53:12,863
+And I was really into that kind of music at the time.
+
+1042
+00:53:12,863 --> 00:53:15,125
+So I thought, hey, maybe let's try something like that.
+
+1043
+00:53:15,125 --> 00:53:18,188
+And then we had like for that boss level,
+
+1044
+00:53:18,188 --> 00:53:21,070
+there's a mechanic where you have to count to seven,
+
+1045
+00:53:21,070 --> 00:53:22,732
+you have to press on the seventh beat,
+
+1046
+00:53:22,732 --> 00:53:24,613
+but the song itself will start to stutter.
+
+1047
+00:53:24,613 --> 00:53:26,255
+So it has like glitch effects.
+
+1048
+00:53:26,255 --> 00:53:26,775
+Yeah.
+
+1049
+00:53:26,775 --> 00:53:29,718
+And that kind of thing felt really...
+
+1050
+00:53:30,928 --> 00:53:36,752
+felt really fitting with this kind of genre, like hip hop kind of Chinese, because if you take hip
+
+1051
+00:53:36,752 --> 00:53:41,955
+hop Chinese music and then you start to study it, it sounds more cool to me. So I was like,
+
+1052
+00:53:41,955 --> 00:53:49,659
+okay, yeah, so let's go with that. So basically, a lot of this kind of influence has been
+
+1053
+00:53:51,388 --> 00:53:58,517
+I guess, influenced by our backgrounds as well, the stuff we listen to, how it's like in Malaysia.
+
+1054
+00:53:58,517 --> 00:54:04,886
+And sometimes, like, sometimes these little pockets of culture just appear here and there, you know.
+
+1055
+00:54:05,627 --> 00:54:08,547
+because of our backgrounds.
+
+1056
+00:54:08,547 --> 00:54:11,268
+It's not a very explicit choice.
+
+1057
+00:54:11,268 --> 00:54:15,909
+It's not like we want to appeal to the Chinese market, so we'll make this.
+
+1058
+00:54:15,909 --> 00:54:19,010
+But it's more like it just happens naturally.
+
+1059
+00:54:19,010 --> 00:54:23,211
+And then what happened was we also got a Chinese publisher
+
+1060
+00:54:23,211 --> 00:54:24,131
+after a few years.
+
+1061
+00:54:24,131 --> 00:54:26,952
+So they helped us.
+
+1062
+00:54:26,952 --> 00:54:28,492
+So they kind of made us.
+
+1063
+00:54:29,750 --> 00:54:33,011
+focus more on stuff like translation.
+
+1064
+00:54:33,011 --> 00:54:37,493
+So we also redid our songs in Mandarin because of them.
+
+1065
+00:54:37,493 --> 00:54:41,534
+So they funded this kind of stuff for us.
+
+1066
+00:54:41,534 --> 00:54:43,274
+So we're like, okay, sure, if they want to.
+
+1067
+00:54:43,274 --> 00:54:45,495
+So we're happy to do that.
+
+1068
+00:54:46,346 --> 00:54:52,350
+And because a lot of people in Malaysia are Chinese, it's easy to find Chinese singers
+
+1069
+00:54:52,350 --> 00:54:54,592
+and Chinese speakers. I see.
+
+1070
+00:54:54,592 --> 00:55:02,297
+Actually, the interesting part was, so the way they count in Rhythm Doctor is
+
+1071
+00:55:02,297 --> 00:55:06,239
+and it's always in Mandarin.
+
+1072
+00:55:07,720 --> 00:55:08,381
+I don't really know.
+
+1073
+00:55:08,381 --> 00:55:13,143
+I can't remember why, but I think it was because one of my friends who was the voice for the
+
+1074
+00:55:13,143 --> 00:55:19,226
+nurse, she was Malaysian Chinese, and we thought it would be more fun if she just tries to
+
+1075
+00:55:19,226 --> 00:55:21,067
+speak in Chinese.
+
+1076
+00:55:21,067 --> 00:55:24,909
+So that was the start of the Chinese influence, I guess.
+
+1077
+00:55:24,909 --> 00:55:27,291
+And then it started to seep in other ways.
+
+1078
+00:55:27,291 --> 00:55:30,852
+I think some things inspire other things, which inspire more things.
+
+1079
+00:55:30,852 --> 00:55:31,052
+Yeah.
+
+1080
+00:55:31,052 --> 00:55:33,614
+I think that's a very interesting story.
+
+1081
+00:55:34,614 --> 00:55:43,860
+Nothing really was deliberately made, but it's just like the background culture just influence and like just bleed into your game, right?
+
+1082
+00:55:43,860 --> 00:55:50,985
+Yeah, yeah. So like I think our game is suitable for that because you know the story is kind of crazy.
+
+1083
+00:55:50,985 --> 00:55:56,068
+It's got like all kinds of patients, so it doesn't really matter what kind of direction the game goes in.
+
+1084
+00:55:56,557 --> 00:56:00,141
+So I can do like one day I feel like making hip hop, one day I feel like making lo-fi.
+
+1085
+00:56:00,141 --> 00:56:05,327
+It's okay because you know it's a kind of a variety game where like every patient is different.
+
+1086
+00:56:05,327 --> 00:56:09,451
+I don't think that kind of thing would work if you have a very focused kind of game, right?
+
+1087
+00:56:09,451 --> 00:56:09,952
+Right.
+
+1088
+00:56:09,952 --> 00:56:14,918
+So it's just for us that it's easy to do because we keep our constraints kind of like.
+
+1089
+00:56:15,899 --> 00:56:21,403
+We keep it focused on the only thing that connects all of these
+
+1090
+00:56:21,403 --> 00:56:26,968
+kind of different cultures in the game is the music.
+
+1091
+00:56:26,968 --> 00:56:29,110
+Right. So that's where we start.
+
+1092
+00:56:29,110 --> 00:56:34,034
+So if the music theory gameplay is kind of fixed, then everything
+
+1093
+00:56:34,034 --> 00:56:35,796
+else can be more flexible around.
+
+1094
+00:56:35,796 --> 00:56:39,479
+Right. Whereas I know some games that are not game design focused.
+
+1095
+00:56:39,479 --> 00:56:40,921
+So they focus on the aesthetics first.
+
+1096
+00:56:41,701 --> 00:56:46,244
+所以我想你會想要專注在你的美學上
+
+1097
+00:56:46,244 --> 00:56:48,805
+你不想接受任何影響而只會把美學放進去
+
+1098
+00:56:48,805 --> 00:56:49,906
+而對於SOS就沒問題了
+
+1099
+00:56:49,906 --> 00:56:53,008
+因為那就是我們要做的遊戲
+
+1100
+00:56:53,008 --> 00:56:54,609
+OK,這合理
+
+1101
+00:56:54,609 --> 00:56:58,511
+那剛這段我主要是想要問說就是
+
+1102
+00:56:58,511 --> 00:57:00,673
+就是因為這款就是節奏醫生
+
+1103
+00:57:00,673 --> 00:57:03,634
+它裡面就是有其實有很多華文的元素在裡面
+
+1104
+00:57:03,634 --> 00:57:06,696
+那就是問一下說那這個元素是怎麼來的
+
+1105
+00:57:06,696 --> 00:57:09,998
+那其實答案也算是蠻單純就是因為
+
+1106
+00:57:11,015 --> 00:57:14,218
+就是大馬華人也算是很多嘛
+
+1107
+00:57:14,218 --> 00:57:16,740
+那基本上他們自己就有相關的
+
+1108
+00:57:16,740 --> 00:57:18,381
+就是耳濡目染的背景做在裡面
+
+1109
+00:57:18,381 --> 00:57:22,024
+所以在那邊會使用一些
+
+1110
+00:57:22,024 --> 00:57:24,206
+就是中國或是華文的元素
+
+1111
+00:57:24,206 --> 00:57:26,447
+也是算是蠻自然的
+
+1112
+00:57:26,447 --> 00:57:30,210
+那像他剛剛最後有提到一個例子是說
+
+1113
+00:57:30,210 --> 00:57:31,531
+就是節奏為什麼要數1234567
+
+1114
+00:57:31,531 --> 00:57:32,632
+是單純就是說
+
+1115
+00:57:32,632 --> 00:57:37,496
+就是因為他的其中一個配音員的
+
+1116
+00:57:37,496 --> 00:57:38,557
+就是幫遊戲配音的朋友就是
+
+1117
+00:57:40,186 --> 00:57:41,927
+臨時起性的提案
+
+1118
+00:57:41,927 --> 00:57:43,708
+那後來就開始有越來越多
+
+1119
+00:57:43,708 --> 00:57:47,351
+就是說那乾脆可能就是說
+
+1120
+00:57:47,351 --> 00:57:50,113
+一些曲目或者說一些
+
+1121
+00:57:50,113 --> 00:57:51,374
+使用的樂器的風格
+
+1122
+00:57:51,374 --> 00:57:54,236
+也可以就是往這個方向去嘗試這樣子
+
+1123
+00:57:54,236 --> 00:57:56,897
+對那也沒有特別刻意的去做什麼
+
+1124
+00:57:56,897 --> 00:57:59,259
+什麼安排
+
+1125
+00:57:59,259 --> 00:58:02,481
+那只是說後來他因為有拿到那個
+
+1126
+00:58:02,481 --> 00:58:05,703
+你的公司是Indynova對吧
+
+1127
+00:58:05,703 --> 00:58:06,264
+對 你有跟他們見面嗎
+
+1128
+00:58:07,352 --> 00:58:13,697
+No, I haven't met them. I know their forum, but I don't know them personally.
+
+1129
+00:58:13,697 --> 00:58:15,278
+對,那就是
+
+1130
+00:58:15,278 --> 00:58:21,463
+中國有一個獨立遊戲的發行商叫IndieNova,那他算是後來Risen Doctor,就是傑作一生的
+
+1131
+00:58:21,463 --> 00:58:23,064
+就是發行商
+
+1132
+00:58:23,064 --> 00:58:28,489
+他們那時候就是有幫他再多做一些,就是再多給一些資助讓他可以做比較多的
+
+1133
+00:58:28,489 --> 00:58:31,291
+比如說歌曲有雙版本,或是說可以做
+
+1134
+00:58:31,291 --> 00:58:33,053
+就是多版本的
+
+1135
+00:58:33,053 --> 00:58:33,573
+這個口語配音這樣子
+
+1136
+00:58:33,573 --> 00:58:33,593
+對那
+
+1137
+00:58:37,912 --> 00:58:38,053
+Okay.
+
+1138
+00:58:38,053 --> 00:58:44,734
+Okay, so before I open up to the audience questions,
+
+1139
+00:58:44,734 --> 00:58:52,976
+I have, I guess my final question here,
+
+1140
+00:58:52,976 --> 00:58:56,357
+because actually, due to the translation,
+
+1141
+00:58:56,357 --> 00:58:57,918
+we are kind of over time now,
+
+1142
+00:58:57,918 --> 00:59:02,279
+but I do want to ask you one of the final aspect
+
+1143
+00:59:02,279 --> 00:59:05,179
+that I want to ask.
+
+1144
+00:59:05,179 --> 00:59:05,259
+So.
+
+1145
+00:59:08,854 --> 00:59:14,798
+Both your games, like Dofi and Rhythm Doctor,
+
+1146
+00:59:14,798 --> 00:59:22,905
+they have a pretty big and integrated community
+
+1147
+00:59:22,905 --> 00:59:24,166
+aspect built into the game.
+
+1148
+00:59:24,166 --> 00:59:27,048
+I would say like almost from the beginning.
+
+1149
+00:59:27,048 --> 00:59:30,011
+So as an indie game developer,
+
+1150
+00:59:30,011 --> 00:59:33,454
+how did you start to, you know,
+
+1151
+00:59:33,454 --> 00:59:38,378
+how did you start to plan that kind of community integration
+
+1152
+00:59:39,276 --> 00:59:41,838
+and how, like, you made a level editor,
+
+1153
+00:59:41,838 --> 00:59:44,981
+but was the level editor started out
+
+1154
+00:59:44,981 --> 00:59:48,024
+as just a tool for yourself, or you think like,
+
+1155
+00:59:48,024 --> 00:59:50,707
+okay, actually I want to make this level editor
+
+1156
+00:59:50,707 --> 00:59:52,288
+for the community as well?
+
+1157
+00:59:52,288 --> 00:59:55,431
+Okay, so, actually, like, none of the games
+
+1158
+00:59:55,431 --> 00:59:58,414
+started with the level editor,
+
+1159
+00:59:58,414 --> 01:00:00,315
+so, like, that happened quite late.
+
+1160
+01:00:01,226 --> 01:00:04,228
+Like for AdoPhi, for example, it only happened after release,
+
+1161
+01:00:04,228 --> 01:00:09,150
+because after we released, someone in the community
+
+1162
+01:00:09,150 --> 01:00:13,233
+made their own level editor as a separate tool.
+
+1163
+01:00:13,233 --> 01:00:16,354
+Like they basically remade AdoPhi on their own
+
+1164
+01:00:16,354 --> 01:00:17,155
+with a level editor.
+
+1165
+01:00:17,155 --> 01:00:20,957
+So we're like, oh no, why don't we
+
+1166
+01:00:20,957 --> 01:00:23,538
+get this guy to work for us instead
+
+1167
+01:00:23,538 --> 01:00:24,979
+and make the level editor for us?
+
+1168
+01:00:25,429 --> 01:00:28,532
+So we're like, OK, do you want to make the level editor officially?
+
+1169
+01:00:28,532 --> 01:00:30,554
+So and he was like, OK, sure.
+
+1170
+01:00:30,554 --> 01:00:31,736
+This person is Morpheus.
+
+1171
+01:00:31,736 --> 01:00:32,717
+His name is Morpheus.
+
+1172
+01:00:32,717 --> 01:00:38,102
+He was he's like only a teenager, but he was on our Discord.
+
+1173
+01:00:40,205 --> 01:00:41,306
+Yeah, he was really young.
+
+1174
+01:00:41,306 --> 01:00:46,991
+He was on our Discord and he was sharing his fan made level editor.
+
+1175
+01:00:46,991 --> 01:00:53,217
+And also for Rhythm Doctor, we didn't really plan on making a level editor at all.
+
+1176
+01:00:53,217 --> 01:00:59,423
+So for the first few years, like for the IGF and all that, there was no level editor at all.
+
+1177
+01:00:59,423 --> 01:01:02,065
+What happened was we started, like 2016, we started
+
+1178
+01:01:04,198 --> 01:01:09,403
+Because we really wanted to motivate ourselves to continue work on the game.
+
+1179
+01:01:09,403 --> 01:01:13,686
+So what we did was we decided to make levels and release them to our newsletter.
+
+1180
+01:01:13,686 --> 01:01:18,710
+So they were like private, privately only to our newsletter subscribers.
+
+1181
+01:01:18,710 --> 01:01:24,114
+And every month we would try to release one level and then we get feedback.
+
+1182
+01:01:24,114 --> 01:01:30,219
+So for one of the newsletters, we wanted to ask them, what do they want?
+
+1183
+01:01:30,219 --> 01:01:31,280
+So we had a survey.
+
+1184
+01:01:31,280 --> 01:01:32,140
+It's like what kind of.
+
+1185
+01:01:32,427 --> 01:01:33,268
+What kind of stuff do you want?
+
+1186
+01:01:33,268 --> 01:01:35,469
+Do you want like a two player mode?
+
+1187
+01:01:35,469 --> 01:01:37,671
+Do you want like leaderboards, stuff like that?
+
+1188
+01:01:37,671 --> 01:01:39,112
+Then everyone said level editor.
+
+1189
+01:01:39,112 --> 01:01:39,712
+So we were like, okay.
+
+1190
+01:01:39,712 --> 01:01:44,776
+So we were never really thinking about level editor
+
+1191
+01:01:44,776 --> 01:01:45,496
+up until then.
+
+1192
+01:01:45,496 --> 01:01:47,738
+Something I want to tell you though,
+
+1193
+01:01:47,738 --> 01:01:50,120
+maybe you want to translate this first
+
+1194
+01:01:50,120 --> 01:01:52,021
+and then I'll continue.
+
+1195
+01:01:52,021 --> 01:01:53,562
+Okay, okay, let's translate it first.
+
+1196
+01:01:58,145 --> 01:02:02,628
+目前你在看的話就是傑作醫生還有他之前的那個冰與火之舞
+
+1197
+01:02:02,628 --> 01:02:07,452
+他其實都有關卡設計的編輯器
+
+1198
+01:02:07,452 --> 01:02:12,536
+那我本來是想問他說那這個編輯器是一開始就有去打算要做還是說後來才加入
+
+1199
+01:02:12,536 --> 01:02:14,838
+那他就講說其實冰與火之舞那款遊戲的編輯器是
+
+1200
+01:02:14,838 --> 01:02:14,858
+應該說兩款遊戲
+
+1201
+01:02:20,615 --> 01:02:23,616
+冰與火之舞的編輯器是遊戲上市後才做的
+
+1202
+01:02:23,616 --> 01:02:25,316
+因為那款遊戲製作期很短
+
+1203
+01:02:25,316 --> 01:02:30,457
+然後他丟出來之後就是有玩家自己製作了
+
+1204
+01:02:30,457 --> 01:02:34,098
+就是等於說是非官方的編輯器
+
+1205
+01:02:34,098 --> 01:02:38,439
+那因為其實你也可以想像那款遊戲本質上很單純
+
+1206
+01:02:38,439 --> 01:02:44,400
+所以就很像說他就是一個可以讀特定譜面的程式
+
+1207
+01:02:44,400 --> 01:02:46,420
+然後可以播音效然後加編輯器
+
+1208
+01:02:47,564 --> 01:02:50,305
+那就是說等於說有一個玩家已經有一個
+
+1209
+01:02:50,305 --> 01:02:55,226
+完全非官方的遊戲的那個複製版就已經出來了這樣
+
+1210
+01:02:55,226 --> 01:02:56,966
+對他就想說那怎麼辦怎麼辦
+
+1211
+01:02:56,966 --> 01:02:59,326
+那就想說乾脆直接跟那個人問說
+
+1212
+01:02:59,326 --> 01:03:02,207
+你要不要來直接來團隊裡工作比較快
+
+1213
+01:03:02,207 --> 01:03:04,647
+那後來就是聯絡上了那個
+
+1214
+01:03:04,647 --> 01:03:07,208
+做那個非官方版本編輯器的開發者
+
+1215
+01:03:07,208 --> 01:03:07,968
+然後就請他進來
+
+1216
+01:03:07,968 --> 01:03:12,709
+然後就後來發現說原來對方是一個就是十幾歲的小夥子
+
+1217
+01:03:12,709 --> 01:03:15,950
+然後就是整個團隊的人現在都很年輕就對了
+
+1218
+01:03:17,182 --> 01:03:23,084
+那第二部分是他在那個
+
+1219
+01:03:23,084 --> 01:03:26,005
+節奏醫生在開發的過程中就是
+
+1220
+01:03:26,005 --> 01:03:29,006
+因為想要讓自己還有一些動力
+
+1221
+01:03:29,006 --> 01:03:30,526
+繼續穩定的持續產出內容
+
+1222
+01:03:30,526 --> 01:03:33,387
+所以他就也是一樣開了一個
+
+1223
+01:03:33,387 --> 01:03:37,608
+像是電子報的東西
+
+1224
+01:03:37,608 --> 01:03:41,690
+那就是會每個月會發送一個新關卡給
+
+1225
+01:03:41,690 --> 01:03:42,510
+就是私下有訂閱這個電子報的粉絲
+
+1226
+01:03:45,988 --> 01:03:48,890
+那其中一期他就直接問粉絲說
+
+1227
+01:03:48,890 --> 01:03:54,074
+那就是大家希望在《節奏一生》
+
+1228
+01:03:54,074 --> 01:03:55,735
+這個遊戲裡面看到怎樣的內容
+
+1229
+01:03:55,735 --> 01:03:57,556
+對 然後那時候好像
+
+1230
+01:03:57,556 --> 01:03:58,857
+他剛剛講說是2016還2017年
+
+1231
+01:03:58,857 --> 01:04:01,519
+那就是說所有人那時候都回應說
+
+1232
+01:04:01,519 --> 01:04:03,760
+就是他們想要看到是
+
+1233
+01:04:03,760 --> 01:04:05,241
+《節奏一生》的關卡編輯器
+
+1234
+01:04:05,241 --> 01:04:07,162
+那就好 好吧 那就是既然
+
+1235
+01:04:07,162 --> 01:04:08,963
+就是粉絲都要求了
+
+1236
+01:04:08,963 --> 01:04:10,064
+那就做這樣子
+
+1237
+01:04:11,840 --> 01:04:14,322
+所以兩款遊戲都等於算是
+
+1238
+01:04:14,322 --> 01:04:16,964
+一開始其實並沒有去想到要做關卡編輯這件事情
+
+1239
+01:04:16,964 --> 01:04:17,124
+OK
+
+1240
+01:04:17,124 --> 01:04:18,766
+You can continue
+
+1241
+01:04:18,766 --> 01:04:18,966
+OK, so...
+
+1242
+01:04:18,966 --> 01:04:24,491
+I'm gonna talk about this level editor thing
+
+1243
+01:04:24,491 --> 01:04:27,613
+It's actually quite dangerous
+
+1244
+01:04:27,613 --> 01:04:29,915
+to make a level editor
+
+1245
+01:04:29,915 --> 01:04:31,336
+And this is why like...
+
+1246
+01:04:32,247 --> 01:04:36,508
+what we thought at first, right? It's like making a level editor is kind of,
+
+1247
+01:04:36,508 --> 01:04:42,290
+it's like, it's just a tool, right? Like Audacity or like FL Studio or, you know, Adobe. Like people
+
+1248
+01:04:42,290 --> 01:04:46,891
+can just make stuff in it, they can share it, they can save files, they can open files. Like,
+
+1249
+01:04:46,891 --> 01:04:51,772
+what's wrong with that? You know, it's just a tool. The problem is, it actually gets quite
+
+1250
+01:04:51,772 --> 01:04:58,254
+political because if you make a level editor, if it's a normal game, it's fine, you know, people
+
+1251
+01:04:58,254 --> 01:04:58,594
+just...
+
+1252
+01:04:59,408 --> 01:05:02,450
+like people just make whatever levels they want.
+
+1253
+01:05:02,450 --> 01:05:07,593
+No, I guess even for platform games, people can make like Nazi symbols in the level editor.
+
+1254
+01:05:07,593 --> 01:05:09,874
+But that's not what I'm talking about.
+
+1255
+01:05:09,874 --> 01:05:12,376
+Not here.
+
+1256
+01:05:12,376 --> 01:05:19,460
+The thing is, for music game level editors, when people say like,
+
+1257
+01:05:19,460 --> 01:05:21,101
+when we ask everyone, like, what do you want?
+
+1258
+01:05:21,101 --> 01:05:23,442
+And they say, I want a level editor.
+
+1259
+01:05:23,442 --> 01:05:28,985
+What most people are thinking of is, I want to use my favorite song in the level editor.
+
+1260
+01:05:30,560 --> 01:05:32,681
+So they're not thinking, I want to make my own song and I want
+
+1261
+01:05:32,681 --> 01:05:33,501
+to make a level there.
+
+1262
+01:05:33,501 --> 01:05:36,262
+No, they're thinking, Oh, I really like my favorite artist song.
+
+1263
+01:05:36,262 --> 01:05:38,664
+I want to make a level with that song.
+
+1264
+01:05:38,664 --> 01:05:41,545
+And this is where it gets kind of dangerous.
+
+1265
+01:05:41,545 --> 01:05:51,430
+Because so do you agree that sometimes tools made without
+
+1266
+01:05:51,430 --> 01:05:53,631
+any instructions can be dangerous?
+
+1267
+01:05:53,631 --> 01:05:53,911
+Yeah.
+
+1268
+01:05:55,217 --> 01:06:00,381
+So what happened with this was that people were making songs with their favorite artists,
+
+1269
+01:06:00,381 --> 01:06:03,242
+and those favorite artists, they didn't want it.
+
+1270
+01:06:03,242 --> 01:06:06,965
+They didn't want their songs to be made in the level editor.
+
+1271
+01:06:06,965 --> 01:06:09,326
+So there's a few approaches to this, actually.
+
+1272
+01:06:09,326 --> 01:06:15,290
+So we had spent a lot of time on this because some of those artists got angry with us because
+
+1273
+01:06:15,290 --> 01:06:20,934
+they say it's unethical to make a level editor when you know people are going to use
+
+1274
+01:06:20,934 --> 01:06:22,715
+other artists' music in that level editor.
+
+1275
+01:06:23,557 --> 01:06:25,498
+And I see their point.
+
+1276
+01:06:25,498 --> 01:06:30,783
+At first, my viewpoint was that level editors are just neutral tools.
+
+1277
+01:06:30,783 --> 01:06:32,304
+It's like making FL Studio.
+
+1278
+01:06:32,304 --> 01:06:36,808
+Anyone can make a remix, unauthorized remix in FL Studio and share it.
+
+1279
+01:06:36,808 --> 01:06:39,230
+So what's the difference with our game?
+
+1280
+01:06:39,230 --> 01:06:43,694
+But I think it goes beyond that, because even though it may be legally okay,
+
+1281
+01:06:43,694 --> 01:06:45,536
+morally, there's something gray there.
+
+1282
+01:06:46,471 --> 01:06:52,295
+Because a lot of artists, right, how they make money is, like,
+
+1283
+01:06:52,295 --> 01:06:57,860
+especially rhythm game artists, they make money by licensing
+
+1284
+01:06:57,860 --> 01:07:00,602
+their tracks to other rhythm games.
+
+1285
+01:07:00,602 --> 01:07:05,986
+So if there is a level editor and people use their songs
+
+1286
+01:07:05,986 --> 01:07:13,291
+without us, like, buying a license for every song that every player wants to use,
+
+1287
+01:07:13,291 --> 01:07:15,753
+it might, it might
+
+1288
+01:07:16,687 --> 01:07:21,228
+it might be greater exclusivity off their tracks
+
+1289
+01:07:21,228 --> 01:07:25,810
+because it's now more common compared to before
+
+1290
+01:07:25,810 --> 01:07:28,531
+when it was only licensed to specific games.
+
+1291
+01:07:28,531 --> 01:07:30,932
+So I know in the kind of artist community,
+
+1292
+01:07:30,932 --> 01:07:32,873
+there's a game, do you know Osu?
+
+1293
+01:07:32,873 --> 01:07:33,513
+Yeah, I know Osu.
+
+1294
+01:07:33,513 --> 01:07:34,573
+There's a game called Osu.
+
+1295
+01:07:34,573 --> 01:07:35,074
+Yeah, I know Osu.
+
+1296
+01:07:35,074 --> 01:07:39,115
+Yeah, it's like a circle, you click the circles.
+
+1297
+01:07:39,115 --> 01:07:39,775
+Yeah.
+
+1298
+01:07:39,775 --> 01:07:42,837
+And that's a huge community where everything is custom,
+
+1299
+01:07:42,837 --> 01:07:44,337
+everything is like custom levels,
+
+1300
+01:07:44,337 --> 01:07:45,838
+everything is made for a level editor.
+
+1301
+01:07:46,318 --> 01:07:51,660
+And that attracts a lot of anger from artists because, you know,
+
+1302
+01:07:51,660 --> 01:07:55,001
+the developer profits from that because, you know, they sell
+
+1303
+01:07:55,001 --> 01:07:58,943
+subscriptions to osu!. They sell, like, subscriptions to the leaderboard.
+
+1304
+01:07:58,943 --> 01:08:02,184
+You can get supporter. They sell all the tools and stuff.
+
+1305
+01:08:02,184 --> 01:08:06,806
+So indirectly, they are making money from artists' work without paying them.
+
+1306
+01:08:06,806 --> 01:08:10,327
+So that's the whole gist of it.
+
+1307
+01:08:10,327 --> 01:08:12,168
+So that's what we started to get into, right?
+
+1308
+01:08:12,168 --> 01:08:15,630
+Because when we released the level editor, we didn't think about these things.
+
+1309
+01:08:16,043 --> 01:08:19,886
+that's when it starts to feel like, oh, are we profiting from these artists?
+
+1310
+01:08:19,886 --> 01:08:23,228
+Like, we have our own, we have our own levels. We have, you know, because like,
+
+1311
+01:08:23,228 --> 01:08:26,771
+like that's the main game, right? We have our own levels in both games, but
+
+1312
+01:08:26,771 --> 01:08:31,854
+there's a question of like, how much are we, like, how much are we benefiting from
+
+1313
+01:08:31,854 --> 01:08:37,178
+these custom levels that other people are making? So we had a big talk with our team,
+
+1314
+01:08:37,178 --> 01:08:40,801
+like, what do we do? Like, do we just cancel the level editor? Do we delete it?
+
+1315
+01:08:42,501 --> 01:08:49,606
+Do we delete all levels that weren't made by artists who gave permission?
+
+1316
+01:08:49,606 --> 01:08:53,068
+So what we did in the end was we actually thought for a long time.
+
+1317
+01:08:53,068 --> 01:08:56,151
+We made something called a verified artist list.
+
+1318
+01:08:56,151 --> 01:08:57,351
+So it's a website.
+
+1319
+01:08:57,351 --> 01:09:00,434
+It's integrated with the game.
+
+1320
+01:09:00,434 --> 01:09:03,576
+And if you type any artist in our level editor,
+
+1321
+01:09:03,576 --> 01:09:06,758
+it'll first check the website, the database,
+
+1322
+01:09:06,758 --> 01:09:08,659
+to see if that artist has given permission before.
+
+1323
+01:09:09,387 --> 01:09:13,670
+And if they haven't given permission, then they won't let you upload it.
+
+1324
+01:09:13,670 --> 01:09:15,390
+So it's a whitelist system.
+
+1325
+01:09:15,390 --> 01:09:21,554
+So whitelist means that every song has been approved by the artist before they can use it.
+
+1326
+01:09:21,554 --> 01:09:23,275
+So we transitioned into this system.
+
+1327
+01:09:23,275 --> 01:09:27,377
+One of the problems was that we had all these old levels, right?
+
+1328
+01:09:27,377 --> 01:09:31,679
+You know, the users, they spend a lot of time making these.
+
+1329
+01:09:31,679 --> 01:09:32,880
+So we kind of had to decide, like...
+
+1330
+01:09:34,015 --> 01:09:39,867
+Do we want to delete all of these old levels so that we can be, we can be like pure, can
+
+1331
+01:09:39,867 --> 01:09:41,451
+be pure again?
+
+1332
+01:09:41,451 --> 01:09:42,212
+So we did.
+
+1333
+01:09:42,212 --> 01:09:45,118
+So we actually had to like, it was a hard decision, but we.
+
+1334
+01:09:46,092 --> 01:09:51,434
+We had talked to the community and we said, we're going to have to disable access to all these.
+
+1335
+01:09:51,434 --> 01:09:54,815
+So none of these were shared on official platforms anyway.
+
+1336
+01:09:54,815 --> 01:09:56,256
+So it's shared on non-official.
+
+1337
+01:09:56,256 --> 01:10:01,918
+Of course, we wouldn't share songs we don't have to license on our actual platform in the game itself.
+
+1338
+01:10:01,918 --> 01:10:04,679
+So these are all on the fan discord and stuff like that.
+
+1339
+01:10:04,679 --> 01:10:08,180
+But even then, even though we don't own that platform.
+
+1340
+01:10:08,761 --> 01:10:13,444
+Even though we don't make many directly, there's still a moral question
+
+1341
+01:10:13,444 --> 01:10:16,686
+about whether we are profiting indirectly.
+
+1342
+01:10:16,686 --> 01:10:21,149
+So because of that, we decided we kind of clamped down on all
+
+1343
+01:10:21,149 --> 01:10:25,732
+the old levels, and we only start approving levels once they got
+
+1344
+01:10:25,732 --> 01:10:27,353
+permission from the artists.
+
+1345
+01:10:27,353 --> 01:10:28,494
+And that's what we did.
+
+1346
+01:10:28,494 --> 01:10:30,095
+So Yakomo, our programmer.
+
+1347
+01:10:30,746 --> 01:10:31,866
+He's in Peru.
+
+1348
+01:10:31,866 --> 01:10:35,647
+So he had a friend, Diego, who was good at web development.
+
+1349
+01:10:35,647 --> 01:10:39,949
+So he could make a database of artists
+
+1350
+01:10:39,949 --> 01:10:41,429
+who would allow their songs to be used.
+
+1351
+01:10:41,429 --> 01:10:44,390
+And then we would ask everyone to,
+
+1352
+01:10:44,390 --> 01:10:47,171
+we'll ask everyone to contact the artists
+
+1353
+01:10:47,171 --> 01:10:50,072
+and then they have to email, they have to get a response.
+
+1354
+01:10:50,072 --> 01:10:52,553
+And then they would upload the response to the website.
+
+1355
+01:10:52,553 --> 01:10:53,953
+And then someone, one of our team.
+
+1356
+01:10:54,634 --> 01:10:59,598
+It's like his name is Oth. He's our Korean translator as well.
+
+1357
+01:10:59,598 --> 01:11:03,521
+But he also manages this database. So he'll approve levels.
+
+1358
+01:11:03,521 --> 01:11:07,464
+He'll approve artists who have given their permission.
+
+1359
+01:11:07,464 --> 01:11:10,686
+And then we have it along this. And that kind of works.
+
+1360
+01:11:10,686 --> 01:11:13,088
+And then also what we do from there is like if we see...
+
+1361
+01:11:14,069 --> 01:11:19,732
+songs get popular, we will contact the artist to ask for to buy a license, to buy like an official
+
+1362
+01:11:19,732 --> 01:11:25,455
+license. So then it will be transferred from just a user made level into an official level and then
+
+1363
+01:11:25,455 --> 01:11:30,697
+we pay them and they get the compensation for it. But anyway, yeah, so like conclusion, like level
+
+1364
+01:11:30,697 --> 01:11:35,099
+editors can be quite quite dangerous. So like there's a lot of things to think about before
+
+1365
+01:11:35,099 --> 01:11:41,162
+you just make a level editor and just give it to people. Yeah. But I think I still think that's
+
+1366
+01:11:41,162 --> 01:11:42,543
+like a good.
+
+1367
+01:11:43,765 --> 01:11:46,808
+like a good problem that you have.
+
+1368
+01:11:46,808 --> 01:11:48,669
+It's not like a bad problem.
+
+1369
+01:11:48,669 --> 01:11:52,814
+It's like your game is popular, so people,
+
+1370
+01:11:52,814 --> 01:11:54,916
+or like your game mechanics attracts people, so.
+
+1371
+01:11:55,958 --> 01:11:59,781
+There are people who, there are players who want to use your
+
+1372
+01:11:59,781 --> 01:12:03,223
+platform to make custom levels.
+
+1373
+01:12:03,223 --> 01:12:03,703
+And so, yeah, yeah.
+
+1374
+01:12:03,703 --> 01:12:06,605
+So actually, so, so like, like there's, there is the other thing, right.
+
+1375
+01:12:06,605 --> 01:12:10,508
+So, um, artists usually like, like the reason why they would get angry is
+
+1376
+01:12:10,508 --> 01:12:15,011
+because if a level is like a custom level, it's really popular in a.
+
+1377
+01:12:16,775 --> 01:12:24,000
+in our game, the fans would start going to their songs, like on YouTube, the video and
+
+1378
+01:12:24,000 --> 01:12:25,921
+say like, Oh, this is the song from Autofire.
+
+1379
+01:12:25,921 --> 01:12:27,783
+This is the song from Rhythm Doctor.
+
+1380
+01:12:28,388 --> 01:12:32,550
+And then their song, which has no relation to our game,
+
+1381
+01:12:32,550 --> 01:12:35,672
+fans would start to associate it with the game.
+
+1382
+01:12:35,672 --> 01:12:40,896
+And it's kind of insulting to them as well that this happens.
+
+1383
+01:12:40,896 --> 01:12:42,116
+I know what you mean.
+
+1384
+01:12:42,116 --> 01:12:48,360
+It's a good problem to have, but it doesn't feel like a good problem to have.
+
+1385
+01:12:48,360 --> 01:12:48,560
+I get it.
+
+1386
+01:12:48,560 --> 01:12:50,101
+It's kind of dangerous, right?
+
+1387
+01:12:50,101 --> 01:12:53,223
+We want to be cool with the community.
+
+1388
+01:12:53,984 --> 01:13:01,830
+Like, we have a lot of different parties who have different desires and different wants and stuff.
+
+1389
+01:13:01,830 --> 01:13:07,555
+Like the fans, they want to make levels for any song they want.
+
+1390
+01:13:07,555 --> 01:13:11,398
+The artists, they don't want fans to make levels for their song and so on.
+
+1391
+01:13:11,398 --> 01:13:14,721
+So that's what I mean by political.
+
+1392
+01:13:14,721 --> 01:13:20,365
+You have to start to consider everyone's viewpoints.
+
+1393
+01:13:20,365 --> 01:13:23,368
+Yeah, it's a very good point.
+
+1394
+01:13:24,618 --> 01:13:25,939
+所以我會嘗試翻譯這段問題
+
+1395
+01:13:25,939 --> 01:13:32,922
+因為這也是一個非常重要的一部分
+
+1396
+01:13:32,922 --> 01:13:36,284
+好那就是我現在最後要翻譯
+
+1397
+01:13:36,284 --> 01:13:38,264
+就是我剛剛問的這段問題
+
+1398
+01:13:38,264 --> 01:13:40,585
+如果有人有想要問問題的話
+
+1399
+01:13:40,585 --> 01:13:42,246
+就是等一下可能舉個手
+
+1400
+01:13:42,246 --> 01:13:43,587
+等一下就是
+
+1401
+01:13:43,587 --> 01:13:45,808
+有問題的話我這邊有另外一個麥克風
+
+1402
+01:13:45,808 --> 01:13:46,688
+可以遞給你們
+
+1403
+01:13:46,688 --> 01:13:48,649
+好那我就是先翻譯一下
+
+1404
+01:13:48,649 --> 01:13:49,029
+剛剛的這段結論
+
+1405
+01:13:49,029 --> 01:13:49,309
+就是說為什麼講到這個
+
+1406
+01:13:55,832 --> 01:13:59,754
+關卡編輯器在音樂遊戲裡面其實是還蠻危險的一件事情
+
+1407
+01:13:59,754 --> 01:14:04,937
+是因為很多音樂遊戲
+
+1408
+01:14:04,937 --> 01:14:08,459
+就是他們跟作曲家
+
+1409
+01:14:08,459 --> 01:14:10,460
+就是合作的方式是
+
+1410
+01:14:10,460 --> 01:14:15,323
+作曲家會把自己的一些樂曲可能就是授權給特定幾款遊戲使用
+
+1411
+01:14:15,323 --> 01:14:17,704
+或是可能就是只有特定一款遊戲
+
+1412
+01:14:17,704 --> 01:14:18,564
+那
+
+1413
+01:14:18,564 --> 01:14:18,725
+就是
+
+1414
+01:14:19,931 --> 01:14:21,531
+這個交易能夠成立
+
+1415
+01:14:21,531 --> 01:14:23,112
+其實有一個前提是說
+
+1416
+01:14:23,112 --> 01:14:25,573
+基本上它不是免費的發送給所有人
+
+1417
+01:14:25,573 --> 01:14:28,893
+你在什麼遊戲裡面都可以玩到這首歌
+
+1418
+01:14:28,893 --> 01:14:33,875
+那就是相對來講它的價值
+
+1419
+01:14:33,875 --> 01:14:36,516
+就是如果你是說這個樂曲
+
+1420
+01:14:36,516 --> 01:14:38,296
+只有這款節奏遊戲
+
+1421
+01:14:38,296 --> 01:14:39,916
+或是只有這款音樂遊戲才有的話
+
+1422
+01:14:39,916 --> 01:14:42,137
+它的價值其實相對來講
+
+1423
+01:14:42,137 --> 01:14:43,217
+應該會稍微高一點
+
+1424
+01:14:43,217 --> 01:14:46,558
+那如果說你今天是允許玩家自己去
+
+1425
+01:14:48,089 --> 01:14:55,316
+使用你的關卡編輯器然後就載入樂曲然後就編譜面的話
+
+1426
+01:14:55,316 --> 01:14:58,519
+那其實很容易產生一個狀況就是
+
+1427
+01:14:58,519 --> 01:15:02,883
+你的遊戲會裡面可能會充斥很多感覺好像很有名的
+
+1428
+01:15:02,883 --> 01:15:05,985
+曲子或是說可能都已經有YouTube
+
+1429
+01:15:05,985 --> 01:15:10,129
+的內容製作者都已經用你的
+
+1430
+01:15:10,129 --> 01:15:12,351
+都已經用那些相關就是自訂譜面自訂樂曲
+
+1431
+01:15:14,455 --> 01:15:16,656
+然後都已經在YouTube上很紅了
+
+1432
+01:15:16,656 --> 01:15:18,377
+可是實際上
+
+1433
+01:15:18,377 --> 01:15:21,578
+這樣會造成一個就是
+
+1434
+01:15:21,578 --> 01:15:23,379
+算是著作權上的爭議啦
+
+1435
+01:15:23,379 --> 01:15:28,662
+那因為使用這些樂曲的人
+
+1436
+01:15:28,662 --> 01:15:33,124
+他本身並沒有跟原本的作曲家取得授權
+
+1437
+01:15:34,039 --> 01:15:38,522
+那今天只是說玩家個人喜歡聽這個音樂
+
+1438
+01:15:38,522 --> 01:15:40,183
+然後可能喜歡這款遊戲的機制
+
+1439
+01:15:40,183 --> 01:15:43,346
+所以他就用那個光碟編輯器把它做進來
+
+1440
+01:15:43,346 --> 01:15:47,288
+那這樣的話其實會造成一個很危險的現象就是
+
+1441
+01:15:47,288 --> 01:15:48,709
+你遊戲裡面可能會充斥的非常多
+
+1442
+01:15:48,709 --> 01:15:51,371
+其實根本就沒有被授權的音樂
+
+1443
+01:15:51,371 --> 01:15:54,674
+那這個時候開發者那個
+
+1444
+01:15:54,674 --> 01:15:56,635
+就是開發者那一段他要處理或不處理
+
+1445
+01:15:56,635 --> 01:15:58,716
+就會變成是一個很棘手的狀況
+
+1446
+01:15:58,716 --> 01:16:01,779
+所以哈菲斯剛剛有舉另外一個例子是
+
+1447
+01:16:04,360 --> 01:16:07,964
+有一款最早應該是從NDS上面
+
+1448
+01:16:07,964 --> 01:16:09,946
+就是應援團
+
+1449
+01:16:09,946 --> 01:16:11,788
+衍生出來的一個節奏遊戲玩法
+
+1450
+01:16:11,788 --> 01:16:13,991
+然後那個遊戲它後來
+
+1451
+01:16:13,991 --> 01:16:15,232
+應該就是在PC上有一個
+
+1452
+01:16:15,232 --> 01:16:17,194
+就是直接有一個算是Clone
+
+1453
+01:16:17,194 --> 01:16:19,376
+就叫OSU
+
+1454
+01:16:19,376 --> 01:16:21,378
+也是原本應援團遊戲的
+
+1455
+01:16:21,378 --> 01:16:22,820
+就是念法就對了
+
+1456
+01:16:23,875 --> 01:16:29,638
+總之那款遊戲就有非常多的無段轉載自製的譜面
+
+1457
+01:16:29,638 --> 01:16:33,080
+然後就是使用那種沒有授權的其他作曲家的音樂
+
+1458
+01:16:33,080 --> 01:16:37,001
+然後其實很多音樂作者
+
+1459
+01:16:37,001 --> 01:16:40,563
+就是對那款遊戲上面有這麼多充斥這種
+
+1460
+01:16:40,563 --> 01:16:44,445
+他們毫無管理的狀態就是很反感就對了
+
+1461
+01:16:44,445 --> 01:16:50,248
+那節奏醫生其實一開始也是有遇到一點這樣的問題
+
+1462
+01:16:50,248 --> 01:16:51,209
+對那他們是
+
+1463
+01:16:54,233 --> 01:16:57,214
+應該說是有人跟他們提出一些反應之後
+
+1464
+01:16:57,214 --> 01:16:59,855
+那節奏一聲的團隊才私下討論說
+
+1465
+01:16:59,855 --> 01:17:04,557
+那當初是玩家要關卡變異器的
+
+1466
+01:17:04,557 --> 01:17:07,578
+那現在我們是要把關卡變異器砍掉嗎
+
+1467
+01:17:07,578 --> 01:17:11,480
+還是說我們要用什麼方式去管理
+
+1468
+01:17:11,480 --> 01:17:13,121
+怎麼做關卡這件事情
+
+1469
+01:17:13,121 --> 01:17:15,281
+或怎麼上傳關卡這件事情
+
+1470
+01:17:15,281 --> 01:17:17,883
+所以他們後來的做法是
+
+1471
+01:17:17,883 --> 01:17:22,805
+在官方網站上面就是有列一個就是白名單
+
+1472
+01:17:22,805 --> 01:17:22,825
+是
+
+1473
+01:17:24,309 --> 01:17:27,830
+這上面的列表的音樂作者
+
+1474
+01:17:27,830 --> 01:17:29,830
+是已經同意他的遊戲
+
+1475
+01:17:29,830 --> 01:17:32,251
+可以在節奏一生這款遊戲裡面
+
+1476
+01:17:32,251 --> 01:17:34,432
+被拿來自製譜面
+
+1477
+01:17:34,432 --> 01:17:37,312
+只有這些人的音樂可以這樣做
+
+1478
+01:17:37,312 --> 01:17:38,273
+而且他還包括
+
+1479
+01:17:38,273 --> 01:17:38,433
+剛剛哈貝斯有強調說
+
+1480
+01:17:41,534 --> 01:17:44,435
+你要用那個已經verify的作者
+
+1481
+01:17:44,435 --> 01:17:46,716
+去自製譜面之前
+
+1482
+01:17:46,716 --> 01:17:49,057
+你還是一樣就是做譜面的那個玩家
+
+1483
+01:17:49,057 --> 01:17:51,678
+他還是要去跟原本那個做音樂作者
+
+1484
+01:17:51,678 --> 01:17:53,119
+去取得授權
+
+1485
+01:17:53,119 --> 01:17:55,900
+然後那個授權要有一個書面的樣板
+
+1486
+01:17:55,900 --> 01:17:58,461
+他就是要做一個簡單的說明
+
+1487
+01:17:58,461 --> 01:18:00,261
+然後那個東西要連同你的關卡
+
+1488
+01:18:00,261 --> 01:18:02,402
+你編輯好的關卡一起上傳到server
+
+1489
+01:18:02,402 --> 01:18:04,523
+然後他們上傳到server那邊
+
+1490
+01:18:04,523 --> 01:18:05,964
+會有人做人工的檢查
+
+1491
+01:18:05,964 --> 01:18:08,525
+所以其實是一個非常勞心勞力的流程
+
+1492
+01:18:08,525 --> 01:18:09,605
+就是他不是像一般的
+
+1493
+01:18:10,766 --> 01:18:14,349
+譬如說平台遊戲還是什麼動作遊戲的關卡編輯器一樣
+
+1494
+01:18:14,349 --> 01:18:17,151
+就是把地圖編一編就可以用
+
+1495
+01:18:17,151 --> 01:18:21,575
+它基本上會牽涉到很多原本作曲家本身的權利問題
+
+1496
+01:18:21,575 --> 01:18:25,919
+那如果某一個樂曲是由玩家自製關卡而紅起來
+
+1497
+01:18:25,919 --> 01:18:28,301
+那到很紅的程度的時候
+
+1498
+01:18:28,301 --> 01:18:30,463
+官方團隊甚至會決定說那直接跟
+
+1499
+01:18:31,875 --> 01:18:34,876
+那個音樂作者去彈那一首曲子的授權
+
+1500
+01:18:34,876 --> 01:18:36,817
+那個曲子就不再是
+
+1501
+01:18:36,817 --> 01:18:40,939
+只是說合格的玩家創作
+
+1502
+01:18:40,939 --> 01:18:41,859
+玩家譜面的創作
+
+1503
+01:18:41,859 --> 01:18:43,320
+而是說這款
+
+1504
+01:18:43,320 --> 01:18:46,381
+這個譜面跟那個音樂都會變成官方的內容
+
+1505
+01:18:46,381 --> 01:18:48,842
+對那其實這是一個非常勞心勞力的過程
+
+1506
+01:18:48,842 --> 01:18:52,164
+那就是勸大家在
+
+1507
+01:18:52,164 --> 01:18:53,324
+就是如果你的遊戲
+
+1508
+01:18:53,324 --> 01:18:55,285
+也許有機會變成這樣子走紅的情況
+
+1509
+01:18:57,376 --> 01:18:58,957
+特別是像音樂遊戲
+
+1510
+01:18:58,957 --> 01:19:03,980
+在音樂著作權這方面其實要很花時間去考量
+
+1511
+01:19:03,980 --> 01:19:09,223
+其實以前也有一些其他的遊戲有類似的作法
+
+1512
+01:19:09,223 --> 01:19:13,005
+就是NDS上面以前有一些遊戲也是有這樣子的設計
+
+1513
+01:19:13,005 --> 01:19:16,447
+我記得應該有一款叫大合奏吧
+
+1514
+01:19:16,447 --> 01:19:19,429
+他們也是要有官方先認可的音樂
+
+1515
+01:19:19,429 --> 01:19:20,689
+他們才能去做譜面這樣子
+
+1516
+01:19:25,608 --> 01:19:26,589
+所以我會把問題放到現場讓觀眾來問問題
+
+1517
+01:19:26,589 --> 01:19:26,989
+我先來問
+
+1518
+01:19:26,989 --> 01:19:29,851
+有沒有人有問題想要問開發者
+
+1519
+01:19:29,851 --> 01:19:30,391
+你是玩過節奏機車
+
+1520
+01:19:30,391 --> 01:19:31,811
+然後你有些開發上的問題
+
+1521
+01:19:31,811 --> 01:19:33,332
+還是說對於遊戲本身的問題想要問開發者
+
+1522
+01:19:33,332 --> 01:19:34,433
+如果有想到的話就是隨時舉手
+
+1523
+01:19:34,433 --> 01:19:34,453
+有嗎
+
+1524
+01:19:56,887 --> 01:19:57,868
+還是還要繼續想一下
+
+1525
+01:19:57,868 --> 01:19:59,650
+如果還要繼續想一下
+
+1526
+01:19:59,650 --> 01:20:02,933
+有問題嗎
+
+1527
+01:20:02,933 --> 01:20:03,293
+他有玩過
+
+1528
+01:20:03,293 --> 01:20:06,517
+沒有沒有關係
+
+1529
+01:20:06,517 --> 01:20:09,339
+有問題的話就就跟我們講
+
+1530
+01:20:09,339 --> 01:20:10,360
+要玩
+
+1531
+01:20:10,360 --> 01:20:12,923
+我跟開發者聊一下天
+
+1532
+01:20:12,923 --> 01:20:18,848
+沒有你要過來前面
+
+1533
+01:20:22,491 --> 01:20:33,194
+We have the youngest audience here
+
+1534
+01:20:33,194 --> 01:20:33,634
+沒關係 請你坐這裡沒關係
+
+1535
+01:20:33,634 --> 01:20:33,995
+Hello
+
+1536
+01:20:33,995 --> 01:20:40,097
+He's here
+
+1537
+01:20:40,097 --> 01:20:42,277
+Hello
+
+1538
+01:20:42,277 --> 01:20:42,397
+Hey
+
+1539
+01:20:42,397 --> 01:20:47,399
+Can you hear me?
+
+1540
+01:20:47,399 --> 01:20:47,519
+你要問問題嗎?
+
+1541
+01:20:51,361 --> 01:20:58,005
+不要緊張
+
+1542
+01:20:58,005 --> 01:20:59,806
+不要緊張
+
+1543
+01:20:59,806 --> 01:21:00,106
+他有點緊張
+
+1544
+01:21:00,106 --> 01:21:00,446
+沒問題
+
+1545
+01:21:00,446 --> 01:21:05,769
+我叫周雨欣
+
+1546
+01:21:05,769 --> 01:21:08,610
+英文名字叫Sean
+
+1547
+01:21:08,610 --> 01:21:10,792
+我和我的同學
+
+1548
+01:21:10,792 --> 01:21:12,773
+都喜歡節奏醫生
+
+1549
+01:21:14,500 --> 01:21:21,043
+之後我還用Scratch做了一個節奏一生的簡易版
+
+1550
+01:21:21,043 --> 01:21:24,764
+Scratch就是
+
+1551
+01:21:24,764 --> 01:21:25,024
+嗯
+
+1552
+01:21:25,024 --> 01:21:31,207
+類似一個開發遊戲的程式
+
+1553
+01:21:31,207 --> 01:21:33,388
+那
+
+1554
+01:21:33,388 --> 01:21:36,809
+那可不可以
+
+1555
+01:21:36,809 --> 01:21:42,812
+嗯
+
+1556
+01:21:42,812 --> 01:21:42,952
+不要緊張
+
+1557
+01:21:46,663 --> 01:21:56,028
+那可不可以給我一些遊戲開發上的建議
+
+1558
+01:22:11,502 --> 01:22:18,344
+And he and a lot of his friends,
+
+1559
+01:22:18,344 --> 01:22:22,465
+they are all fans of Risen Doctor.
+
+1560
+01:22:22,465 --> 01:22:24,686
+Oh, so nice.
+
+1561
+01:22:24,686 --> 01:22:29,547
+Yeah, and he also made a kind of like a...
+
+1562
+01:22:31,483 --> 01:22:34,545
+a clone of Rhythm Doctor in Crash.
+
+1563
+01:22:34,545 --> 01:22:37,846
+I think there's a program or like an author.
+
+1564
+01:22:37,846 --> 01:22:39,807
+Scratch, okay, Scratch, sorry.
+
+1565
+01:22:39,807 --> 01:22:42,848
+Yeah, so he kind of made a simpler version
+
+1566
+01:22:42,848 --> 01:22:45,910
+of Rhythm Doctor in Scratch.
+
+1567
+01:22:45,910 --> 01:22:51,412
+And he would like to know if you have any suggestion
+
+1568
+01:22:51,412 --> 01:22:54,233
+to this young developer.
+
+1569
+01:22:55,871 --> 01:22:56,151
+Okay.
+
+1570
+01:22:56,151 --> 01:22:59,092
+First of all, thank you so much for playing our game.
+
+1571
+01:22:59,092 --> 01:23:00,673
+It's really nice.
+
+1572
+01:23:00,673 --> 01:23:03,134
+And thank you for the question.
+
+1573
+01:23:03,134 --> 01:23:10,876
+And thank you for making a Scratch version of Rhythm Doctor.
+
+1574
+01:23:10,876 --> 01:23:12,417
+That's really nice to hear.
+
+1575
+01:23:12,417 --> 01:23:14,258
+Actually, I know Scratch quite well.
+
+1576
+01:23:14,258 --> 01:23:20,100
+And I've seen a few Rhythm Doctor clones made in Scratch.
+
+1577
+01:23:20,100 --> 01:23:25,201
+Maybe one of them is yours, actually.
+
+1578
+01:23:25,201 --> 01:23:25,301
+Um...
+
+1579
+01:23:25,301 --> 01:23:25,462
+But...
+
+1580
+01:23:27,495 --> 01:23:32,437
+Yeah, it's really nice that you are starting young.
+
+1581
+01:23:32,437 --> 01:23:38,501
+You remind me of when I was 10 years old and I was also making games in Game Maker.
+
+1582
+01:23:38,501 --> 01:23:41,142
+And the first game I made was a clone of Sonic.
+
+1583
+01:23:41,142 --> 01:23:43,583
+So Sonic was one of my favorite games back then.
+
+1584
+01:23:43,583 --> 01:23:47,025
+Sonic the Hedgehog is like a platformer, a 2D platform game.
+
+1585
+01:23:47,025 --> 01:23:53,309
+And it's nice to see that you are also making clones of other games right now.
+
+1586
+01:23:53,309 --> 01:23:57,171
+I think that's a really good way to get started to make games.
+
+1587
+01:23:58,173 --> 01:24:02,156
+我只能建議大家繼續享受遊戲
+
+1588
+01:24:02,156 --> 01:24:04,057
+我年輕的時候沒有想太多
+
+1589
+01:24:04,057 --> 01:24:05,118
+我只是做了我喜歡的遊戲
+
+1590
+01:24:05,118 --> 01:24:06,999
+我高興你喜歡《Rhythm Doctor》
+
+1591
+01:24:06,999 --> 01:24:08,980
+所以就做了一個複製版
+
+1592
+01:24:08,980 --> 01:24:10,080
+你可以把遊戲傳給我
+
+1593
+01:24:10,080 --> 01:24:11,121
+我也會很開心的玩
+
+1594
+01:24:11,121 --> 01:24:13,002
+我來翻譯一下
+
+1595
+01:24:13,002 --> 01:24:15,183
+第一個是他先很感謝你們都很喜歡玩他的遊戲
+
+1596
+01:24:27,785 --> 01:24:32,586
+就是他自己也是蠻就是之前也蠻會用Scratch
+
+1597
+01:24:32,586 --> 01:24:34,627
+就是開發遊戲的然後
+
+1598
+01:24:34,627 --> 01:24:36,368
+他說他有看到蠻多
+
+1599
+01:24:36,368 --> 01:24:39,869
+就是節奏一生的複製品是用
+
+1600
+01:24:39,869 --> 01:24:41,910
+Scratch做的他說搞不好
+
+1601
+01:24:41,910 --> 01:24:44,511
+搞不好他有看過你的版本
+
+1602
+01:24:44,511 --> 01:24:49,412
+那他是他就強調說就是如果如果你
+
+1603
+01:24:49,412 --> 01:24:52,894
+現在想要就是現在想要開始但是很好的事情他當時也是
+
+1604
+01:24:52,894 --> 01:24:54,074
+跟你差不多年紀的時候開始做遊戲開發那
+
+1605
+01:24:54,074 --> 01:24:54,154
+只是說
+
+1606
+01:24:56,517 --> 01:25:01,098
+一開始的時候就是不要想得太嚴肅或太認真
+
+1607
+01:25:01,098 --> 01:25:06,220
+就是重點是做你想要做的事情
+
+1608
+01:25:06,220 --> 01:25:07,320
+做你想要玩的遊戲
+
+1609
+01:25:07,320 --> 01:25:14,003
+然後往你以後想要有興趣前進的方向去發展這樣
+
+1610
+01:25:14,003 --> 01:25:17,544
+那他當初在做的時候也沒有想那麼多
+
+1611
+01:25:17,544 --> 01:25:21,746
+對 但是總之就是希望你可以繼續努力
+
+1612
+01:25:21,746 --> 01:25:22,346
+那如果你的
+
+1613
+01:25:23,374 --> 01:25:25,796
+Scratch的這個節奏一生版本
+
+1614
+01:25:25,796 --> 01:25:28,458
+你願意的話你也可以提供給他玩
+
+1615
+01:25:28,458 --> 01:25:31,400
+就是你可以跟他講說哪一個版本是你的
+
+1616
+01:25:31,400 --> 01:25:33,162
+對那如果那他是他很喜歡
+
+1617
+01:25:33,162 --> 01:25:36,364
+就是他如果他可以玩到你的版本的話
+
+1618
+01:25:36,364 --> 01:25:39,187
+他也會很高興對
+
+1619
+01:25:39,187 --> 01:25:40,388
+那就是如果你有需要的話
+
+1620
+01:25:40,388 --> 01:25:42,489
+我們可以幫你轉達
+
+1621
+01:25:42,489 --> 01:25:43,670
+就是可以幫你把你的那個
+
+1622
+01:25:43,670 --> 01:25:44,771
+Scratch的版本可以給他看這樣子謝謝
+
+1623
+01:25:44,771 --> 01:25:45,451
+Yeah he says thanks
+
+1624
+01:25:52,807 --> 01:25:53,627
+謝謝謝謝你提出的問題
+
+1625
+01:25:53,627 --> 01:25:53,767
+祝你好運
+
+1626
+01:25:53,767 --> 01:25:54,007
+祝你好運
+
+1627
+01:25:54,007 --> 01:25:54,268
+希望以後遊戲開發順利
+
+1628
+01:25:54,268 --> 01:25:54,448
+好
+
+1629
+01:25:54,448 --> 01:25:54,588
+感謝
+
+1630
+01:25:54,588 --> 01:25:54,748
+好
+
+1631
+01:25:54,748 --> 01:25:56,089
+沒關係
+
+1632
+01:25:56,089 --> 01:25:56,889
+有沒有其他問題
+
+1633
+01:26:22,385 --> 01:26:24,065
+後面有一位
+
+1634
+01:26:24,065 --> 01:26:24,885
+你也來前面好了
+
+1635
+01:26:24,885 --> 01:26:26,006
+因為這邊才看得到
+
+1636
+01:26:26,006 --> 01:26:27,126
+就是比較看得清楚你在哪邊
+
+1637
+01:26:27,126 --> 01:26:27,446
+我直接用英文問
+
+1638
+01:26:27,446 --> 01:26:27,606
+好
+
+1639
+01:26:27,606 --> 01:26:27,746
+Hello
+
+1640
+01:26:27,746 --> 01:26:29,426
+So I want to ask more about the
+
+1641
+01:26:29,426 --> 01:26:36,368
+licensing problem you met
+
+1642
+01:26:36,368 --> 01:26:41,269
+Cause you said when the
+
+1643
+01:26:41,269 --> 01:26:44,650
+game level becomes popular
+
+1644
+01:26:44,650 --> 01:26:51,631
+You asked for the license from the
+
+1645
+01:26:52,581 --> 01:26:53,661
+We will switch, right?
+
+1646
+01:26:53,661 --> 01:26:59,303
+Then how about the level designer, like the charters?
+
+1647
+01:26:59,303 --> 01:27:04,284
+Do you need to ask for their permission again?
+
+1648
+01:27:04,284 --> 01:27:05,484
+Oh, yeah, yeah, definitely.
+
+1649
+01:27:05,484 --> 01:27:08,945
+So what we do is we will offer the level designer.
+
+1650
+01:27:08,945 --> 01:27:11,486
+So we'll contact both the artist and the level designer.
+
+1651
+01:27:11,486 --> 01:27:13,027
+And then we'll ask the level designer.
+
+1652
+01:27:13,027 --> 01:27:14,347
+We'll offer them to pay.
+
+1653
+01:27:14,347 --> 01:27:17,468
+We'll offer to pay them money to use their level in the game.
+
+1654
+01:27:18,254 --> 01:27:24,599
+And then sometimes we'll pay them more money to like, to design it better or to make some changes for us.
+
+1655
+01:27:24,599 --> 01:27:29,462
+Because usually custom levels, when they become official levels,
+
+1656
+01:27:29,462 --> 01:27:33,786
+us as the game design team, we might want to change some stuff here and there.
+
+1657
+01:27:33,786 --> 01:27:38,189
+But yeah, so like, like I think legally, legally, you know, some.
+
+1658
+01:27:39,479 --> 01:27:43,901
+Some games, like for Nintendo, for example,
+
+1659
+01:27:43,901 --> 01:27:46,602
+they have a clause where anything you make in the level
+
+1660
+01:27:46,602 --> 01:27:50,744
+editor belongs to Nintendo or something like that.
+
+1661
+01:27:50,744 --> 01:27:55,406
+And even though that might be true,
+
+1662
+01:27:55,406 --> 01:28:00,549
+we still want to compensate the level designers for their time.
+
+1663
+01:28:00,549 --> 01:28:05,211
+So we always offer to pay some amount to them.
+
+1664
+01:28:05,211 --> 01:28:06,552
+OK, I understand.
+
+1665
+01:28:07,117 --> 01:28:15,261
+Then how about if the level design contains non-authorized materials?
+
+1666
+01:28:15,261 --> 01:28:20,203
+Oh no, I mean if there's other unauthorized materials.
+
+1667
+01:28:20,203 --> 01:28:27,087
+Wait, do you mean like to make it an official level?
+
+1668
+01:28:27,087 --> 01:28:28,707
+So if the...
+
+1669
+01:28:29,710 --> 01:28:41,578
+If game level becomes popular, you will ask for both the musician and the level designers' permission to put it in official level.
+
+1670
+01:28:41,578 --> 01:28:49,583
+Then what if the level designers' material is using non-authorized?
+
+1671
+01:28:50,786 --> 01:28:51,266
+Okay.
+
+1672
+01:28:51,266 --> 01:28:58,453
+We haven't seen that before, but usually we would either, we would usually like get licensing
+
+1673
+01:28:58,453 --> 01:28:59,273
+for that material.
+
+1674
+01:28:59,273 --> 01:29:05,319
+Maybe it's like a video or maybe it's like, yes, sometimes rhythm game songs that they
+
+1675
+01:29:05,319 --> 01:29:06,540
+come with a video.
+
+1676
+01:29:06,540 --> 01:29:12,865
+So we also pay the person who made the video to license that video as part of it as well.
+
+1677
+01:29:13,907 --> 01:29:16,088
+所以如果我們不能獲得許可權的話
+
+1678
+01:29:16,088 --> 01:29:19,970
+例如它使用了Spongebob或其他巨大的遊戲
+
+1679
+01:29:19,970 --> 01:29:21,651
+我們就無法獲得許可權
+
+1680
+01:29:21,651 --> 01:29:23,652
+那當然我們會請他們先取消許可權
+
+1681
+01:29:23,652 --> 01:29:24,032
+OK 謝謝謝謝
+
+1682
+01:29:24,032 --> 01:29:26,193
+OK 我還是簡單講一下剛剛的問題
+
+1683
+01:29:26,193 --> 01:29:26,593
+就是如果
+
+1684
+01:29:43,199 --> 01:29:44,699
+關卡設計裡面
+
+1685
+01:29:44,699 --> 01:29:50,242
+譬如說是關卡設計就是那普面的元素或是說他普面背後播的一些圖片啊影片可能是
+
+1686
+01:29:50,242 --> 01:29:51,463
+其實是
+
+1687
+01:29:51,463 --> 01:29:55,265
+有版權疑慮的那這個他們當然在
+
+1688
+01:29:55,265 --> 01:29:58,907
+正式化成為官方版本之前他一定是
+
+1689
+01:29:58,907 --> 01:30:03,070
+要嘛要取得權利要嘛是要求他移除這樣子
+
+1690
+01:30:03,070 --> 01:30:08,913
+那剛剛有強調說除了他會付費給音樂使用者之外音樂製作人之外他也會
+
+1691
+01:30:08,913 --> 01:30:09,573
+付給
+
+1692
+01:30:09,573 --> 01:30:09,673
+就是說
+
+1693
+01:30:11,764 --> 01:30:15,426
+當那個關卡那個普面變成正式版的時候
+
+1694
+01:30:15,426 --> 01:30:20,667
+他也會付就是像是關卡普面的費用給當初上傳那個人這樣
+
+1695
+01:30:20,667 --> 01:30:23,889
+好還有沒有其他問題
+
+1696
+01:30:23,889 --> 01:30:34,452
+嗯沒關係如果有如果有的話等一下再隨時舉手問
+
+1697
+01:30:34,452 --> 01:30:34,913
+OK好這個
+
+1698
+01:30:34,913 --> 01:30:40,175
+We have a question from Twitch actually
+
+1699
+01:30:42,444 --> 01:30:43,205
+I'll...
+
+1700
+01:30:43,205 --> 01:30:47,288
+It's a bit of a hassle for me to turn on Twitch,
+
+1701
+01:30:47,288 --> 01:30:48,909
+because it will block the screen.
+
+1702
+01:30:48,909 --> 01:30:55,975
+So, one of the audience questions on the Twitch was,
+
+1703
+01:30:55,975 --> 01:31:07,504
+Are you making enough revenue from both of the games
+
+1704
+01:31:07,504 --> 01:31:11,687
+to support the current studio?
+
+1705
+01:31:13,634 --> 01:31:16,757
+to support our studio right now?
+
+1706
+01:31:16,757 --> 01:31:16,957
+Yeah.
+
+1707
+01:31:16,957 --> 01:31:18,218
+Yeah, for sure.
+
+1708
+01:31:18,218 --> 01:31:21,121
+I mean, otherwise, I guess we would be bankrupt, right?
+
+1709
+01:31:21,121 --> 01:31:22,962
+Otherwise, we wouldn't be continuing.
+
+1710
+01:31:22,962 --> 01:31:23,042
+Yeah.
+
+1711
+01:31:23,042 --> 01:31:24,764
+Unless you mean something else?
+
+1712
+01:31:24,764 --> 01:31:26,285
+Unless they mean something else?
+
+1713
+01:31:26,285 --> 01:31:26,686
+I'm not sure.
+
+1714
+01:31:26,686 --> 01:31:28,047
+No, I think that's the question.
+
+1715
+01:31:28,047 --> 01:31:31,730
+So like, are you comfortable...
+
+1716
+01:31:31,730 --> 01:31:32,611
+Are you comfortable...
+
+1717
+01:31:32,611 --> 01:31:33,472
+Maybe taking out...
+
+1718
+01:31:33,472 --> 01:31:33,712
+Sorry.
+
+1719
+01:31:33,712 --> 01:31:33,972
+Like...
+
+1720
+01:31:33,972 --> 01:31:34,172
+Like...
+
+1721
+01:31:34,172 --> 01:31:34,332
+Like...
+
+1722
+01:31:34,332 --> 01:31:34,593
+Like...
+
+1723
+01:31:34,593 --> 01:31:35,613
+Like...
+
+1724
+01:31:35,613 --> 01:31:35,834
+Like...
+
+1725
+01:31:35,834 --> 01:31:35,954
+Like...
+
+1726
+01:31:37,748 --> 01:31:42,091
+可能他們期望我們有兼職工作之類的
+
+1727
+01:31:42,091 --> 01:31:44,032
+來支援工作室
+
+1728
+01:31:44,032 --> 01:31:47,975
+但現在工作室是自主維持
+
+1729
+01:31:47,975 --> 01:31:50,257
+我們可以支付所有參與遊戲的工作
+
+1730
+01:31:50,257 --> 01:31:53,860
+OK,酷
+
+1731
+01:31:53,860 --> 01:31:56,122
+這樣他們應該有聽到了嘛
+
+1732
+01:31:56,122 --> 01:32:00,925
+目前確實營收狀況是可以支撐工作室運作的
+
+1733
+01:32:04,208 --> 01:32:09,432
+But how about when you were still developing the game?
+
+1734
+01:32:09,432 --> 01:32:14,995
+Because the years of development was so long.
+
+1735
+01:32:14,995 --> 01:32:18,077
+Like after your graduation, like 2015,
+
+1736
+01:32:18,077 --> 01:32:25,242
+and then A Dance of Ice and Fire came out, I think in 2008.
+
+1737
+01:32:25,869 --> 01:32:29,172
+18 or so or something like that?
+
+1738
+01:32:29,172 --> 01:32:30,373
+Early 19, January 19.
+
+1739
+01:32:30,373 --> 01:32:34,478
+Yeah, early 19. So there was still like a three, four year gap.
+
+1740
+01:32:34,478 --> 01:32:35,719
+Like, yeah.
+
+1741
+01:32:35,719 --> 01:32:41,125
+So that was like, just, you just based on your savings or?
+
+1742
+01:32:42,932 --> 01:32:48,055
+No, so we actually got funding from a Malaysian government and also the Peruvian government.
+
+1743
+01:32:48,055 --> 01:32:53,838
+So I think one of your questions in the email last time was, how is the game dev scene in Malaysia, right?
+
+1744
+01:32:53,838 --> 01:32:54,218
+Yeah.
+
+1745
+01:32:54,218 --> 01:32:55,879
+So that's part of it, actually.
+
+1746
+01:32:55,879 --> 01:33:00,081
+So the government actually had people who were supportive.
+
+1747
+01:33:00,081 --> 01:33:08,345
+So they had funding rounds and we would go for a competition, we'd pitch the game.
+
+1748
+01:33:08,345 --> 01:33:11,147
+And if you win, they'd fund your studio.
+
+1749
+01:33:11,747 --> 01:33:18,434
+Right. So we got money from that. Actually, it's the same thing in Peru. So Yakomo, there's also
+
+1750
+01:33:18,434 --> 01:33:25,762
+something like that in Peru, like a startup competition where the winner would get funding.
+
+1751
+01:33:26,267 --> 01:33:32,015
+Right. So Yakomo also got funding on his side and I also got funding on my side.
+
+1752
+01:33:32,015 --> 01:33:33,498
+So that helped us a lot.
+
+1753
+01:33:33,498 --> 01:33:38,485
+That's the benefit of a multinational team, right?
+
+1754
+01:33:38,485 --> 01:33:40,528
+You get money from every country.
+
+1755
+01:33:40,528 --> 01:33:41,629
+You can get both.
+
+1756
+01:33:43,112 --> 01:33:49,436
+Yeah. Okay. So like, it was funny because in Malaysia, like, the condition is like, you must
+
+1757
+01:33:49,436 --> 01:33:55,280
+be at least like 50% Malaysian, the team. Right. And then in Peru, there was like, it has to be
+
+1758
+01:33:55,280 --> 01:34:00,484
+like 50% Peruvian. So it's like, it balanced out for us. So we could both get our grants.
+
+1759
+01:34:00,924 --> 01:34:02,985
+Okay, that's very tricky.
+
+1760
+01:34:02,985 --> 01:34:09,967
+But also, the government also helped us in other ways as well.
+
+1761
+01:34:09,967 --> 01:34:15,649
+So they gave us a co-working space, so we didn't have to rent any office.
+
+1762
+01:34:15,649 --> 01:34:17,030
+So we got a co-working space for free.
+
+1763
+01:34:17,030 --> 01:34:22,011
+And that was good because you could save money, but also because
+
+1764
+01:34:22,011 --> 01:34:25,833
+we got to meet all the other developers, all the other big indie developers.
+
+1765
+01:34:26,464 --> 01:34:28,766
+in the country who are also working there.
+
+1766
+01:34:28,766 --> 01:34:33,350
+So the government basically took all of us and put us in the same office.
+
+1767
+01:34:33,350 --> 01:34:35,993
+And that was really helpful in a lot of ways for us.
+
+1768
+01:34:35,993 --> 01:34:40,817
+So do you mean that office is for games only?
+
+1769
+01:34:40,817 --> 01:34:46,402
+Yeah, a space just for game development, for indie game development.
+
+1770
+01:34:46,402 --> 01:34:46,703
+Okay.
+
+1771
+01:34:46,703 --> 01:34:49,085
+So we each have one set of tables.
+
+1772
+01:34:49,752 --> 01:34:49,832
+I see.
+
+1773
+01:34:49,832 --> 01:34:54,655
+Like, usually the other teams would have like six tables, six people in one table.
+
+1774
+01:34:54,655 --> 01:34:54,855
+Right.
+
+1775
+01:34:54,855 --> 01:34:59,018
+But then for me, it was just two of us because, you know, the rest of the people are international.
+
+1776
+01:34:59,018 --> 01:34:59,558
+Right.
+
+1777
+01:34:59,558 --> 01:35:03,080
+So like, we shared our table with some other developers.
+
+1778
+01:35:03,080 --> 01:35:08,143
+But yeah, so that kind of thing was really important because I think like, if they didn't
+
+1779
+01:35:08,143 --> 01:35:10,124
+offer a co-working space for free.
+
+1780
+01:35:11,465 --> 01:35:13,406
+I probably would have thought like it's a waste of money.
+
+1781
+01:35:13,406 --> 01:35:16,087
+It's like, why can't I just work at home, you know?
+
+1782
+01:35:16,087 --> 01:35:16,987
+Right, right, right.
+
+1783
+01:35:16,987 --> 01:35:21,910
+So like I didn't see the benefit of a community until they offered it
+
+1784
+01:35:21,910 --> 01:35:23,350
+and then I was able to experience it.
+
+1785
+01:35:23,350 --> 01:35:27,352
+And I thought, oh, then the benefits were more,
+
+1786
+01:35:27,352 --> 01:35:29,153
+like I could experience the benefits for myself.
+
+1787
+01:35:29,633 --> 01:35:33,696
+我每次碰到密碼問題,我都可以從下一個桌子找人幫忙
+
+1788
+01:35:33,696 --> 01:35:38,581
+或者我每次碰到任何問題,我們都可以一起幫忙
+
+1789
+01:35:38,581 --> 01:35:39,722
+對我們來說,這是非常重要的
+
+1790
+01:35:39,722 --> 01:35:41,103
+這是一個非常好的觀點
+
+1791
+01:35:41,103 --> 01:35:43,905
+因為我覺得這是台灣政府需要去做的事情
+
+1792
+01:35:43,905 --> 01:35:45,366
+好的,我明白
+
+1793
+01:35:45,366 --> 01:35:46,307
+還有其他問題嗎?
+
+1794
+01:35:57,679 --> 01:35:59,341
+因為如果沒有的話其實時間也差不多
+
+1795
+01:35:59,341 --> 01:36:01,662
+我們已經進行了90分鐘了
+
+1796
+01:36:01,662 --> 01:36:05,005
+所以
+
+1797
+01:36:05,005 --> 01:36:06,286
+OK那就先這樣囉
+
+1798
+01:36:06,286 --> 01:36:07,607
+如果有人有問題的話
+
+1799
+01:36:07,607 --> 01:36:10,069
+可以以後私下再
+
+1800
+01:36:10,069 --> 01:36:12,531
+Email給
+
+1801
+01:36:12,531 --> 01:36:13,452
+就是
+
+1802
+01:36:13,452 --> 01:36:13,772
+Halfiz
+
+1803
+01:36:13,772 --> 01:36:15,834
+So
+
+1804
+01:36:15,834 --> 01:36:20,898
+I think the audience question was like
+
+1805
+01:36:21,800 --> 01:36:22,980
+OK for now.
+
+1806
+01:36:22,980 --> 01:36:28,763
+So we also already run for about 90 minutes.
+
+1807
+01:36:28,763 --> 01:36:36,766
+So I think it's a good time to conclude the event.
+
+1808
+01:36:36,766 --> 01:36:43,409
+And do you have any parting thoughts on maybe
+
+1809
+01:36:43,409 --> 01:36:44,230
+give some general.
+
+1810
+01:36:46,377 --> 01:36:48,438
+suggestions or...
+
+1811
+01:36:48,438 --> 01:36:48,738
+Okay.
+
+1812
+01:36:48,738 --> 01:36:48,898
+Yeah.
+
+1813
+01:36:48,898 --> 01:36:50,179
+Yeah, yeah.
+
+1814
+01:36:50,179 --> 01:36:52,180
+I do have some things.
+
+1815
+01:36:52,180 --> 01:37:01,924
+Number one is like, whenever you have problems, don't be afraid to message people on Twitter
+
+1816
+01:37:01,924 --> 01:37:03,225
+or email them.
+
+1817
+01:37:03,225 --> 01:37:08,607
+Like other big game developers, even if they're really big, they do answer the emails.
+
+1818
+01:37:08,607 --> 01:37:11,808
+So even if you email me, I will answer your email.
+
+1819
+01:37:11,808 --> 01:37:14,770
+So if you're having a problem, for example, like, you know, you're making some kind of
+
+1820
+01:37:15,517 --> 01:37:20,219
+some kind of special genre game and you know someone who's more experienced,
+
+1821
+01:37:20,219 --> 01:37:25,582
+don't be afraid to just email them. It's always helped for me. So whenever I get stuck,
+
+1822
+01:37:25,582 --> 01:37:31,684
+sometimes I've talked to more experienced people. And it's important to remember that you can ask
+
+1823
+01:37:31,684 --> 01:37:37,487
+for help. And usually, even if they might look busy, they will like to answer your questions
+
+1824
+01:37:37,487 --> 01:37:40,808
+because number one, it's an honor to receive a question.
+
+1825
+01:37:41,718 --> 01:37:45,000
+So it's not something that wastes our time.
+
+1826
+01:37:45,000 --> 01:37:48,923
+It's really nice to receive questions, and it also helps us
+
+1827
+01:37:48,923 --> 01:37:52,246
+when we answer, because when we answer, we get to put our
+
+1828
+01:37:52,246 --> 01:37:54,067
+thoughts into writing.
+
+1829
+01:37:54,067 --> 01:37:56,969
+And usually that process of putting what you think into
+
+1830
+01:37:56,969 --> 01:38:00,492
+writing helps us as much as it helps the person we are
+
+1831
+01:38:00,492 --> 01:38:01,973
+writing to.
+
+1832
+01:38:01,973 --> 01:38:07,157
+And I guess the other thing is beware of publishers.
+
+1833
+01:38:07,157 --> 01:38:09,899
+This is just a general thing.
+
+1834
+01:38:09,899 --> 01:38:10,939
+What I want to say is
+
+1835
+01:38:11,840 --> 01:38:15,421
+Like, when you meet the indie community and people like that,
+
+1836
+01:38:15,421 --> 01:38:21,283
+it's nice to think that everyone is friendly because everyone is friendly.
+
+1837
+01:38:21,283 --> 01:38:27,685
+But things become different when there are big companies involved and there are money involved.
+
+1838
+01:38:27,685 --> 01:38:28,945
+And if you meet a publisher,
+
+1839
+01:38:28,945 --> 01:38:33,826
+they might try to convince you that you need them, even though you don't actually need them.
+
+1840
+01:38:34,739 --> 01:38:36,720
+And this is something they would do intentionally.
+
+1841
+01:38:36,720 --> 01:38:38,700
+For example, you know how publishers work?
+
+1842
+01:38:38,700 --> 01:38:39,380
+They have scouts.
+
+1843
+01:38:39,380 --> 01:38:44,182
+So these scouts will go and find games and they'll find games to publish.
+
+1844
+01:38:44,182 --> 01:38:48,443
+If you were a scout for a big publisher and you saw a really good game
+
+1845
+01:38:48,443 --> 01:38:53,304
+and you knew that even without you, it would be successful,
+
+1846
+01:38:53,304 --> 01:38:57,765
+you might still be incentivized to tell them that they need you
+
+1847
+01:38:57,765 --> 01:38:59,366
+so that you can get a good deal with them.
+
+1848
+01:39:00,159 --> 01:39:03,620
+And if you get a good deal with them, everyone in your company will like you
+
+1849
+01:39:03,620 --> 01:39:05,800
+because, you know, you did your job as a scout.
+
+1850
+01:39:05,800 --> 01:39:09,981
+Even though at the base level.
+
+1851
+01:39:09,981 --> 01:39:12,282
+That game didn't really need you as a publisher.
+
+1852
+01:39:12,282 --> 01:39:16,883
+So so it's it's I think it's like something I've been doing more of
+
+1853
+01:39:16,883 --> 01:39:21,524
+in the past few years is to think from to try to think from other people's
+
+1854
+01:39:21,524 --> 01:39:25,685
+perspectives and think about what their motivations, what their incentives might be.
+
+1855
+01:39:26,434 --> 01:39:31,380
+Just before this, if someone offered help, if a publisher came to me, it's like,
+
+1856
+01:39:31,380 --> 01:39:35,265
+oh, we can help you. You'll just take 30% of your revenue, but we have all the connections
+
+1857
+01:39:35,265 --> 01:39:40,472
+in the industry, stuff like that. Especially nowadays, you don't really need connections.
+
+1858
+01:39:40,472 --> 01:39:42,915
+There's a game called Friday Night Funkin', if you know that game.
+
+1859
+01:39:43,215 --> 01:39:43,936
+It's like a rhythm game.
+
+1860
+01:39:43,936 --> 01:39:45,116
+It's doing really well now.
+
+1861
+01:39:45,116 --> 01:39:46,697
+It's just started Kickstarter.
+
+1862
+01:39:46,697 --> 01:39:47,998
+It's made like a million USD.
+
+1863
+01:39:47,998 --> 01:39:49,939
+They don't have a publisher.
+
+1864
+01:39:49,939 --> 01:39:51,260
+They didn't need one.
+
+1865
+01:39:51,260 --> 01:39:52,220
+Same for us.
+
+1866
+01:39:52,220 --> 01:39:56,583
+We just uploaded our games to the free demos online.
+
+1867
+01:39:56,583 --> 01:39:58,183
+And it was the same with them.
+
+1868
+01:39:58,183 --> 01:40:00,064
+So it just existed as a free demo.
+
+1869
+01:40:00,064 --> 01:40:02,666
+And usually that kind of thing is more important than having
+
+1870
+01:40:02,666 --> 01:40:07,288
+someone who knows people, who knows people in Nintendo,
+
+1871
+01:40:07,288 --> 01:40:09,189
+knows people in Steam and stuff like that.
+
+1872
+01:40:09,189 --> 01:40:12,331
+That stuff isn't really as important these days.
+
+1873
+01:40:13,152 --> 01:40:17,196
+as having a direct connection with your audience.
+
+1874
+01:40:17,196 --> 01:40:20,519
+So in general, if you're offered a publishing deal,
+
+1875
+01:40:20,519 --> 01:40:24,663
+something that will be really useful is for you to take that
+
+1876
+01:40:25,737 --> 01:40:27,738
+that offer that they give you.
+
+1877
+01:40:27,738 --> 01:40:33,501
+And like I was saying earlier, just talk to other more experienced developers
+
+1878
+01:40:33,501 --> 01:40:37,763
+to advise you on whether it's a fair deal, whether you need them or not.
+
+1879
+01:40:37,763 --> 01:40:39,604
+So that's what I did when we got publishing offers.
+
+1880
+01:40:39,604 --> 01:40:44,267
+Luckily, we were in a co-working space where we had more experienced developers
+
+1881
+01:40:44,267 --> 01:40:46,108
+and I was able to talk to more people and show them.
+
+1882
+01:40:46,108 --> 01:40:49,029
+They won 50% of our game. Is that normal?
+
+1883
+01:40:49,029 --> 01:40:50,670
+And they can tell me, no, that's not normal.
+
+1884
+01:40:50,670 --> 01:40:52,812
+That's so ridiculous.
+
+1885
+01:40:54,917 --> 01:40:57,758
+Yeah, I think that's my two advice.
+
+1886
+01:40:57,758 --> 01:41:00,879
+Ask people for advice.
+
+1887
+01:41:00,879 --> 01:41:03,920
+Don't trust publishers.
+
+1888
+01:41:03,920 --> 01:41:04,740
+OK.
+
+1889
+01:41:04,740 --> 01:41:13,823
+So yeah, I guess that's a good spot to end on.
+
+1890
+01:41:13,823 --> 01:41:19,245
+And I mean, just thank you so much for.
+
+1891
+01:41:19,818 --> 01:41:23,559
+Willing to spend time and talk to us
+
+1892
+01:41:23,559 --> 01:41:29,820
+Can I also announce the TGDF thing here?
+
+1893
+01:41:29,820 --> 01:41:30,581
+Yeah sure
+
+1894
+01:41:30,581 --> 01:41:33,661
+OK yeah so
+
+1895
+01:41:33,661 --> 01:41:34,982
+就是我
+
+1896
+01:41:34,982 --> 01:41:37,682
+之前也有邀請他直接來TGDF演講
+
+1897
+01:41:37,682 --> 01:41:39,163
+對那他在TGDF演講會
+
+1898
+01:41:39,163 --> 01:41:42,704
+就是目前他是說有空啦
+
+1899
+01:41:42,704 --> 01:41:45,144
+他應該會比較focus在就是說
+
+1900
+01:41:45,144 --> 01:41:48,125
+比較具體遊戲設計的細節上面的東西在
+
+1901
+01:41:48,125 --> 01:41:48,345
+TGDF會講比較細這樣
+
+1902
+01:41:49,932 --> 01:41:54,196
+所以我今天問的問題比較general
+
+1903
+01:41:58,947 --> 01:41:59,968
+Thank you so much for having us.
+
+1904
+01:41:59,968 --> 01:42:01,249
+Thank you everyone for coming.
+
+1905
+01:42:01,249 --> 01:42:01,609
+拍個手,謝謝
+
+1906
+01:42:01,609 --> 01:42:02,630
+For all your time.
+
+1907
+01:42:02,630 --> 01:42:04,492
+Thanks, we appreciate it.
+
+1908
+01:42:04,492 --> 01:42:07,174
+Thanks, Johnson, for translating everything.
+
+1909
+01:42:07,174 --> 01:42:09,056
+I'm actually really impressed that
+
+1910
+01:42:09,056 --> 01:42:11,117
+you can translate for like five minutes at a time.
+
+1911
+01:42:11,117 --> 01:42:16,662
+Because like, I probably wouldn't even remember
+
+1912
+01:42:16,662 --> 01:42:18,404
+like two sentences.
+
+1913
+01:42:18,404 --> 01:42:20,806
+Yeah, I mean, yeah, I missed some things.
+
+1914
+01:42:20,806 --> 01:42:23,749
+You've been doing this for 10 years.
+
+1915
+01:42:23,749 --> 01:42:24,730
+We have recordings, so that's fine.
+
+1916
+01:42:25,172 --> 01:42:26,093
+Yeah, we have recording.
+
+1917
+01:42:26,093 --> 01:42:27,413
+We have recording.
+
+1918
+01:42:27,413 --> 01:42:27,893
+Okay.
+
+1919
+01:42:27,893 --> 01:42:28,194
+Yeah.
+
+1920
+01:42:28,194 --> 01:42:32,996
+So if I missed something really important, we can still make up afterwards.
+
+1921
+01:42:32,996 --> 01:42:34,456
+Oh, I see.
+
+1922
+01:42:34,456 --> 01:42:34,697
+Okay.
+
+1923
+01:42:34,697 --> 01:42:35,357
+That's always good to know.
+
+1924
+01:42:35,357 --> 01:42:35,577
+Okay.
+
+1925
+01:42:35,577 --> 01:42:36,557
+Thank you, everyone.
+
+1926
+01:42:36,557 --> 01:42:37,658
+Thanks, Johnson, for having me.
+
+1927
+01:42:37,658 --> 01:42:38,318
+See you at TGDF, I guess.
+
+1928
+01:42:38,318 --> 01:42:39,139
+Yeah, see you in July.
+
+1929
+01:42:39,139 --> 01:42:39,279
+Bye-bye.
+
+1930
+01:42:39,279 --> 01:42:39,499
+Thank you.
+
+1931
+01:42:39,499 --> 01:42:39,959
+Dun-dun.
+
+1932
+01:42:39,959 --> 01:42:40,299
+Bye-bye.
+
+1933
+01:42:40,299 --> 01:42:40,899
+Bye-bye.
+
+1934
+01:42:40,899 --> 01:42:41,199
+Bye-bye.
+
+1935
+01:42:41,199 --> 01:42:41,640
+Bye-bye.
+
+1936
+01:42:41,640 --> 01:42:41,760
+Bye-bye.
+
+1937
+01:42:41,760 --> 01:42:42,240
+Bye-bye.
+
+1938
+01:42:42,240 --> 01:42:42,820
+Bye-bye.
+
+1939
+01:42:42,820 --> 01:42:44,741
+Bye-bye.
+
+1940
+01:42:44,741 --> 01:42:45,501
+Bye-bye.
+
+1941
+01:42:45,501 --> 01:42:45,942
+Bye-bye.
+
